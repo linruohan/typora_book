@@ -1,0 +1,5 @@
+# Idea问题：“marketplace plugins are not loaded”解决方案
+
+但是在我点开settings，然后打开plugins工具时竟然给我提示“marketplace plugins are not loaded”！![技术分享图片](D:\workspace\vscode_space\My_MarkdownBook\Topora_pic\20190129192033061902.png)开什么玩笑，我手机还开着直播呢！经上网了解发现IDEA的模块系统加载不出来，是由于IDEA的网络安全机制造成的，类似于windows的防火墙，IDEA误认为你的网络不安全，不给你连接，本质为公司的网络被IDEA认为不安全，具体IDEA为什么会这么认为，原因暂时我还不知道。
+
+解决方法时这样的：点击File->settings->Appearance&Behavior->System Settings -> Updates　　将Use secure connection选项的√去掉！　　==然后重点！重启一下Idea==！！！![技术分享图片](D:\workspace\vscode_space\My_MarkdownBook\Topora_pic\20190129192033175188.png)再打开plugins查询alibaba就出现了！！！![技术分享图片](D:\workspace\vscode_space\My_MarkdownBook\Topora_pic\20190129192033296286.png) [Idea问题：“marketplace plugins are not loaded”解决方案](http://www.mamicode.com/info-detail-2602604.html)标签：[机制](http://www.mamicode.com/so/1/机制)  [win](http://www.mamicode.com/so/1/win)  [img](http://www.mamicode.com/so/1/img)  [src](http://www.mamicode.com/so/1/src)  [ide](http://www.mamicode.com/so/1/ide)  [方法](http://www.mamicode.com/so/1/方法)  [update](http://www.mamicode.com/so/1/update)  [cti](http://www.mamicode.com/so/1/cti)  [amp](http://www.mamicode.com/so/1/amp)  

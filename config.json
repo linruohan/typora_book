@@ -1,0 +1,13 @@
+{
+    "name": "小寒的book",
+    "ver": "1.0",
+    "colour": "#222226",
+    "logo": "assets/fa.jpg",
+    "github-url": "https://github.com/linruohan/lammozhaji.github.io",
+    "page-mounts": true,
+    "imports": [
+        "assets/bwb.css",
+        "assets/test.js"
+    ],
+    "testing": true
+}
