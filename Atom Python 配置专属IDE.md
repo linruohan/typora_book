@@ -10,6 +10,70 @@
 
 ## **适合python的插件**
 
+```bash
+Hydrogen
+MagicPython
+activate-power-mode
+asciidoc-preview
+atom-autocomplete-python
+atom-beautify
+atom-icons
+atom-ide-definitions
+atom-ide-hyperclick
+atom-python-run
+atom-runner
+atom-smart-path-autocomplete
+atom-vue
+atom-vue-router
+auto-close-html2
+autocomplete
+autocomplete-date
+autocomplete-module-import
+autocomplete-modules
+autocomplete-paths
+autocomplete-python
+busy-signal
+color-picker
+define-jump
+docblockr
+docblockr2
+file-icons
+git-plus
+goto-definition
+highlight-selected
+hyperclick
+intentions
+language-asciidoc
+linter
+linter-jshint
+linter-pylama
+linter-ui-default
+markdown-preview-enhanced
+pigments
+python-autopep8
+python-isort
+python-tools
+script
+structure-view
+sync-settings
+tool-bar
+vue-template
+```
+
+```bash
+# keymap.cson
+
+
+'atom-text-editor':
+    'alt-d': 'tree-view:show-current-file-in-file-manager'
+# 上面两行作用是 设置 alt+d 打开当前编辑文件，下面两行为了在没有焦点（不在编辑框）时仍能使用。
+'atom-workspace':
+    'alt-d': 'tree-view:show-current-file-in-file-manager'
+
+```
+
+
+
 > ├── atom-beautify@0.29.11
 > ├── atom-python-run@0.5.1
 > ├── autocomplete-clang@0.9.4
