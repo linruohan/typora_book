@@ -103,9 +103,7 @@ sudo apt update && sudo apt install kali-win-kex
 
 > ❝ PS：进入全屏的图形界面之后，按F8可以打开context菜单。==退出全屏==❞
 >
-> 
-
-## kex问题
+> 问题
 
 ### **无法联网问题**
 
@@ -162,7 +160,7 @@ sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
 sudo service xrdp start
 ```
 
-<img src="D:\codehub\.config\win10\Typora_book\library\img\image-20211127204852675.png" alt="image-20211127204852675" style="zoom:33%;" />localhost:3390
+<img src="D:\codehub\Typora_book\library\img\image-20211127204852675.png" alt="image-20211127204852675" style="zoom:33%;" />localhost:3390
 
 
 如果想要关闭映射出来的桌面输入`sudo service xrdp stop`
@@ -240,3 +238,56 @@ export LANGUAGE=zh_CN.UTF-8
 export LC_ALL=zh_CN.UTF-8
 ```
 
+## wsl重启操作
+
+wsl环境下reboot和shutdown都是没有作用的，wsl可以通过windows命令行进行重启，使用管理员权限运行下面脚本实现重启：
+
+ 以管理员权限运行cmd
+
+```bash
+net stop LxssManager
+net start LxssManager
+```
+
+其他脚本（Linux 4.19.104、Debian 10、gcc 8.3.0）：
+
+/etc/apt/sources.list：
+
+deb http://mirrors.163.com/debian/ buster main non-free contrib
+deb http://mirrors.163.com/debian/ buster-updates main non-free contrib
+deb http://mirrors.163.com/debian/ buster-backports main non-free contrib
+deb-src http://mirrors.163.com/debian/ buster main non-free contrib
+deb-src http://mirrors.163.com/debian/ buster-updates main non-free contrib
+deb-src http://mirrors.163.com/debian/ buster-backports main non-free contrib
+deb http://mirrors.163.com/debian-security/ buster/updates main non-free contrib
+deb-src http://mirrors.163.com/debian-security/ buster/updates main non-free contrib
+
+#运行 apt-get update 进行更新
+/etc/vim/vimrc.tiny：
+
+" set compatible
+set nocompatible
+启动sshd：
+
+service ssh status
+if [ $? != "0" ]; then
+        service ssh start
+        echo "sshd start..."
+fi
+
+## wsl2 kali修改语言
+
+```
+sudo apt install locales
+sudo dpkg-reconfigure locales
+```
+
+kali linux2020.06版如何使用中文语言包
+原来kali还需要使用独立的汉化包，现在中文语言包是集成在系统中的，但安装上去默认的还是英文，对于我这种英文欠佳的不太友好，于是：
+提示输入密码，kali默认密码是kali
+
+### 然后按TAB键选择字符编码：zh_CN.GBK、zh_CN.UTF-8、en_US.UTF-8这三个，用空格键选定，然后TAB键切换到OK确认。
+
+### 然后选择字符编码：zh_CN.UTF-8
+
+### 完成之后重启:sudo reboot

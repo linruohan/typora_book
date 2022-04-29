@@ -37,10 +37,12 @@ $ vim .xinitrc
 exec dwm
 ```
 ### 5.使用同样的方法安装st和dmenu
+
 在dwm上官网下载解压st和dmenu，然后编译安装
 (dmenu在tools栏目里)
 
 ### 6.安装显卡驱动
+
 $ sudo pacman -S nvidia		# 安装英伟达显卡驱动，其他显卡驱动请参看archwiki
 ## 二、DWM左侧图标设置
 ### 1.首先安装图标字体nerd-fonts和font-awesome
