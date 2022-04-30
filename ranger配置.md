@@ -30,7 +30,7 @@ https://www.bilibili.com/video/BV1b4411R7ck
 
 ## 文件搜索 f快捷键
 ![](D:/Typora_pic//ranger配置2.png)
-## tabs 
+## tabs
 ![](D:/Typora_pic//ranger配置3.png)
 
 ## 下载文件
