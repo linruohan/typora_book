@@ -4,21 +4,57 @@
 
 ## 轻松直连github：
 
-### 项目地址
+https://gitee.com/ineo6/hosts
 
-**某大佬写的，菜鸡不生产代码，但是可以搬运代码，https://github.com/521xueweihan/GitHub520**
+```bash
+# New！欢迎使用基于DNS的新方案
+# https://gitee.com/ineo6/hosts/raw/master/next-hosts
+# GitHub Host Start
 
-如果你能访问github，直接看这个项目吧，不需要下面内容
+185.199.108.154              github.githubassets.com
+140.82.113.22                central.github.com
+185.199.108.133              desktop.githubusercontent.com
+185.199.108.153              assets-cdn.github.com
+185.199.108.133              camo.githubusercontent.com
+185.199.108.133              github.map.fastly.net
+199.232.69.194               github.global.ssl.fastly.net
+140.82.112.4                 gist.github.com
+185.199.108.153              github.io
+140.82.113.4                 github.com
+140.82.112.5                 api.github.com
+185.199.108.133              raw.githubusercontent.com
+185.199.108.133              user-images.githubusercontent.com
+185.199.108.133              favicons.githubusercontent.com
+185.199.108.133              avatars5.githubusercontent.com
+185.199.108.133              avatars4.githubusercontent.com
+185.199.108.133              avatars3.githubusercontent.com
+185.199.108.133              avatars2.githubusercontent.com
+185.199.108.133              avatars1.githubusercontent.com
+185.199.108.133              avatars0.githubusercontent.com
+185.199.108.133              avatars.githubusercontent.com
+140.82.112.10                codeload.github.com
+52.217.97.252                github-cloud.s3.amazonaws.com
+52.217.224.241               github-com.s3.amazonaws.com
+52.216.28.36                 github-production-release-asset-2e65be.s3.amazonaws.com
+54.231.98.136                github-production-user-asset-6210df.s3.amazonaws.com
+54.231.162.129               github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.108.153              githubstatus.com
+64.71.144.211                github.community
+185.199.108.133              media.githubusercontent.com
+185.199.108.133              objects.githubusercontent.com
+185.199.108.133              raw.github.com
 
-### ==获取github hosts（win）==
+# Please Star : https://github.com/ineo6/hosts
+# Mirror Repo : https://gitee.com/ineo6/hosts
 
-访问此链接直接下载hosts，**https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/hosts**
+# Update at: 2022-04-30 09:05:47
 
-复制里面内容添加到系统hosts文件的最后（详细看下面）
+# GitHub Host End
+```
 
-## 什么是hosts
 
-修改hosts是防止dns污染，加速域名解析等，并非翻墙
+
+
 
 ## 如何修改hosts
 
@@ -49,7 +85,3 @@ hosts 文件在每个系统的位置不一，详情如下：
 **Tips：** 上述方法无效可以尝试重启机器。
 
 
-
-## hosts内容如下：
-
-![img](https://i0.hdslb.com/bfs/article/bd013a68d3387386f2233516ca8d9b17ac49168a.png@942w_666h_progressive.webp)hosts
