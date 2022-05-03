@@ -143,7 +143,7 @@ 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
 ```
 
 ```
- 73 plugins=(                                                                                                                                                                       74     git                                                                                                                                                                         75     sudo                                                                                                                                                                        76     zsh-syntax-highlighting                                                                                                                                                     77     zsh-autosuggestions                                                                                                                                                         78 )
+plugins=( git sudo zsh-syntax-highlighting zsh-autosuggestions )
 ```
 
 ### zsh命令行界面/zsh终端界面粘贴卡顿的问题

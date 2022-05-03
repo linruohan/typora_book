@@ -38,8 +38,6 @@ wsl --set-default-version 2
 
 打开应用商店，搜索安装Kali Linux。
 
-<img src="D:\codehub\.config\win10\Typora_book\library\img\image-20211127202419856.png" alt="image-20211127202419856" style="zoom:33%;" />
-
 ## kali更新源+安装kex图形界面
 
 ### 更新国内源：sudo vi /etc/apt/sources.list
