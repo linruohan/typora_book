@@ -8,23 +8,15 @@
 
 # 安装Go语言及搭建Go语言开发环境
 
-**注意：**Go语言1.14版本之后推荐使用go modules管理依赖，也不再需要把代码写在GOPATH目录下了，之前旧版本的教程戳这个[链接](https://www.liwenzhou.com/posts/Go/install_go_dev_old/)。
-
-## 下载
-
-### 下载地址
+## golang安装
 
 Go官网下载地址：https://golang.org/dl/
 
 Go官方镜像站（推荐）：https://golang.google.cn/dl/
 
-### 版本的选择
-
-Windows平台和Mac平台推荐下载可执行文件版，Linux平台下载压缩文件版。
-
 ### Linux下安装
 
-如果不是要在Linux平台敲go代码就不需要在Linux平台安装Go，我们开发机上写好的go代码只需要跨平台编译（详见文章末尾的跨平台编译）好之后就可以拷贝到Linux服务器上运行了，这也是go程序跨平台易部署的优势。
+写好的go代码只需要跨平台编译（详见文章末尾的跨平台编译）好之后就可以拷贝到Linux服务器上运行了，这也是go程序跨平台易部署的优势。
 
 我们在版本选择页面选择并下载好`go1.14.1.linux-amd64.tar.gz`文件：
 
@@ -40,69 +32,65 @@ tar -zxvf go1.14.1.linux-amd64.tar.gz -C /usr/local  # 解压
 
 如果提示没有权限，加上`sudo`以root用户的身份再运行。执行完就可以在`/usr/local/`下看到`go`目录了。
 
-配置环境变量： Linux下有两个文件可以配置环境变量，其中`/etc/profile`是对所有用户生效的；`$HOME/.profile`是对当前用户生效的，根据自己的情况自行选择一个文件打开，添加如下两行代码，保存退出。
+#### 配置环境变量： Linux下有两个文件可以配置环境变量，其中`/etc/profile`是对所有用户生效的；`$HOME/.profile`是对当前用户生效的，根据自己的情况自行选择一个文件打开，添加如下两行代码，保存退出。
 
 ```bash
 export GOROOT=/usr/local/go
 export PATH=$PATH:$GOROOT/bin
 ```
 
-修改`/etc/profile`后要重启生效，修改`$HOME/.profile`后使用source命令加载`$HOME/.profile`文件即可生效。 检查：
+修改`/etc/profile`后要<font color=red >==重启生效==</font>，修改`$HOME/.profile`后使用source命令加载`$HOME/.profile`文件即可生效。 检查：
 
 ```bash
-~ go version
+[linux@xsadf ~] go version
 go version go1.14.1 linux/amd64
 ```
 
 ### Mac下安装
 
-下载可执行文件版，直接点击**下一步**安装即可，默认会将go安装到`/usr/local/go`目录下。![Mac安装Go](https://www.liwenzhou.com/images/Go/install_go_dev/mac_install_go.png)
+下载可执行文件版，直接点击**下一步**安装即可，默认会将go安装到`/usr/local/go`目录下。
+
+<img src="https://www.liwenzhou.com/images/Go/install_go_dev/mac_install_go.png" alt="Mac安装Go" style="zoom: 50%;" />
+
+### win10安装：设置环境变量后，<font color=red>必须重启电脑后生效</font>
+
+```bash
+GOPATH	D:\software\go\gocode
+GOPROXY		https://goproxy.cn,direct
+GOROOT		D:\software\go
+path		D:\software\go\bin
+```
 
 ### 检查
 
 上一步安装过程执行完毕后，可以打开终端窗口，输入`go version`命令，查看安装的Go版本。![install06](https://www.liwenzhou.com/images/Go/install_go_dev/install06.png)
 
-## GOROOT和GOPATH
-
-`GOROOT`和`GOPATH`都是环境变量，其中`GOROOT`是我们安装go开发包的路径，而从Go 1.8版本开始，Go开发包在安装完成后会为`GOPATH`设置一个默认目录，并且在Go1.14及之后的版本中启用了Go Module模式之后，不一定非要将代码写到GOPATH目录下，所以也就**不需要我们再自己配置GOPATH**了，使用默认的即可。
-
 ### GOPROXY 非常重要
 
-Go1.14版本之后，都推荐使用`go mod`模式来管理依赖环境了，也不再强制我们把代码必须写在`GOPATH`下面的src目录了，你可以在你电脑的任意位置编写go代码。（网上有些教程适用于1.11版本之前。）
-
-默认GoPROXY配置是：`GOPROXY=https://proxy.golang.org,direct`，由于国内访问不到`https://proxy.golang.org`，所以我们需要换一个PROXY，这里推荐使用`https://goproxy.io`或`https://goproxy.cn`。
-
-可以执行下面的命令修改GOPROXY：
-
 ```bash
+go env -w GO111MODULE=on
 go env -w GOPROXY=https://goproxy.cn,direct
 ```
 
-## Go开发编辑器
+## Go开发编辑器:Visual Studio Code +go插件
 
-Go采用的是UTF-8编码的文本文件存放源代码，理论上使用任何一款文本编辑器都可以做Go语言开发，这里推荐使用`VS Code`和`Goland`。 `VS Code`是微软开源的编辑器，而`Goland`是jetbrains出品的付费IDE。
+Go采用的是==UTF-8==编码的文本文件存放源代码，理论上使用任何一款文本编辑器都可以做Go语言开发，这里推荐使用`VS Code`和`Goland`。 `VS Code`是微软开源的编辑器，而`Goland`是jetbrains出品的付费IDE。
 
 我们这里使用`VS Code` 加插件做为go语言的开发工具。
 
-#### 安装go扩展
+## 开始
 
-现在我们要为我们的VS Code编辑器安装`Go`扩展插件，让它支持Go语言开发。
+### `go mod init 项目名` 对项目进行初始化
 
-## 第一个Go程序
-
-### Hello World
-
-现在我们来创建第一个Go项目——`hello`。在我们桌面创建一个`hello`目录。
-
-#### go mod init
-
-使用go module模式新建项目时，我们需要通过`go mod init 项目名`命令对项目进行初始化，该命令会在项目根目录下生成`go.mod`文件。例如，我们使用`hello`作为我们第一个Go项目的名称，执行如下命令。
+使用go module模式新建项目时，该命令会在项目根目录下生成`go.mod`文件
 
 ```bash
-go mod init hello
+mkdir 目录名
+cd 目录名
+go mod init 目录名
 ```
 
-#### 编写代码
+### 编写代码
 
 接下来在该目录中创建一个`main.go`文件：
 
@@ -116,9 +104,9 @@ func main(){  // main函数，是程序执行的入口
 }
 ```
 
-**非常重要！！！** 如果此时VS Code右下角弹出提示让你安装插件，务必点 **install all** 进行安装。
+==非常重要！！！** 如果此时VS Code右下角弹出提示让你安装插件，务必点 **install all** 进行安装。==
 
-### 编译
+### ==编译==
 
 `go build`命令表示将源代码编译成可执行文件。
 
