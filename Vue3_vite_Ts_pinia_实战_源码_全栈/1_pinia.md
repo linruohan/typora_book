@@ -597,7 +597,7 @@ Test.$subscribe((args,state)=>{
 })
 ```
 
-##  3.订阅Actions的调用
+## 3.订阅Actions的调用
 
  只要有actions被调用就会走这个函数
 

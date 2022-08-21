@@ -40,19 +40,19 @@ source ~/.bash_profile
 
 ![img](https://img-blog.csdnimg.cn/52b2f2a10a604e4f860e30797d795f23.png)
 
-####  nvm list available 查看nodejs 官方的所有版本
+#### nvm list available 查看nodejs 官方的所有版本
 
 ![img](https://img-blog.csdnimg.cn/5e5273181bdf4780ad3ec37b6bc8180e.png)
 
-####  nvm install （版本号）下载对应的node版本号
+#### nvm install （版本号）下载对应的node版本号
 
 ![img](https://img-blog.csdnimg.cn/474060de2ed7452f99e17525c760796a.png)
 
-####  nvm use 切换node版本
+#### nvm use 切换node版本
 
 ![img](https://img-blog.csdnimg.cn/103768aa0c634639befdfa3277f21862.png)
 
-##  nrm 介绍（npm源管理器）
+## nrm 介绍（npm源管理器）
 
 nrm 是一个 npm 源管理器，允许你快速地在 npm源间切换。
 

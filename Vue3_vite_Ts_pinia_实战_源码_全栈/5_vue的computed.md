@@ -16,7 +16,7 @@ let m = computed<string>(()=>{
 price.value = 500
 ```
 
-##  2 对象形式
+## 2 对象形式
 
 ```xml
 <template>

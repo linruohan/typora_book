@@ -10,7 +10,7 @@ Vue 路由允许我们通过不同的 URL 访问不同的内容。通过 Vue 可
 
 ## 2.安装
 
-###  构建前端项目
+### 构建前端项目
 
 ```kotlin
 npm init vue@latest
@@ -449,7 +449,7 @@ const routes: Array<RouteRecordRaw> = [
 ]
 ```
 
-###  2.对象形式配置
+### 2.对象形式配置
 
 ```coffeescript
 const routes: Array<RouteRecordRaw> = [

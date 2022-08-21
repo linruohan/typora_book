@@ -11,23 +11,24 @@
  # 在 /etc/pacman.conf 文件末尾添加行：
 ===============================================================================
 [archlinuxcn]
-SigLevel = Optional TrustedOnly
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
-#USTC
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
-#TUNA
+SigLevel = TrustedOnly
+# 阿里源
+Server = https://mirrors.aliyun.com/archlinuxcn/$arch
+# 清华源
 Server = http://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
-
-[antergos]
-SigLevel = TrustAll
-#USTC
-Server = https://mirrors.ustc.edu.cn/antergos/$repo/$arch
-#TUNA
-Server = http://mirrors.tuna.tsinghua.edu.cn/antergos/$repo/$arch
+# 中科大源
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 
 [arch4edu]
-SigLevel = TrustAll
+SigLevel = Optional TrustAll
+Server = https://mirrors.aliyun.com/arch4edu/$arch
 Server = http://mirrors.tuna.tsinghua.edu.cn/arch4edu/$arch
+
+[antergos]	# 已经没有这个库了，早几年就停掉了
+SigLevel = TrustAll
+Server = http://mirrors.tuna.tsinghua.edu.cn/antergos/$repo/$arch
+Server = https://mirrors.ustc.edu.cn/antergos/$repo/$arch  
+
 ===============================================================================
 # 排列中国镜像的速度，首先用下面这条命令：对国内的manjaro镜像源按网速进行排名，并选择前几名。
 sudo pacman-mirrors -i -c China -m rank
@@ -143,7 +144,7 @@ git config --global http.proxy 'socks5://127.0.0.1:1080'
 [http]
     proxy = socks5://127.0.0.1:1080
 ```
-##  录屏软件
+## 录屏软件
 
 ```sh
 sudo pacman -S simplescreenrecorder  
@@ -518,7 +519,7 @@ sudo vim /etc/lsb-release
 ```
 
 
-##  中文环境破坏
+## 中文环境破坏
 
 ```sh
 1、sudo vim /etc/locale.gen
@@ -536,19 +537,19 @@ zh_CN.UTF-8
 4. zaz 经典的泡泡射击游戏；
 5. gnome-mines 扫雷
 
-##  个性化
+## 个性化
 
 应用程序 ➡ 位置 ➡ 更换个人文件位置 ➡ 改英文名 //方便使用
 desktop / document / download / movie / music / picture
 
-####  外观
+#### 外观
 1. 字体 ➡ *思源黑体*
    **常规** ➡13 **小字** ➡11 **工具栏和菜单** ➡13 **窗口标题** ➡14
    **等宽字** *Source Code Pro Medium* ➡13
 2. 图标主题 ➡ `epapirus` `numix circle`
 3. 标题栏样式： `Breezemite` `BreezemiteForman`
 4. 应用程序风格 ➡ Gnome风格 ➡ 更换图标与字体 *思源黑体 13*
-###  HotKey
+### HotKey
 1. 系统设置 ➡ 快捷键 ➡ 自定义快捷键 ➡ 编辑
 2. 新建 ➡ 全局快捷键 ➡ 命令/url ➡ 编辑名字 ➡ 右边窗口 ➡ 触发器 ➡ 设置快捷键 ➡ 动作 *软件名称*
 3. 自定义快捷键 Eg: **dolphin** `Meta+e` ...

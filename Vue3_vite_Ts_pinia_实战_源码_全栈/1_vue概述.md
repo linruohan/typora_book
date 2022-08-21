@@ -28,11 +28,11 @@ MVVM（Model-View-ViewModel）架构
 
 ![img](https://img-blog.csdnimg.cn/img_convert/e8ad905d83aaec45451797517ef453aa.png)
 
-###  3.Vue3 新特性介绍
+### 3.Vue3 新特性介绍
 
 ![img](https://img-blog.csdnimg.cn/f2c9d2e9576d46cf8a9a3e8abc5b31b2.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5bCP5ruhenM=,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-###  重写双向绑定
+### 重写双向绑定
 
 ```javascript
 vue2
@@ -118,7 +118,7 @@ patch flag 的强大之处在于，当你的 diff 算法走到 _createBlock 函�
 
 尽管 JavaScript 做 Vdom 的对比已经非常的快，但是 patch flag 的出现还是让 Vue3 的 Vdom 的性能得到了很大的提升，尤其是在针对大组件的时候。
 
-##  Vue3 Fragment
+## Vue3 Fragment
 
 vue3 允许我们支持多个根节点
 

@@ -18,13 +18,13 @@ CSS原子化的优缺点
 
 **tips：最好用于vite ==webpack属于阉割版功能很少==**
 
-### 安装 
+### 安装
 
 ```css
 npm i -D unocss
 ```
 
-### vite.config.ts 
+### vite.config.ts
 
 ```javascript
 import unocss from 'unocss/vite'
@@ -84,7 +84,7 @@ rules: [
 
 ![img](https://img-blog.csdnimg.cn/8857470dcd4f4a5eb1288c03879bfc47.png)
 
-###  unocss 预设
+### unocss 预设
 
 ```css
  presets:[presetIcons(),presetAttributify(),presetUno()]
