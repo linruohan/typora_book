@@ -1,0 +1,9 @@
+{
+  "showLineNumber": true,
+  "vimMode": true,
+  "attachmentFolderPath": "./imgs",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "root",
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": null
+}

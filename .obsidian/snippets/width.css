@@ -1,0 +1,217 @@
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-line,
+.cm-contentContainer,.inline-title,.markdown-rendered,
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer,
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-content,
+.markdown-preview-view.is-readable-line-width .markdown-preview-section,
+.cm-line{
+	max-width: unset !important;
+/*	width:2000px !important;*/
+}
+.workspace-leaf-content img:not([width]), .workspace-leaf-content audio, .workspace-leaf-content video{
+	max-width: unset !important;
+}
+img:not(.emoji){
+	display: unset !important;
+}
+.markdown-source-view.mod-cm6 .cm-scroller{
+	align-items: unset !important;
+}
+.markdown-preview-view.is-readable-line-width .markdown-preview-section,
+.cm-sizer{
+	margin: unset !important;
+}
+.markdown-preview-view, .mod-single-child .markdown-preview-view{
+	padding: unset !important;
+	padding-left: 12px !important;
+}
+.markdown-source-view.mod-cm6 .cm-scroller{
+	padding: unset !important;
+	padding-left: 32px !important;
+}
+.inline-title{
+	padding: unset !important;
+}
+
+/* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
+/* author: https://github.com/TClark1011 */
+/* source: https://github.com/kmaasrud/awesome-obsidian */
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: var(
+    --background-secondary
+  ); /* Background color so PNGs with transparent backgrounds don't look weird */
+}
+
+
+/* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
+/* author: https://forum.obsidian.md/u/den/summary */
+/* source: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/29 */
+
+.markdown-preview-view img {
+  display: block;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* experiment with values */
+  transition: transform 0.25s ease;
+}
+
+.markdown-preview-view img:hover {
+  -webkit-transform: scale(1.8); /* experiment with values */
+  transform: scale(2);
+}
+
+
+/*nicer checkbox  =========================*/
+
+/* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
+/* author: https://forum.obsidian.md/u/kepano/summary, https://forum.obsidian.md/u/rsdimitrov */
+/* source: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/34 */
+
+/* Round checkbxes in preview and editor */
+input[type="checkbox"],
+.cm-formatting-task {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  border: 1px solid var(--text-faint);
+  padding: 0;
+  vertical-align: middle;
+}
+
+.cm-s-obsidian span.cm-formatting-task {
+  color: transparent;
+  width: 1.25em !important;
+  height: 1.25em;
+  display: inline-block;
+}
+
+input[type="checkbox"]:focus {
+  outline: 0;
+}
+input[type="checkbox"]:checked,
+.cm-formatting-task.cm-property {
+  background-color: var(--text-accent-hover);
+  border: 1px solid var(--text-accent-hover);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23ffffff"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
+}
+/*nicer checkbox  =========================*/
+
+
+
+/* smaller scrollbar */
+.CodeMirror-vscrollbar,
+.CodeMirror-hscrollbar,
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
+/* author: https://forum.obsidian.md/u/Thery/summary */
+/* source: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/39 */
+
+blockquote:before {
+  font: 14px/20px italic Times, serif;
+  content: "“";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+/* Remove blockquote left margin */
+blockquote {
+  margin-inline-start: 0;
+}
+
+
+/* subtler-folding-gutter-arrows.css========================*/
+/* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
+/* author: https://forum.obsidian.md/u/rsdimitrov */
+/* source: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/10 */
+
+/* Make subtler folding gutter arrows */
+.CodeMirror-foldgutter-folded:after,
+.CodeMirror-foldgutter-open:after {
+  opacity: 0.5;
+  font-size: 60%;
+}
+
+.CodeMirror-foldgutter-folded:hover:after,
+.CodeMirror-foldgutter-open:hover:after {
+  opacity: 1;
+}
+
+.CodeMirror-foldgutter-folded:after {
+  content: "\25BA";
+}
+
+.CodeMirror-foldgutter-open:after {
+  content: "\25BC";
+}
+/* Custom icons for specific folders */
+
+/* https://forum.obsidian.md/t/add-emojis-to-folder-titles-in-explorer-without-renaming-folders/22702 */
+
+div[data-path="_Inbox"] .nav-folder-title-content::before
+{
+  content: "📥";
+}
+div[data-path="Attachments"] .nav-folder-title-content::before
+{
+  content: "📋";
+}
+div[data-path="Bible Resources"] .nav-folder-title-content::before
+{
+  content: "⚔️";
+}
+div[data-path="Notes"] .nav-folder-title-content::before
+{
+  content: "📝";
+}
+div[data-path="Notes/Daily"] .nav-folder-title-content::before
+{
+  content: "📆";
+}
+
+/*tag  ================*/
+/* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
+/* author: https://forum.obsidian.md/u/uzerper */
+/* source: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/72 */
+
+.tag:not(.token) {
+  background-color: var(--text-accent);
+  border: none;
+  color: white;
+  font-size: 11px;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 14px;
+}
+.tag:not(.token):hover {
+  color: white;
+  background-color: var(--text-accent-hover);
+}
+.tag[href^="#obsidian"] {
+  background-color: #4d3ca6;
+}
+.tag[href^="#important"] {
+  background-color: red;
+}
+.tag[href^="#complete"] {
+  background-color: green;
+}
+.tag[href^="#inprogress"] {
+  background-color: orange;
+}

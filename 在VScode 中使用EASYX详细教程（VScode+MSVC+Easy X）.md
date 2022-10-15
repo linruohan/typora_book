@@ -52,7 +52,7 @@
 ```json
 ==========settings.json============================
 	"[c]": {
-        "files.encoding": "gbk"
+	        "files.encoding": "gbk"
     },
     "[cpp]": {
         "files.encoding": "gbk"
@@ -86,7 +86,7 @@
 
 另外确保将**intelliSenseMode**值设置为"**msvc-x64**"。“**includePath**”项暂时不需要，可以完全删除该设置。
 
-```
+```json
 {
     "configurations": [
         {
@@ -122,7 +122,7 @@
 
 它们必须按编译器预期的顺序出现。在此示例中，我们指定了异常处理模式（**EHsc**）并告诉编译器生成带符号（Zi）的调试版本。**/Fe**项参数告诉编译器将可执行文件命名为“hello.exe”。最后的“hello.cpp”为当前要编译的C++源文件名称
 
-```
+```json
 {
 	"version": "2.0.0",
 	"tasks": [
@@ -159,7 +159,7 @@
 	**externalConsole**项设置为**true**表示使用外置的Windows系统控制台而不是vscode内置的调试控制台（原因在于由于前文所述的编码问题会导致在调试控制台输出中文时出现乱码）
 	请注意，程序名称hello.exe与**tasks.json文件**指定的名称相匹配
 
-```
+```json
 {
     // 使用 IntelliSense 了解相关属性。 
     // 悬停以查看现有属性的描述。
@@ -182,11 +182,11 @@
 }
 ```
 
-
+	  #s123 #浪漫 #历史
 
 #### ***settings.json***
 
-```
+```json
 {
     "files.associations": {
         "iostream": "cpp",

@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "16c45e98f22dadc8",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c387e7f26bec2a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b554094c62cb2949",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "如何Python写一个安卓APP.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e594dc828f194f65",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bc03b9ede032cf7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2603ea938b547bf4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3a3193691babbc53",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2abe1531477d06f1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 406.5
+  },
+  "right": {
+    "id": "2ca3a3a0c0ba494b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6353cce525ea94c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "151030e444b81418",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "如何Python写一个安卓APP.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a64d9ef0600a65dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "如何Python写一个安卓APP.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c4f325238cd70baa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8aca19dd076ffc56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "如何Python写一个安卓APP.md"
+              }
+            }
+          },
+          {
+            "id": "6b176fc46dadae37",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "b554094c62cb2949",
+  "lastOpenFiles": [
+    "适用于python的ATOM插件选择（纯我的喜爱）.md",
+    "$navigation.md",
+    "12-藏____个人收藏/59-最新实用网站.md",
+    "12-藏____个人收藏/9-植物/61-识别植物的app.md",
+    "在VScode 中使用EASYX详细教程（VScode+MSVC+Easy X）.md",
+    "牛客华为OD机试.md",
+    "【Shell】sh执行脚本报错Syntax error “(“ unexpected.md",
+    "vue_Pm2_node应用进程管理器/1. Pm2.md",
+    "虚拟地址、逻辑地址、线性地址、物理地址.md",
+    "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md"
+  ]
+}
