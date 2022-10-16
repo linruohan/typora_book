@@ -1,4 +1,4 @@
-# 还在抱怨pandas运行速度慢？这几个方法会颠覆你的看法
+# 还在抱怨 pandas 运行速度慢？这几个方法会颠覆你的看法
 
 [![东哥起飞](https://pic1.zhimg.com/v2-cbbda3ac8941363c5f05fe1c86af3bc8_xs.jpg?source=172ae18b)](https://www.zhihu.com/people/lu-yuan-86-37)
 

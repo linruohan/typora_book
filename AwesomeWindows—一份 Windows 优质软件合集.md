@@ -1,34 +1,15 @@
 # 一份 Windows 优质软件合集
 
-- 作者: 小美
-- |
-- 2020-08-28
-
-[影音](http://zuimeia.com/apps?platform=1&category=24&page=1) [工具](http://zuimeia.com/apps?platform=1&category=4&page=1) [图像](http://zuimeia.com/apps?platform=1&category=48&page=1) [iPad](http://zuimeia.com/apps?platform=1&category=95&page=1) [专题](http://zuimeia.com/apps?platform=1&category=145&page=1)
-
-16
-
-美一下
-
-一般般
-
 虽然 Windows 系统发展了这么多年，但是除了必备的工具之外，那些好用且实用的软件其实还是屈指可数的，刚好最近发现问 Windows 软件的小伙伴又多了好多，小美思来想去，觉得可以先把这个推荐给大家——
-
-![img](http://qstatic.zuimeia.com/img/article/6922/fc04f76b2091b4d5ae7eb2936e4f6cec_705x136.png?watermark/1/image/aHR0cDovL3p1aW1laWEudS5xaW5pdWRuLmNvbS9pbWcvZXh0ZW5zaW9uL3dhdGVyX21hc2tfMS5wbmc=/dissolve/100/gravity/SouthWest/dx/10/dy/10|imageMogr/v2/gravity/South/crop/!705x136-0-0|imageMogr/v2/auto-orient/thumbnail/320x)
 
 熟悉的朋友应该早就知道了，[Awesome-Windows](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md) 是一个由网友维护的公开项目，已经持续了很长时间了，里面分门别类的整理了 Windows 平台上那些优质的应用，从**音频、视频、压缩、图形、文档，到系统、生产力工具**等，包括**免费、开源和部分付费**应用，总共有上百款之多。
 
 *类似的还有 Awesome Mac 项目，是针对 Mac 整理的，感兴趣的朋友们也可以看一看。
 
- 
-
 ## **—— 音频 ——**
 
 音频分类下的工具主要是播放器和音频编辑类的，还有几个管理和制作相关应用，因为每个版块应用都很多，列表给大家整理出来，文中就简单挑几个给大家介绍，已经足以展示这个项目的价值了。
 
-![img](http://qstatic.zuimeia.com/img/article/6922/8b0f234f6e6189505979600b9cdf83d3_1384x842.png?watermark/1/image/aHR0cDovL3p1aW1laWEudS5xaW5pdWRuLmNvbS9pbWcvZXh0ZW5zaW9uL3dhdGVyX21hc2tfMS5wbmc=/dissolve/100/gravity/SouthWest/dx/10/dy/10|imageMogr/v2/gravity/South/crop/!1384x842-0-0|imageMogr/v2/auto-orient/thumbnail/320x)
-
- 
 
 ## **▎****AudioNodes**
 

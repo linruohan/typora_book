@@ -1,4 +1,4 @@
-# vscode安装easyx库
+# vscode 安装 easyx 库
 
 [toc]
 

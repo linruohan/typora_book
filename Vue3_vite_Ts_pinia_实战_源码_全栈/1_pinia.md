@@ -1,4 +1,4 @@
-# 学习Pinia 第一章（介绍Pinia）
+# 学习 Pinia 第一章（介绍 Pinia）
 
 [toc]
 

@@ -10,7 +10,7 @@
   "editor:toggle-highlight": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "Q"
     }
@@ -281,5 +281,22 @@
       ],
       "key": "R"
     }
-  ]
+  ],
+  "workspace:undo-close-pane": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "X"
+    }
+  ],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
+    }
+  ],
+  "editor:fold-more": []
 }
