@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue_Pm2_node应用进程管理器/1. Pm2.md",
+                "file": "关于PEP 8.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "444ff40b707fcab6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "蒙特卡罗方法.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue_Pm2_node应用进程管理器/1. Pm2.md",
+                "file": "蒙特卡罗方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vue_Pm2_node应用进程管理器/1. Pm2.md",
+                "file": "蒙特卡罗方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vue_Pm2_node应用进程管理器/1. Pm2.md"
+                "file": "蒙特卡罗方法.md"
               }
             }
           },
@@ -148,17 +162,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "5747401df91ff916",
+  "active": "444ff40b707fcab6",
   "lastOpenFiles": [
+    "git删除所有历史提交记录，只留下最新的干净代码.md",
+    "vscode 集成 Neovim.md",
+    "关于PEP 8.md",
+    "vue_Pm2_node应用进程管理器/1. Pm2.md",
     "pyqt5打造编辑器.md",
     "pyqt5 窗口状态和操作.md",
     "PyQt5 设置窗口居中显示示例.md",
     "pyqt5 结构化输出.md",
     "KNN算法 K-Nearest Neighbor,KNN.md",
-    "mysql 8.0.21.zip安装配置方法图文教程(windows 64位).md",
-    "AwesomeWindows—一份 Windows 优质软件合集.md",
-    "推荐10个堪称神器的软件工具.md",
-    "还在抱怨pandas运行速度慢？这几个方法会颠覆你的看法.md",
-    "## Pandas的DataFrame教程——指定位置增加删除一行一列.md"
+    "mysql 8.0.21.zip安装配置方法图文教程(windows 64位).md"
   ]
 }

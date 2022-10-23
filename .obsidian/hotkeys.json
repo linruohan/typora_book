@@ -298,5 +298,13 @@
       "key": "Q"
     }
   ],
-  "editor:fold-more": []
+  "editor:fold-more": [],
+  "outline:open-for-current": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
+  ]
 }
