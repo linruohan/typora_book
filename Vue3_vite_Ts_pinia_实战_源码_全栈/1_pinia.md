@@ -2,7 +2,7 @@
 
 [toc]
 
-## Pinia 全局状态管理工具
+## 1 Pinia 全局状态管理工具
 
 Pinia.js 有如下特点：
 
@@ -18,14 +18,14 @@ Pinia.js 有如下特点：
 
 git 地址 https://github.com/vuejs/pinia
 
-## 1.起步 安装
+## 2 1.起步 安装
 
 ```csharp
 yarn add pinia
 npm install pinia
 ```
 
-## 2.引入注册Vue3
+## 3 2.引入注册Vue3
 
 ```javascript
 import { createApp } from 'vue'
@@ -61,19 +61,19 @@ new Vue({
 
 # 学习Pinia 第二章（初始化仓库Store）
 
-## 初始化仓库Store
+## 1 初始化仓库Store
 
-### **1.新建一个文件夹Store**
+### 1.1 **1.新建一个文件夹Store**
 
-### **2.新建文件[name].ts**
+### 1.2 **2.新建文件[name].ts**
 
-### **3.定义仓库Store**
+### 1.3 **3.定义仓库Store**
 
 ```javascript
 import { defineStore } from 'pinia'
 ```
 
-### **4.我们需要知道存储是使用定义的`defineStore()`，并且它需要一个唯一的名称，作为第一个参数传递**
+### 1.4 **4.我们需要知道存储是使用定义的`defineStore()`，并且它需要一个唯一的名称，作为第一个参数传递**
 
 我这儿名称抽离出去了
 
@@ -102,7 +102,7 @@ export const useTestStore = defineStore(Names.Test, {
 
 这个*名称*，也称为*id*，==是必要的==，Pania 使用它来将商店连接到 devtools。将返回的函数命名为*use...*是可组合项之间的约定，以使其使用习惯。
 
-### **5.定义值**
+### 1.5 **5.定义值**
 
 **State 箭头函数 返回一个对象 在对象里面定义值**
 
@@ -129,7 +129,7 @@ export const useTestStore = defineStore(Names.Test, {
 
 ![image-20220729220105555](img/image-20220729220105555.png)
 
-## 1.State 是允许直接修改值的 例如current++
+## 1 1.State 是允许直接修改值的 例如current++
 
 ```xml
 <template>
@@ -155,7 +155,7 @@ const Add = () => {
 </style>
 ```
 
-## 2.批量修改State的值：\$patch()
+## 2 2.批量修改State的值：\$patch()
 
 在他的实例上有$patch方法可以批量修改多个值
 
@@ -189,7 +189,7 @@ const Add = () => {
 </style>
 ```
 
-## 3.批量修改函数形式
+## 3 3.批量修改函数形式
 
 推荐使用函数形式 可以自定义修改逻辑
 
@@ -223,7 +223,7 @@ const Add = () => {
 </style>
 ```
 
-## 4.通过原始对象修改整个实例:\$state
+## 4 4.通过原始对象修改整个实例:\$state
 
 `$state`您可以通过将store的属性设置为新对象来替换store的整个状态
 
@@ -259,7 +259,7 @@ const Add = () => {
 </style>
 ```
 
-## 5.通过actions修改:this
+## 5 5.通过actions修改:this
 
 1. 定义Actions: 在actions 中直接使用this就可以指到state里面的值
 
@@ -315,7 +315,7 @@ const Add = () => {
 
 # 学习Pinia 第四章（解构store）
 
-## 在Pinia是不允许直接解构: ==是会失去响应性的==
+## 1 在Pinia是不允许直接解构: ==是会失去响应性的==
 
 ```javascript
 const Test = useTestStore()
@@ -323,7 +323,7 @@ const { current, name } = Test
 console.log(current, name);
 ```
 
-### 差异对比
+### 1.1 差异对比
 
 修改Test current 解构完之后的数据不会变
 
@@ -359,7 +359,7 @@ console.log(current, name);
 </style>
 ```
 
-### 解决方案可以使用 storeToRefs
+### 1.2 解决方案可以使用 storeToRefs
 
 ```javascript
 import { storeToRefs } from 'pinia'
@@ -379,9 +379,9 @@ const { current, name } = storeToRefs(Test)
 
 # 学习Pinia 第五章（Actions，getters）
 
-## Actions（支持同步异步）
+## 1 Actions（支持同步异步）
 
-### 1.同步 直接调用即可
+### 1.1 1.同步 直接调用即可
 
 ```vue
 import { defineStore } from 'pinia'
@@ -425,7 +425,7 @@ const Add = () => {
 </style>
 ```
 
-### 2.异步 可以结合async await 修饰
+### 1.2 2.异步 可以结合async await 修饰
 
 ```typescript
 import { defineStore } from 'pinia'
@@ -487,7 +487,7 @@ const Add = () => {
 </style>
 ```
 
-### 3.多个action互相调用getLoginInfo setName
+### 1.3 3.多个action互相调用getLoginInfo setName
 
 ```typescript
     state: () => ({
@@ -506,7 +506,7 @@ const Add = () => {
     },
 ```
 
-## getters
+## 2 getters
 
 1.使用箭头函数不能使用this this指向已经改变指向undefined 修改值请用state
 
@@ -543,7 +543,7 @@ const Add = () => {
 
 # 学习Pinia 第六章（API）
 
-## 1.$[reset](https://so.csdn.net/so/search?q=reset&spm=1001.2101.3001.7020)
+## 1 1.$[reset](https://so.csdn.net/so/search?q=reset&spm=1001.2101.3001.7020)
 
 重置`store`到他的初始状态
 
@@ -567,7 +567,7 @@ const change = () => {
 
 将会把state所有值 重置回 原始状态
 
-## 2.订阅state的改变
+## 2 2.订阅state的改变
 
 类似于Vuex 的abscribe 只要有state 的变化就会走这个函数
 
@@ -597,7 +597,7 @@ Test.$subscribe((args,state)=>{
 })
 ```
 
-## 3.订阅Actions的调用
+## 3 3.订阅Actions的调用
 
  只要有actions被调用就会走这个函数
 

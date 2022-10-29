@@ -1,0 +1,24 @@
+{
+  "defaultVoice": "Microsoft Huihui - Chinese (Simplified, PRC)",
+  "pitch": 1,
+  "rate": 1,
+  "volume": 1,
+  "speakLinks": false,
+  "speakFrontmatter": false,
+  "speakSyntax": false,
+  "speakTitle": true,
+  "speakCodeblocks": false,
+  "speakEmoji": false,
+  "speakComments": false,
+  "languageVoices": [
+    {
+      "language": "zh",
+      "voice": "Microsoft Huihui - Chinese (Simplified, PRC)"
+    },
+    {
+      "language": "en",
+      "voice": "Microsoft Zira - English (United States)"
+    }
+  ],
+  "stopPlaybackWhenNoteChanges": false
+}

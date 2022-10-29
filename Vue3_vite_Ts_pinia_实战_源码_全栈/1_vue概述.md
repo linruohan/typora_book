@@ -2,7 +2,7 @@
 
 [toc]
 
-## 1.介绍vue
+## 1 1.介绍vue
 
 Vue (读音 /vjuː/，类似于 **view**) 是一套用于构建用户界面的**渐进式框架**。与其它大型[框架](https://so.csdn.net/so/search?q=框架&spm=1001.2101.3001.7020)不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与[现代化的工具链](https://cn.vuejs.org/v2/guide/single-file-components.html)以及各种[支持类库](https://github.com/vuejs/awesome-vue#libraries--plugins)结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。
 
@@ -20,7 +20,7 @@ MVVM（Model-View-ViewModel）架构
 
 [新版地址文档快速开始 | Vue.js](https://staging-cn.vuejs.org/guide/quick-start.html)
 
-## 2.回顾vue2 对比 vue3
+## 2 2.回顾vue2 对比 vue3
 
 1. 发现传统的vue2: ==逻辑比较分散 可读性差 可维护性差==
 
@@ -28,11 +28,11 @@ MVVM（Model-View-ViewModel）架构
 
 ![img](https://img-blog.csdnimg.cn/img_convert/e8ad905d83aaec45451797517ef453aa.png)
 
-### 3.Vue3 新特性介绍
+### 2.1 3.Vue3 新特性介绍
 
 ![img](https://img-blog.csdnimg.cn/f2c9d2e9576d46cf8a9a3e8abc5b31b2.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5bCP5ruhenM=,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-### 重写双向绑定
+### 2.2 重写双向绑定
 
 ```javascript
 vue2
@@ -59,7 +59,7 @@ proxy与Object.defineProperty(obj, prop, desc)方式相比有以下优势：
     })
 ```
 
-### Vue3 优化Vdom
+### 2.3 Vue3 优化Vdom
 
 **在Vue2中,每次更新diff,都是全量对比,Vue3则只对比带有标记的,这样大大减少了非动态内容的对比消耗**
 
@@ -67,7 +67,7 @@ proxy与Object.defineProperty(obj, prop, desc)方式相比有以下优势：
 
 ![img](https://img-blog.csdnimg.cn/0b5650888b95431c8682836a68e2ca98.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5bCP5ruhenM=,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-### patch flag 优化静态树
+### 2.4 patch flag 优化静态树
 
 ```css
 <span>Hello world!</span>
@@ -118,7 +118,7 @@ patch flag 的强大之处在于，当你的 diff 算法走到 _createBlock 函�
 
 尽管 JavaScript 做 Vdom 的对比已经非常的快，但是 patch flag 的出现还是让 Vue3 的 Vdom 的性能得到了很大的提升，尤其是在针对大组件的时候。
 
-## Vue3 Fragment
+## 3 Vue3 Fragment
 
 vue3 允许我们支持多个根节点
 
@@ -153,7 +153,7 @@ render() {
 
 
 
-## Vue3 Tree shaking
+## 4 Vue3 Tree shaking
 
 简单来讲，就是在保持代码运行结果不变的前提下，去除无用的代码
 
@@ -164,7 +164,7 @@ render() {
 就是比如你要用watch 就是import {watch} from 'vue' 其他的computed 没用到就不会给你打包减少体积
 
 
-## Vue 3 Composition Api
+## 5 Vue 3 Composition Api
 
 Setup 函数式编程 也叫vue Hook
 

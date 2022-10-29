@@ -1,17 +1,22 @@
-.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock,
+
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer,
-.markdown-source-view ol > li, .markdown-source-view ul > li, .markdown-preview-view ol > li, .markdown-preview-view ul > li, .markdown-rendered ul > li, .mod-cm6 .HyperMD-list-line.cm-line,
+.markdown-source-view ol > li,
+ .markdown-source-view ul > li,
+ .markdown-preview-view ol > li,
+ .markdown-preview-view ul > li,
+ .markdown-rendered ul > li,
+ .mod-cm6 .HyperMD-list-line.cm-line,
 .CodeMirror-hscrollbar,
 .markdown-source-view.mod-cm6 .cm-scroller,
 .ͼ1.cm-editor,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock,
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-line,
+.cm-line,
 .cm-contentContainer,.markdown-rendered,
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-content,
-.markdown-preview-view.is-readable-line-width .markdown-preview-section,
-.cm-line
+.markdown-preview-view.is-readable-line-width .markdown-preview-section
 {
   max-width: unset !important;
-/*  width:1200px !important;*/
 }
 .ͼ1 .cm-scroller{
     overflow-x: hidden !important;
@@ -29,7 +34,20 @@
 }
 .view-header-title-container{
   overflow: auto !important;
-  position: static !important;
+/*  position: static !important;*/
+}
+.view-header-title-container:not(.mod-at-end):after{
+  width: auto !important;
+}
+.mod-top-left-space{
+  flex-grow: 80 !important;
+}
+.mod-top-right-space{
+  flex-grow: 20 !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock{
+/*  padding:unset !important;*/
 }
 
 .view-header .view-header-icon,
@@ -64,8 +82,10 @@ body:not(.native-scrollbars) ::-webkit-scrollbar-thumb{
 .outliner-plugin-list-lines-scroller{
   padding :unset !important;
 }
+
+
 .workspace-leaf-content img:not([width]), .workspace-leaf-content audio, .workspace-leaf-content video{
-  max-width: unset !important;
+  max-width: 80% !important;
 }
 img:not(.emoji){
   display: unset !important;
