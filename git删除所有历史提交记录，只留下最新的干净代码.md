@@ -1,6 +1,8 @@
-git删除所有历史提交记录，只留下最新的干净代码
+git 删除所有历史提交记录，只留下最新的干净代码
 
-[![复制代码](https://common.cnblogs.com/images/copycode.gif)](javascript:void(0);)
+```bash
+git checkout --orphan latest_branch;git add -A; git commit -am "first add"; git branch -D master; git branch -m master; git push -f origin master
+```
 
 ```
 1.Checkout

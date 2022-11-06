@@ -2,7 +2,7 @@
 
 [toc]
 
-## 网址
+## 1 网址
 
 dwm官网：http://dwm.suckless.org/
 
@@ -10,7 +10,7 @@ https://gitee.com/zpyg/dwm
 
 我的dwm：https://github.com/theniceboy/dwm
 
-## dwm
+## 2 dwm
 
 [dwm - dynamic window manager | suckless.org software that sucks less](http://dwm.suckless.org/)
 
@@ -24,7 +24,7 @@ Windows按标签分组。每个窗口可以用一个或多个标记进行标记�
 
 DWM在Windows周围绘制一个小的可自定义边框来指示焦点状态。
 
-## install
+## 3 install
 
 ```
 git clone https://github.com/LukeSmithxyz/dwm
@@ -32,13 +32,13 @@ cd dwm
 sudo make install
 ```
 
-## 启动
+## 4 启动
 
 `/etc/X11/xinit/xinitrc`
 
 ![image-20210620162221961](imgs/image-20210620162221961.png)
 
-## 插件和补丁
+## 5 插件和补丁
 
 [dwm.suckless.org](http://dwm.suckless.org/patches/)
 
@@ -46,7 +46,7 @@ sudo make install
 
 ![image-20210620162525520](imgs/image-20210620162525520.png)
 
-### 打补丁
+### 5.1 打补丁
 
 将补丁拷贝到安装主目录
 
@@ -54,7 +54,7 @@ sudo make install
 
 `patch < 补丁名`
 
-## 大屏幕分辨率设置+ 电源和音量
+## 6 大屏幕分辨率设置+ 电源和音量
 
 
 
@@ -70,7 +70,7 @@ sudo make install
 
 ![image-20210620164845152](imgs/image-20210620164845152.png)
 
-## 系统托盘
+## 7 系统托盘
 
 ![image-20210620165053959](imgs/image-20210620165053959.png)
 

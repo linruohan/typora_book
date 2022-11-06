@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "834219515552b434",
+        "id": "f4dc891032ec80ec",
         "type": "tabs",
         "children": [
           {
-            "id": "009ee39a358eedf4",
+            "id": "10284e6ee7b24a34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "关于PEP 8.md",
+                "file": "git删除所有历史提交记录，只留下最新的干净代码.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "git 清理",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,35 +74,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "151030e444b81418",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "关于PEP 8.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "a64d9ef0600a65dc",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "关于PEP 8.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "c4f325238cd70baa",
             "type": "leaf",
             "state": {
@@ -114,33 +85,34 @@
             }
           },
           {
-            "id": "8aca19dd076ffc56",
+            "id": "c8bb8a6de7538456",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "关于PEP 8.md"
+                "file": "git删除所有历史提交记录，只留下最新的干净代码.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
-  "active": "009ee39a358eedf4",
+  "active": "10284e6ee7b24a34",
   "lastOpenFiles": [
-    "关于PEP 8.md",
+    "linux 学习/linux 窗口管理器/dwm窗口管理器.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/2_vue配置环境.md",
+    "vim代码折叠.md",
+    "关于PEP 8.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/1_vue概述.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/1_router.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/1_pinia.md",
     "微软账号登录转圈问题.md",
     "牛客华为OD机试.md",
-    "我是佛前的一粒佛珠.md",
-    "git bash的设置alias.md",
-    "git bash 安装tmux.md"
+    "我是佛前的一粒佛珠.md"
   ]
 }
