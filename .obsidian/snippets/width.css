@@ -39,12 +39,12 @@
 .view-header-title-container:not(.mod-at-end):after{
   width: auto !important;
 }
-.mod-top-left-space{
+/*.mod-top-left-space{
   flex-grow: 80 !important;
 }
 .mod-top-right-space{
   flex-grow: 20 !important;
-}
+}*/
 
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock{
 /*  padding:unset !important;*/

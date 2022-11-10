@@ -5,12 +5,10 @@
   "templater-obsidian",
   "obsidian-outliner",
   "obsidian-advanced-slides",
-  "obsidian-mind-map",
   "obsidian-git",
   "obsidian-tasks-plugin",
   "nldates-obsidian",
   "obsidian-style-settings",
-  "obsidian-day-planner",
   "cm-editor-syntax-highlight-obsidian",
   "url-into-selection",
   "obsidian-pandoc",
@@ -35,7 +33,6 @@
   "obsidian-tts",
   "open-with",
   "obsidian-auto-link-title",
-  "oz-image-plugin",
   "obsidian-image-toolkit",
   "ProxyGithub"
 ]
