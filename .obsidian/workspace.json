@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "curl时如何忽略SSL警告.md",
+                "file": "ArchLinux安装教程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -90,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "curl时如何忽略SSL警告.md"
+                "file": "ArchLinux安装教程.md"
               }
             }
           },
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "curl时如何忽略SSL警告.md",
+                "file": "ArchLinux安装教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "curl时如何忽略SSL警告.md",
+                "file": "ArchLinux安装教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,15 +133,15 @@
   },
   "active": "84a8a05a65127e08",
   "lastOpenFiles": [
-    "linux 学习/lazygit.md",
     "curl时如何忽略SSL警告.md",
+    "win10 scoop安装和使用.md",
+    "linux 学习/lazygit.md",
     "git删除所有历史提交记录，只留下最新的干净代码.md",
     "wsl 环境变量 PATH 混乱的办法.md",
     "linux 学习/linux 窗口管理器/dwm窗口管理器.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/2_vue配置环境.md",
     "vim代码折叠.md",
     "关于PEP 8.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/1_vue概述.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/1_router.md"
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/1_vue概述.md"
   ]
 }
