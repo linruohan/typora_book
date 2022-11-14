@@ -251,12 +251,13 @@ yay -S netease-cloud-music || paru -S netease-cloud-music
 ```bash
 pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-pinyin-moegirl fcitx5-pinyin-zhwiki fcitx5-material-color
 pacman -S fcitx5-rime
-EDITOR=vim sudoedit /etc/environment # 编辑运行环境 使fcitx5输入法生效
+EDITOR=vim sudoedit /etc/environment # 编辑运行环境 使fcitx5输入法生效, reboot
 # 输入以下内容
 GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
 SDL_IM_MODULE=fcitx
+GLFW_IM_MODULE=ibus
 ```
 
 ### 20.2 声音和网络: HDMI 使用pulseaudio和pavucontrol
@@ -284,8 +285,8 @@ pacman -S pulseaudio pavucontrol  #HDMI
 ```bash
 pacman -S sublime-text code picom ulauncher go
 pacman -S deadbeef vlc 
-
 ```
+
 
 ## 22 快捷键
 
@@ -293,15 +294,22 @@ ctrl+alt+d 显示桌面
 shift+PrintScreen Screenshot截图
 
 ![ArchLinux安装教程_1661695702076](img/ArchLinux安装教程_1661695702076.png)
-## 23 Xfce4 美化
+## 23 截图软件
+打开设置中的 System Setting--keyboards--Shotcuts--Custom Shotcuts, 然后点击加号，在 name 里面随便填写，然后 command 里面要写上 flameshot gui，
+然后设置快捷键为自己喜欢的按键，我设置的是 Alt+A
+```bash
+flameshot gui
+```
+![](https://img-blog.csdnimg.cn/20200731170820510.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTMxNzEyMjY=,size_16,color_FFFFFF,t_70)
+## 24 Xfce4 美化
 ```
 sudo pacman -S pulseaudio pavucontrol gtk-engine-murrine sassc
 ```
-### 23.1 设置阴影
+### 24.1 设置阴影
 取消 Draw frame around
 ![](imgs/Pasted%20image%2020221113163752.png)![](imgs/Pasted%20image%2020221113163833.png)![](imgs/Pasted%20image%2020221113163851.png)
 
-### 23.2 主题、鼠标、图标
+### 24.2 主题、鼠标、图标
 ```
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme
@@ -311,7 +319,7 @@ cd WhiteSur-gtk-theme && sh install.sh -c Dark -c Light
 cd WhiteSur-icon-theme && sh install.sh
 ```
 ![](imgs/Pasted%20image%2020221113164004.png) ![](imgs/Pasted%20image%2020221113164018.png) ![](imgs/Pasted%20image%2020221113164121.png) ![](imgs/Pasted%20image%2020221113164436.png)
-### 23.3 全局菜单
+### 24.3 全局菜单
 ```
 pamac build vala-panel-appmenu-common-git vala-panel-appmenu-registrar-git 
 pamac build vala-panel-appmenu-xfce-git 
@@ -320,7 +328,7 @@ pamac build appmenu-gtk-module-git
 xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/ShellShowsappmenu -n -t bool -s true
 ```
-### 23.4 Configuring Xfce Panel 
+### 24.4 Configuring Xfce Panel 
 ```bash
  # Download Xpple Menu : https://www.pling.com/p/1529470/ 
  sudo pacman -S zip unzip
@@ -343,7 +351,7 @@ xfconf-query -c xsettings -p /Gtk/ShellShowsappmenu -n -t bool -s true
 11. action buttons :![](imgs/Pasted%20image%2020221113172247.png)
 12. 修改任务栏上第一个和最后一个 seporator 类型为 transparent, 第二个关掉 expand
 13. ![](imgs/Pasted%20image%2020221113172753.png)
-### 23.5 plank dock
+### 24.5 plank dock
 Installing and Configuring Plank Dock
 `sudo pacman -S plank `
 删掉原来的 panel2，启动 plank
