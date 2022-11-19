@@ -1,5 +1,9 @@
 # ArchLinux安装教程
 
+[toc]
+
+插入U盘，设置U盘引导，进入安装界面后：
+
 ## 1 停止reflector服务 禁止自动更新服务器列表
 
 `systemctl stop reflector.service`
@@ -99,7 +103,7 @@ cat /mnt/etc/fstab
 ## 10 编辑hosts， 我这里的名字是arch可自行更改
 
 ```bash
-vim /etc/hosts
+# vim /etc/hosts
 # 内容如下
 127.0.0.1   localhost
 ::1         localhost
@@ -134,7 +138,8 @@ echo 'LANG=en_US.UTF-8' > /etc/locale.conf
 
 ```bash
 vim /etc/pacman.conf
-#索Color注意大小写,取消注释，系统报错会彩色显示 方便用户排查
+# 搜索Color注意大小写,取消注释，系统报错会彩色显示 方便用户排查
+# 添加archlinuxcn
 Color
 ...
 [multilib] 
@@ -149,18 +154,18 @@ Server = http://mirrors.163.com/archlinux-cn/$arch
 
 ```bash
 passwd root   # 当前账户就是root 可以不用打root*
-useradd -m -G wheel -s /bin/bash xiaohan  # 新建用户名arch 可自行更改用户名
+useradd -m -G wheel -s `which zsh` xiaohan  # 新建用户名arch 可自行更改用户名
 passwd xiaohan # 设置arch用户名的密码
 
 EDITOR=vim visudo # 编辑arch用户的权限,搜索%wheel,取消注释
 # %wheel ALL=(ALL:ALL)ALL
 ```
 
-## 16 安装 cpu微码和引导软件
+## 16 安装 intel的cpu微码和引导软件
 
 ```bash
 pacman -S intel-ucode grub efibootmgr os-prober
-# 如果是intel的cpu 则输入intel-ucode amd-ucode
+# 如果是intel的cpu 则输入intel-ucode 或者amd的输入 amd-ucode
 # os-prober查找已安装的操作系统 推荐实体机上安装
 ```
 
@@ -179,16 +184,17 @@ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=ArchLinux
 
 `grub-mkconfig -o /boot/grub/grub.cfg`
 
-## 19 安装KDE桌面 字体 浏览器等软件包
+## 19 安装KDE桌面 字体 浏览器等基础软件包
 
 ```bash
 
-pacman -S kitty nautilus      #和终端，文件管理器*
-pacman -S ntfs-3g          #可以读取ntfs格式磁盘 实体机上推荐安装*
+pacman -S kitty nautilus      # kitty 终端，nautilus好看的文件管理器*
+pacman -S ntfs-3g          	  # 可以读取ntfs格式磁盘，双系统实体机上推荐安装*
 pacman -S adobe-source-han-serif-cn-fonts adobe-source-han-sans-cn-fonts wqy-zenhei wqy-microhei noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-dejavu  # 中文字体 这里如果不安装 之后设置语言的时候都是框框不好辨认
-pacman -S lsd neovim firefox google-chrome-stable ark gwenview packagekit-qt5 packagekit appstream-qt appstream man neofetch net-tools networkmanager openssh git wget            #一堆软件
-
-systemctl enable NetworkManager sddm sshd # 开机启动 显示管理器 网络管理 ssh 虚拟机自适应分辨率 注意大小写
+pacman -S lsd neovim firefox google-chrome-stable ark gwenview packagekit-qt5 packagekit appstream-qt appstream man neofetch net-tools networkmanager openssh git wget   curl         #一堆软件
+systemctl enable --now dhcpcd  # 网络自动获取IP
+systemctl enable --now NetworkManager sshd # 开机启动 显示管理器 网络管理 
+systemctl enable --now sshd  # 远程链接sshd服务
 ```
 ### 19.1 桌面环境：任选一个
 #### 19.1.1 kde
@@ -209,22 +215,23 @@ lightdm --test-mode --debug
 ```
 ### 19.2 虚拟机专用
 ```
-# 虚拟机专用--start
+# 虚拟机专用
 pacman -S gtkmm gtk2 gtkmm3 open-vm-tools xf86-input-vmmouse xf86-video-vmware # vmware虚拟机的自适应分辨率
 systemctl enable vmtoolsd #vmware虚拟机刚才安装了vmware的软件包才能启动vmtoolsd进程*
 # vim /etc/mkinitcpio.conf
 MODULES=(vsock vmw_vsock_vmci_transport vmw_balloon vmw_vmci vmwgfx)
   mkinitcpio -p linux # 运行以下命令 使刚才编辑的配置文件生效
-# 虚拟机专用--end
+```
 
 ## 卸载本机的/mnt目录,并重启
+```
 umount -R /mnt
 reboot
 ```
 
 ## 20 安装后配置
 
-安装aur助手 前提是开启aur中国源nano /etc/pacman.conf
+### 安装aur助手 前提是开启aur中国源nano /etc/pacman.conf
 
 ```bash
 pacman -S archlinuxcn-keyring
@@ -283,12 +290,46 @@ pacman -S pulseaudio pavucontrol  #HDMI
 ## 21 安装其他软件
 
 ```bash
-pacman -S sublime-text code picom ulauncher go
-pacman -S deadbeef vlc 
+pacman -S picom rofi   # picom 玻璃模糊，rofi启动器
+pacman -S golang      # go语言
+pacman -S sublime-text code typora obsidian # 编辑器，markdown
+pacman -S acpi alsa arandr ark mailsync  cargo nmcli timeshift xrandr xsetroot fakeroot kmix
+pacman -S sed awk wget bc tree
+# 压缩软件
+yay -S unzip 7-zip-full 
+com.qq.weixin.deepin
+
+# markdown 文本编辑器，代码编辑器
+obsidian sublime-text typora
+
+# git
+yay -S delta lazygit
+
+# 图片和录屏
+flameshot feh 
+obs  # 录屏
+
+# 音乐播放器
+ffmpeg foobar deadbeef smplayer vlc Parole
+yay -S zy-player-bin 
+
+# 计算器
+gatculator
+# ls和cp、diff的替代品
+lsd rsync colordiff
+
+# 主题修改器
+kvantum
+
+# viewer pdf
+okular 
+
+# shell format
+yay -S shellcheck shfmt
 ```
 
 
-## 22 快捷键
+## 22 设置快捷键
 
 ctrl+alt+d 显示桌面
 shift+PrintScreen Screenshot截图
@@ -297,6 +338,7 @@ shift+PrintScreen Screenshot截图
 ## 23 截图软件
 打开设置中的 System Setting--keyboards--Shotcuts--Custom Shotcuts, 然后点击加号，在 name 里面随便填写，然后 command 里面要写上 flameshot gui，
 然后设置快捷键为自己喜欢的按键，我设置的是 Alt+A
+
 ```bash
 flameshot gui
 ```
@@ -335,22 +377,24 @@ xfconf-query -c xsettings -p /Gtk/ShellShowsappmenu -n -t bool -s true
  unzip xpple_menu.zip
  cp applications ~/.local/share
  cp xpple.menu ~/.config/menu/
- ```
+```
  1. 添加两个 separator，将其中一个移动到最顶端
 ![](imgs/Pasted%20image%2020221113170636.png)
 1. 删除 windows buttons，window switchers
 2. 添加 keyboard layout，移动到 status tray plugin 前
 3. 添加 appmenu plugin ，移动到顶端两个 separator 中间
 4. 添加 weather 移动到 keyboard 前面
-5. 设置 applications menu 图标![](imgs/Pasted%20image%2020221113172630.png)
-6. ![](imgs/Pasted%20image%2020221113171704.png)
+5. 设置 applications menu 图标
+![](imgs/Pasted%20image%2020221113172630.png)![](imgs/Pasted%20image%2020221113171704.png)
 7. appmenu ![](imgs/Pasted%20image%2020221113171812.png)
 8. 输入法键盘设置：
-9. ![](imgs/Pasted%20image%2020221113171950.png)
+
+![](imgs/Pasted%20image%2020221113171950.png)
+
 10. 天气：![](imgs/Pasted%20image%2020221113172122.png)
-11. action buttons :![](imgs/Pasted%20image%2020221113172247.png)
-12. 修改任务栏上第一个和最后一个 seporator 类型为 transparent, 第二个关掉 expand
-13. ![](imgs/Pasted%20image%2020221113172753.png)
+ 2. action buttons :![](imgs/Pasted%20image%2020221113172247.png)
+ 3. 修改任务栏上第一个和最后一个 seporator 类型为 transparent, 第二个关掉 expand
+ 4. ![](imgs/Pasted%20image%2020221113172753.png)
 ### 24.5 plank dock
 Installing and Configuring Plank Dock
 `sudo pacman -S plank `
@@ -365,7 +409,8 @@ Installing and Configuring Plank Dock
 安装计算器 galculator
 安装 picom ：添加开机启动，在 window manager tweaks 关闭 compositor
 
-安装控制器
+### 安装控制面板
+
 ```bash
 git clone https://github.com/libredeb/comice-control-center
 
