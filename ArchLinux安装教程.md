@@ -207,6 +207,12 @@ systemctl enable sddm
 pacman -S lightdm lightdm-gtk-greeter xfce4 xfce4-goodies            
 systemctl enable lightdm
 ```
+##### 19.1.2.1 Lightdm 主题
+```bash
+sudo pacman -S lightdm-webkit2-greeter
+Theme : https://github.com/manilarome/lightdm-webkit2-theme-glorious.git
+```
+![](imgs/Pasted%20image%2020221120104649.png)
 #### 19.1.3 测试桌面环境
 ```bash
 systemctl status lightdm
@@ -223,15 +229,15 @@ MODULES=(vsock vmw_vsock_vmci_transport vmw_balloon vmw_vmci vmwgfx)
   mkinitcpio -p linux # 运行以下命令 使刚才编辑的配置文件生效
 ```
 
-## 卸载本机的/mnt目录,并重启
+## 20 卸载本机的/mnt目录,并重启
 ```
 umount -R /mnt
 reboot
 ```
 
-## 20 安装后配置
+## 21 安装后配置
 
-### 安装aur助手 前提是开启aur中国源nano /etc/pacman.conf
+### 21.1 安装aur助手 前提是开启aur中国源nano /etc/pacman.conf
 
 ```bash
 pacman -S archlinuxcn-keyring
@@ -253,7 +259,7 @@ pacman -S yay paru # yay paru都是aur助手 任选一种 还有其他的aur助�
 yay -S netease-cloud-music || paru -S netease-cloud-music
 ```
 
-### 20.1 安装 fcitx5-rime 输入法
+### 21.2 安装 fcitx5-rime 输入法
 
 ```bash
 pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-pinyin-moegirl fcitx5-pinyin-zhwiki fcitx5-material-color
@@ -267,7 +273,7 @@ SDL_IM_MODULE=fcitx
 GLFW_IM_MODULE=ibus
 ```
 
-### 20.2 声音和网络: HDMI 使用pulseaudio和pavucontrol
+### 21.3 声音和网络: HDMI 使用pulseaudio和pavucontrol
 
 ```bash
 pacman -S alsa alsa-utils kmix # 开启系统声音
@@ -287,14 +293,15 @@ pacman -S pulseaudio pavucontrol  #HDMI
    安装后：
    $：pulseaudio --start        //--kill关闭 作者：shiyue-001 https://www.bilibili.com/read/cv12709685 出处：bilibili
 
-## 21 安装其他软件
+## 22 安装其他软件
 
 ```bash
-pacman -S picom rofi   # picom 玻璃模糊，rofi启动器
+pacman -S picom rofi   # picom 毛玻璃模糊，rofi启动器
 pacman -S golang      # go语言
 pacman -S sublime-text code typora obsidian # 编辑器，markdown
 pacman -S acpi alsa arandr ark mailsync  cargo nmcli timeshift xrandr xsetroot fakeroot kmix
-pacman -S sed awk wget bc tree
+pacman -S sed awk wget bc tree pamixer
+yay -S nmtool
 # 压缩软件
 yay -S unzip 7-zip-full 
 com.qq.weixin.deepin
@@ -329,13 +336,13 @@ yay -S shellcheck shfmt
 ```
 
 
-## 22 设置快捷键
+## 23 设置快捷键
 
 ctrl+alt+d 显示桌面
 shift+PrintScreen Screenshot截图
 
 ![ArchLinux安装教程_1661695702076](img/ArchLinux安装教程_1661695702076.png)
-## 23 截图软件
+## 24 截图软件
 打开设置中的 System Setting--keyboards--Shotcuts--Custom Shotcuts, 然后点击加号，在 name 里面随便填写，然后 command 里面要写上 flameshot gui，
 然后设置快捷键为自己喜欢的按键，我设置的是 Alt+A
 
@@ -343,15 +350,15 @@ shift+PrintScreen Screenshot截图
 flameshot gui
 ```
 ![](https://img-blog.csdnimg.cn/20200731170820510.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTMxNzEyMjY=,size_16,color_FFFFFF,t_70)
-## 24 Xfce4 美化
+## 25 Xfce4 美化
 ```
 sudo pacman -S pulseaudio pavucontrol gtk-engine-murrine sassc
 ```
-### 24.1 设置阴影
+### 25.1 设置阴影
 取消 Draw frame around
 ![](imgs/Pasted%20image%2020221113163752.png)![](imgs/Pasted%20image%2020221113163833.png)![](imgs/Pasted%20image%2020221113163851.png)
 
-### 24.2 主题、鼠标、图标
+### 25.2 主题、鼠标、图标
 ```
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme
@@ -361,7 +368,7 @@ cd WhiteSur-gtk-theme && sh install.sh -c Dark -c Light
 cd WhiteSur-icon-theme && sh install.sh
 ```
 ![](imgs/Pasted%20image%2020221113164004.png) ![](imgs/Pasted%20image%2020221113164018.png) ![](imgs/Pasted%20image%2020221113164121.png) ![](imgs/Pasted%20image%2020221113164436.png)
-### 24.3 全局菜单
+### 25.3 全局菜单
 ```
 pamac build vala-panel-appmenu-common-git vala-panel-appmenu-registrar-git 
 pamac build vala-panel-appmenu-xfce-git 
@@ -370,7 +377,7 @@ pamac build appmenu-gtk-module-git
 xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/ShellShowsappmenu -n -t bool -s true
 ```
-### 24.4 Configuring Xfce Panel 
+### 25.4 Configuring Xfce Panel 
 ```bash
  # Download Xpple Menu : https://www.pling.com/p/1529470/ 
  sudo pacman -S zip unzip
@@ -395,7 +402,7 @@ xfconf-query -c xsettings -p /Gtk/ShellShowsappmenu -n -t bool -s true
  2. action buttons :![](imgs/Pasted%20image%2020221113172247.png)
  3. 修改任务栏上第一个和最后一个 seporator 类型为 transparent, 第二个关掉 expand
  4. ![](imgs/Pasted%20image%2020221113172753.png)
-### 24.5 plank dock
+### 25.5 plank dock
 Installing and Configuring Plank Dock
 `sudo pacman -S plank `
 删掉原来的 panel2，启动 plank
@@ -409,7 +416,7 @@ Installing and Configuring Plank Dock
 安装计算器 galculator
 安装 picom ：添加开机启动，在 window manager tweaks 关闭 compositor
 
-### 安装控制面板
+### 25.6 安装控制面板
 
 ```bash
 git clone https://github.com/libredeb/comice-control-center

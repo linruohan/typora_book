@@ -3,7 +3,6 @@
 如前文《Sublime Text3 的插件管理工具(Package Control)的安装及使用方法》所说，Sublime有强大的插件扩展功能，本文将详细介绍在用Sublime写Markdown文档时如何预览，甚至是实时刷新预览。
 
 ## 温习：插件安装方式，后面会反复用到
-
 组合键Ctrl+Shift+P 调出命令面板
 输入Package Control: Install Package，回车
 在搜索框中输入要安装的包名（一个一个，不能同时安多个）
