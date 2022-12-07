@@ -1,20 +1,6 @@
 # 还在抱怨 pandas 运行速度慢？这几个方法会颠覆你的看法
 
-[![东哥起飞](https://pic1.zhimg.com/v2-cbbda3ac8941363c5f05fe1c86af3bc8_xs.jpg?source=172ae18b)](https://www.zhihu.com/people/lu-yuan-86-37)
-
-[东哥起飞](https://www.zhihu.com/people/lu-yuan-86-37)
-
-公众号：Python数据科学
-
-207 人赞同了该文章
-
-发布于 2019-02-12，编辑于 2019-02-12
-
-作者：xiaoyu
-
-微信公众号：**Python数据科学**
-
-知乎：[python数据分析师](https://zhuanlan.zhihu.com/pypcfx)
+[toc]
 
 ## **前言**
 
@@ -32,7 +18,7 @@ pandas是基于numpy库的数组结构上构建的，并且它的很多操作都
 - 进行批量计算的最有效途径
 - 通过HDFStore存储数据节省时间
 
-## **使用Datetime数据节省时间**
+## 使用Datetime数据节省时间
 
 我们来看一个例子。
 
