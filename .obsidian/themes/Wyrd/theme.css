@@ -265,6 +265,9 @@
 .published-container .markdown-preview-view h2::before {
   top: calc(var(--editor-font-size) * -0.65);
 }
+.mod-linux .titlebar-button-container, .mod-windows .titlebar-button-container{
+  height:25px;
+}
 .markdown-preview-view h3,
 .markdown-preview-view h3 a {
   font-size: calc(var(--editor-font-size) * 1.8);

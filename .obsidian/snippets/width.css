@@ -36,6 +36,12 @@
   overflow: auto !important;
 /*  position: static !important;*/
 }
+.view-header-title{
+  font-size :28px !important;
+  background-color:#d95757 !important;
+  color:black !important;
+  border-radius: 10px !important;
+}
 .view-header-title-container:not(.mod-at-end):after{
   width: auto !important;
 }

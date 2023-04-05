@@ -39,7 +39,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ArchLinux安装教程.md",
+                "file": "bypy-命令行下使用百度网盘.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b73b3eb62ee0520b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "golang交叉编译.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb55b27d2e750eaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VSCode 右键菜单.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -117,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ArchLinux安装教程.md"
+                "file": "VSCode 右键菜单.md"
               }
             }
           },
@@ -127,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ArchLinux安装教程.md",
+                "file": "VSCode 右键菜单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ArchLinux安装教程.md",
+                "file": "VSCode 右键菜单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,14 +184,32 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "3f8c8d2f6404107f",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "templater-obsidian:Templater": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "obsidian-comments:Show Comments Panel": false,
+      "obsidian-tts:Text to Speech": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+    }
+  },
+  "active": "bb55b27d2e750eaa",
   "lastOpenFiles": [
+    "golang交叉编译.md",
+    "VSCode 右键菜单.md",
+    "bypy-命令行下使用百度网盘.md",
+    "ArchLinux安装教程.md",
     "bzip使用说明.md",
     "kitty使用手册.md",
     "4-tools/7-优化___win10+mac+linux/239-私藏，老司机的素材库.md",
     "linux 学习/lazygit.md",
     "ReadMe_Manjaro/dwm install.md",
-    "ArchLinux安装教程.md",
     "curl时如何忽略SSL警告.md",
     "win10 scoop安装和使用.md",
     "git删除所有历史提交记录，只留下最新的干净代码.md",
