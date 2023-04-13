@@ -4,76 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3e42640091998047",
+        "id": "1cf651c3671376c8",
         "type": "tabs",
         "children": [
           {
-            "id": "84a8a05a65127e08",
+            "id": "1a3f212c97af45f1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4-tools/7-优化___win10+mac+linux/239-私藏，老司机的素材库.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e3c6d1eafbbe07c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kitty使用手册.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f8c8d2f6404107f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bypy-命令行下使用百度网盘.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b73b3eb62ee0520b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "golang交叉编译.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb55b27d2e750eaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VSCode 右键菜单.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,9 +84,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "VSCode 右键菜单.md"
-              }
+              "state": {}
             }
           },
           {
@@ -153,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VSCode 右键菜单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VSCode 右键菜单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,15 +137,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "bb55b27d2e750eaa",
+  "active": "1a3f212c97af45f1",
   "lastOpenFiles": [
+    "4-tools/7-优化___win10+mac+linux/239-私藏，老司机的素材库.md",
+    "kitty使用手册.md",
+    "bypy-命令行下使用百度网盘.md",
     "golang交叉编译.md",
     "VSCode 右键菜单.md",
-    "bypy-命令行下使用百度网盘.md",
     "ArchLinux安装教程.md",
     "bzip使用说明.md",
-    "kitty使用手册.md",
-    "4-tools/7-优化___win10+mac+linux/239-私藏，老司机的素材库.md",
     "linux 学习/lazygit.md",
     "ReadMe_Manjaro/dwm install.md",
     "curl时如何忽略SSL警告.md",

@@ -18,8 +18,14 @@
 {
   max-width: unset !important;
 }
+.cm-lineNumbers{
+  padding:0 15px 0 0 !important;
+}
 .ͼ1 .cm-scroller{
     overflow-x: hidden !important;
+}
+.cm-scroller{
+  padding-left: unset !important;
 }
 .view-header{
     margin: auto !important;
@@ -112,7 +118,7 @@ img:not(.emoji){
 /*.markdown-source-view.mod-cm6 ,*/
 .cm-scroller{
   padding: unset !important;
-  padding-left: 32px !important;
+/*  padding-left: 32px !important;*/
 }
 
 /* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
