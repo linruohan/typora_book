@@ -11,8 +11,13 @@
             "id": "1a3f212c97af45f1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "VScode国内镜像下载链接.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -84,7 +89,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "VScode国内镜像下载链接.md"
+              }
             }
           },
           {
@@ -93,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "VScode国内镜像下载链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "VScode国内镜像下载链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,6 +148,7 @@
   },
   "active": "1a3f212c97af45f1",
   "lastOpenFiles": [
+    "VScode国内镜像下载链接.md",
     "4-tools/7-优化___win10+mac+linux/239-私藏，老司机的素材库.md",
     "kitty使用手册.md",
     "bypy-命令行下使用百度网盘.md",
