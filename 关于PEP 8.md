@@ -24,6 +24,7 @@ github 地址： https://github.com/hhatto/autopep8
 pip install autopep8
 ```
 ## 4 使用 Autopep8
+
 命令行使用方式如下
 ```shell
 $ autopep8 ``-``-``in``-``place ``-``-``aggressive <filename>``$ autopep8 ``-``-``in``-``place ``-``-``aggressive Student.py

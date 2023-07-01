@@ -4,7 +4,7 @@
 
 
 
-## 模板[插值](https://so.csdn.net/so/search?q=插值&spm=1001.2101.3001.7020)语法
+## 1 模板[插值](https://so.csdn.net/so/search?q=插值&spm=1001.2101.3001.7020)语法
 
 在script 声明一个变量可以直接在template 使用用法为{{变量名称}}
 
@@ -74,7 +74,7 @@ const message:string = "我，是，小，满"
 </style>
 ```
 
-## 指令
+## 2 指令
 
 v- 开头都是vue 的指令
 
@@ -251,7 +251,7 @@ const message = ref("v-model")
 
 3.更快的掌握vue和遇到问题可以定位
 
-## 介绍虚拟DOM
+## 1 介绍虚拟DOM
 
 虚拟DOM就是通过JS来生成一个AST节点树
 
@@ -259,7 +259,7 @@ const message = ref("v-model")
 
 [Vue Template Explorer](https://vue-next-template-explorer.netlify.app/#eyJzcmMiOiI8ZGl2PlxyXG4gICAgPGRpdj4gXHJcbiAgICAgICAgIDxzZWN0aW9uPnRlc3Q8L3NlY3Rpb24+XHJcbiAgICAgIDwvZGl2PiAgXHJcbjwvZGl2PiIsIm9wdGlvbnMiOnt9fQ==)
 
-### 为什么要有虚拟DOM？
+### 1.1 为什么要有虚拟DOM？
 
 我们可以通过下面的例子
 
@@ -286,7 +286,7 @@ aligntitlelangtranslatedirhiddenaccessKeydraggablespellcheckautocapitalizeconten
 操作JS是非常快的
 ```
 
-## 介绍Diff算法
+## 2 介绍Diff算法
 
 Vue3 源码地址[ https://github.com/vuejs/core](https://github.com/vuejs/core)
 

@@ -4,7 +4,7 @@
 
 
 
-## ref
+## 1 ref
 
 接受一个内部值并返回一个响应式且可变的 ref 对象。ref 对象仅有一个 `.value` property，指向该内部值。
 
@@ -57,7 +57,7 @@ const changeMsg = () => {
 </style>
 ```
 
-## `isRef`
+## 2 `isRef`
 
 ```
 import { ref, Ref,isRef } from 'vue'
@@ -70,7 +70,7 @@ const changeMsg = () => {
 }
 ```
 
-## `shallowRef`
+## 3 `shallowRef`
 
 创建一个跟踪自身 `.value` 变化的 ref，但不会使其值也变成响应式的
 
@@ -103,7 +103,7 @@ const changeMsg = () => {
 </style>
 ```
 
-## triggerRef
+## 4 triggerRef
 
 强制更新页面DOM:这样也是可以改变值的
 
@@ -134,7 +134,7 @@ const changeMsg = () => {
 </style>
 ```
 
-## customRef
+## 5 customRef
 
 自定义ref :customRef 是个工厂函数要求我们返回一个对象 并且实现 get 和 set
 
@@ -168,7 +168,7 @@ const changeMsg = () => {
 
 # 学习Vue3 第七章（认识Reactive全家桶）
 
-## `reactive`
+## 1 `reactive`
 
 ```
 用来绑定复杂的数据类型 例如 对象 数组
@@ -178,7 +178,7 @@ reactive [源码](https://so.csdn.net/so/search?q=源码&spm=1001.2101.3001.7020
 
 ![img](https://img-blog.csdnimg.cn/4bea460f515a479d82e650c29ee00a99.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5bCP5ruhenM=,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-### `他是不可以绑定普通的数据类型`这样是不允许 会给我们报错
+### 1.1 `他是不可以绑定普通的数据类型`这样是不允许 会给我们报错
 
 ```javascript
 import { reactive} from 'vue'
@@ -193,7 +193,7 @@ let person = reactive('sad')
 
 > 使用reactive 去修改值无须.value
 
-## reactive 基础用法
+## 2 reactive 基础用法
 
 ```javascript
 import { reactive } from 'vue'
@@ -216,7 +216,7 @@ setTimeout(() => {
 },1000)
 ```
 
-### 解决方案1：使用push
+### 2.1 解决方案1：使用push
 
 ```typescript
 import { reactive } from 'vue'
@@ -229,7 +229,7 @@ setTimeout(() => {
 },1000)
 ```
 
-### 方案2： 包裹一层对象
+### 2.2 方案2： 包裹一层对象
 
 ```typescript
 type Person = {
@@ -246,7 +246,7 @@ setTimeout(() => {
 },1000)
 ```
 
-## readonly
+## 3 readonly
 
 拷贝一份proxy对象将其设置为只读
 
@@ -260,7 +260,7 @@ const copy = readonly(person)
  copy.count++
 ```
 
-## shallowReactive
+## 4 shallowReactive
 
 只能对浅层的数据 如果是深层的数据只会改变值 不会改变视图
 
@@ -302,7 +302,7 @@ function change2() {
 
 # 学习Vue3 第八章（认识to系列全家桶）
 
-## toRef
+## 1 toRef
 
 如果原始对象是非响应式的就不会更新视图 数据是会变的
 
@@ -336,7 +336,7 @@ const change = () => {
 
 如果原始对象是响应式的是会更新视图并且改变数据的
 
-## toRefs
+## 2 toRefs
 
 可以帮我们批量创建ref对象主要是方便我们解构使用
 
@@ -353,7 +353,7 @@ foo.value++
 console.log(foo, bar);
 ```
 
-## toRaw
+## 3 toRaw
 
 将响应式对象转化为普通对象
 

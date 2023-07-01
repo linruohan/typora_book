@@ -6,7 +6,7 @@
 
 vue2 的时候就已经支持jsx写法，只不过不是很友好，随着vue3对[typescript](https://so.csdn.net/so/search?q=typescript&spm=1001.2101.3001.7020)的支持度，tsx写法越来越被接受
 
-## 1.安装插件
+## 1 1.安装插件
 
 npm install @vitejs/plugin-vue-jsx -D
 
@@ -24,7 +24,7 @@ export default defineConfig({
 })
 ```
 
-## 2.修改tsconfig.json 配置文件
+## 2 2.修改tsconfig.json 配置文件
 
 ```json
     "jsx": "preserve",
@@ -38,11 +38,11 @@ export default defineConfig({
 
 在目录新建一个xxxxxx.tsx文件
 
-## 3.使用TSX
+## 3 3.使用TSX
 
 TIPS tsx不会自动解包使用ref加.vlaue ! ! !
 
-### tsx支持 v-[model](https://so.csdn.net/so/search?q=model&spm=1001.2101.3001.7020) 的使用
+### 3.1 tsx支持 v-[model](https://so.csdn.net/so/search?q=model&spm=1001.2101.3001.7020) 的使用
 
 ```typescript
  
@@ -64,7 +64,7 @@ const renderDom = () => {
 export default renderDom
 ```
 
-### v-show
+### 3.2 v-show
 
 ```javascript
  
@@ -84,7 +84,7 @@ const renderDom = () => {
 export default renderDom
 ```
 
-### ==v-if是不支持的==
+### 3.3 ==v-if是不支持的==
 
 所以需要改变风格
 
@@ -106,7 +106,7 @@ const renderDom = () => {
 export default renderDom
 ```
 
-### ==v-for也是不支持的==
+### 3.4 ==v-for也是不支持的==
 
 需要使用Map
 
@@ -130,7 +130,7 @@ const renderDom = () => {
 export default renderDom
 ```
 
-### v-bind使用
+### 3.5 v-bind使用
 
 直接赋值就可以
 
@@ -150,7 +150,7 @@ const renderDom = () => {
 export default renderDom
 ```
 
-### v-on绑定事件 所有的事件都按照react风格来
+### 3.6 v-on绑定事件 所有的事件都按照react风格来
 
 - 所有事件有on开头
 - 所有事件名称首字母大写
@@ -172,7 +172,7 @@ const clickTap = () => {
 export default renderDom
 ```
 
-### Props 接受值
+### 3.7 Props 接受值
 
 ```typescript
  import { ref } from 'vue'
@@ -194,7 +194,7 @@ const clickTap = () => {
 export default renderDom
 ```
 
-### Emit派发
+### 3.8 Emit派发
 
 ```typescript
 type Props = {

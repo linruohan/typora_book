@@ -18,12 +18,14 @@
 - [安装pyqt5](?file=0-code环境配置/25-安装pyqt5 "安装pyqt5")
 
 ##### code疑难搜索
+
 - [pyqt5中qwidget布局的问题](?file=1-code疑难搜索/30-pyqt5中qwidget布局的问题 "pyqt5中qwidget布局的问题")
 - [python3+PyQt5 实现Rich文本的行编辑](?file=1-code疑难搜索/31-python3+PyQt5 实现Rich文本的行编辑 "python3+PyQt5 实现Rich文本的行编辑")
 - [QTreeWidgetItem 点击可编辑修改](?file=1-code疑难搜索/32-QTreeWidgetItem 点击可编辑修改 "QTreeWidgetItem 点击可编辑修改")
 - [基于Python3和pyqt5实现控件数据动态显示](?file=1-code疑难搜索/33-基于Python3和pyqt5实现控件数据动态显示 "基于Python3和pyqt5实现控件数据动态显示")
 
 ##### 林若寒
+
 - **AI助理**
     - [个人助理](?file=10-林若寒/1-AI助理/35-个人助理 "个人助理")
 - [账本](?file=10-林若寒/34-账本 "账本")

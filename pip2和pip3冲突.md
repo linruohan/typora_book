@@ -1,4 +1,4 @@
-# [Windows下python2和python3共存时pip失效(pip找不到)的解决办法](https://www.cnblogs.com/aloe-n/p/7616868.html)
+# Windows下python2和python3共存时pip失效(pip找不到)的解决办法
 
 ## PIP冲突:
 

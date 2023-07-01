@@ -2,15 +2,15 @@
 
 [toc]
 
-## 1，router 路由
+## 1 1，router 路由
 
 应为vue是单页应用不会有那么多html 让我们跳转 所有要使用路由做页面的跳转
 
 Vue 路由允许我们通过不同的 URL 访问不同的内容。通过 Vue 可以实现多视图的单页Web应用
 
-## 2.安装
+## 2 2.安装
 
-### 构建前端项目
+### 2.1 构建前端项目
 
 ```kotlin
 npm init vue@latest
@@ -18,7 +18,7 @@ npm init vue@latest
 npm init vite@latest
 ```
 
-### 使用Vue3 安装对应的router4版本
+### 2.2 使用Vue3 安装对应的router4版本
 
 使用Vue2 安装对应的router3版本
 
@@ -26,7 +26,7 @@ npm init vite@latest
 npm install vue-router@4
 ```
 
-### 在src目录下面新建router 文件 然后在router 文件夹下面新建 index.ts
+### 2.3 在src目录下面新建router 文件 然后在router 文件夹下面新建 index.ts
 
 ```javascript
 //引入路由对象
@@ -65,11 +65,11 @@ export default router
 
 
 
-### `router-link`[#](https://router.vuejs.org/zh/guide/#router-link)
+### 2.4 `router-link`[#](https://router.vuejs.org/zh/guide/#router-link)
 
 请注意，我们没有使用常规的 `a` 标签，而是使用一个自定义组件 `router-link` 来创建链接。这使得 Vue Router 可以在不重新加载页面的情况下更改 URL，处理 URL 的生成以及编码。我们将在后面看到如何从这些功能中获益。
 
-### `router-view`[#](https://router.vuejs.org/zh/guide/#router-view)
+### 2.5 `router-view`[#](https://router.vuejs.org/zh/guide/#router-view)
 
 `router-view` 将显示与 url 对应的组件。你可以把它放在任何地方，以适应你的布局。
 
@@ -92,7 +92,7 @@ export default router
 </template>
 ```
 
-### 最后在main.ts 挂载
+### 2.6 最后在main.ts 挂载
 
 ```javascript
 import { createApp } from 'vue'
@@ -103,7 +103,7 @@ createApp(App).use(router).mount('#app')
 
 # 小满Router（第二章-命名路由-编程式导航）
 
-## 命名路由
+## 1 命名路由
 
 除了 `path` 之外，你还可以为任何路由提供 `name`。这有以下优点：
 
@@ -138,11 +138,11 @@ router-link跳转方式需要改变 变为对象并且有对应name
     <hr />
 ```
 
-## 编程式导航
+## 2 编程式导航
 
 除了使用 `<router-link>` 创建 a 标签来定义导航链接，我们还可以借助 router 的实例方法，通过编写代码来实现。
 
-### 1.字符串模式
+### 2.1 1.字符串模式
 
 ```javascript
 import { useRouter } from 'vue-router'
@@ -153,7 +153,7 @@ const toPage = () => {
 }
 ```
 
-### 2.对象模式
+### 2.2 2.对象模式
 
 ```javascript
 import { useRouter } from 'vue-router'
@@ -166,7 +166,7 @@ const toPage = () => {
 }
 ```
 
-### 3.命名式路由模式
+### 2.3 3.命名式路由模式
 
 ```javascript
 import { useRouter } from 'vue-router'
@@ -179,7 +179,7 @@ const toPage = () => {
 }
 ```
 
-## a标签跳转:会刷新页面
+## 3 a标签跳转:会刷新页面
 
 直接通过a href也可以跳转但是会刷新页面
 
@@ -189,18 +189,18 @@ const toPage = () => {
 
 # 小满Router（第三章-历史记录）
 
-## replace的使用
+## 1 replace的使用
 
 采用replace进行页面的跳转会同样也会创建渲染新的Vue组件，但是在history中其不会重复保存记录，而是替换原有的vue组件；
 
-### router-link 使用方法
+### 1.1 router-link 使用方法
 
 ```xml
 <router-link replace to="/">Login</router-link>
    <router-link replace style="margin-left:10px" to="/reg">Reg</router-link>
 ```
 
-### 编程式导航
+### 1.2 编程式导航
 
 ```xml
 <button @click="toPage('/')">Login</button>
@@ -218,7 +218,7 @@ const toPage = (url: string) => {
 }
 ```
 
-## 横跨历史
+## 2 横跨历史
 
 该方法采用一个整数作为参数，表示在历史堆栈中前进或后退多少步
 
@@ -238,7 +238,7 @@ const prev = () => {
 
 # 小满Router（第四章-路由传参）
 
-## Query路由传参
+## 1 Query路由传参
 
 编程式导航 使用router push 或者 replace 的时候 改为对象形式新增query 必须传入一个对象
 
@@ -269,7 +269,7 @@ const route = useRoute()
 
 
 
-## [Params](https://so.csdn.net/so/search?q=Params&spm=1001.2101.3001.7020)路由传参
+## 2 [Params](https://so.csdn.net/so/search?q=Params&spm=1001.2101.3001.7020)路由传参
 
 编程式导航 使用router push 或者 replace 的时候 改为对象形式并且只能使用name，path无效，然后传入params
 
@@ -292,7 +292,7 @@ const route = useRoute()
 <div>ID：{{ route.params?.id }}</div>
 ```
 
-## 动态路由传参
+## 3 动态路由传参
 
 很多时候，我们需要将给定匹配模式的路由映射到同一个组件。例如，我们可能有一个 `User` 组件，它应该对所有用户进行渲染，但用户 ID 不同。在 Vue Router 中，我们可以在路径中使用一个动态字段来实现，我们称之为 *路径参数* 
 
@@ -329,7 +329,7 @@ const route = useRoute()
 const item = data.find(v => v.id === Number(route.params.id))
 ```
 
-### 二者的区别
+### 3.1 二者的区别
 
 1. query 传参配置的是 path，而 params 传参配置的是name，在 params中配置 path 无效
 2. query 在路由配置不需要设置参数，而 params 必须设置
@@ -339,7 +339,7 @@ const item = data.find(v => v.id === Number(route.params.id))
 
 # 小满Router（第五章-嵌套路由）
 
-## [嵌套](https://so.csdn.net/so/search?q=嵌套&spm=1001.2101.3001.7020)路由
+## 1 [嵌套](https://so.csdn.net/so/search?q=嵌套&spm=1001.2101.3001.7020)路由
 
 一些应用程序的 UI 由多层嵌套的组件组成。在这种情况下，URL 的片段通常对应于特定的嵌套组件结构，例如：
 
@@ -420,9 +420,9 @@ export default router
 
 # 小满Router（第七章-重定向-别名）
 
-## [重定向](https://so.csdn.net/so/search?q=重定向&spm=1001.2101.3001.7020) redirect
+## 1 [重定向](https://so.csdn.net/so/search?q=重定向&spm=1001.2101.3001.7020) redirect
 
-### 1. [字符串](https://so.csdn.net/so/search?q=字符串&spm=1001.2101.3001.7020)形式配置，访问/ 重定向到 /user （地址栏显示/,内容为/user路由的内容）
+### 1.1 [字符串](https://so.csdn.net/so/search?q=字符串&spm=1001.2101.3001.7020)形式配置，访问/ 重定向到 /user （地址栏显示/,内容为/user路由的内容）
 
 ```coffeescript
 const routes: Array<RouteRecordRaw> = [
@@ -449,7 +449,7 @@ const routes: Array<RouteRecordRaw> = [
 ]
 ```
 
-### 2.对象形式配置
+### 1.2 2.对象形式配置
 
 ```coffeescript
 const routes: Array<RouteRecordRaw> = [
@@ -476,7 +476,7 @@ const routes: Array<RouteRecordRaw> = [
 ]
 ```
 
-### 3.函数模式（可以传参）
+### 1.3 3.函数模式（可以传参）
 
 ```coffeescript
 const routes: Array<RouteRecordRaw> = [
@@ -508,7 +508,7 @@ const routes: Array<RouteRecordRaw> = [
 ]
 ```
 
-## 别名 alias
+## 2 别名 alias
 
 **将 `/` 别名为 `/`**root**，意味着当用户访问 `/`**root**时，URL 仍然是 `/user`，但会被匹配为用户正在访问 `/`**
 
@@ -541,7 +541,7 @@ const routes: Array<RouteRecordRaw> = [
 
 视频教程 [Vue3 + vite + Ts + pinia + 实战 + 源码_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1dS4y1y7vd?p=69)
 
-## 全局前置守卫 router.beforeEach
+## 1 全局前置守卫 router.beforeEach
 
 ```vbscript
 router.beforeEach((to, form, next) => {
@@ -578,7 +578,7 @@ router.beforeEach((to, from, next) => {
 })
 ```
 
-## 全局后置守卫
+## 2 全局后置守卫
 
 ![image-20220731175042927](img/image-20220731175042927.png)
 
@@ -674,7 +674,7 @@ router.afterEach((to, from) => {
 
 # 小满Router（第九章-路由元信息）
 
-## 路由元信息
+## 1 路由元信息
 
 通过路由记录的 `meta` 属性可以定义路由的**元信息**。使用路由元信息可以在路由中附加自定义的数据，例如：
 
@@ -707,7 +707,7 @@ const router = createRouter({
 })
 ```
 
-## 使用TS扩展
+## 2 使用TS扩展
 
 如果不使用扩展 将会是unknow 类型
 
@@ -721,7 +721,7 @@ declare module 'vue-router' {
 
 # 小满Router（第十章-路由过渡动效）
 
-## 过渡动效
+## 1 过渡动效
 
 想要在你的路径组件上使用转场，并对导航进行动画处理，你需要使用 [v-slot API](https://router.vuejs.org/zh/api/#router-view-s-v-slot)：
 
@@ -768,7 +768,7 @@ const router = createRouter({
 
 # 小满Router（第十一章-滚动行为）
 
-## 滚动行为
+## 1 滚动行为
 
 使用前端路由，当切换到新路由时，想要页面滚到顶部，或者是保持原先的滚动位置，就像重新加载页面那样。vue-router 可以自定义路由切换时页面如何滚动。
 
@@ -807,13 +807,13 @@ const router = createRouter({
 
 # 小满Router（第十二章-动态路由）
 
-## 动态路由
+## 1 动态路由
 
 我们一般使用动态路由都是后台会返回一个[路由表](https://so.csdn.net/so/search?q=路由表&spm=1001.2101.3001.7020)前端通过调接口拿到后处理(后端处理路由)
 
 主要使用的方法就是router.addRoute
 
-### 添加路由
+### 1.1 添加路由
 
  动态路由主要通过两个函数实现。`router.addRoute()` 和 `router.removeRoute()`。它们**只**注册一个新的路由，也就是说，如果新增加的路由与当前位置相匹配，就需要你用 `router.push()` 或 `router.replace()` 来**手动导航**，才能显示该新路由
 
@@ -821,7 +821,7 @@ const router = createRouter({
 router.addRoute({ path: '/about', component: About })
 ```
 
-### 删除路由
+### 1.2 删除路由
 
 有几个不同的方法来删除现有的路由：
 
@@ -854,7 +854,7 @@ router.addRoute({ path: '/about', component: About })
 
 当路由被删除时，**所有的别名和子路由也会被同时删除**
 
-## 查看现有路由
+## 2 查看现有路由
 
 Vue Router 提供了两个功能来查看现有的路由：
 

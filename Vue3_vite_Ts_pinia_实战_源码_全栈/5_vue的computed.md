@@ -41,7 +41,7 @@ let mul = computed({
 </style>
 ```
 
-## computed购物车案例
+## 3 computed购物车案例
 
 ```xml
 <template>
@@ -140,7 +140,7 @@ $total = computed<number>(() => {
 
 # 学习Vue3 第十章（认识watch侦听器）
 
-## `watch` 需要侦听特定的数据源，并在单独的回调函数中执行副作用
+## 1 `watch` 需要侦听特定的数据源，并在单独的回调函数中执行副作用
 
 watch第一个参数[监听](https://so.csdn.net/so/search?q=监听&spm=1001.2101.3001.7020)源
 
@@ -154,7 +154,7 @@ deep:true //是否开启[深度](https://so.csdn.net/so/search?q=深度&spm=1001
 
 }
 
-### 监听Ref 案例
+### 1.1 监听Ref 案例
 
 ```javascript
 import { ref, watch } from 'vue'
@@ -177,7 +177,7 @@ watch(message, (newVal, oldVal) => {
 })
 ```
 
-### 监听多个ref 注意变成数组啦
+### 1.2 监听多个ref 注意变成数组啦
 
 ```javascript
 import { ref, watch ,reactive} from 'vue'
@@ -191,7 +191,7 @@ watch([message,message2], (newVal, oldVal) => {
 })
 ```
 
-### 监听Reactive
+### 1.3 监听Reactive
 
 使用reactive监听深层对象开启和不开启deep 效果一样
 
@@ -211,7 +211,7 @@ watch(message, (newVal, oldVal) => {
 })
 ```
 
-#### 案例2 监听reactive 单一值
+#### 1.3.1 案例2 监听reactive 单一值
 
 ```javascript
 import { ref, watch ,reactive} from 'vue'
@@ -228,7 +228,7 @@ watch(()=>message.name, (newVal, oldVal) => {
 
 # 学习Vue3 第十一章（认识watchEffect高级侦听器）
 
-## **watchEffect**
+## 1 **watchEffect**
 
 立即执行传入的一个函数，同时响应式追踪其依赖，并在其依赖变更时重新运行该函数。
 
@@ -243,7 +243,7 @@ let message2 = ref<string>('')
 })
 ```
 
-### 清除副作用
+### 1.1 清除副作用
 
 就是在触发监听之前会调用一个函数可以处理你的逻辑例如防抖
 
@@ -260,7 +260,7 @@ let message2 = ref<string>('')
 })
 ```
 
-### **停止跟踪 watchEffect 返回一个函数 调用之后将停止更新**
+### 1.2 **停止跟踪 watchEffect 返回一个函数 调用之后将停止更新**
 
 ```js
 const stop =  watchEffect((oninvalidate) => {
@@ -280,15 +280,15 @@ stop()
 
  
 
-## **更多的配置项**
+## 2 **更多的配置项**
 
-### 副作用刷新时机 flush 一般使用post
+### 2.1 副作用刷新时机 flush 一般使用post
 
 |          | pre                | sync                 | post               |
 | :------- | :----------------- | :------------------- | :----------------- |
 | 更新时机 | 组件**更新前**执行 | 强制效果始终同步触发 | 组件**更新后**执行 |
 
-### **onTrigger 可以帮助我们调试 watchEffect**
+### 2.2 **onTrigger 可以帮助我们调试 watchEffect**
 
 ```typescript
 import { watchEffect, ref } from 'vue'
