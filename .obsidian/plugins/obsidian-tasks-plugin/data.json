@@ -11,6 +11,7 @@
   "provideAccessKeys": true,
   "useFilenameAsScheduledDate": false,
   "filenameAsDateFolders": [],
+  "recurrenceOnNextLine": false,
   "statusSettings": {
     "coreStatuses": [
       {

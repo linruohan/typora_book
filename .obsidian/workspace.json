@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "1cf651c3671376c8",
+        "id": "7797633724eccc0a",
         "type": "tabs",
         "children": [
           {
-            "id": "1a3f212c97af45f1",
+            "id": "70e65b080bc63001",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue3_vite_Ts_pinia_实战_源码_全栈/5_vue的computed.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19fdc871ac654ca3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VScode国内镜像下载链接.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68f70d4deb6e8a22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "yarn 和 npm 的区别、--save 和--save-dev 的区别.md",
+                "file": "golang 2013.7.1全栈学习/4. go mod 依赖.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 351.5,
+    "collapsed": true
   },
   "right": {
     "id": "2ca3a3a0c0ba494b",
@@ -124,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "yarn 和 npm 的区别、--save 和--save-dev 的区别.md"
+                "file": "golang 2013.7.1全栈学习/4. go mod 依赖.md"
               }
             }
           },
@@ -134,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "yarn 和 npm 的区别、--save 和--save-dev 的区别.md",
+                "file": "golang 2013.7.1全栈学习/4. go mod 依赖.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "yarn 和 npm 的区别、--save 和--save-dev 的区别.md",
+                "file": "golang 2013.7.1全栈学习/4. go mod 依赖.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,12 +149,24 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "68f70d4deb6e8a22",
+  "active": "70e65b080bc63001",
   "lastOpenFiles": [
-    "chrome修改默认安装路径.md",
-    "VScode国内镜像下载链接.md",
+    "golang 2013.7.1全栈学习/imgs/4. go mod 依赖-1.png",
+    "golang 2013.7.1全栈学习/imgs/4. go mod 依赖.png",
+    "golang 2013.7.1全栈学习/3. 交叉编译.md",
+    "golang 2013.7.1全栈学习/3.交叉编译.md",
+    "golang 2013.7.1全栈学习/3 go mod 依赖.md",
+    "golang 2013.7.1全栈学习/imgs/3.交叉编译-4.png",
+    "golang 2013.7.1全栈学习/imgs/3.交叉编译-3.png",
+    "golang 2013.7.1全栈学习/imgs/3.交叉编译-2.png",
+    "golang 2013.7.1全栈学习/imgs/3.交叉编译-1.png",
+    "golang 2013.7.1全栈学习/imgs/3.交叉编译.png",
+    "golang 2013.7.1全栈学习/imgs/Pasted image 20230702072904.png",
+    "golang 2013.7.1全栈学习/imgs/Pasted image 20230702072749.png",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/5_vue的computed.md",
+    "VScode国内镜像下载链接.md",
     "yarn 和 npm 的区别、--save 和--save-dev 的区别.md",
+    "chrome修改默认安装路径.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/4_vue的ref_reactive_to全家桶.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/3_vue模板语法和指令.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/2_vue配置环境.md",
@@ -198,10 +184,6 @@
     "ArchLinux安装教程.md",
     "bzip使用说明.md",
     "linux 学习/lazygit.md",
-    "ReadMe_Manjaro/dwm install.md",
-    "curl时如何忽略SSL警告.md",
-    "win10 scoop安装和使用.md",
-    "git删除所有历史提交记录，只留下最新的干净代码.md",
-    "wsl 环境变量 PATH 混乱的办法.md"
+    "ReadMe_Manjaro/dwm install.md"
   ]
 }
