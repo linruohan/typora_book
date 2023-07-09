@@ -1,0 +1,155 @@
+# web框架beego
+
+[toc]
+
+## beego的入门使用
+
+### 参考文档
+
+![image-20230709103505649](imgs/image-20230709103505649.png)
+
+### beego简介
+
+![image-20230709103546183](imgs/image-20230709103546183.png)
+
+RESTful   MVC
+
+### Beego架构图
+
+![image-20230709103646167](imgs/image-20230709103646167.png)
+
+### 执行逻辑
+
+![image-20230709103736098](imgs/image-20230709103736098.png)
+
+### beego的项目结构
+
+![image-20230709103814041](imgs/image-20230709103814041.png)
+
+### beego的MVC架构
+
+![image-20230709103937109](imgs/image-20230709103937109.png)
+
+![image-20230709104033328](imgs/image-20230709104033328.png)
+
+### bee工具
+
+![image-20230709110500724](imgs/image-20230709110500724.png)
+
+## beego具体使用
+
+### 环境准备
+
+![image-20230709110711256](imgs/image-20230709110711256.png)
+
+```bash
+# 源码仓
+github.com/beego/beego
+
+# go mod init后安装bee
+go get -u github.com/beego/beego/v2@latest
+# install bee
+go install github.com/beego/beego/v2@latest
+```
+
+### 新建项目
+
+```bash
+bee new project_name
+bee run
+访问： http://localhost:8080
+```
+
+![image-20230709112239359](imgs/image-20230709112239359.png)
+
+#### 添加controller
+
+![image-20230709113040878](imgs/image-20230709113040878.png)
+
+#### 控制器
+
+![image-20230709113049628](imgs/image-20230709113049628.png)
+
+![image-20230709113212234](imgs/image-20230709113212234.png)
+
+![image-20230709113145553](imgs/image-20230709113145553.png)
+
+![image-20230709113153828](imgs/image-20230709113153828.png)
+
+![image-20230709113542903](imgs/image-20230709113542903.png)
+
+![image-20230709113409275](imgs/image-20230709113409275.png)
+
+热编译
+
+## beego多种路由实现
+
+### 固定路由
+
+![image-20230709113721820](imgs/image-20230709113721820.png)
+
+### 正则路由
+
+![image-20230709113757475](imgs/image-20230709113757475.png)
+
+![image-20230709114629763](imgs/image-20230709114629763.png)
+
+![image-20230709114103332](imgs/image-20230709114103332.png)
+
+### 自定义方法及RESTful规则
+
+![image-20230709114708761](imgs/image-20230709114708761.png)
+
+![image-20230709114831669](imgs/image-20230709114831669.png)
+
+![image-20230709114939138](imgs/image-20230709114939138.png)
+
+![image-20230709114953883](imgs/image-20230709114953883.png)
+
+### 自定义匹配
+
+![image-20230709115235386](imgs/image-20230709115235386.png)
+
+![image-20230709115326305](imgs/image-20230709115326305.png)
+
+![image-20230709115719865](imgs/image-20230709115719865.png)
+
+### 注解路由
+
+![image-20230709115657877](imgs/image-20230709115657877.png)
+
+<img src="imgs/image-20230709115903319.png" alt="image-20230709115903319" style="zoom:150%;" />
+
+![image-20230709115917292](imgs/image-20230709115917292.png)
+
+ 自动生成：![image-20230709120108657](imgs/image-20230709120108657.png)![image-20230709120121514](imgs/image-20230709120121514.png) 
+
+### 方法表达式路由
+
+![image-20230709120439444](imgs/image-20230709120439444.png)
+
+## beego路由namespace
+
+![image-20230709120530396](imgs/image-20230709120530396.png)
+
+![image-20230709120641679](imgs/image-20230709120641679.png)
+
+![image-20230709120725055](imgs/image-20230709120725055.png)![image-20230709120810434](imgs/image-20230709120810434.png)
+
+![image-20230709120739243](imgs/image-20230709120739243.png)
+
+## bee 常用命令使用
+
+![image-20230709121223044](imgs/image-20230709121223044.png)
+
+![image-20230709121308607](imgs/image-20230709121308607.png)
+
+![image-20230709121322881](imgs/image-20230709121322881.png)
+
+![image-20230709121335172](imgs/image-20230709121335172.png)
+
+![image-20230709121445001](imgs/image-20230709121445001.png)
+
+![image-20230709121451862](imgs/image-20230709121451862.png)
+
+![image-20230709121515554](imgs/image-20230709121515554.png)
