@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang 2013.7.1全栈学习/4. go mod 依赖.md",
+                "file": "蒙特卡罗方法.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "golang 2013.7.1全栈学习/4. go mod 依赖.md"
+                "file": "蒙特卡罗方法.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "golang 2013.7.1全栈学习/4. go mod 依赖.md",
+                "file": "蒙特卡罗方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "golang 2013.7.1全栈学习/4. go mod 依赖.md",
+                "file": "蒙特卡罗方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,39 +151,43 @@
   },
   "active": "70e65b080bc63001",
   "lastOpenFiles": [
-    "golang 2013.7.1全栈学习/imgs/4. go mod 依赖-1.png",
-    "golang 2013.7.1全栈学习/imgs/4. go mod 依赖.png",
-    "golang 2013.7.1全栈学习/3. 交叉编译.md",
-    "golang 2013.7.1全栈学习/3.交叉编译.md",
-    "golang 2013.7.1全栈学习/3 go mod 依赖.md",
-    "golang 2013.7.1全栈学习/imgs/3.交叉编译-4.png",
-    "golang 2013.7.1全栈学习/imgs/3.交叉编译-3.png",
-    "golang 2013.7.1全栈学习/imgs/3.交叉编译-2.png",
-    "golang 2013.7.1全栈学习/imgs/3.交叉编译-1.png",
-    "golang 2013.7.1全栈学习/imgs/3.交叉编译.png",
-    "golang 2013.7.1全栈学习/imgs/Pasted image 20230702072904.png",
-    "golang 2013.7.1全栈学习/imgs/Pasted image 20230702072749.png",
+    "imgs/014f8ce9e987bae03c83ccfc911aead6e378c0c3-20200718191454486.jpg",
+    "imgs/014f8ce9e987bae03c83ccfc911aead6e378c0c3.jpg",
+    "imgs/3bfdf764718e0308c2f1af2d8b86e0c9086a60fa.jpg",
+    "imgs/03f26bd7997bbbf430f8266e5549610f8a56d634.jpg",
+    "imgs/SublimeText3的Markdown实时预览全面总0.png",
+    "imgs/Sublime3 Markdown 去除左侧空白和更改主题0.png",
+    "imgs/image-20220717111216931.png",
+    "imgs/image-20220430161430543.png",
+    "imgs/image-20220102101920321.png",
+    "imgs/image-20220102101240896.png",
+    "imgs/image-20211224100138279.png",
+    "c++学习/1、C程序设计.md",
+    "001",
+    "001.sh",
+    "c#实战学习/c#基础.md",
+    "c#实战学习/c# 算法.md",
+    "c#实战学习/快速学完c#.md",
+    "电脑通过蓝牙音箱播放音乐.md",
+    "常用的oh-my-zsh插件.md",
+    "go语言学习/速通_15_运行时反射.md",
+    "golang云原生教程/golang常犯的错误.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/17_vue_函数式编程.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/16_vue_unocss原子化.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/15_vue_开发移动和打包app.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/14_vue_event_loop和nexttick.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/13_vue_Tailwind_css.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/12_vue_详解Scoped和样式穿透和cssStyle新特性.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/11_vue_UI库.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/10_vue_自定义指令Hook函数变量.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/9_vue_深入v-model.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/8_vue_TSX.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/7_vue依赖注入.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/6_vue的组件.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/5_vue的computed.md",
-    "VScode国内镜像下载链接.md",
-    "yarn 和 npm 的区别、--save 和--save-dev 的区别.md",
-    "chrome修改默认安装路径.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/4_vue的ref_reactive_to全家桶.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/3_vue模板语法和指令.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/2_vue配置环境.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/1_vue概述.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/1_router.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/1_pinia.md",
-    "vue_Pm2_node应用进程管理器/1. Pm2.md",
-    "vue可视化/1.接口API.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/8_vue_TSX.md",
-    "VSCode 右键菜单.md",
-    "4-tools/7-优化___win10+mac+linux/239-私藏，老司机的素材库.md",
-    "kitty使用手册.md",
-    "bypy-命令行下使用百度网盘.md",
-    "golang交叉编译.md",
-    "ArchLinux安装教程.md",
-    "bzip使用说明.md",
-    "linux 学习/lazygit.md",
-    "ReadMe_Manjaro/dwm install.md"
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/1_vue概述.md"
   ]
 }

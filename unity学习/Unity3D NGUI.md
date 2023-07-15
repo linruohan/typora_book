@@ -296,7 +296,7 @@ group同一组中只能选中一个
 
 ### Slider 滑杆
 
-<img src="imgs/image-20210509133815565.png" alt="image-20210509133815565" style="zoom: 50%;" />
+![](imgs/image-20210509133815565.png)
 
 #### 创建Slider
 

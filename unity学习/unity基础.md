@@ -46,9 +46,9 @@
 
 ![image-20210509102918880](imgs/image-20210509102918880.png)
 
-<img src="imgs/image-20210508235929511.png" alt="image-20210508235929511" style="zoom:50%;" />
+![](imgs/image-20210508235929511.png)
 
-<img src="imgs/image-20210508235948235.png" alt="image-20210508235948235" style="zoom:50%;" />
+![](imgs/image-20210508235948235.png)
 
 ## 练习二
 

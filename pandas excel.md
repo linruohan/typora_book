@@ -44,7 +44,7 @@ print('done!')
 
 ![image-20210405094541248](imgs/image-20210405094541248.png)
 
-![image-20210405094624136](imgs/image-20210405094624136.png)<img src="imgs/image-20210405094646251.png" alt="image-20210405094646251" />
+![image-20210405094624136](imgs/image-20210405094624136.png)![](imgs/image-20210405094646251.png)
 
 ![image-20210405094654960](imgs/image-20210405094654960.png)
 
@@ -146,7 +146,7 @@ df=pd.DataFrae([s1,s2,s3])
 
 ## 数据区域的读取,填充文字数字
 
-<img src="imgs/image-20210404222618107.png" alt="image-20210404222618107" style="zoom:50%;" />
+![](imgs/image-20210404222618107.png)
 
 ```python
 import pandas as pd
@@ -231,7 +231,7 @@ books.at[i,’ID’]
 
 3. 点选
 
-<img src="imgs/image-20210405100206785.png" alt="image-20210405100206785" style="zoom:50%;" />
+![](imgs/image-20210405100206785.png)
 
 ### loc
 
@@ -283,7 +283,7 @@ index不对齐:
 
 ![image-20210405103600270](imgs/image-20210405103600270.png)
 
-<img src="imgs/image-20210405104043202.png" alt="image-20210405104043202" style="zoom:50%;" />
+![](imgs/image-20210405104043202.png)
 
 ![image-20210405104118825](imgs/image-20210405104118825.png)
 
@@ -323,7 +323,7 @@ index不对齐:
 
 ![image-20210404232659218](imgs/image-20210404232659218.png)
 
-<img src="imgs/image-20210404233040298.png" alt="image-20210404233040298" style="zoom:50%;" />
+![](imgs/image-20210404233040298.png)
 
 ![image-20210404233322798](imgs/image-20210404233322798.png)
 
@@ -331,9 +331,9 @@ index不对齐:
 
 ![image-20210404233651809](imgs/image-20210404233651809.png)
 
-<img src="imgs/image-20210404234155610.png" alt="image-20210404234155610" />
+![](imgs/image-20210404234155610.png)
 
-<img src="imgs/image-20210404234225795.png" alt="image-20210404234225795" style="zoom:50%;" />
+![](imgs/image-20210404234225795.png)
 
 ![image-20210404234254323](imgs/image-20210404234254323.png)
 
@@ -427,7 +427,7 @@ index不对齐:
 
 ![image-20210405002626805](imgs/image-20210405002626805.png)
 
-<img src="imgs/image-20210405002428299.png" alt="image-20210405002428299" style="zoom:50%;" /><img src="imgs/image-20210405002517265.png" alt="image-20210405002517265" style="zoom:50%;" /><img src="imgs/image-20210405002606851.png" alt="image-20210405002606851" style="zoom:50%;" />
+![](imgs/image-20210405002428299.png" alt="image-20210405002428299" style="zoom:50%;" /><img src="imgs/image-20210405002517265.png" alt="image-20210405002517265" style="zoom:50%;" /><img src="imgs/image-20210405002606851.png)
 
 ![image-20210405002818178](imgs/image-20210405002818178.png)
 
@@ -520,7 +520,7 @@ index不对齐:
 
 ## true false valuses(只对字符串有效)
 
-<img src="imgs/image-20210405092720136.png" alt="image-20210405092720136" style="zoom:67%;" />![image-20210405092826905](imgs/image-20210405092826905.png)
+![](imgs/image-20210405092720136.png)
 
 ## dtype转换
 

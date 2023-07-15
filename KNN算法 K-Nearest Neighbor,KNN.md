@@ -4,7 +4,7 @@
 
 ## 什么是KNN算法
 
-<img src="imgs/image-20211205101403473.png" alt="image-20211205101403473" style="zoom:50%;" />
+![](imgs/image-20211205101403473.png)
 
 ## 算法原理
 

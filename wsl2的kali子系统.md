@@ -97,7 +97,7 @@ sudo apt update && sudo apt install kali-win-kex
 },
 ```
 
-<img src="./imgs\image-20211127203620683.png" alt="image-20211127203620683" style="zoom:33%;" />![image-20211127203638098](.\imgs\image-20211127203638098.png)
+![](./imgs/image-20211127203620683.png)
 
 > ❝ PS：进入全屏的图形界面之后，按F8可以打开context菜单。==退出全屏==❞
 >
@@ -158,7 +158,7 @@ sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
 sudo service xrdp start
 ```
 
-<img src="D:\codehub\Typora_book\library\img\image-20211127204852675.png" alt="image-20211127204852675" style="zoom:33%;" />localhost:3390
+![](imgs/image-20211127204852675.png)
 
 
 如果想要关闭映射出来的桌面输入`sudo service xrdp stop`

@@ -42,4 +42,4 @@
 
 ## 显示临时文件
 
-<img src="imgs/image-20220430161430543.png" alt="image-20220430161430543" style="zoom:67%;" />
+![](imgs/image-20220430161430543.png)

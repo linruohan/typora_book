@@ -13,7 +13,7 @@ http://mirrors.ustc.edu.cn/mysql-ftp/Downloads/
 http://mirrors.ustc.edu.cn/mysql-ftp/Downloads/MySQL-8.0/
 ```
 
-<img src="imgs/image-20211214220413176.png" alt="image-20211214220413176" style="zoom:50%;" />
+![](imgs/image-20211214220413176.png)
 
 ## 下载完以后解压,新建data文件夹，复制粘贴my.ini文件
 
@@ -71,7 +71,7 @@ mysql -u root -p"初始化生成的密码字符串"
 ALTER USER 'root'@'localhost' IDENTIFIED BY '新密码';
 ```
 
-<img src="imgs/image-20211214221116172.png" alt="image-20211214221116172" style="zoom:50%;" />
+![](imgs/image-20211214221116172.png)
 
 ## mysql备份和恢复
 ### window下

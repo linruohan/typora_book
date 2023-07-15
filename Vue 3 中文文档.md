@@ -3914,7 +3914,7 @@ gsap.fromTo(ball2, {
 
 虽然可以通过三次贝塞尔曲线提供的两个控制点为简单动画实现很好的效果，但 JavaScript 允许使用多个控制点，因此也支持更多的变化。
 
-<img src="imgs/image-20220102101240896.png" alt="image-20220102101240896" style="zoom:67%;" />
+![](imgs/image-20220102101240896.png)
 
 <img src="https://v3.cn.vuejs.org/images/css-vs-js-ease.svg" alt="缓动效果对比" style="zoom:67%;" />
 
@@ -4043,7 +4043,7 @@ Vue.createApp(Demo).mount('#demo')
 5. `v-leave-active`：定义离开过渡生效时的状态。在整个离开过渡的阶段中应用，在离开过渡被触发时立刻生效，在过渡/动画完成之后移除。这个类可以被用来定义离开过渡的过程时间，延迟和曲线函数。
 6. `v-leave-to`：离开过渡的结束状态。在离开过渡被触发之后下一帧生效 (与此同时 `v-leave-from` 被移除)，在过渡/动画完成之后移除。
 
-<img src="imgs/image-20220102101920321.png" alt="image-20220102101920321" style="zoom: 50%;" />
+![](imgs/image-20220102101920321.png)
 
 ​	这里的每个 class 都将以过渡的名字添加前缀。如果你使用了一个没有名字的 `<transition>`，则 `v-` 是这些 class 名的默认前缀。举例来说，如果你使用了 `<transition name="my-transition">`，那么 `v-enter-from` 会替换为 `my-transition-enter-from`。
 

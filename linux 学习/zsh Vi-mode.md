@@ -6,7 +6,7 @@
 
 `~/.config/zsh/zshrc`
 
-<img src="imgs/image-20210620212632681.png" alt="image-20210620212632681" style="zoom:50%;" />
+![](imgs/image-20210620212632681.png)
 
 ![image-20210620212820897](imgs/image-20210620212820897.png)
 

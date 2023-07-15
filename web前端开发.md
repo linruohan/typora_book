@@ -20,9 +20,11 @@
 * CSS化妆
 * JavaScript动起来
 
-<img src="imgs/image-20211205090157415.png" alt="image-20211205090157415" style="zoom: 33%;" /><img src="imgs/image-20211205090244594.png" alt="image-20211205090244594" style="zoom: 33%;" /><img src="imgs/image-20211205090306979.png" alt="image-20211205090306979" style="zoom:33%;" />
+![](imgs/image-20211205090157415.png)
+![](imgs/image-20211205090244594.png)
+![](imgs/image-20211205090306979.png)
 
-<img src="imgs/image-20211205090515520.png" alt="image-20211205090515520" style="zoom:50%;" />
+![](imgs/image-20211205090515520.png)
 
 ![image-20211205090626559](imgs/image-20211205090626559.png)
 
