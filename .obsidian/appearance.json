@@ -1,5 +1,5 @@
 {
-  "accentColor": "",
+  "accentColor": "#b088d7",
   "nativeMenus": true,
   "translucency": false,
   "textFontFamily": "LXGW WenKai,PingFang TC,Yuppy SC",
@@ -10,5 +10,5 @@
   "theme": "obsidian",
   "interfaceFontFamily": "LXGW WenKai,PingFang TC,Yuppy SC",
   "monospaceFontFamily": "Delugia Nerd Font",
-  "baseFontSize": 26
+  "baseFontSize": 15
 }

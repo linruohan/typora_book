@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7797633724eccc0a",
+        "id": "6e2196271bc8d4e9",
         "type": "tabs",
         "children": [
           {
-            "id": "70e65b080bc63001",
+            "id": "dd1ba823cc6529f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "蒙特卡罗方法.md",
+                "file": "golang云原生教程/6.golang 100行代码实现ping操作.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "蒙特卡罗方法.md"
+                "file": "golang云原生教程/6.golang 100行代码实现ping操作.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "蒙特卡罗方法.md",
+                "file": "golang云原生教程/6.golang 100行代码实现ping操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "蒙特卡罗方法.md",
+                "file": "golang云原生教程/6.golang 100行代码实现ping操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,27 +141,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:打开快速切换": false,
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "70e65b080bc63001",
+  "active": "dd1ba823cc6529f8",
   "lastOpenFiles": [
-    "imgs/014f8ce9e987bae03c83ccfc911aead6e378c0c3-20200718191454486.jpg",
-    "imgs/014f8ce9e987bae03c83ccfc911aead6e378c0c3.jpg",
-    "imgs/3bfdf764718e0308c2f1af2d8b86e0c9086a60fa.jpg",
-    "imgs/03f26bd7997bbbf430f8266e5549610f8a56d634.jpg",
-    "imgs/SublimeText3的Markdown实时预览全面总0.png",
-    "imgs/Sublime3 Markdown 去除左侧空白和更改主题0.png",
-    "imgs/image-20220717111216931.png",
-    "imgs/image-20220430161430543.png",
-    "imgs/image-20220102101920321.png",
-    "imgs/image-20220102101240896.png",
-    "imgs/image-20211224100138279.png",
+    "golang云原生教程/imgs/image-20230716074043430.png",
+    "golang 2013.7.1全栈学习/7、开源验证框架validator.md",
+    "golang云原生教程/5.Go语言如何通过Etcd实现服务注册和发现.md",
+    "golang云原生教程/Untitled.md",
+    "golang云原生教程/imgs/image-20230715171300846.png",
+    "golang云原生教程/imgs/image-20230715171249588.png",
+    "golang云原生教程/imgs/image-20230715171234986.png",
+    "golang云原生教程/imgs/image-20230715171213771.png",
+    "golang云原生教程/imgs/image-20230715170941833.png",
+    "golang云原生教程/imgs/image-20230715170837134.png",
+    "golang云原生教程/imgs/image-20230715170820920.png",
+    "golang云原生教程/imgs/image-20230715170737522.png",
+    "golang云原生教程/imgs/image-20230715170702017.png",
+    "golang云原生教程/imgs/image-20230715170610736.png",
+    "golang云原生教程/2.云原生部署.md",
+    "蒙特卡罗方法.md",
     "c++学习/1、C程序设计.md",
     "001",
     "001.sh",
@@ -183,11 +188,6 @@
     "Vue3_vite_Ts_pinia_实战_源码_全栈/9_vue_深入v-model.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/8_vue_TSX.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/7_vue依赖注入.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/6_vue的组件.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/5_vue的computed.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/4_vue的ref_reactive_to全家桶.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/3_vue模板语法和指令.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/2_vue配置环境.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/1_vue概述.md"
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/6_vue的组件.md"
   ]
 }
