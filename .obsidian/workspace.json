@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "c5c5112804ad6c49",
+        "id": "79f0ec0a915f9a76",
         "type": "tabs",
         "children": [
           {
-            "id": "48a3a4d85f4b3b53",
+            "id": "1bf9dc7922cd77c4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "蒙特卡罗方法.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5,
-    "collapsed": true
+    "width": 351.5
   },
   "right": {
     "id": "2ca3a3a0c0ba494b",
@@ -92,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "蒙特卡罗方法.md"
+              }
             }
           },
           {
@@ -101,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "蒙特卡罗方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "蒙特卡罗方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +148,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "48a3a4d85f4b3b53",
+  "active": "1bf9dc7922cd77c4",
   "lastOpenFiles": [
     "golang云原生教程/6.golang 100行代码实现ping操作.md",
     "golang云原生教程/imgs/image-20230716074043430.png",
