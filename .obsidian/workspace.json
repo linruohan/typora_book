@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-知识库/12-python3/122-python知识.md",
+                "file": "golang环境变量配置-windows.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-知识库/12-python3/122-python知识.md",
+                "file": "golang环境变量配置-windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,9 +115,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-知识库/12-python3/122-python知识.md",
+                "file": "golang环境变量配置-windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d7e8ea33d7fbcc63",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "golang环境变量配置-windows.md"
               }
             }
           }
@@ -143,6 +153,10 @@
   },
   "active": "3d84a31eaf838dd3",
   "lastOpenFiles": [
+    "imgs/golang环境变量配置-windows.png",
+    "golang 2013.7.1全栈学习/2. Goland debug.md",
+    "golang环境变量配置-windows.md",
+    "0-知识库/12-python3/122-python知识.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/1_router.md",
     "test/test.loom",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/1_pinia.md",
@@ -180,9 +194,6 @@
     "c#实战学习/快速学完c#.md",
     "电脑通过蓝牙音箱播放音乐.md",
     "常用的oh-my-zsh插件.md",
-    "go语言学习/速通_15_运行时反射.md",
-    "golang云原生教程/golang常犯的错误.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/17_vue_函数式编程.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/16_vue_unocss原子化.md"
+    "go语言学习/速通_15_运行时反射.md"
   ]
 }
