@@ -1,0 +1,149 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "b8816141-79a7-47d1-ba95-2eede6d12c5d",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "类别",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "count-values",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "9c4e7253-8c42-493c-89ae-0378e5909209",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "名称",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "count-empty",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "c0693663-759e-4b81-bdef-a232f006546c",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "日期",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "percent-empty",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "60da4c27-11dd-4796-9e75-02dc4a85c913",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "进度",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "percent-not-empty",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      }
+    ],
+    "rows": [
+      {
+        "id": "5f27fda8-47a3-4374-bfc4-10350066f875",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-05-26T00:44:49.444Z",
+        "lastEditedDateTime": "2024-05-26T00:45:10.068Z",
+        "cells": [
+          {
+            "id": "135f3bfe-369a-4e0a-8023-6c195df19ee6",
+            "columnId": "b8816141-79a7-47d1-ba95-2eede6d12c5d",
+            "content": "asdf",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "3a6bd2c6-e997-49e7-85dc-650c90802c05",
+            "columnId": "9c4e7253-8c42-493c-89ae-0378e5909209",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "5a7852bb-f3d2-4dfa-ac79-f89ce643277a",
+            "columnId": "c0693663-759e-4b81-bdef-a232f006546c",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "e1feb182-72fe-4164-a353-08ebb3a088b8",
+            "columnId": "60da4c27-11dd-4796-9e75-02dc4a85c913",
+            "content": "",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.16.0"
+}

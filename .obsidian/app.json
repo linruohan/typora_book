@@ -7,5 +7,6 @@
   "showUnsupportedFiles": false,
   "userIgnoreFilters": null,
   "newLinkFormat": "relative",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "promptDelete": false
 }

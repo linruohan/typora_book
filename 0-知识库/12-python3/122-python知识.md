@@ -1,6 +1,6 @@
 # [Pthon强制删除非空文件夹](https://www.cnblogs.com/shiqi17/p/12163096.html)
 
-## 删除空文件夹
+## 1 删除空文件夹
 
 - os：模块
 ```python
@@ -8,7 +8,7 @@ os.remove(path)  #既能删除文件，又能删除文件夹
 os.removedir()    #removedir只能删除文件夹
 os.system("rm -rf pathname")   # Linux下调用bash命令
 ```
-## 删除非空文件夹
+## 2 删除非空文件夹
 
 - shutil:模块
 ```python

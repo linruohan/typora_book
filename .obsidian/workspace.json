@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "023ca40aa3c0aa22",
+        "id": "a572c1862e5e4ad1",
         "type": "tabs",
         "children": [
           {
-            "id": "f86fabaf24715255",
+            "id": "3d84a31eaf838dd3",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.12"
+                "file": "0-知识库/12-python3/122-python知识.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -46,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git 清理",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2ca3a3a0c0ba494b",
@@ -89,19 +93,12 @@
             }
           },
           {
-            "id": "c8bb8a6de7538456",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
             "id": "7f2f8ca3fabf8a42",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0-知识库/12-python3/122-python知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,18 +110,19 @@
             }
           },
           {
-            "id": "ce89d401a8a291d5",
+            "id": "b32fc8d525232f4e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0-知识库/12-python3/122-python知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -138,11 +136,26 @@
       "switcher:打开快速切换": false,
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "notion-like-tables:Create loom": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "f86fabaf24715255",
+  "active": "3d84a31eaf838dd3",
   "lastOpenFiles": [
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/1_router.md",
+    "test/test.loom",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/1_pinia.md",
+    "test/新建 文本文档.txt",
+    "test/新建文件夹",
+    "test/未命名.md",
+    "test/test.loom.md",
+    "test/xiaohan.md",
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/1_vue概述.md",
+    "test",
+    "未命名 1.md",
+    "【Shell】sh执行脚本报错Syntax error “(“ unexpected.md",
+    "未命名.md",
     "蒙特卡罗方法.md",
     "golang云原生教程/6.golang 100行代码实现ping操作.md",
     "golang云原生教程/imgs/image-20230716074043430.png",
@@ -170,16 +183,6 @@
     "go语言学习/速通_15_运行时反射.md",
     "golang云原生教程/golang常犯的错误.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/17_vue_函数式编程.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/16_vue_unocss原子化.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/15_vue_开发移动和打包app.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/14_vue_event_loop和nexttick.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/13_vue_Tailwind_css.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/12_vue_详解Scoped和样式穿透和cssStyle新特性.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/11_vue_UI库.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/10_vue_自定义指令Hook函数变量.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/9_vue_深入v-model.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/8_vue_TSX.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/7_vue依赖注入.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/6_vue的组件.md"
+    "Vue3_vite_Ts_pinia_实战_源码_全栈/16_vue_unocss原子化.md"
   ]
 }

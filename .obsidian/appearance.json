@@ -3,7 +3,7 @@
   "nativeMenus": true,
   "translucency": false,
   "textFontFamily": "LXGW WenKai,PingFang TC,Yuppy SC",
-  "cssTheme": "Obsidian Nord",
+  "cssTheme": "",
   "enabledCssSnippets": [
     "width"
   ],
