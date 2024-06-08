@@ -1,6 +1,6 @@
 # 给Firefox的新标签页添加背景图片的方法
 
-## 用的firefox浏览器，但是**原生的新标签页自定义不支持添加背景图片**。
+## 1 用的firefox浏览器，但是**原生的新标签页自定义不支持添加背景图片**。
 
 相比之下，chrome和edge都支持给新标签页自定义背景图片。因此我研究了一下，在superuser上找到了修改新标签页背景图片的方法。
 
@@ -12,16 +12,16 @@
 
 ------
 
-## 步骤
+## 2 步骤
 
-### 一、在地址栏进输入**`about:profiles`** 回车访问。**打开默认配置文件的根目录。**
+### 2.1 一、在地址栏进输入**`about:profiles`** 回车访问。**打开默认配置文件的根目录。**
 
 ```bash
 C:\Users\xiaohan\AppData\Roaming\Mozilla\Firefox\Profiles\4v5re874.default\chrome 有时不生效，放到下面
 C:\Users\xiaohan\AppData\Roaming\Mozilla\Firefox\Profiles\oyql7q0j.default-release\chrome
 ```
 
-### 二、在这个目录下**新建一个名为** `chrome` **的文件夹**（说起来居然要起名为chrome啊……）
+### 2.2 二、在这个目录下**新建一个名为** `chrome` **的文件夹**（说起来居然要起名为chrome啊……）
 
 ![img](https://pic1.zhimg.com/80/v2-26dcfe6d673727684805baf2e13cf090_720w.webp)
 
