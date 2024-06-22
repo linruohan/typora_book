@@ -2,13 +2,14 @@
   "accentColor": "#b088d7",
   "nativeMenus": true,
   "translucency": false,
-  "textFontFamily": "LXGW WenKai,PingFang TC,Yuppy SC",
+  "textFontFamily": "LXGW WenKai GB,PingFang TC,Yuppy SC",
   "cssTheme": "Wyrd",
   "enabledCssSnippets": [
     "width"
   ],
   "theme": "obsidian",
-  "interfaceFontFamily": "LXGW WenKai,PingFang TC,Yuppy SC",
-  "monospaceFontFamily": "Delugia Nerd Font",
-  "baseFontSize": 15
+  "interfaceFontFamily": "LXGW WenKai GB,PingFang TC,Yuppy SC",
+  "monospaceFontFamily": "FantasqueSansMono Nerd Font",
+  "baseFontSize": 15,
+  "baseFontSizeAction": true
 }

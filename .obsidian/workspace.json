@@ -4,37 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "a572c1862e5e4ad1",
+        "id": "1d1ee1c3f85dd306",
         "type": "tabs",
         "children": [
           {
-            "id": "3d84a31eaf838dd3",
+            "id": "e367fcdb613dce5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang环境变量配置-windows.md",
+                "file": "Msys2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "675268986a519b02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "firefox标签页添加背景图片.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
+            },
+            "group": "a181c81ff575c567"
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "a7edc7320a0bc138",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42342cd75f565e62",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Msys2.md"
+              }
+            },
+            "group": "a181c81ff575c567"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 361.5
   },
   "right": {
     "id": "2ca3a3a0c0ba494b",
@@ -112,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "firefox标签页添加背景图片.md",
+                "file": "Msys2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "firefox标签页添加背景图片.md",
+                "file": "Msys2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "firefox标签页添加背景图片.md"
+                "file": "Msys2.md"
               }
             }
           }
@@ -161,13 +164,16 @@
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "notion-like-tables:Create loom": false
+      "notion-like-tables:Create loom": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "675268986a519b02",
+  "active": "42342cd75f565e62",
   "lastOpenFiles": [
-    "火狐浏览器添加自定义搜索引擎.md",
     "golang环境变量配置-windows.md",
+    "Msys2.md",
+    "firefox标签页添加背景图片.md",
+    "火狐浏览器添加自定义搜索引擎.md",
     "imgs/golang环境变量配置-windows.png",
     "golang 2013.7.1全栈学习/2. Goland debug.md",
     "0-知识库/12-python3/122-python知识.md",
@@ -205,8 +211,6 @@
     "c#实战学习/c#基础.md",
     "c#实战学习/c# 算法.md",
     "c#实战学习/快速学完c#.md",
-    "电脑通过蓝牙音箱播放音乐.md",
-    "常用的oh-my-zsh插件.md",
-    "go语言学习/速通_15_运行时反射.md"
+    "电脑通过蓝牙音箱播放音乐.md"
   ]
 }
