@@ -1,54 +1,54 @@
-
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer,
 .markdown-source-view ol > li,
- .markdown-source-view ul > li,
- .markdown-preview-view ol > li,
- .markdown-preview-view ul > li,
- .markdown-rendered ul > li,
- .mod-cm6 .HyperMD-list-line.cm-line,
+.markdown-source-view ul > li,
+.markdown-preview-view ol > li,
+.markdown-preview-view ul > li,
+.markdown-rendered ul > li,
+.mod-cm6 .HyperMD-list-line.cm-line,
 .CodeMirror-hscrollbar,
 .markdown-source-view.mod-cm6 .cm-scroller,
 .ͼ1.cm-editor,
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock,
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-line,
 .cm-line,
-.cm-contentContainer,.markdown-rendered,
+.cm-contentContainer,
+.markdown-rendered,
 .markdown-source-view.mod-cm6.is-readable-line-width .cm-content,
-.markdown-preview-view.is-readable-line-width .markdown-preview-section
-{
+.markdown-preview-view.is-readable-line-width .markdown-preview-section {
   max-width: unset !important;
 }
-.cm-lineNumbers{
-  padding:0 15px 0 0 !important;
+.cm-lineNumbers {
+  padding: 0 15px 0 0 !important;
 }
-.ͼ1 .cm-scroller{
-    overflow-x: hidden !important;
+.ͼ1 .cm-scroller {
+  overflow-x: hidden !important;
 }
-.cm-scroller{
+.cm-scroller {
   padding-left: unset !important;
 }
-.view-header{
-    margin: auto !important;
-    height: auto !important;
-    border: unset !important;
+.view-header {
+  margin: auto !important;
+  height: auto !important;
+  border: unset !important;
 }
-.workspace-tab-header-container{
-  height :auto !important;
+.workspace-tab-header-container {
+  height: auto !important;
 }
-.mod-linux .titlebar-button-container, .mod-windows .titlebar-button-container{
-  height :50% !important;
+.mod-linux .titlebar-button-container,
+.mod-windows .titlebar-button-container {
+  height: 50% !important;
 }
-.view-header-title-container{
+.view-header-title-container {
   overflow: auto !important;
-/*  position: static !important;*/
+  /*  position: static !important;*/
 }
-.view-header-title{
-  font-size :28px !important;
-  background-color:#d95757 !important;
-  color:black !important;
+.view-header-title {
+  font-size: 28px !important;
+  background-color: #d95757 !important;
+  color: black !important;
   border-radius: 10px !important;
 }
-.view-header-title-container:not(.mod-at-end):after{
+.view-header-title-container:not(.mod-at-end):after {
   width: auto !important;
 }
 /*.mod-top-left-space{
@@ -58,67 +58,70 @@
   flex-grow: 20 !important;
 }*/
 
-.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock{
-/*  padding:unset !important;*/
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+  /*  padding:unset !important;*/
 }
 
 .view-header .view-header-icon,
 .view-header-nav-buttons,
 .view-header-title-parent,
 .inline-title {
-    display: none !important;
+  display: none !important;
 }
 
-body:not(.native-scrollbars) ::-webkit-scrollbar-thumb{
-
+body:not(.native-scrollbars) ::-webkit-scrollbar-thumb {
 }
-.markdown-source-view.mod-cm6 .cm-gutters{
-  padding:unset !important;
+.markdown-source-view.mod-cm6 .cm-gutters {
+  padding: unset !important;
 }
 
-.mod-left-split .workspace-tab-header-container-inner, .mod-right-split .workspace-tab-header-container-inner,
+.mod-left-split .workspace-tab-header-container-inner,
+.mod-right-split .workspace-tab-header-container-inner,
 .nav-files-container,
-.nav-header{
+.nav-header {
   margin: unset !important;
-  padding:unset !important;
+  padding: unset !important;
 }
-.tree-item, .nav-file-title, .nav-folder-title{
-  border :unset !important
+.tree-item,
+.nav-file-title,
+.nav-folder-title {
+  border: unset !important;
 }
-.nav-file-title, .nav-folder-title{
-  padding:unset !important;
-  padding-left:10px !important;
-}
-
-
-.outliner-plugin-list-lines-scroller{
-  padding :unset !important;
+.nav-file-title,
+.nav-folder-title {
+  padding: unset !important;
+  padding-left: 10px !important;
 }
 
+.outliner-plugin-list-lines-scroller {
+  padding: unset !important;
+}
 
-.workspace-leaf-content img:not([width]), .workspace-leaf-content audio, .workspace-leaf-content video{
+.workspace-leaf-content img:not([width]),
+.workspace-leaf-content audio,
+.workspace-leaf-content video {
   max-width: 80% !important;
 }
-img:not(.emoji){
+img:not(.emoji) {
   display: unset !important;
 }
-.markdown-source-view.mod-cm6 .cm-scroller{
+.markdown-source-view.mod-cm6 .cm-scroller {
   align-items: unset !important;
 }
 
-
 .markdown-preview-view.is-readable-line-width .markdown-preview-section,
-.cm-sizer{
+.cm-sizer {
   margin: unset !important;
 }
-.markdown-preview-view, .mod-single-child .markdown-preview-view{
+.markdown-preview-view,
+.mod-single-child .markdown-preview-view {
   padding: unset !important;
   padding-left: 12px !important;
 }
 /*.markdown-source-view.mod-cm6 ,*/
-.cm-scroller{
+.cm-scroller {
   padding: unset !important;
-/*  padding-left: 32px !important;*/
+  /*  padding-left: 32px !important;*/
 }
 
 /* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
@@ -132,7 +135,6 @@ img {
     --background-secondary
   ); /* Background color so PNGs with transparent backgrounds don't look weird */
 }
-
 
 /* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
 /* author: https://forum.obsidian.md/u/den/summary */
@@ -152,7 +154,6 @@ img {
   -webkit-transform: scale(1.8); /* experiment with values */
   transform: scale(2);
 }
-
 
 /*nicer checkbox  =========================*/
 
@@ -192,14 +193,11 @@ input[type="checkbox"]:checked,
 }
 /*nicer checkbox  =========================*/
 
-
-
 /* smaller scrollbar */
 .CodeMirror-vscrollbar,
 .CodeMirror-hscrollbar,
 ::-webkit-scrollbar {
   width: 3px;
-
 }
 
 ::-webkit-scrollbar-thumb {
@@ -224,7 +222,6 @@ blockquote p {
 blockquote {
   margin-inline-start: 0;
 }
-
 
 /* subtler-folding-gutter-arrows.css========================*/
 /* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
@@ -254,24 +251,19 @@ blockquote {
 
 /* https://forum.obsidian.md/t/add-emojis-to-folder-titles-in-explorer-without-renaming-folders/22702 */
 
-div[data-path="_Inbox"] .nav-folder-title-content::before
-{
+div[data-path="_Inbox"] .nav-folder-title-content::before {
   content: "📥";
 }
-div[data-path="Attachments"] .nav-folder-title-content::before
-{
+div[data-path="Attachments"] .nav-folder-title-content::before {
   content: "📋";
 }
-div[data-path="Bible Resources"] .nav-folder-title-content::before
-{
+div[data-path="Bible Resources"] .nav-folder-title-content::before {
   content: "⚔️";
 }
-div[data-path="Notes"] .nav-folder-title-content::before
-{
+div[data-path="Notes"] .nav-folder-title-content::before {
   content: "📝";
 }
-div[data-path="Notes/Daily"] .nav-folder-title-content::before
-{
+div[data-path="Notes/Daily"] .nav-folder-title-content::before {
   content: "📆";
 }
 
@@ -315,18 +307,55 @@ div[data-path="Notes/Daily"] .nav-folder-title-content::before
 /* source: https://discord.com/channels/686053708261228577/702656734631821413/755293685046050896 */
 
 /* Emoji */
-/*.nav-file-title-content::before { content: '🗒 '; }
-.nav-folder-title-content::before { content: '📂 '; }*/
+.nav-file-title-content::before {
+  content: "📄 ";
+}
+.nav-folder-title-content::before {
+  content: "📁 ";
+}
 
 /* Flat font */
 /* Requires: https://icomoon.io/#icons-icomoon/liga-font */
-/*
+
 .nav-folder-children .nav-file-title-content:first-child::before {
-  content: "🗒 ";
+  content: "📄 ";
   font-family: "IcoMoon-Free";
 }
 .nav-folder-children .nav-folder-title-content::before {
-  content: "📂 ";
+  content: "📁 ";
   font-family: "IcoMoon-Free";
 }
-*/
+.cm-active.HyperMD-codeblock-begin{
+  color: rgb(235, 61, 131) !important;
+  border-bottom:.1px solid #e472b3;
+}
+.cm-active.HyperMD-codeblock-end {
+  color: rgb(235, 61, 131) !important;
+  border-top:.1px solid #e472b3;
+}
+.cm-line{
+}
+.HyperMD-codeblock-begin span {
+}
+.HyperMD-codeblock-begin::before {
+  background-color: #fc625d;
+  border-radius: 50%;
+  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+  content: " ";
+  height: 12px;
+  left: 12px;
+  margin-top: -20px;
+  position: absolute;
+  width: 12px;
+}
+.HyperMD-codeblock-begin::after {
+  display: none !important;
+}
+.file-node-collapsed > .file-node-content .fa-caret-right,
+.fa-folder {
+  color: #f1a168 !important;
+}
+.cm-hmd-codeblock {
+  font-family: "FantasqueSansMono Nerd Font" !important;
+  font-size: 15px !important;
+}

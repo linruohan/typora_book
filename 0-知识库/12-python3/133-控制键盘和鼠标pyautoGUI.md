@@ -290,7 +290,7 @@ pyautogui.hotkey(``'altleft'``, ``'f4'``)
 
 希望本文所述对大家Python程序设计有所帮助。
 
-#### 您可能感兴趣的文章:
+#### 0.1.1 您可能感兴趣的文章:
 
 - [Python pyautogui模块实现鼠标键盘自动化方法详解](https://www.jb51.net/article/180619.htm)
 - [python PyAutoGUI 模拟鼠标键盘操作和截屏功能](https://www.jb51.net/article/166879.htm)

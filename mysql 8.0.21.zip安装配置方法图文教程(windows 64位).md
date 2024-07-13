@@ -6,8 +6,8 @@
 
 <img src="https://img.jbzj.com/file_images/article/201910/2019103084641336.jpg" alt="img" style="zoom: 50%;" />
 
-```
-mysql国内镜像下载网址
+```bash
+# mysql国内镜像下载网址
 http://mirrors.sohu.com/mysql/
 http://mirrors.ustc.edu.cn/mysql-ftp/Downloads/
 http://mirrors.ustc.edu.cn/mysql-ftp/Downloads/MySQL-8.0/

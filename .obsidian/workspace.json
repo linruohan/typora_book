@@ -13,30 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Msys2.md",
+                "file": "0-知识库/12-python3/133-控制键盘和鼠标pyautoGUI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            },
-            "group": "a181c81ff575c567"
-          }
-        ]
-      },
-      {
-        "id": "a7edc7320a0bc138",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "42342cd75f565e62",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Msys2.md"
-              }
-            },
-            "group": "a181c81ff575c567"
+            }
           }
         ]
       }
@@ -115,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Msys2.md",
+                "file": "0-知识库/12-python3/133-控制键盘和鼠标pyautoGUI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Msys2.md",
+                "file": "0-知识库/12-python3/133-控制键盘和鼠标pyautoGUI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Msys2.md"
+                "file": "0-知识库/12-python3/133-控制键盘和鼠标pyautoGUI.md"
               }
             }
           }
@@ -168,10 +150,15 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "42342cd75f565e62",
+  "active": "e367fcdb613dce5c",
   "lastOpenFiles": [
-    "golang环境变量配置-windows.md",
+    "0-知识库/12-python3/135-装饰器.md",
+    "2-linux操作系统学习/14-kali  linux/13-被动信息收集/181-shadowsocksR搭建.md",
+    "2-linux操作系统学习/14-kali  linux/13-被动信息收集/182-shodan搜索引擎.md",
+    "2-linux操作系统学习/15-实验环境/187-线程同步实验.md",
+    "Planify TODOist工具.md",
     "Msys2.md",
+    "golang环境变量配置-windows.md",
     "firefox标签页添加背景图片.md",
     "火狐浏览器添加自定义搜索引擎.md",
     "imgs/golang环境变量配置-windows.png",
@@ -205,12 +192,7 @@
     "golang云原生教程/imgs/image-20230715170820920.png",
     "golang云原生教程/imgs/image-20230715170737522.png",
     "golang云原生教程/2.云原生部署.md",
-    "c++学习/1、C程序设计.md",
     "001",
-    "001.sh",
-    "c#实战学习/c#基础.md",
-    "c#实战学习/c# 算法.md",
-    "c#实战学习/快速学完c#.md",
-    "电脑通过蓝牙音箱播放音乐.md"
+    "001.sh"
   ]
 }

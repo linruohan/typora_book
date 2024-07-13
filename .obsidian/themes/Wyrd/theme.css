@@ -186,6 +186,7 @@
   --scrollbar-thumb-bg: hsla(var(--scrollbar-hsl), 0.1);
   --highlight-mix-blend-mode: lighten;
 }
+
 /* 3 Publish */
 .published-container {
   font-size: var(--editor-font-size);

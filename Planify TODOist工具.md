@@ -2,23 +2,23 @@
 
 [toc]
 
-## 首页
+## 1 首页
 
 ![image-20240127121212191](imgs/image-20240127121212191.png)
 
-## inbox代办收件箱
+## 2 inbox代办收件箱
 
 ![image-20240127121319034](imgs/image-20240127121319034.png)
 
-## today
+## 3 today
 
 ![image-20240127131417610](imgs/image-20240127131417610.png)
 
-## scheduled计划
+## 4 scheduled计划
 
 ![image-20240127133731354](imgs/image-20240127133731354.png)
 
-### add todo
+### 4.1 add todo
 
 ![image-20240127121513818](imgs/image-20240127121513818.png)
 
@@ -45,13 +45,13 @@ Tomorrow
 add labels
 ```
 
-### add sub task
+### 4.2 add sub task
 
 ![image-20240127131141736](imgs/image-20240127131141736.png)
 
 ![image-20240127123122229](imgs/image-20240127123122229.png)
 
-### Add label(s)
+### 4.3 Add label(s)
 
 ```bash
 Search or create
@@ -61,7 +61,7 @@ Search or create
 
 
 
-### Set the priority
+### 4.4 Set the priority
 
 设置后计划名字前对应颜色
 
@@ -74,7 +74,7 @@ Search or create
 白旗帜🏳 Priority 4：none
 ```
 
-### Add Reminder(s)
+### 4.5 Add Reminder(s)
 
 Reminders                  +
 
@@ -82,7 +82,7 @@ Reminders                  +
 Your list reminders will show up here, Add one by click the '+' button
 ```
 
-#### add reminder
+#### 4.5.1 add reminder
 
 January 2024     <   >
 
@@ -98,7 +98,7 @@ Time :  20:33
 
 Add Reminder 按钮
 
-#### reminder显示
+#### 4.5.2 reminder显示
 
 ![image-20240127125459803](imgs/image-20240127125459803.png)
 
@@ -108,13 +108,13 @@ Reminders    +
 
 🔔 Today 20:34      ❎（圆框的）
 
-### 置顶
+### 4.6 置顶
 
 点击后变为红色📌
 
 ![image-20240127125723191](imgs/image-20240127125723191.png)
 
-#### 更多三个点
+#### 4.6.1 更多三个点
 
 ```bash
 Copy to clipboard
@@ -141,23 +141,23 @@ Done 按钮
 
 
 
-### labels
+### 4.7 labels
 
 ![image-20240127131230845](imgs/image-20240127131230845.png)
 
-#### update label
+#### 4.7.1 update label
 
 ![image-20240127122114017](imgs/image-20240127122114017.png)
 
-#### delete label
+#### 4.7.2 delete label
 
 ![image-20240127122149363](imgs/image-20240127122149363.png)
 
-#### add label
+#### 4.7.3 add label
 
 ![image-20240127122236154](imgs/image-20240127122236154.png)
 
-## project
+## 5 project
 
 index 和project中都key添加section
 
@@ -173,23 +173,23 @@ Ordered by   ：custom sort order | alphabetically |Due date |Date Added |Priori
 
 Show Completed Tasks |Hide Completd Tasks
 
-### board视图
+### 5.1 board视图
 
 ![image-20240127132409861](imgs/image-20240127132409861.png)
 
-### 更多
+### 5.2 更多
 
-#### edit project
+#### 5.2.1 edit project
 
 ![image-20240127132457490](imgs/image-20240127132457490.png)
 
-#### When?
+#### 5.2.2 When?
 
 设置项目的截止日期
 
 ![image-20240127132645112](imgs/image-20240127132645112.png)
 
-#### Add Section
+#### 5.2.3 Add Section
 
 添加项目阶段 
 
@@ -201,54 +201,54 @@ section中添加todo，然后点击后，key看到子sub，点击子sub可以看
 
 ![image-20240127133323091](imgs/image-20240127133323091.png)
 
-#### Select
+#### 5.2.4 Select
 
 选择一个todo 
 
 ![image-20240127133459075](imgs/image-20240127133459075.png)
 
-#### Paste
+#### 5.2.5 Paste
 
 功能不明
 
-#### Delete Project
+#### 5.2.6 Delete Project
 
 ![image-20240127133523084](imgs/image-20240127133523084.png)
 
-## quick find
+## 6 quick find
 
 ![image-20240127134049954](imgs/image-20240127134049954.png)
 
-## 更多
+## 7 更多
 
-### Preference系统设置
+### 7.1 Preference系统设置
 
 ![image-20240127134150558](imgs/image-20240127134150558.png)
 
-#### integration 
+#### 7.1.1 integration 
 
 ![image-20240127134227916](imgs/image-20240127134227916.png)
 
-#### general
+#### 7.1.2 general
 
 ![image-20240127134301873](imgs/image-20240127134301873.png)
 
-#### sidbar
+#### 7.1.3 sidbar
 
 ![image-20240127134319019](imgs/image-20240127134319019.png)
 
-#### appearence
+#### 7.1.4 appearence
 
 ![image-20240127134345801](imgs/image-20240127134345801.png)
 
-#### Quick Add
+#### 7.1.5 Quick Add
 
 ![image-20240127134401117](imgs/image-20240127134401117.png)
 
-#### backup
+#### 7.1.6 backup
 
 ![image-20240127134416220](imgs/image-20240127134416220.png)
 
-#### Delete Planify Data 清除数据
+#### 7.1.7 Delete Planify Data 清除数据
 
 ![image-20240127134512745](imgs/image-20240127134512745.png)

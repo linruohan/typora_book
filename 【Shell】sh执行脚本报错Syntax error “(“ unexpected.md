@@ -6,10 +6,12 @@
 
 ## 1 问题：sh脚本中有数组初始化的内容
 
+```bash
 $ str="123 456 789"
 $ array=($str)
 $ echo ${array[2]}
 sh执行脚本会报错` Syntax error: "(" unexpected`
+```
 
 ## 2 原因：
 

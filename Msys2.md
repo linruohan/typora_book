@@ -1,7 +1,3 @@
----
-number headings: auto, first-level 2, max 6, _.1.1
----
-
 # 使用msys2打造优雅的开发环境
 
 [toc]
@@ -367,7 +363,6 @@ Windows Registry Editor Version 5.00
 ```
 
 注意替换"你的用户名"。
-
 
 
 
