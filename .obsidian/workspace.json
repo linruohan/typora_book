@@ -4,21 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "90ae5ed232dabdc4",
+        "id": "e14c0aae37cb8ffb",
         "type": "tabs",
+        "dimension": 57.3469387755102,
         "children": [
           {
-            "id": "d1fb0afd841c32d3",
+            "id": "1a67a05dba174700",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Easyx库基础用法教程.md",
+                "file": "lazarus案例1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
+            },
+            "group": "58bc1408926da31b"
+          }
+        ]
+      },
+      {
+        "id": "e0e556c67eebb7ba",
+        "type": "tabs",
+        "dimension": 42.6530612244898,
+        "children": [
+          {
+            "id": "ac3c39dd4ae101bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "lazarus案例1.md"
+              }
+            },
+            "group": "58bc1408926da31b"
           }
         ]
       }
@@ -70,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 361.5,
+    "collapsed": true
   },
   "right": {
     "id": "2ca3a3a0c0ba494b",
@@ -97,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Easyx库基础用法教程.md",
+                "file": "lazarus案例1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Easyx库基础用法教程.md",
+                "file": "lazarus案例1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Easyx库基础用法教程.md"
+                "file": "lazarus案例1.md"
               }
             }
           }
@@ -146,11 +167,25 @@
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "notion-like-tables:Create loom": false
+      "notion-like-tables:Create loom": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "d1fb0afd841c32d3",
+  "active": "1a67a05dba174700",
   "lastOpenFiles": [
+    "imgs/lazarus案例1-47.png",
+    "imgs/lazarus案例1-46.png",
+    "imgs/lazarus案例1-45.png",
+    "imgs/lazarus案例1-44.png",
+    "imgs/lazarus案例1-43.png",
+    "imgs/lazarus案例1-42.png",
+    "imgs/lazarus案例1-41.png",
+    "imgs/lazarus案例1-40.png",
+    "imgs/lazarus案例1-39.png",
+    "imgs/lazarus案例1-38.png",
+    "imgs/lazarus案例1-37.png",
+    "lazarus案例1.md",
+    "Easyx库基础用法教程.md",
     "电脑通过蓝牙音箱播放音乐.md",
     "$navigation.md",
     "4-tools/7-优化___win10+mac+linux/233-kali linux 国内源.md",
@@ -169,7 +204,6 @@
     "golang环境变量配置-windows.md",
     "firefox标签页添加背景图片.md",
     "火狐浏览器添加自定义搜索引擎.md",
-    "imgs/golang环境变量配置-windows.png",
     "golang 2013.7.1全栈学习/2. Goland debug.md",
     "0-知识库/12-python3/122-python知识.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/1_router.md",
@@ -178,19 +212,7 @@
     "test/新建 文本文档.txt",
     "test/新建文件夹",
     "test/未命名.md",
-    "test/test.loom.md",
-    "test/xiaohan.md",
-    "Vue3_vite_Ts_pinia_实战_源码_全栈/1_vue概述.md",
     "test",
-    "golang云原生教程/imgs/image-20230716074043430.png",
-    "golang云原生教程/imgs/image-20230715171300846.png",
-    "golang云原生教程/imgs/image-20230715171249588.png",
-    "golang云原生教程/imgs/image-20230715171234986.png",
-    "golang云原生教程/imgs/image-20230715171213771.png",
-    "golang云原生教程/imgs/image-20230715170941833.png",
-    "golang云原生教程/imgs/image-20230715170837134.png",
-    "golang云原生教程/imgs/image-20230715170820920.png",
-    "golang云原生教程/imgs/image-20230715170737522.png",
     "001",
     "001.sh"
   ]
