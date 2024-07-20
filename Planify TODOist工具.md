@@ -252,3 +252,14 @@ section中添加todo，然后点击后，key看到子sub，点击子sub可以看
 #### 7.1.7 Delete Planify Data 清除数据
 
 ![image-20240127134512745](imgs/image-20240127134512745.png)
+
+```bash
+asdfasd
+
+
+```
+
+
+```bash
+啊的撒旦发生的
+```

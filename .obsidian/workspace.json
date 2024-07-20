@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1d1ee1c3f85dd306",
+        "id": "90ae5ed232dabdc4",
         "type": "tabs",
         "children": [
           {
-            "id": "e367fcdb613dce5c",
+            "id": "d1fb0afd841c32d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-知识库/12-python3/133-控制键盘和鼠标pyautoGUI.md",
+                "file": "Easyx库基础用法教程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-知识库/12-python3/133-控制键盘和鼠标pyautoGUI.md",
+                "file": "Easyx库基础用法教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-知识库/12-python3/133-控制键盘和鼠标pyautoGUI.md",
+                "file": "Easyx库基础用法教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-知识库/12-python3/133-控制键盘和鼠标pyautoGUI.md"
+                "file": "Easyx库基础用法教程.md"
               }
             }
           }
@@ -146,17 +146,25 @@
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "notion-like-tables:Create loom": false,
-      "card-board:CardBoard": false
+      "notion-like-tables:Create loom": false
     }
   },
-  "active": "e367fcdb613dce5c",
+  "active": "d1fb0afd841c32d3",
   "lastOpenFiles": [
+    "电脑通过蓝牙音箱播放音乐.md",
+    "$navigation.md",
+    "4-tools/7-优化___win10+mac+linux/233-kali linux 国内源.md",
+    "4-tools/7-优化___win10+mac+linux/231-25项Win10优化设置.md",
+    "4-tools/5-typora使用+笔记类软件/226-富文本编辑器.md",
+    "4-tools/5-typora使用+笔记类软件/223-Notable(Markdown 笔记工具) v1.7.3 最新版.md",
+    "4-tools/6-windows语音识别/229-voiceAttack.md",
+    "001.md",
+    "Planify TODOist工具.md",
+    "0-知识库/12-python3/133-控制键盘和鼠标pyautoGUI.md",
     "0-知识库/12-python3/135-装饰器.md",
     "2-linux操作系统学习/14-kali  linux/13-被动信息收集/181-shadowsocksR搭建.md",
     "2-linux操作系统学习/14-kali  linux/13-被动信息收集/182-shodan搜索引擎.md",
     "2-linux操作系统学习/15-实验环境/187-线程同步实验.md",
-    "Planify TODOist工具.md",
     "Msys2.md",
     "golang环境变量配置-windows.md",
     "firefox标签页添加背景图片.md",
@@ -174,15 +182,7 @@
     "test/xiaohan.md",
     "Vue3_vite_Ts_pinia_实战_源码_全栈/1_vue概述.md",
     "test",
-    "未命名 1.md",
-    "【Shell】sh执行脚本报错Syntax error “(“ unexpected.md",
-    "未命名.md",
-    "蒙特卡罗方法.md",
-    "golang云原生教程/6.golang 100行代码实现ping操作.md",
     "golang云原生教程/imgs/image-20230716074043430.png",
-    "golang 2013.7.1全栈学习/7、开源验证框架validator.md",
-    "golang云原生教程/5.Go语言如何通过Etcd实现服务注册和发现.md",
-    "golang云原生教程/Untitled.md",
     "golang云原生教程/imgs/image-20230715171300846.png",
     "golang云原生教程/imgs/image-20230715171249588.png",
     "golang云原生教程/imgs/image-20230715171234986.png",
@@ -191,7 +191,6 @@
     "golang云原生教程/imgs/image-20230715170837134.png",
     "golang云原生教程/imgs/image-20230715170820920.png",
     "golang云原生教程/imgs/image-20230715170737522.png",
-    "golang云原生教程/2.云原生部署.md",
     "001",
     "001.sh"
   ]

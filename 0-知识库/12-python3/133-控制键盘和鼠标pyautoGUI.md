@@ -61,7 +61,7 @@ Python移动鼠标、点击键盘非常快，有可以导致其他应用出现�
 
 你可以告诉你的Python脚本在每执行一个函数后暂停几秒钟，这样你就有了几秒种的控制权。
 
-```
+```bash
 import` `pyautogui``pyautogui.PAUSE ``=` `1.5
 ```
 

@@ -1,3 +1,7 @@
+---
+number headings: auto, first-level 2, max 6, _.1.1
+---
+
 # Easyx库基础用法教程
 
 [toc]
@@ -14,31 +18,31 @@
 
 1.Easyx库
 
-## 1.1简单介绍
+## 1 1.1简单介绍
 
 首先Easyx是针对C++的[图形库](https://so.csdn.net/so/search?q=图形库&spm=1001.2101.3001.7020)，可以帮组C/C++初学者快速上手图形和游戏编程，比如可以基于Easyx图形库画一个房子，或者一辆移动 的小车，可以编程俄罗斯方块，贪吃蛇，和白棋等小游戏。详情见文档链接[Easyx帮助文档](https://docs.easyx.cn/zh-cn/intro)
 
-### 1.2Easyx原理
+### 1.1 1.2Easyx原理
 
 基于Windows图形编程，将Windows下的复杂程序过程进行封装，将windows下的编程过程隐藏，给用户提供一个简单熟悉的接口（函数），用户对于图像库中函数的调用，最终都会由Windows的底层API（函数）实现。
 
 # 2.Easyx基础知识
 
-## 2.1Easyx颜色
+## 1 2.1Easyx颜色
 
 1. 相信大家都知道，光的三原色是**红，绿，蓝**。咋们表示颜色就用三原色来表示
 2. 用RGB宏合成颜色，实际上合成出的颜色是一个十六进制的整数。RGB(红色部分，绿色部分，蓝色部分)；每个颜色部分值为0~255
 
-### 2.2Easyx坐标和设备
+### 1.1 2.2Easyx坐标和设备
 
 1. 坐标默认的原点在窗口的左上角，X向右为正，Y向下为正，度量单位是像素点。
 2. 设备：就是绘图表面，在Easyx中，设备分两种，一种是默认的绘图窗口，另一种是IMAGE对象。通过SetWorkingmage()函数可以设置当前用于绘图的设备。设置当前用于绘图的设备后，所有的绘图函数都会绘制在该设备上（后面再理解）
 
 # 3.Easyx图形编程----[窗口函数](https://so.csdn.net/so/search?q=窗口函数&spm=1001.2101.3001.7020)
 
-## 3.1 initgraph()创建窗口函数
+## 1 initgraph()创建窗口函数
 
-```
+```c
 void initgraph(int width,int height,int flag=NULL)
 1. width指创建窗口的宽度
  2.height指创建窗口的高度
@@ -66,17 +70,17 @@ int main()
 
 ***需要注意的是此时的窗口没有滚动条，也就是说该窗口不是控制台，而是由窗口创建函数创建的一个绘制窗口***( •̀ ω •́ )✧
 
-### 3.2 closegraph()关闭绘图窗口函数
+### 1.1 closegraph()关闭绘图窗口函数
 
 ```
  此函数是与窗口创建函数搭配使用的函数，关闭窗口
 ```
 
-#### 3.3 cleardevice()清空绘图设备函数
+#### 1.1.1 cleardevice()清空绘图设备函数
 
 # 图形绘制函数–画圆为例（部分）
 
-## circle()–无填充
+## 1 circle()–无填充
 
 ```
   void circle(int x,int y,int R)
@@ -101,7 +105,7 @@ int main()
 
 ![运行结果](https://img-blog.csdnimg.cn/c79f38b860344e7fbacec27d57c01eda.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5pma6aOO5pC66Zyy,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
-### fillcircle()–有边框填充
+### 1.1 fillcircle()–有边框填充
 
 ```
   与上一个函数用法一致，但圆有边框填充
@@ -130,7 +134,7 @@ int main()
 
 ![运行结果](https://img-blog.csdnimg.cn/325aae6c61a94b29b4548b9ec84670fa.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5pma6aOO5pC66Zyy,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
-#### solidcircle–无边框填充
+#### 1.1.1 solidcircle–无边框填充
 
 与上一个函数用法一致，但圆无边框填充
 
@@ -161,7 +165,7 @@ int main()
 
 # 4.背景颜色函数
 
-## 4.1setbkcolor()–背景颜色设置函数
+## 1 4.1setbkcolor()–背景颜色设置函数
 
 ```cpp
 #include<stdio.h>
@@ -182,7 +186,7 @@ int main()
 
 ![运行结果](https://img-blog.csdnimg.cn/3b37d09f9adb456a8bd1b1562fe1a707.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5pma6aOO5pC66Zyy,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
-### 4.2cleardevice()–清屏函数
+### 1.1 4.2cleardevice()–清屏函数
 
 ```
    ***正如上方setbkcolor()函数的用法，cleardevice()函数必须在设置完新的背景颜色后才清楚上一个背景颜色***🐱‍🚀
@@ -191,7 +195,7 @@ int main()
 
 # 5.窗口文字绘制函数
 
-## 5.1 outtextxy()指定位置输出[字符串](https://so.csdn.net/so/search?q=字符串&spm=1001.2101.3001.7020)函数
+## 1 outtextxy()指定位置输出[字符串](https://so.csdn.net/so/search?q=字符串&spm=1001.2101.3001.7020)函数
 
 ```
   void outtextxy(int x,int y,char*str);
@@ -217,7 +221,7 @@ int main()
 ***注意👀：为什么要在字符串前面加一个L呢？，其实是由于字符集导致的，解决方案就是在字符串前面加上L,或者在项目->属性->常规->字符集改为多字符集即可。
 还有一个问题就是有的小伙伴认为既然是输出字符串那为什么不直接scanf函数打印呢，原因其实是有的同学在这里把控制台和这里的项目窗口搞混淆了，scanf函数的字符串输出只能打印在控制台窗口上，而项目窗口是不能直接用scanf函数读入，并用printf函数打印的🐱‍🚀***
 
-### 5.2 settextcolor（）设置当前文字颜色函数
+### 1.1 settextcolor（）设置当前文字颜色函数
 
 ```cpp
 #include<stdio.h>
@@ -240,7 +244,7 @@ int main()
 ![运行结果](https://img-blog.csdnimg.cn/20ce6b740e5a4e23aa18ed62b6aa477d.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5pma6aOO5pC66Zyy,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 ***注意👀：一定是先设置文字颜色在输出文字***
 
-#### 5.3 settextstyle（）设置字体样式函数
+#### 1.1.1 settextstyle（）设置字体样式函数
 
 ```
        void settextstyle(int nHeight,int nWidth,LPCTSTR lpszFace);
@@ -269,14 +273,14 @@ int main()
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/4eece42c1f8041fc8829a989000d0887.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5pma6aOO5pC66Zyy,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 ***注意👀：区分这里的文字背景透明的setbkmode函数与上方讲窗口背景颜色设置中的cleardevice函数的区别***
 
-##### textheight()获取字符串实际占用的像素高度（调整字符串）
+##### 1.1.1.1 textheight()获取字符串实际占用的像素高度（调整字符串）
 
 ```
   计算字符串的像素高度
 1
 ```
 
-###### textwidth获取字符串实际占用的像素宽度（调整字符串）
+###### 1.1.1.1.1 textwidth获取字符串实际占用的像素宽度（调整字符串）
 
 ```
  计算字符串的像素宽度
@@ -285,14 +289,14 @@ int main()
 
 # 6.窗口图像处理函数
 
-## 6.1使用图像函数须知
+## 1 6.1使用图像函数须知
 
 ```
    ***与前面直接使用的函数不同的是：在使用图像之前，需要定义一个变量，然后把图片加载进变量才能使用。Easyx为我们提供了了变量类型IMAGE，如IMAGE img。***
 1
 ```
 
-### 6.2 loadimage()–从文件中读取图像函数
+### 1.1 loadimage()–从文件中读取图像函数
 
 // 从资源文件获取图像(bmp/gif/jpg/png/tif/emf/wmf/ico)
 void loadimage(
@@ -304,7 +308,7 @@ int nHeight = 0, // 图片的拉伸高度
 bool bResize = false // 是否调整 IMAGE 的大小以适应图片
 );
 
-#### 6.3 putimage()–当前设备上绘制图像函数
+#### 1.1.1 putimage()–当前设备上绘制图像函数
 
 // 绘制图像(指定宽高和起始位置)
 void putimage(
@@ -345,14 +349,14 @@ int main()
 
 # 7.获取鼠标信息函数
 
-## 7.1使用鼠标信息函数须知
+## 1 7.1使用鼠标信息函数须知
 
 ```
    ***与窗口图像处理函数相同，在使用鼠标处理函数之前也要先定义一个鼠标信息结构体变量即类型为ExMessege,因为我们是初学者，所以先学习结构体中的成员变量，成员变量一message：其中包括（鼠标左键信息，鼠标右键信息，滚轮，），成员变量二，X：鼠标当前横坐标，成员变量三，Y：鼠标当前纵坐标***
 1
 ```
 
-### 7.2 peekmessege()–检查是否有鼠标消息函数
+### 1.1 peekmessege()–检查是否有鼠标消息函数
 
 ```cpp
 #include<stdio.h>
@@ -395,7 +399,7 @@ int main()
 
 # 8.非Easyx函数–键盘消息函数
 
-## 8.1使用键盘消息函数须知
+## 1 8.1使用键盘消息函数须知
 
 ```
    getch()函数需要引用头文件conio.h,GetAsyncKeyState(键值)需要引头文件windows.h,但是由于Easyx包含了windows.h,所以无需自己包含。
@@ -408,7 +412,7 @@ int main()
 1234567
 ```
 
-### 8.2 getch()–获取键盘消息函数(第一种)
+### 1.1 getch()–获取键盘消息函数(第一种)
 
 ```cpp
 #include<conio.h>
@@ -466,7 +470,7 @@ int main()
 ***这里由于不能发本地视频，所以大家可以拷贝代码在vs上试一试，查看效果😂😂😂😂😂
 如果你尝试之后就可以发现，这种方式只能让图形直线移动，并不能像游戏角色可以斜着移动，那我们紧接着学习下一个函数***
 
-#### 8.3 GetAsyncKeyState()–获取键盘消息函数(第二种)
+#### 1.1.1 GetAsyncKeyState()–获取键盘消息函数(第二种)
 
 ```cpp
 #include<stdio.h>
@@ -518,14 +522,14 @@ int main()
 
 # 9.Easyx函数–窗口名与消息框函数（联合使用）
 
-## 9.1 消息框
+## 1 消息框
 
 ```
    ***首先什么是消息框呢，我举个简单的例子，当我们在玩某个小游戏的过程中，游戏可能需要弹出一个承载是否继续或退出选项的消息框，这时我们就必须了解下列函数的联合使用***
 1
 ```
 
-### 9.2 消息框函数
+### 1.1 消息框函数
 
 ```cpp
 #include<stdio.h>

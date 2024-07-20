@@ -5,12 +5,14 @@
   "textFontFamily": "LXGW WenKai GB,PingFang TC,Yuppy SC",
   "cssTheme": "",
   "enabledCssSnippets": [
-    "theme",
-    "width"
+    "001",
+    "width",
+    "theme1",
+    "theme"
   ],
   "theme": "obsidian",
   "interfaceFontFamily": "LXGW WenKai GB,PingFang TC,Yuppy SC",
   "monospaceFontFamily": "FantasqueSansMono Nerd Font",
-  "baseFontSize": 13,
+  "baseFontSize": 20,
   "baseFontSizeAction": true
 }

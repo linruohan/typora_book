@@ -16,7 +16,7 @@ Notable即使是现在并不少见的Markdown笔记软件，这款软件依然�
 
 ![Notable(F:\Typora_book\typora_pic\2019826134026986080.png)](https://pic.cr173.com/up/2019-8/2019826134026986080.png)
 
-### Notable软件介绍
+### 0.1 Notable软件介绍
 
 基于Markdown的笔记记录应用程序并不吸引人。
 
@@ -24,7 +24,7 @@ Notable即使是现在并不少见的Markdown笔记软件，这款软件依然�
 
 所以我建立了自己的。
 
-### 软件特点
+### 0.2 软件特点
 
 没有专有格式：值得注意的只是一个结构如上所示的文件夹的前端。Notes是简单的Markdown文件，其元数据存储为Markdown前端事项。附件也是普通文件，如果您附加一个picture.jpg注释，将保留有关它的所有内容，并且它将像任何其他文件一样保持可访问状态。
 
@@ -32,7 +32,7 @@ Notable即使是现在并不少见的Markdown笔记软件，这款软件依然�
 
 无限可嵌套标签：几乎所有其他笔记应用程序都区分笔记本，标签和模板。恕我直言，这不必要地使事情复杂化。在Notable中你可以有root标签（foo），无限可嵌套标签（foo/bar，foo/.../qux），它仍然支持笔记本和模板，它们只是带有不同图标（Notebooks/foo，Templates/foo/bar）的特殊标签。
 
-### 更新内容
+### 0.3 更新内容
 
 改进
 
@@ -54,7 +54,7 @@ ASCIIMath：确保KaTeX代码中使用的＆符号不被视为ASCIIMath表达式
 
 更可靠地检索“data- *”属性，确保字符串保持字符串
 
-### 相关新闻
+### 0.4 相关新闻
 
 Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。
 
@@ -62,7 +62,7 @@ Markdown具有一系列衍生版本，用于扩展Markdown的功能（如表格�
 
 软件标签: [Notable](https://www.cr173.com/tags/Notable.html)[ 笔记](https://www.cr173.com/tags/%B1%CA%BC%C7.html)[ Markdown](https://www.cr173.com/tags/Markdown.html)
 
-## 软件截图
+## 1 软件截图
 
 [![Notable(F:\Typora_book\typora_pic\2019826134024431530.png) v1.7.3 最新版](https://pic.cr173.com/up/2019-8/2019826134024431530.png)](https://pic.cr173.com/up/2019-8/2019826134024431530.png)
 
