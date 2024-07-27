@@ -336,19 +336,22 @@ div[data-path="Notes/Daily"] .nav-folder-title-content::before {
 
 
 
-.HyperMD-codeblock-begin::before {
+.cm-line.HyperMD-codeblock-begin-bg::before {
   background-color: #fc625d;
   border-radius: 50%;
   box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
   content: " ";
   height: 12px!important;
   left: 12px !important;
-  margin-top: -20px;
+  margin-top: 5px;
   position: absolute;
   width: 12px!important;
 }
-.HyperMD-codeblock-begin::after {
+.cm-line.HyperMD-codeblock-begin-bg::after {
   display: none !important;
+}
+div.cm-active>span.cm-formatting-code-block{
+  margin-left:55px ;
 }
 .file-node-collapsed > .file-node-content .fa-caret-right,
 .fa-folder {

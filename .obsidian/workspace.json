@@ -4,41 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e14c0aae37cb8ffb",
+        "id": "35ff3a654447422e",
         "type": "tabs",
-        "dimension": 57.3469387755102,
         "children": [
           {
-            "id": "1a67a05dba174700",
+            "id": "a7c351f55de85c87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lazarus案例1.md",
+                "file": "pychm安装.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            },
-            "group": "58bc1408926da31b"
-          }
-        ]
-      },
-      {
-        "id": "e0e556c67eebb7ba",
-        "type": "tabs",
-        "dimension": 42.6530612244898,
-        "children": [
-          {
-            "id": "ac3c39dd4ae101bb",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "lazarus案例1.md"
-              }
-            },
-            "group": "58bc1408926da31b"
+            }
           }
         ]
       }
@@ -118,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lazarus案例1.md",
+                "file": "pychm安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lazarus案例1.md",
+                "file": "pychm安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lazarus案例1.md"
+                "file": "pychm安装.md"
               }
             }
           }
@@ -171,8 +151,12 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "1a67a05dba174700",
+  "active": "a7c351f55de85c87",
   "lastOpenFiles": [
+    "imgs/pychm安装-2.png",
+    "imgs/pychm安装-1.png",
+    "imgs/pychm安装.png",
+    "lazarus案例1.md",
     "imgs/lazarus案例1-47.png",
     "imgs/lazarus案例1-46.png",
     "imgs/lazarus案例1-45.png",
@@ -181,10 +165,6 @@
     "imgs/lazarus案例1-42.png",
     "imgs/lazarus案例1-41.png",
     "imgs/lazarus案例1-40.png",
-    "imgs/lazarus案例1-39.png",
-    "imgs/lazarus案例1-38.png",
-    "imgs/lazarus案例1-37.png",
-    "lazarus案例1.md",
     "Easyx库基础用法教程.md",
     "电脑通过蓝牙音箱播放音乐.md",
     "$navigation.md",
