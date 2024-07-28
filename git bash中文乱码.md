@@ -36,7 +36,7 @@ git config --global core.quotepath false
 
 
 
-### 修改.gitconfig配置文件,添加
+### 修改.gitconfig配置文件,添加  git status不乱吗
 
 ```text
 [gui]  

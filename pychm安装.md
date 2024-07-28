@@ -40,14 +40,16 @@ pip install --user pytest
 /c/software/Python3/python.exe setup.py build
 /c/software/Python3/python.exe setup.py develop
 /c/software/Python3/python.exe  -m pytest
-/c/software/Python3/python.exe setup.py install  # 添加此行，将pychm安装到windows的python环境里面
 ```
 ### 1.4 执行脚本
 ```bash
 cd pychm
 sh -x scripts/win-travis-before-install.sh  # 安装并编译chmlib
 sh -x scripts/win-travis-run.sh   # 编译pychm并安装
+CFLAGS=-I/mingw64/include LDFLAGS=-L/mingw64/lib /c/software/Python3/python.exe setup.py install
 ```
+![](pychm安装/pychm安装0.png)
+
 ### 1.5 重命名
 安装成功后目录为
 ![](imgs/pychm安装-1.png)
@@ -69,7 +71,7 @@ pip install pychm
 ## 3 pychm 使用
 
 ```bash
-import chm.chm as sut, chm.chmlib as sut_chmlib
+import pychm.chm.chm as sut, pychm.chm.chmlib as sut_chmlib
 f = sut.CHMFile()
 f.LoadCHM("tests/integration/example.chm")
 
