@@ -64,18 +64,29 @@ w 保存并退出 所有的操作没有执行w前都不会生效
 
 1. 格式化EFI分区
    mkfs.vfat /dev/sda1 || mkfs.fat -F32 /dev/sda1
+
 2. 格式化swap分区并激活
    mkswap /dev/sda2
    swapon /dev/sda2
+
 3. 格式化home和根分区
    mkfs.ext4 /dev/sda3
    mkfs.ext4 /dev/sda4
+
 4. 挂载，先挂根目录，才能挂载其他目录
    mount /dev/sda3 /mnt            # 挂载根目录
    mkdir /mnt/home                 # 新建home目录
    mkdir /mnt/boot                 # 新建boot引导目录
    mount /dev/sda4 /mnt/home       # 挂载home目录
    mount /dev/sda1 /mnt/boot       # 挂载boot引导
+
+   ![image-20240818134008497](imgs/image-20240818134008497.png)
+   
+   ![image-20240818134256943](imgs/image-20240818134256943.png)
+
+### 自动配置源
+
+   ![image-20240818134210665](imgs/image-20240818134210665.png)
 
 ## 6 往/mnt目录里安装系统
 
@@ -136,6 +147,8 @@ echo 'LANG=en_US.UTF-8' > /etc/locale.conf
 
 ## 14 编辑archlinuxcn中国源
 
+![image-20240818134945066](imgs/image-20240818134945066.png)
+
 ```bash
 vim /etc/pacman.conf
 # 搜索Color注意大小写,取消注释，系统报错会彩色显示 方便用户排查
@@ -163,6 +176,8 @@ EDITOR=vim visudo # 编辑arch用户的权限,搜索%wheel,取消注释
 
 ## 16 安装 intel的cpu微码和引导软件
 
+![image-20240818134437104](imgs/image-20240818134437104.png)
+
 ```bash
 pacman -S intel-ucode grub efibootmgr os-prober
 # 如果是intel的cpu 则输入intel-ucode 或者amd的输入 amd-ucode
@@ -170,6 +185,8 @@ pacman -S intel-ucode grub efibootmgr os-prober
 ```
 
 ## 17 安装grub引导
+
+![image-20240818134508088](imgs/image-20240818134508088.png)
 
 ```bash
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=ArchLinux
@@ -182,9 +199,25 @@ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=ArchLinux
 
 ## 18 生成grub
 
+
+
+修改/etc/default/gruab文件
+
+![image-20240818134631610](imgs/image-20240818134631610.png)
+
+![image-20240818134623112](imgs/image-20240818134623112.png)
+
 `grub-mkconfig -o /boot/grub/grub.cfg`
 
+
+
+![image-20240818134819864](imgs/image-20240818134819864.png)
+
 ## 19 安装KDE桌面 字体 浏览器等基础软件包
+
+![image-20240818135104084](imgs/image-20240818135104084.png)
+
+pacman-contrib 卸载清理工具 systemctl enable –now paccache.timer
 
 ```bash
 

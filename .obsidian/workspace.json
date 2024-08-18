@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "35ff3a654447422e",
+        "id": "efd1da7e6d524d0f",
         "type": "tabs",
         "children": [
           {
-            "id": "a7c351f55de85c87",
+            "id": "9705e0804920a9cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pychm安装.md",
+                "file": "lazarus案例1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19e21f63a735eee3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Planify TODOist工具.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pychm安装.md",
+                "file": "lazarus案例1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pychm安装.md",
+                "file": "lazarus案例1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pychm安装.md"
+                "file": "lazarus案例1.md"
               }
             }
           }
@@ -150,20 +163,21 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "a7c351f55de85c87",
+  "active": "9705e0804920a9cd",
   "lastOpenFiles": [
-    "imgs/pychm安装-2.png",
-    "imgs/pychm安装-1.png",
-    "imgs/pychm安装.png",
+    "Planify TODOist工具.md",
     "lazarus案例1.md",
-    "imgs/lazarus案例1-47.png",
-    "imgs/lazarus案例1-46.png",
-    "imgs/lazarus案例1-45.png",
-    "imgs/lazarus案例1-44.png",
-    "imgs/lazarus案例1-43.png",
-    "imgs/lazarus案例1-42.png",
-    "imgs/lazarus案例1-41.png",
-    "imgs/lazarus案例1-40.png",
+    "imgs/lazarus案例1-59.png",
+    "imgs/lazarus案例1-58.png",
+    "imgs/lazarus案例1-57.png",
+    "imgs/lazarus案例1-56.png",
+    "imgs/lazarus案例1-55.png",
+    "imgs/lazarus案例1-54.png",
+    "imgs/lazarus案例1-53.png",
+    "imgs/lazarus案例1-52.png",
+    "imgs/lazarus案例1-51.png",
+    "imgs/lazarus案例1-50.png",
+    "pychm安装.md",
     "Easyx库基础用法教程.md",
     "电脑通过蓝牙音箱播放音乐.md",
     "$navigation.md",
@@ -173,7 +187,6 @@
     "4-tools/5-typora使用+笔记类软件/223-Notable(Markdown 笔记工具) v1.7.3 最新版.md",
     "4-tools/6-windows语音识别/229-voiceAttack.md",
     "001.md",
-    "Planify TODOist工具.md",
     "0-知识库/12-python3/133-控制键盘和鼠标pyautoGUI.md",
     "0-知识库/12-python3/135-装饰器.md",
     "2-linux操作系统学习/14-kali  linux/13-被动信息收集/181-shadowsocksR搭建.md",
@@ -190,7 +203,6 @@
     "Vue3_vite_Ts_pinia_实战_源码_全栈/1_pinia.md",
     "test/新建 文本文档.txt",
     "test/新建文件夹",
-    "test/未命名.md",
     "test",
     "001",
     "001.sh"

@@ -20,9 +20,13 @@
 ![](imgs/lazarus案例1-11.png)
 ![](imgs/lazarus案例1-16.png)
 ### 3.2 pnlMain 设置
-![](imgs/lazarus案例1-5.png)
 
-#### 3.2.1 nbkPages
+![](imgs/lazarus案例1-48.png)
+![](imgs/lazarus案例1-49.png)
+#### 3.2.1 pageCtrol
+
+
+![](imgs/lazarus案例1-50.png)
 ![](imgs/lazarus案例1-20.png)
 ![](imgs/lazarus案例1-21.png)
 ![](imgs/lazarus案例1-6.png)
@@ -105,3 +109,34 @@ formcreate formshow
 ##### 4.1.1.2 page 的鼠标拖拽
 进度条事件
 ![](imgs/lazarus案例1-47.png)
+
+
+
+
+## 5 事件
+mainForm create
+![](imgs/lazarus案例1-51.png)
+Mainform delete
+![](imgs/lazarus案例1-52.png)
+Mainform create
+![](imgs/lazarus案例1-53.png)
+Mainform mouse event
+![](imgs/lazarus案例1-55.png)
+Mainform vmmouse move
+![](imgs/lazarus案例1-56.png)
+![](imgs/lazarus案例1-57.png)
+
+
+
+
+
+
+PnlMain mousemove and down
+![](imgs/lazarus案例1-54.png)
+
+![](imgs/lazarus案例1-58.png)
+
+![](imgs/lazarus案例1-59.png)
+
+
+
