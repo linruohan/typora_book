@@ -247,3 +247,8 @@ clang-format –style=“WebKit” –dump-config > .clang-format
 grid 网格布局
 
 ![image-20240818144038715](imgs/image-20240818144038715.png)
+
+设置图标
+
+C:\software\msys2\ucrt64\share\icons\Adwaita\symbolic\ui
+

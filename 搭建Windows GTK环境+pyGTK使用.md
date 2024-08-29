@@ -4,7 +4,7 @@
 
 
 
-## 搭建Windows GTK环境
+## 1 搭建Windows GTK环境
 [GTK and Python教程 ](https://www.gtk.org/docs/language-bindings/python/)
 
 > 注意：这些说明适用于希望创建基于 GTK 的 Windows 应用程序的开发人员，而不是最终用户。在 Windows 上，GTK 应用程序通常已经与 GTK 捆绑在一起，因此最终用户无需担心如何安装 GTK 本身。 
@@ -18,11 +18,11 @@
 
 我们假设您使用的是 Windows 7 或更高版本。对于旧版本的 Windows，您将需要对旧版本的 GLib 和 GTK 进行自定义构建。 
 
-### 使用 MSYS2 包中的 GTK                 
+### 1.1 使用 MSYS2 包中的 GTK                 
 
   [MSYS2 ](https://msys2.github.io/) 项目为 Windows 提供了一个类似 UNIX 的开发环境。它为许多软件应用程序和库提供包，包括 GTK 堆栈。如果更喜欢使用 Visual Studio 进行开发，则应改用 gvsbuild。 在 MSYS2 中，软件包是使用  [pacman 软件包管理器 ](https://github.com/msys2/msys2/wiki/MSYS2-installation#iv-general-package-management)安装的。 
 
-#### 安装msys2
+#### 1.1.1 安装msys2
 
 - MINGW: i686, x86_64, ucrt64, clang64
 - MSYS: i686, x86_64
@@ -38,7 +38,7 @@ https://mirrors.tuna.tsinghua.edu.cn/msys2/distrib/i686/
 
 找到名为 `msys2-<架构>-<日期>.exe` 的文件（如 `msys2-x86_64-20141113.exe`），下载安装即可。
 
-#### pacman 的配置 直接运行
+#### 1.1.2 pacman 的配置 直接运行
 
 ```bash
 sed -i "s#https\?://mirror.msys2.org/#https://mirrors.tuna.tsinghua.edu.c
@@ -46,7 +46,7 @@ sed -i "s#https\?://mirror.msys2.org/#https://mirrors.tuna.tsinghua.edu.c
 pacman -Syu  # 更新源
 ```
 
-### 安装gtk4
+### 1.2 安装gtk4
 
 > 注意：在以下步骤中，我们假设您正在使用  `64-bit Windows`。因此，包名称包括 x86_64 体系结构标识符。如果您使用的是 32 位 Windows，请使用 i686 架构标识符调整下面的说明。 
 
@@ -82,7 +82,7 @@ pacman -S mingw-w64-ucrt-x86_64-vala
     ![image-20240818091258216](imgs/image-20240818091258216.png)
 
 
-### 构建和分发应用程序                 
+### 1.3 构建和分发应用程序                 
 
 一旦你安装了如上面的GTK，你编译GTK应用程序应该没有什么问题。为了成功运行它，您还需要一个 GTK 主题。GTK 中有一些对 Windows 主题的旧内置支持，但这使您的应用程序看起来像 Windows 7 应用程序。最好获取  Windows 10 主题，例如  [Windows 10 Transformation Pack ](https://github.com/B00merang-Project/Windows-10)。 
 
@@ -118,17 +118,17 @@ glib-compile-schemas share/glib-2.0/schemas
 
 您可以使用 MSYS2 来 [构建您的 GTK 应用程序，并创建一个安装程序来分发它 ](https://blogs.gnome.org/nacho/2014/08/01/how-to-build-your-gtk-application-on-windows/)。您的安装程序将需要提供您的应用程序构建工件以及 GTK 二进制文件和运行时依赖项。 
 
-#### 关于将 GTK 与应用程序一起分发的法律说明                 
+#### 1.3.1 关于将 GTK 与应用程序一起分发的法律说明                 
 
 欢迎您在其他网站、CD-ROM 和其他媒体上重新分发 GTK 二进制文件，包括将它们捆绑在一起的应用程序。您无需征得许可。这是自由软件的重点之一。 
 
 要求的一件重要事情  [GNU 许可证 ](http://www.fsf.org/licenses/licenses.html) 是，您还必须根据要求重新分发源代码。这通常至少意味着 gettext、GLib、GTK、Pango 和 ATK 源。 
 
 
-## 验证安装
+## 2 验证安装
 安装完成后，你可以通过编写一个简单的Python脚本来验证PyGObject是否成功安装。例如，创建一个名为hello.py的文件，内容如下：
 
-### 选择pycharm打开，interpreter选择ucrt中的python
+### 2.1 选择pycharm打开，interpreter选择ucrt中的python
 
 ![image-20240818080541940](imgs/image-20240818080541940.png)
 
@@ -160,13 +160,13 @@ python3 hello.py
 
 ![image-20240818080627016](imgs/image-20240818080627016.png)
 
-## Step3 配置Gtk本地环境
+## 3 Step3 配置Gtk本地环境
 
 输入代码（注意Gtk文件所在位置）：
 
 > pkg-config --cflags gtk4
 
-## GTK4 + Adwaita
+## 4 GTK4 + Adwaita
 
 ![image-20240818082824446](imgs/image-20240818082824446.png)
 
@@ -207,7 +207,7 @@ app.run(sys.argv)
 
 ![image-20240818083818807](imgs/image-20240818083818807.png)
 
-## api查询
+## 5 api查询
 
 [PyGObject API Reference](https://lazka.github.io/pgi-docs/main.html)
 
