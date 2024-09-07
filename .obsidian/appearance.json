@@ -2,7 +2,7 @@
   "accentColor": "#b088d7",
   "nativeMenus": true,
   "translucency": false,
-  "textFontFamily": "LXGW WenKai GB,PingFang TC,Yuppy SC",
+  "textFontFamily": "XiaoHanZhuanshu,LXGW WenKai GB,PingFang TC,Yuppy SC",
   "cssTheme": "",
   "enabledCssSnippets": [
     "001",
@@ -11,8 +11,8 @@
     "theme"
   ],
   "theme": "obsidian",
-  "interfaceFontFamily": "LXGW WenKai GB,PingFang TC,Yuppy SC",
+  "interfaceFontFamily": "XiaoHanZhuanshu,LXGW WenKai GB,PingFang TC,Yuppy SC",
   "monospaceFontFamily": "FantasqueSansMono Nerd Font",
-  "baseFontSize": 20,
+  "baseFontSize": 22,
   "baseFontSizeAction": true
 }

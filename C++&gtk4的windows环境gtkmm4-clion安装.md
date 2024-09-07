@@ -45,7 +45,7 @@ Argument（附：博主最满意格式）：-n -i $FileName$ --style=allman --in
 
 Output paths to refresh：$FileName$
 
-Working Directory：$FileDir$
+Working Directory：Y
 ```
 ![](imgs/C++&gtk4的windows环境gtkmm4-clion安装-4.png)
 

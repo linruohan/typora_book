@@ -282,14 +282,7 @@
       "key": "R"
     }
   ],
-  "workspace:undo-close-pane": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "X"
-    }
-  ],
+  "workspace:undo-close-pane": [],
   "workspace:close": [
     {
       "modifiers": [
