@@ -265,5 +265,5 @@ set_target_properties(cgtk_tsk PROPERTIES WIN32_EXECUTABLE true)  # 没有控�
 ## 7 Vscode + C++ + gtk 4
 ![](imgs/windows下gtk4开发-4.png)
 https://www.youtube.com/watch?v=TyFXwHklg6A 下面的 config 内容
-run：
+run：****
 ![](imgs/windows下gtk4开发-5.png)
