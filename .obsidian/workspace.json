@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++翁恺教程2024.9.1.md",
+                "file": "windows下gtk4开发.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++翁恺教程2024.9.1.md",
+                "file": "windows下gtk4开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++翁恺教程2024.9.1.md",
+                "file": "windows下gtk4开发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++翁恺教程2024.9.1.md"
+                "file": "windows下gtk4开发.md"
               }
             }
           }
@@ -153,19 +153,19 @@
   },
   "active": "7ebe39f6248307d9",
   "lastOpenFiles": [
+    "imgs/windows下gtk4开发-5.png",
+    "imgs/windows下gtk4开发-4.png",
+    "imgs/windows下gtk4开发-3.png",
+    "imgs/windows下gtk4开发-2.png",
+    "imgs/windows下gtk4开发-1.png",
+    "imgs/windows下gtk4开发.png",
+    "C++翁恺教程2024.9.1.md",
     "imgs/C++翁恺教程2024.9.1-156.png",
     "imgs/C++翁恺教程2024.9.1-155.png",
     "imgs/C++翁恺教程2024.9.1-154.png",
     "imgs/C++翁恺教程2024.9.1-153.png",
     "imgs/C++翁恺教程2024.9.1-152.png",
-    "imgs/C++翁恺教程2024.9.1-151.png",
-    "imgs/C++翁恺教程2024.9.1-150.png",
-    "imgs/C++翁恺教程2024.9.1-149.png",
-    "imgs/C++翁恺教程2024.9.1-148.png",
-    "imgs/C++翁恺教程2024.9.1-147.png",
-    "imgs/C++翁恺教程2024.9.1-146.png",
     "C++&gtk4的windows环境gtkmm4-clion安装.md",
-    "C++翁恺教程2024.9.1.md",
     "搭建Windows GTK环境+pyGTK使用.md",
     "文字列表.md",
     "Planify TODOist工具.md",

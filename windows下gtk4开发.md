@@ -8,11 +8,11 @@
 
 正式开始开发，安装clion
 
-## toolchains选择mingw64
+## 1 toolchains选择mingw64
 
 ![image-20240818095529470](imgs/image-20240818095529470.png)
 
-##   cmake配置 CMakeLists.txt
+## 2 cmake配置 CMakeLists.txt
 
 ```txt
 cmake_minimum_required(VERSION 3.29)
@@ -31,7 +31,7 @@ link_directories(${GTK4_LIBRARY_DIRS})
 add_executable(cgtk_tsk main.c)
 target_link_libraries(cgtk_tsk ${GTK4_LIBRARIES})
 ```
-## cmake的libadwaita支持  扁平话主题
+## 3 cmake的libadwaita支持  扁平话主题
 
 案例 https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/initialization.html
 
@@ -71,9 +71,9 @@ main(int argc, char *argv[]) {
 
 
 
-## demo
+## 4 demo
 
-### demo1 hello world
+### 4.1 demo1 hello world
 
 https://docs.gtk.org/gtk4/getting_started.html
 
@@ -107,7 +107,7 @@ main (int    argc,
 然后运行![image-20240818095612134](imgs/image-20240818095612134.png)
 
 
-### demo2 显示时间
+### 4.2 demo2 显示时间
 
 https://docs.gtk.org/glib/?q=time  glib接口
 
@@ -163,7 +163,7 @@ main(const int argc, char *argv[]) {
 
 <img src="imgs/image-20240818121334863.png" alt="image-20240818121334863" style="zoom:50%;" />
 
-## glade 可视化UI编辑工具
+## 5 glade 可视化UI编辑工具
 
 https://packages.msys2.org/package/mingw-w64-x86_64-glade
 
@@ -182,7 +182,7 @@ C:\software\msys2\mingw64\bin\glade.exe
 
 ![image-20240818122522975](imgs/image-20240818122522975.png)
 
-### 将gtk3xml转为gtk4： gtk4-builder-tool
+### 5.1 将gtk3xml转为gtk4： gtk4-builder-tool
 
 https://runebook.dev/zh/docs/gtk/gtk4-builder-tool
 
@@ -192,7 +192,7 @@ C:\software\msys2\mingw64\bin\gtk4-builder-tool.exe
 
 <img src="imgs/image-20240818124609297.png" alt="image-20240818124609297" style="zoom:33%;" />
 
-### glade demo
+### 5.2 glade demo
 
 ```c
 #include <gtk/gtk.h>
@@ -234,7 +234,7 @@ main(const int argc, char *argv[]) {
 
 ![image-20240818125025075](imgs/image-20240818125025075.png)
 
-### glade自动信号处理
+### 5.3 glade自动信号处理
 
 
 
@@ -252,3 +252,18 @@ grid 网格布局
 
 C:\software\msys2\ucrt64\share\icons\Adwaita\symbolic\ui
 
+## 6 Vscode 上允许 C + gtk 4
+![](imgs/windows下gtk4开发.png)
+![](imgs/windows下gtk4开发-1.png)
+选择 kit ming64/bin/gcc
+将 mingw 64/bin 的环境变量放在最上面，否则构建会报错
+![](imgs/windows下gtk4开发-2.png)
+![](imgs/windows下gtk4开发-3.png) 
+```bash
+set_target_properties(cgtk_tsk PROPERTIES WIN32_EXECUTABLE true)  # 没有控制台 
+```
+## 7 Vscode + C++ + gtk 4
+![](imgs/windows下gtk4开发-4.png)
+https://www.youtube.com/watch?v=TyFXwHklg6A 下面的 config 内容
+run：
+![](imgs/windows下gtk4开发-5.png)
