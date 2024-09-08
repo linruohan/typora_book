@@ -1,0 +1,44 @@
+{
+  "styles": [
+    {
+      "name": "red",
+      "css": "color: red",
+      "contextMenu": true
+    },
+    {
+      "name": "yellow",
+      "css": "color: yellow",
+      "contextMenu": true
+    },
+    {
+      "name": "green",
+      "css": "color: green",
+      "contextMenu": true
+    },
+    {
+      "name": "blue",
+      "css": "color: blue",
+      "contextMenu": true
+    },
+    {
+      "name": "h red",
+      "css": "background-color: red；color: black",
+      "contextMenu": true
+    },
+    {
+      "name": "h yellow",
+      "css": "background-color: yellow；color: black",
+      "contextMenu": true
+    },
+    {
+      "name": "h green ",
+      "css": "background-color: green；color: black",
+      "contextMenu": true
+    },
+    {
+      "name": "h blue",
+      "css": "background-color: blue；color: black",
+      "contextMenu": true
+    }
+  ]
+}

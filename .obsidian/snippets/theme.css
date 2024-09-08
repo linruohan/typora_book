@@ -156,7 +156,7 @@
   --shadow-primary: var(--color-grey-05);
 }
 .HyperMD-header .cm-header-1, .HyperMD-header .cm-header-2, .HyperMD-header .cm-header-3, .HyperMD-header .cm-header-4, .HyperMD-header .cm-header-5, .HyperMD-header .cm-header-6{
-  color:black !important;
+  color:white !important;
   font-style: bold!important;
   font-weight: 500 !important;
   font-family: ""XiaoHanZhuanshu"" !important;

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust 2024教程.md",
+                "file": "Rust 2024.9.8教程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust 2024教程.md",
+                "file": "Rust 2024.9.8教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust 2024教程.md",
+                "file": "Rust 2024.9.8教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust 2024教程.md"
+                "file": "Rust 2024.9.8教程.md"
               }
             }
           }
@@ -167,19 +167,19 @@
   },
   "active": "4d31effd110ea9c0",
   "lastOpenFiles": [
-    "imgs/Rust 2024教程-52.png",
-    "imgs/Rust 2024教程-51.png",
-    "imgs/Rust 2024教程-50.png",
-    "imgs/Rust 2024教程-49.png",
-    "imgs/Rust 2024教程-48.png",
-    "imgs/Rust 2024教程-47.png",
-    "imgs/Rust 2024教程-46.png",
-    "imgs/Rust 2024教程-45.png",
-    "imgs/Rust 2024教程-44.png",
-    "imgs/Rust 2024教程-43.png",
-    "imgs/Rust 2024教程-42.png",
+    "imgs/Rust 2024.9.8教程-149.png",
+    "imgs/Rust 2024.9.8教程-148.png",
+    "imgs/Rust 2024.9.8教程-147.png",
+    "imgs/Rust 2024.9.8教程-146.png",
+    "imgs/Rust 2024.9.8教程-145.png",
+    "imgs/Rust 2024.9.8教程-144.png",
+    "imgs/Rust 2024.9.8教程-143.png",
+    "imgs/Rust 2024.9.8教程-142.png",
+    "imgs/Rust 2024.9.8教程-141.png",
+    "imgs/Rust 2024.9.8教程-140.png",
+    "imgs/Rust 2024.9.8教程-139.png",
     "windows下gtk4开发.md",
-    "Rust 2024教程.md",
+    "Rust 2024.9.8教程.md",
     "Rust win11 环境部署.md",
     "C++翁恺教程2024.9.1.md",
     "C++&gtk4的windows环境gtkmm4-clion安装.md",
