@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windows下gtk4开发.md",
+                "file": "kitty使用手册.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust 2024.9.8教程.md",
+                "file": "golang环境变量配置-windows.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5,
-    "collapsed": true
+    "width": 361.5
   },
   "right": {
     "id": "2ca3a3a0c0ba494b",
@@ -112,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust 2024.9.8教程.md",
+                "file": "kitty使用手册.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust 2024.9.8教程.md",
+                "file": "kitty使用手册.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust 2024.9.8教程.md"
+                "file": "kitty使用手册.md"
               }
             }
           }
@@ -161,11 +159,25 @@
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "notion-like-tables:Create loom": false
+      "notion-like-tables:Create loom": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "4d31effd110ea9c0",
+  "active": "7ebe39f6248307d9",
   "lastOpenFiles": [
+    "goland.md",
+    "文字列表.md",
+    "在vscode中使用easyx（mingw64）.md",
+    "Appium环境搭建.md",
+    "升级 Win11 条件不满足，有哪些解决办法？.md",
+    "牛客华为OD机试.md",
+    "搭建Windows GTK环境+pyGTK使用.md",
+    "$navigation.md",
+    "【Shell】sh执行脚本报错Syntax error “(“ unexpected.md",
+    "js学习/js基础.md",
+    "windows下gtk4开发.md",
+    "golang环境变量配置-windows.md",
+    "Rust 2024.9.8教程.md",
     "imgs/Rust 2024.9.8教程-149.png",
     "imgs/Rust 2024.9.8教程-148.png",
     "imgs/Rust 2024.9.8教程-147.png",
@@ -176,32 +188,19 @@
     "imgs/Rust 2024.9.8教程-142.png",
     "imgs/Rust 2024.9.8教程-141.png",
     "imgs/Rust 2024.9.8教程-140.png",
-    "imgs/Rust 2024.9.8教程-139.png",
-    "windows下gtk4开发.md",
-    "Rust 2024.9.8教程.md",
     "Rust win11 环境部署.md",
     "C++翁恺教程2024.9.1.md",
     "C++&gtk4的windows环境gtkmm4-clion安装.md",
-    "搭建Windows GTK环境+pyGTK使用.md",
-    "文字列表.md",
     "Planify TODOist工具.md",
     "lazarus案例1.md",
     "pychm安装.md",
     "Easyx库基础用法教程.md",
     "电脑通过蓝牙音箱播放音乐.md",
-    "$navigation.md",
     "4-tools/7-优化___win10+mac+linux/233-kali linux 国内源.md",
     "4-tools/7-优化___win10+mac+linux/231-25项Win10优化设置.md",
     "4-tools/5-typora使用+笔记类软件/226-富文本编辑器.md",
     "4-tools/5-typora使用+笔记类软件/223-Notable(Markdown 笔记工具) v1.7.3 最新版.md",
     "4-tools/6-windows语音识别/229-voiceAttack.md",
-    "001.md",
-    "0-知识库/12-python3/133-控制键盘和鼠标pyautoGUI.md",
-    "0-知识库/12-python3/135-装饰器.md",
-    "2-linux操作系统学习/14-kali  linux/13-被动信息收集/181-shadowsocksR搭建.md",
-    "2-linux操作系统学习/14-kali  linux/13-被动信息收集/182-shodan搜索引擎.md",
-    "2-linux操作系统学习/15-实验环境/187-线程同步实验.md",
-    "Msys2.md",
     "test/test.loom",
     "test/新建 文本文档.txt",
     "test/新建文件夹",

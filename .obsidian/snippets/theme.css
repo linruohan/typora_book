@@ -122,8 +122,8 @@
   2.2.1 Dark Mode defaults
  */
 .theme-dark {
-  --background-primary: #0d1117;
-  --background-primary-alt: var(--color-black);
+  --background-primary: #282C34;
+  --background-primary-alt: #21252B;
   --background-secondary: var(--color-black-hsl);
   --background-secondary-alt: var(--color-grey-00);
   --text-normal: var(--color-grey-06);
@@ -813,6 +813,7 @@ ol ol ol ol ol ol li::marker {
               0 -1px 4px var(--shadow-primary),
               0 -1px 8px var(--shadow-primary),
               0 -1px 16px var(--shadow-primary);
+  color:darkorchid;
 }
 .markdown-rendered th,
 .markdown-preview-view table th {
@@ -824,6 +825,7 @@ ol ol ol ol ol ol li::marker {
   text-shadow: 0 -1px 1px var(--color-purple-3),
                0 -1px 2px var(--color-purple-3),
                0 -1px 4px var(--color-purple-3);
+  color:darkorchid;
 }
 .markdown-rendered th:hover,
 .markdown-preview-view table th:hover {
@@ -842,8 +844,8 @@ ol ol ol ol ol ol li::marker {
   font-size: 1.1rem;
   box-shadow: 0 -1px 1px var(--color-green) inset,
               0 -1px 2px var(--color-green) inset,
-              0 -1px 4px var(--color-green) inset,
-              0 -1px 8px var(--color-green) inset;
+              0 -1px 1px var(--color-green) inset,
+              0 -1px 2px var(--color-green) inset;
   text-shadow: 0 -1px 1px var(--color-green);
 }
 .markdown-rendered tr:nth-child(odd) td,
@@ -851,8 +853,8 @@ ol ol ol ol ol ol li::marker {
   font-size: 1.1rem;
   box-shadow: 0 -1px 1px var(--color-blue) inset,
               0 -1px 2px var(--color-blue) inset,
-              0 -1px 4px var(--color-blue) inset,
-              0 -1px 8px var(--color-blue) inset;
+              0 -1px 1px var(--color-blue) inset,
+              0 -1px 2px var(--color-blue) inset;
   text-shadow: 0 -1px 1px var(--color-blue);
 }
 /*.markdown-rendered tr td:hover,

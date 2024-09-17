@@ -18,18 +18,18 @@ kitty窗口可以被安排在多种不同的[布局](https://sw.kovidgoyal.net/k
 
 ### 2.1 Scrolling 页面跳转
 
-| Action                    | Shortcut                                                     |
-| ------------------------- | ------------------------------------------------------------ |
-| Line up                   | [`ctrl+shift+up`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-line-up) (also ⌥+⌘+⇞ and ⌘+↑ on macOS) |
-| Line down                 | [`ctrl+shift+down`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-line-down) (also ⌥+⌘+⇟ and ⌘+↓ on macOS) |
-| Page up                   | [`ctrl+shift+page_up`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-page-up) (also ⌘+⇞ on macOS) |
-| Page down                 | [`ctrl+shift+page_down`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-page-down) (also ⌘+⇟ on macOS) |
-| Top                       | [`ctrl+shift+home`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-to-top) (also ⌘+↖ on macOS) |
-| Bottom                    | [`ctrl+shift+end`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-to-bottom) (also ⌘+↘ on macOS) |
-| 上一个shell提示           | [`ctrl+shift+z`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-to-previous-shell-prompt) (see [Shell integration](https://sw.kovidgoyal.net/kitty/shell-integration/#shell-integration)) |
-| 下一个shell提示           | [`ctrl+shift+x`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-to-next-shell-prompt) (see [Shell integration](https://sw.kovidgoyal.net/kitty/shell-integration/#shell-integration)) |
-| Browse scrollback in less | [`ctrl+shift+h`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Browse-scrollback-buffer-in-pager) |
-| 浏览最后一个cmd输出       | [`ctrl+shift+g`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Browse-output-of-the-last-shell-command-in-pager) (see [Shell integration](https://sw.kovidgoyal.net/kitty/shell-integration/#shell-integration)) |
+| Action                    | Shortcut                                                                                                                                                                                                                |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Line up                   | [`ctrl+shift+up`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-line-up) (also ⌥+⌘+⇞ and ⌘+↑ on macOS)                                                                                                    |
+| Line down                 | [`ctrl+shift+down`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-line-down) (also ⌥+⌘+⇟ and ⌘+↓ on macOS)                                                                                                |
+| Page up                   | [`ctrl+shift+page_up`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-page-up) (also ⌘+⇞ on macOS)                                                                                                         |
+| Page down                 | [`ctrl+shift+page_down`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-page-down) (also ⌘+⇟ on macOS)                                                                                                     |
+| Top                       | [`ctrl+shift+home`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-to-top) (also ⌘+↖ on macOS)                                                                                                             |
+| Bottom                    | [`ctrl+shift+end`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-to-bottom) (also ⌘+↘ on macOS)                                                                                                           |
+| 上一个shell提示                | [`ctrl+shift+z`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-to-previous-shell-prompt) (see [Shell integration](https://sw.kovidgoyal.net/kitty/shell-integration/#shell-integration))                  |
+| 下一个shell提示                | [`ctrl+shift+x`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Scroll-to-next-shell-prompt) (see [Shell integration](https://sw.kovidgoyal.net/kitty/shell-integration/#shell-integration))                      |
+| Browse scrollback in less | [`ctrl+shift+h`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Browse-scrollback-buffer-in-pager)                                                                                                                |
+| 浏览最后一个cmd输出               | [`ctrl+shift+g`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Browse-output-of-the-last-shell-command-in-pager) (see [Shell integration](https://sw.kovidgoyal.net/kitty/shell-integration/#shell-integration)) |
 
 ### 2.2 Tabs  tab跳转
 
@@ -46,18 +46,18 @@ kitty窗口可以被安排在多种不同的[布局](https://sw.kovidgoyal.net/k
 
 ### 2.3 Windows 窗口跳转
 
-| Action                | Shortcut                                                     |
-| --------------------- | ------------------------------------------------------------ |
-| New window            | [`ctrl+shift+enter`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.New-window) (also ⌘+↩ on macOS) |
-| New OS window         | [`ctrl+shift+n`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.New-OS-window) (also ⌘+n on macOS) |
-| Close window          | [`ctrl+shift+w`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Close-window) (also ⇧+⌘+d on macOS) |
-| Next window           | [`ctrl+shift+\]`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Next-window) |
-| Previous window       | [`ctrl+shift+[`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Previous-window) |
-| Move window forward   | [`ctrl+shift+f`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-forward) |
-| Move window backward  | [`ctrl+shift+b`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-backward) |
-| Move window to top    | [`ctrl+shift+``](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-to-top) |
-| Visually focus window | [`ctrl+shift+f7`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Visually-select-and-focus-window) |
-| Visually swap window  | [`ctrl+shift+f8`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Visually-swap-window-with-another) |
+| Action                | Shortcut                                                                                                                                                                                                                                                                                                                     |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| New window            | [`ctrl+shift+enter`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.New-window) (also ⌘+↩ on macOS)                                                                                                                                                                                                                    |
+| New OS window         | [`ctrl+shift+n`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.New-OS-window) (also ⌘+n on macOS)                                                                                                                                                                                                                     |
+| Close window          | [`ctrl+shift+w`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Close-window) (also ⇧+⌘+d on macOS)                                                                                                                                                                                                                    |
+| Next window           | [`ctrl+shift+\]`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Next-window)                                                                                                                                                                                                                                          |
+| Previous window       | [`ctrl+shift+[`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Previous-window)                                                                                                                                                                                                                                       |
+| Move window forward   | [`ctrl+shift+f`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-forward)                                                                                                                                                                                                                                   |
+| Move window backward  | [`ctrl+shift+b`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-backward)                                                                                                                                                                                                                                  |
+| Move window to top    | [`ctrl+shift+``](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Move-window-to-top)                                                                                                                                                                                                                                    |
+| Visually focus window | [`ctrl+shift+f7`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Visually-select-and-focus-window)                                                                                                                                                                                                                     |
+| Visually swap window  | [`ctrl+shift+f8`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Visually-swap-window-with-another)                                                                                                                                                                                                                    |
 | Focus specific window | [`ctrl+shift+1`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.First-window), [`ctrl+shift+2`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Second-window) … [`ctrl+shift+0`](https://sw.kovidgoyal.net/kitty/conf/#shortcut-kitty.Tenth-window) (also ⌘+1, ⌘+2 … ⌘+9 on macOS) (clockwise from the top-left) |
 
 此外，你可以在' kitty.conf '中定义快捷方式来聚焦邻近的窗口并移动窗口(类似于**vim**中的窗口移动):
