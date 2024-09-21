@@ -1215,6 +1215,7 @@ body input.prompt-input {
               0 1px 4px var(--color-shadowy-gold);
   animation: activeline-r2 60s linear 0s infinite;
 }
+
 /* Edit — Headings */
 .cm-s-obsidian .cm-formatting-header {
   padding-left: 0.5rem;
@@ -1225,6 +1226,7 @@ body input.prompt-input {
 .markdown-source-view.mod-cm6 .cm-active.HyperMD-header:not(::before) {
   left: unset;
 }
+
 .markdown-source-view.mod-cm6 .HyperMD-header::before {
   left: -1.5rem;
 }

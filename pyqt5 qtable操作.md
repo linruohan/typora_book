@@ -2,19 +2,19 @@
 
 # PyQt表格操作
 
-## qtablewidget添加表头
+## 1 qtablewidget添加表头
 
-## qtablewidget添加Button
+## 2 qtablewidget添加Button
 
-## qtablewidget添加内容
+## 3 qtablewidget添加内容
 
-## qtablewidget获取行内其它元素
+## 4 qtablewidget获取行内其它元素
 
-## qtablewidget删除行
+## 5 qtablewidget删除行
 
 ![img](https://images2018.cnblogs.com/blog/1176578/201804/1176578-20180405113408380-1545593213.gif)
 
-## 代码示例
+## 6 代码示例
 
 **UI文件:UI_main.py**
 

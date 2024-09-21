@@ -2,7 +2,7 @@
 
 # QTreeWidget节点过滤操作
 
-## QTreeWidget遍历所有节点
+## 1 QTreeWidget遍历所有节点
 
 ```python
 def filter(treeWidget):
@@ -12,7 +12,7 @@ def filter(treeWidget):
         cursor = cursor.__iadd__(1)
 ```
 
-## QTreeWidget过滤出符合条件的根节点
+## 2 QTreeWidget过滤出符合条件的根节点
 
 ```python
 def filter(w):
@@ -28,7 +28,7 @@ def filter(w):
         item.setHidden(False)
 ```
 
-## QTreeWidget过滤出符合条件的所有节点
+## 3 QTreeWidget过滤出符合条件的所有节点
 
 ```python
 def filter(treeWidget,text):

@@ -155,12 +155,19 @@
   --text-strike: var(--color-grey-08);
   --shadow-primary: var(--color-grey-05);
 }
+/* Edit — Headings */
+.cm-s-obsidian .cm-formatting-header {
+  padding-left: 0.5rem;
+}
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-header {
+  left: 1.5rem;
+}
+.markdown-source-view.mod-cm6 .cm-active.HyperMD-header:not(::before) {
+  left: unset;
+}
 
-.HyperMD-header .cm-header-1, .HyperMD-header .cm-header-2, .HyperMD-header .cm-header-3, .HyperMD-header .cm-header-4, .HyperMD-header .cm-header-5, .HyperMD-header .cm-header-6{
-  color:white !important;
-  font-style: bold!important;
-  font-weight: 500 !important;
-  font-family: ""XiaoHanZhuanshu"" !important;
+.markdown-source-view.mod-cm6 .HyperMD-header::before {
+  left: -1.5rem;
 }
 
 .cm-s-obsidian .HyperMD-header-1 {
@@ -173,6 +180,7 @@
                0 -1px calc(var(--editor-font-size) / 2) var(--shadow-primary),
                0 -1px calc(var(--editor-font-size) / 1) var(--shadow-primary);
   color: var(--text-normal);
+  color:black;
   -webkit-text-stroke-color: var(--color-purple-3);
   -webkit-text-stroke-width: 0.01px;
 }
@@ -197,6 +205,7 @@
                0 -1px calc(var(--editor-font-size) / 2) var(--shadow-primary),
                0 -1px calc(var(--editor-font-size) / 1) var(--shadow-primary);
   color: var(--text-normal);
+  color:black;
   font-weight: 800 !important;
   -webkit-text-stroke-color: var(--color-hot-pink);
   -webkit-text-stroke-width: 0.01px;
@@ -223,6 +232,7 @@
                0 -1px calc(var(--editor-font-size) / 2) var(--shadow-primary),
                0 -1px calc(var(--editor-font-size) / 1) var(--shadow-primary);
   color: var(--text-normal);
+  color:black;
   -webkit-text-stroke-color: var(--color-shadowy-gold);
   -webkit-text-stroke-width: 0.01px;
 }
@@ -247,6 +257,7 @@
                0 -1px calc(var(--editor-font-size) / 2) var(--shadow-primary),
                0 -1px calc(var(--editor-font-size) / 1) var(--shadow-primary);
   color: var(--text-normal);
+  color:black;
   -webkit-text-stroke-color: var(--color-green);
   -webkit-text-stroke-width: 0.01px;
 }
@@ -271,6 +282,7 @@
                0 -1px calc(var(--editor-font-size) / 2) var(--shadow-primary),
                0 -1px calc(var(--editor-font-size) / 1) var(--shadow-primary);
   color: var(--text-normal);
+  color:black;
   -webkit-text-stroke-color: var(--color-teal);
   -webkit-text-stroke-width: 0.01px;
 }
@@ -295,6 +307,7 @@
                0 -1px calc(var(--editor-font-size) / 2) var(--shadow-primary),
                0 -1px calc(var(--editor-font-size) / 1) var(--shadow-primary);
   color: var(--text-normal);
+  color:black;
   -webkit-text-stroke-color: var(--color-cyan-desat);
   -webkit-text-stroke-width: 0.01px;
 }

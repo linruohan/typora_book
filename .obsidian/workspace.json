@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微软账号登录转圈问题.md",
+                "file": "pyqt5 qtable操作.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -168,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,6 +182,10 @@
   },
   "active": "0a9608ba2edef039",
   "lastOpenFiles": [
+    "pyqt5 qtable操作.md",
+    "pyqt5 窗口状态和操作.md",
+    "python异步编程.md",
+    "pyqt5 QtTree遍历.md",
     "微软账号登录转圈问题.md",
     "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
     "unity学习/unity基础.md",
