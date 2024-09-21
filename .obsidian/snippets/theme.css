@@ -1228,6 +1228,7 @@ body input.prompt-input {
 .markdown-source-view.mod-cm6 .HyperMD-header::before {
   left: -1.5rem;
 }
+
 .cm-s-obsidian .HyperMD-header-1 {
   font-size: calc(var(--editor-font-size) * 2);
   text-shadow: 0 -1px calc(var(--editor-font-size) / 16) var(--shadow-primary),

@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "16c45e98f22dadc8",
+    "id": "decfe0fc2452c64f",
     "type": "split",
     "children": [
       {
-        "id": "54cd517ca240c1e2",
+        "id": "52b266ced8ee11a9",
         "type": "tabs",
         "children": [
           {
-            "id": "7ebe39f6248307d9",
+            "id": "372bd39255eae5ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kitty使用手册.md",
+                "file": "微软账号登录转圈问题.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,33 +21,34 @@
             }
           },
           {
-            "id": "4d31effd110ea9c0",
+            "id": "0a9608ba2edef039",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang环境变量配置-windows.md",
+                "file": "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e594dc828f194f65",
+    "id": "ef0987d6a0bf88d2",
     "type": "split",
     "children": [
       {
-        "id": "5bc03b9ede032cf7",
+        "id": "6491177ec62f12df",
         "type": "tabs",
         "children": [
           {
-            "id": "2603ea938b547bf4",
+            "id": "c5217618ed29ca2b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -57,7 +58,7 @@
             }
           },
           {
-            "id": "3a3193691babbc53",
+            "id": "1252138aae578a23",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -72,7 +73,7 @@
             }
           },
           {
-            "id": "5b0342ac2671a434",
+            "id": "7403535e814a2a4b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -83,34 +84,31 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 210.5
   },
   "right": {
-    "id": "2ca3a3a0c0ba494b",
+    "id": "8df061e044d53085",
     "type": "split",
     "children": [
       {
-        "id": "6353cce525ea94c1",
+        "id": "90d9d37e560fe3cb",
         "type": "tabs",
         "children": [
           {
-            "id": "c4f325238cd70baa",
+            "id": "bfd1a3218572b1c1",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+              "type": "quiet-outline",
+              "state": {}
             }
           },
           {
-            "id": "7f2f8ca3fabf8a42",
+            "id": "c6dc31bcceb11637",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kitty使用手册.md",
+                "file": "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,90 +120,96 @@
             }
           },
           {
-            "id": "b32fc8d525232f4e",
+            "id": "732b003050674642",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kitty使用手册.md",
+                "file": "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "d7e8ea33d7fbcc63",
+            "id": "3c83d6fd884252a4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "43be399219bb7875",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "kitty使用手册.md"
+                "file": "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md"
+              }
+            }
+          },
+          {
+            "id": "bf038d3e70e1c345",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "notion-like-tables:Create loom": false,
-      "card-board:CardBoard": false
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "7ebe39f6248307d9",
+  "active": "0a9608ba2edef039",
   "lastOpenFiles": [
-    "goland.md",
-    "文字列表.md",
-    "在vscode中使用easyx（mingw64）.md",
-    "Appium环境搭建.md",
-    "升级 Win11 条件不满足，有哪些解决办法？.md",
-    "牛客华为OD机试.md",
-    "搭建Windows GTK环境+pyGTK使用.md",
-    "$navigation.md",
-    "【Shell】sh执行脚本报错Syntax error “(“ unexpected.md",
-    "js学习/js基础.md",
-    "windows下gtk4开发.md",
-    "golang环境变量配置-windows.md",
-    "Rust 2024.9.8教程.md",
-    "imgs/Rust 2024.9.8教程-149.png",
-    "imgs/Rust 2024.9.8教程-148.png",
-    "imgs/Rust 2024.9.8教程-147.png",
-    "imgs/Rust 2024.9.8教程-146.png",
-    "imgs/Rust 2024.9.8教程-145.png",
-    "imgs/Rust 2024.9.8教程-144.png",
-    "imgs/Rust 2024.9.8教程-143.png",
-    "imgs/Rust 2024.9.8教程-142.png",
-    "imgs/Rust 2024.9.8教程-141.png",
-    "imgs/Rust 2024.9.8教程-140.png",
-    "Rust win11 环境部署.md",
-    "C++翁恺教程2024.9.1.md",
-    "C++&gtk4的windows环境gtkmm4-clion安装.md",
-    "Planify TODOist工具.md",
-    "lazarus案例1.md",
-    "pychm安装.md",
-    "Easyx库基础用法教程.md",
-    "电脑通过蓝牙音箱播放音乐.md",
-    "4-tools/7-优化___win10+mac+linux/233-kali linux 国内源.md",
-    "4-tools/7-优化___win10+mac+linux/231-25项Win10优化设置.md",
-    "4-tools/5-typora使用+笔记类软件/226-富文本编辑器.md",
-    "4-tools/5-typora使用+笔记类软件/223-Notable(Markdown 笔记工具) v1.7.3 最新版.md",
-    "4-tools/6-windows语音识别/229-voiceAttack.md",
-    "test/test.loom",
-    "test/新建 文本文档.txt",
-    "test/新建文件夹",
-    "test",
-    "001",
-    "001.sh"
+    "微软账号登录转圈问题.md",
+    "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
+    "unity学习/unity基础.md",
+    "firefox标签页添加背景图片.md",
+    "bzip使用说明.md",
+    "我是佛前的一粒佛珠.md",
+    "火狐浏览器添加自定义搜索引擎.md",
+    "12-藏____个人收藏/59-最新实用网站.md",
+    "测试.md",
+    "README.md",
+    "你好.md",
+    "nihao.md",
+    "assets/README.assets/image-20230804083408324.png",
+    "assets/README.assets/image-20230804081653737.png",
+    "assets/README.assets/image-20230804081213575.png",
+    "PKMer投稿.md",
+    "assets/PKMer投稿.assets/image-20230804081041661.png",
+    "assets/PKMer投稿.assets",
+    "assets/README.assets/image-20230711230856232.png",
+    "assets/README.assets/image-20230711230421971.png",
+    "assets/README.assets/image-20230711230310740.png",
+    "assets/README.assets/image-20230524125630410.png",
+    "assets/README.assets/image-20230419234800823.png",
+    "assets/README.assets/image-20230419232417595.png",
+    "assets/README.assets",
+    "assets",
+    "未命名文件夹",
+    "README.assets",
+    "Blue Topaz Legacy (sorted by @ProudBenzene).assets"
   ]
 }

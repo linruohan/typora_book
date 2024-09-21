@@ -1,4 +1,4 @@
-# 【Shell】sh执行脚本报错Syntax error: “(“ unexpected
+# 【Shell】sh 执行脚本报错 Syntax error: “(“ unexpected
 
 [toc]
 

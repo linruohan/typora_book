@@ -1,12 +1,8 @@
 {
-  "showLineNumber": true,
-  "vimMode": false,
-  "attachmentFolderPath": "./imgs",
+  "attachmentFolderPath": "./assets/提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.assets",
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "newFileLocation": "root",
-  "showUnsupportedFiles": false,
-  "userIgnoreFilters": null,
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": true,
-  "promptDelete": false
+  "showInlineTitle": false
 }

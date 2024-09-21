@@ -1,18 +1,15 @@
 {
-  "accentColor": "#b088d7",
-  "nativeMenus": true,
-  "translucency": false,
-  "textFontFamily": "XiaoHanZhuanshu,LXGW WenKai GB,PingFang TC,Yuppy SC",
-  "cssTheme": "",
+  "accentColor": "",
+  "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
-    "001",
+    "Blue Topaz Legacy",
+    "Blue Topaz Codebox",
     "width",
-    "theme1",
-    "theme"
+    "theme_only"
   ],
-  "theme": "obsidian",
-  "interfaceFontFamily": "XiaoHanZhuanshu,LXGW WenKai GB,PingFang TC,Yuppy SC",
-  "monospaceFontFamily": "FantasqueSansMono Nerd Font",
-  "baseFontSize": 19,
-  "baseFontSizeAction": true
+  "textFontFamily": "霞鹜文楷 屏幕阅读版,霞鹜文楷",
+  "monospaceFontFamily": "JetBrains Mono",
+  "interfaceFontFamily": "霞鹜文楷 屏幕阅读版,Chalkboard SE,Comic Sans MS",
+  "baseFontSize": 18,
+  "theme": "obsidian"
 }

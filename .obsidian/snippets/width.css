@@ -90,7 +90,7 @@ body:not(.native-scrollbars) ::-webkit-scrollbar-thumb {
 .nav-file-title,
 .nav-folder-title {
   padding: unset !important;
-  padding-left: 10px !important;
+  padding-left: 20px !important;
 }
 
 .outliner-plugin-list-lines-scroller {
@@ -307,24 +307,24 @@ div[data-path="Notes/Daily"] .nav-folder-title-content::before {
 /* source: https://discord.com/channels/686053708261228577/702656734631821413/755293685046050896 */
 
 /* Emoji */
-.nav-file-title-content::before {
+/*.nav-file-title-content::before {
   content: "📄 ";
 }
 .nav-folder-title-content::before {
   content: "📁 ";
-}
+}*/
 
 /* Flat font */
 /* Requires: https://icomoon.io/#icons-icomoon/liga-font */
 
-.nav-folder-children .nav-file-title-content:first-child::before {
+/*.nav-folder-children .nav-file-title-content:first-child::before {
   content: "📄 ";
   font-family: "IcoMoon-Free";
 }
 .nav-folder-children .nav-folder-title-content::before {
   content: "📁 ";
   font-family: "IcoMoon-Free";
-}
+}*/
 /*.cm-active.HyperMD-codeblock-begin{
   color: rgb(235, 61, 131) !important;
   border-bottom:.1px solid #e472b3;
@@ -408,7 +408,7 @@ input[type="checkbox"]:checked,
 
 
 /*文件夹图标  根据名字进行不同的图标*/
-div[data-path="Attachments"] .nav-folder-title-content::before
+/*div[data-path="Attachments"] .nav-folder-title-content::before
 {
   content: "\1f600";
 }
@@ -426,4 +426,5 @@ div[data-path="Notes"] .nav-folder-title-content::before
 div[data-path="Daily"] .nav-folder-title-content::before
 {
   content: "\1f5d3";
-}
+}*/
+

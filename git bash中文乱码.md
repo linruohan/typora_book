@@ -2,7 +2,7 @@
 
 [toc]
 
-## **现象：**
+## 1 **现象：**
 
 `git status`查看有改动但未提交的文件时总只显示数字串，显示不出中文文件名，非常不方便。如下图：
 
@@ -10,13 +10,13 @@
 
 
 
-## **原因：**
+## 2 **原因：**
 
 在默认设置下，中文文件名在工作区状态输出，中文名不能正确显示，而是显示为八进制的字符编码。
 
-## **==解决办法：==**
+## 3 **==解决办法：==**
 
-### 设置git
+### 3.1 设置git
 
 将git配置文件 `core.quotepath`项设置为`false`。`quotepath`表示引用路径，加上`--global`表示全局配置
 
@@ -26,7 +26,7 @@
 git config --global core.quotepath false
 ```
 
-### 解决git bash 终端显示中文乱码 zh_CN + UTF-8
+### 3.2 解决git bash 终端显示中文乱码 zh_CN + UTF-8
 
 要注意的是，这样设置后，你的`git bash`终端也要设置成中文和`utf-8`编码。才能正确显示中文.
 
@@ -36,7 +36,7 @@ git config --global core.quotepath false
 
 
 
-### 修改.gitconfig配置文件,添加  git status不乱吗
+### 3.3 修改.gitconfig配置文件,添加  git status不乱吗
 
 ```text
 [gui]  
