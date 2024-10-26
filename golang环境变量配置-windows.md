@@ -7,7 +7,6 @@
 下载地址：https://golang.org/dl/
 
 下载go1.*.windows-amd64 .zip文件后，点击安装。
-
 ## 2 步骤二：Go语言环境变量配置
 
 安装Go语言需要配置的环境变量有GOROOT、GOPATH和Path

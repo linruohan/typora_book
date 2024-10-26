@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "52b266ced8ee11a9",
+        "id": "fd0437a6eb8905c8",
         "type": "tabs",
         "children": [
           {
-            "id": "372bd39255eae5ab",
+            "id": "66db94e18583a33a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pyqt5 qtable操作.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a9608ba2edef039",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md"
-              }
+              "state": {}
             }
           },
           {
@@ -180,14 +157,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0a9608ba2edef039",
+  "active": "66db94e18583a33a",
   "lastOpenFiles": [
+    "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
     "pyqt5 qtable操作.md",
     "pyqt5 窗口状态和操作.md",
     "python异步编程.md",
     "pyqt5 QtTree遍历.md",
     "微软账号登录转圈问题.md",
-    "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
     "unity学习/unity基础.md",
     "firefox标签页添加背景图片.md",
     "bzip使用说明.md",
