@@ -2,7 +2,7 @@
 
 [toc]
 
-## NGUI
+## 1 NGUI
 
 ![image-20210509103742602](imgs/image-20210509103742602.png)
 
@@ -12,7 +12,7 @@
 
 ![image-20210509104000473](imgs/image-20210509104000473.png)
 
-## UI Root/UI Panel/UI Camera组件
+## 2 UI Root/UI Panel/UI Camera组件
 
 ![image-20210509104349642](imgs/image-20210509104349642.png)
 
@@ -24,25 +24,25 @@
 
 ![image-20210509104656734](imgs/image-20210509104656734.png)
 
-### UI Root
+### 2.1 UI Root
 
 ![image-20210509104808711](imgs/image-20210509104808711.png)
 
-#### flexible灵活的
+#### 2.1.1 flexible灵活的
 
 ![image-20210509105130087](imgs/image-20210509105130087.png)
 
-#### constrained 约束的
+#### 2.1.2 constrained 约束的
 
 ![image-20210509105335731](imgs/image-20210509105335731.png)
 
-### UI Panel
+### 2.2 UI Panel
 
 是一个容器,只有这个子对象才可以显示
 
 ![image-20210509105629295](imgs/image-20210509105629295.png)
 
-## UI Camera
+## 3 UI Camera
 
 ![image-20210509110449371](imgs/image-20210509110449371.png)
 
@@ -58,15 +58,15 @@
 
 ![image-20210509112009033](imgs/image-20210509112009033.png)
 
-### UI Camera的原理
+### 3.1 UI Camera的原理
 
 UI Camera是通过触摸/鼠标移动的位置的地方发射射线(就是Unity的Raycast)然后获取射线撞击的碰撞体(collider)信息,然后发射消息(通过Unity的SendMessage函数)给该碰撞体关联的GameObject的所有脚本
 
-### UI Camera中响应的事件
+### 3.2 UI Camera中响应的事件
 
 ![image-20210509112501119](imgs/image-20210509112501119.png)
 
-### UI Camera常用相关变量
+### 3.3 UI Camera常用相关变量
 
 UICamera.currentTouchID: 用于区分鼠标按下的键位,-1是左键,-2是右键,-3为中键
 
@@ -74,17 +74,17 @@ UICamera.lastHit:RaycastHit类型,用于获取被触发的物体
 
 UICamera.lastTouchPosition:用于获取鼠标和触摸的位置
 
-## Atlas Maker
+## 4 Atlas Maker
 
 NGUI区别于UGUI,NGUI在使用2D图片是采用图集的形式,因此,在使用NGUI之前,我们需要学会如何使用图集制作器制作图集
 
-### 制作图集
+### 4.1 制作图集
 
 ![image-20210509113058754](imgs/image-20210509113058754.png)
 
 ![image-20210509113215847](imgs/image-20210509113215847.png)
 
-### 替换图集
+### 4.2 替换图集
 
 ![image-20210509113354367](imgs/image-20210509113354367.png)
 
@@ -96,19 +96,19 @@ tooltip 提示信息
 
 
 
-## NGUI控件
+## 5 NGUI控件
 
-### Sprite 精灵(图片)
+### 5.1 Sprite 精灵(图片)
 
 ![image-20210509113919522](imgs/image-20210509113919522.png)
 
 ![image-20210509114020900](imgs/image-20210509114020900.png)
 
-### Label -文本
+### 5.2 Label -文本
 
 ![image-20210509114847711](imgs/image-20210509114847711.png)
 
-#### Font Maker字体集创建
+#### 5.2.1 Font Maker字体集创建
 
 有Unity和NGUI字体集两种选择,unity支持中文,NGUI只支持英文
 
@@ -128,11 +128,11 @@ tooltip 提示信息
 
 ![image-20210509120223781](imgs/image-20210509120223781.png)
 
-### Tooltip
+### 5.3 Tooltip
 
 ![image-20210509111618324](imgs/image-20210509111618324.png)
 
-#### 创建tooltip
+#### 5.3.1 创建tooltip
 
 1. 创建GameObject
 
@@ -146,13 +146,13 @@ UI Root-> new GameObject->rename Gameobject为tooltip
 
 ![image-20210509121751200](imgs/image-20210509121751200.png)
 
-#### tooltip添加组件UI Tooltip(脚本组件),绑定各对象
+#### 5.3.2 tooltip添加组件UI Tooltip(脚本组件),绑定各对象
 
 ![image-20210509121230817](imgs/image-20210509121230817.png)
 
 ![image-20210509121203231](imgs/image-20210509121203231.png)
 
-#### 使用tooltip
+#### 5.3.3 使用tooltip
 
 选择一个控件,响应tooltip事件
 
@@ -180,17 +180,17 @@ UI Root-> new GameObject->rename Gameobject为tooltip
 
 ![image-20210509123422742](imgs/image-20210509123422742.png)
 
-### Texture 纹理
+### 5.4 Texture 纹理
 
 ![image-20210509123618891](imgs/image-20210509123618891.png)
 
 ![image-20210509123912764](imgs/image-20210509123912764.png)
 
-### Input Field 输入框
+### 5.5 Input Field 输入框
 
 ![image-20210509124033411](imgs/image-20210509124033411.png)
 
-#### 创建Input Field组件
+#### 5.5.1 创建Input Field组件
 
 1. GameObject + label
 
@@ -219,7 +219,7 @@ On Change绑定InputField
 
 ![image-20210509130250356](imgs/image-20210509130250356.png)
 
-### Button 按钮
+### 5.6 Button 按钮
 
 ![image-20210509130513291](imgs/image-20210509130513291.png)
 
@@ -245,7 +245,7 @@ onclick绑定函数
 
 ![image-20210509131341581](imgs/image-20210509131341581-1620537223674.png)
 
-### Check Box(Toggle)
+### 5.7 Check Box(Toggle)
 
 ![image-20210509131415826](imgs/image-20210509131415826.png)
 
@@ -267,7 +267,7 @@ group同一组中只能选中一个
 
 ![image-20210509132119027](imgs/image-20210509132119027.png)
 
-### Popup List 弹出框/下拉列表
+### 5.8 Popup List 弹出框/下拉列表
 
 ![image-20210509132249891](imgs/image-20210509132249891.png)
 
@@ -294,11 +294,11 @@ group同一组中只能选中一个
 3. add添加label
 4. attach Collider碰撞体检测
 
-### Slider 滑杆
+### 5.9 Slider 滑杆
 
 ![](imgs/image-20210509133815565.png)
 
-#### 创建Slider
+#### 5.9.1 创建Slider
 
 1. GameObject==Slider
    1. NGUI Slider,调整depth
@@ -321,11 +321,11 @@ group同一组中只能选中一个
 
 ![image-20210509134718206](imgs/image-20210509134718206.png)
 
-### Scroll Bar 滚动条
+### 5.10 Scroll Bar 滚动条
 
 ![image-20210509134832779](imgs/image-20210509134832779.png)
 
-#### 创建ScrollBar
+#### 5.10.1 创建ScrollBar
 
 1. GameObject==Scrollbar
    1. NGUI ScrollBar
@@ -347,7 +347,7 @@ group同一组中只能选中一个
 
 ![image-20210509140301999](imgs/image-20210509140301999.png)
 
-### Scroll View 滚动视图
+### 5.11 Scroll View 滚动视图
 
 ![image-20210509141538778](imgs/image-20210509141538778.png)
 

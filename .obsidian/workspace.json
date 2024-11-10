@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fd0437a6eb8905c8",
+        "id": "203ac083f173a5b7",
         "type": "tabs",
         "children": [
           {
-            "id": "66db94e18583a33a",
+            "id": "942797b53007bec6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "rust cargo加速编译.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "rust cargo加速编译.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "rust cargo加速编译.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "rust cargo加速编译.md"
+              }
             }
           },
           {
@@ -157,8 +166,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "66db94e18583a33a",
+  "active": "942797b53007bec6",
   "lastOpenFiles": [
+    "rust cargo加速编译.md",
+    "# pandas 修改列名.md",
+    "unity学习/Unity3D NGUI.md",
     "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
     "pyqt5 qtable操作.md",
     "pyqt5 窗口状态和操作.md",

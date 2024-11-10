@@ -1,8 +1,9 @@
 {
-  "attachmentFolderPath": "./assets/提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.assets",
+  "attachmentFolderPath": "./assets/rust cargo加速编译.assets",
   "useMarkdownLinks": false,
   "newLinkFormat": "shortest",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "showRibbon": false
 }

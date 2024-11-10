@@ -8,9 +8,11 @@
     "涂黑圆角",
     "theme_only"
   ],
-  "textFontFamily": "霞鹜文楷 屏幕阅读版,霞鹜文楷",
-  "monospaceFontFamily": "JetBrains Mono",
-  "interfaceFontFamily": "霞鹜文楷 屏幕阅读版,Chalkboard SE,Comic Sans MS",
-  "baseFontSize": 18,
-  "theme": "obsidian"
+  "textFontFamily": "霞鹜文楷 屏幕阅读版,XiaoHanZhuanshu,LXGW WenKai GB",
+  "monospaceFontFamily": "FantasqueSansMono NFM",
+  "interfaceFontFamily": "XiaoHanZhuanshu,霞鹜文楷 屏幕阅读版",
+  "baseFontSize": 28,
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "showViewHeader": false
 }
