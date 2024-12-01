@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust cargo加速编译.md",
+                "file": "Msys2使用windows环境变量.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust cargo加速编译.md",
+                "file": "Msys2使用windows环境变量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust cargo加速编译.md",
+                "file": "Msys2使用windows环境变量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust cargo加速编译.md"
+                "file": "Msys2使用windows环境变量.md"
               }
             }
           },
@@ -168,6 +168,10 @@
   },
   "active": "942797b53007bec6",
   "lastOpenFiles": [
+    "assets/Msys2使用windows环境变量.assets/image-20241130130221949.png",
+    "assets/Msys2使用windows环境变量.assets/image-20241130130158217.png",
+    "assets/Msys2使用windows环境变量.assets",
+    "assets",
     "rust cargo加速编译.md",
     "# pandas 修改列名.md",
     "unity学习/Unity3D NGUI.md",
@@ -198,9 +202,7 @@
     "assets/README.assets/image-20230711230310740.png",
     "assets/README.assets/image-20230524125630410.png",
     "assets/README.assets/image-20230419234800823.png",
-    "assets/README.assets/image-20230419232417595.png",
     "assets/README.assets",
-    "assets",
     "未命名文件夹",
     "README.assets",
     "Blue Topaz Legacy (sorted by @ProudBenzene).assets"
