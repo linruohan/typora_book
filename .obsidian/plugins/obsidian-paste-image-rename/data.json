@@ -3,8 +3,8 @@
   "dupNumberAtStart": false,
   "dupNumberDelimiter": "-",
   "dupNumberAlways": false,
-  "autoRename": true,
+  "autoRename": false,
   "handleAllAttachments": false,
   "excludeExtensionPattern": "",
-  "disableRenameNotice": true
+  "disableRenameNotice": false
 }
