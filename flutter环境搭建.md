@@ -2,8 +2,6 @@
 
 [toc]
 
-
-
 ## 1 使用 VS Code 安装 Flutter
 
 ![](./imgs/flutter环境搭建2.png)
