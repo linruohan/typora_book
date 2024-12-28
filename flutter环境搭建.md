@@ -15,6 +15,8 @@
         如果你没有按照 开发工具的必要条件 安装 Git for Windows ，单击该按钮后会导航至 Flutter 安装页面。
    6. 当提示 Which Flutter template? 的时候，请忽略它。可以按下 Esc。你可以在检查完开发配置后创建初始测试项目。
 
+
+
 ## 2 下载 Flutter SDK
 1.    当对话框 Select Folder for Flutter SDK 显示时，选择你想要安装 Flutter 的位置。
     VS Code 会打开你默认的位置。你可以选择其他位置。

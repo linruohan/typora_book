@@ -44,7 +44,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 336.5
   },
   "right": {
     "id": "8df061e044d53085",
@@ -178,16 +178,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
     }
   },
   "active": "aa3a547d6e1141bb",
   "lastOpenFiles": [
+    "imgs/flutter环境搭建.png",
+    "assets/flutter环境搭建.assets/flutter环境搭建.png",
+    "assets/flutter环境搭建.assets/image-20241228121133903.png",
+    "assets/flutter环境搭建.assets/image-20241228120911170.png",
+    "assets/flutter环境搭建.assets/image-20241228120728900.png",
+    "assets/flutter环境搭建.assets/image-20241228120638428.png",
     "assets/flutter环境搭建.assets/image-20241215192135398.png",
     "assets/flutter环境搭建.assets/image-20241215184351322.png",
     "assets/flutter环境搭建.assets/image-20241215110317532.png",
@@ -195,12 +201,6 @@
     "assets",
     "assets/flutter环境搭建.assets/image-20241215105927264.png",
     "assets/flutter环境搭建.assets/image-20241215105824341.png",
-    "assets/flutter环境搭建.assets/image-20241215105608996.png",
-    "assets/flutter环境搭建.assets/image-20241215105159718.png",
-    "assets/flutter环境搭建.assets/image-20241215105107568.png",
-    "assets/flutter环境搭建.assets/image-20241215105058284.png",
-    "assets/flutter环境搭建.assets/image-20241215105010483.png",
-    "assets/flutter环境搭建.assets/image-20241215104753045.png",
     "flutter环境搭建.md",
     "Msys2使用windows环境变量.md",
     "cargo_离线编译策略.md",

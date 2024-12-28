@@ -1,15 +1,13 @@
 [
-  "Enhanced-editing",
-  "obsidian-admonition",
-  "obsidian-contextual-typography",
-  "obsidian-custom-attachment-location",
   "mysnippets-plugin",
   "obsidian-style-settings",
   "obsidian-quiet-outline",
-  "oz-clear-unused-images",
-  "obsidian-hider",
   "number-headings-obsidian",
   "obsidian-paste-image-rename",
   "remember-cursor-position",
-  "settings-search"
+  "settings-search",
+  "obsidian-admonition",
+  "Enhanced-editing",
+  "oz-clear-unused-images",
+  "obsidian-hider"
 ]
