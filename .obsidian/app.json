@@ -1,9 +1,11 @@
 {
   "attachmentFolderPath": "./imgs",
   "useMarkdownLinks": true,
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "relative",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showInlineTitle": false,
-  "showRibbon": false
+  "showRibbon": false,
+  "showLineNumber": true,
+  "spellcheck": false
 }

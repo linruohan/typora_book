@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2e5415a30fb5fb2b",
+        "id": "29de7dc6817dab5a",
         "type": "tabs",
         "children": [
           {
-            "id": "aa3a547d6e1141bb",
+            "id": "d78612867228edf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "flutter环境搭建.md",
+                "file": "电脑组装.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "flutter环境搭建"
+              "title": "电脑组装"
             }
           }
         ]
@@ -186,28 +186,28 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "aa3a547d6e1141bb",
+  "active": "d78612867228edf4",
   "lastOpenFiles": [
-    "imgs/flutter环境搭建.png",
-    "assets/flutter环境搭建.assets/flutter环境搭建.png",
-    "assets/flutter环境搭建.assets/image-20241228121133903.png",
-    "assets/flutter环境搭建.assets/image-20241228120911170.png",
-    "assets/flutter环境搭建.assets/image-20241228120728900.png",
-    "assets/flutter环境搭建.assets/image-20241228120638428.png",
-    "assets/flutter环境搭建.assets/image-20241215192135398.png",
-    "assets/flutter环境搭建.assets/image-20241215184351322.png",
-    "assets/flutter环境搭建.assets/image-20241215110317532.png",
+    "imgs/电脑组装-1.png",
+    "imgs/电脑组装.png",
+    "imgs/Pasted image 20250101110200.png",
+    "imgs/Pasted image 20250101110021.png",
+    "imgs/电脑组装-4.png",
+    "imgs/电脑组装-3.png",
+    "imgs/电脑组装-2.png",
+    "imgs/电脑组装-1.png",
+    "imgs/电脑组装.png",
+    "# pandas 修改列名.md",
+    "imgs/# pandas 修改列名.png",
+    "imgs/Pasted image 20250101104406.png",
+    "flutter环境搭建.md",
     "assets/flutter环境搭建.assets",
     "assets",
-    "assets/flutter环境搭建.assets/image-20241215105927264.png",
-    "assets/flutter环境搭建.assets/image-20241215105824341.png",
-    "flutter环境搭建.md",
     "Msys2使用windows环境变量.md",
     "cargo_离线编译策略.md",
     "gtk4编译后windows控制台隐藏方法.md",
     "assets/Msys2使用windows环境变量.assets",
     "rust cargo加速编译.md",
-    "# pandas 修改列名.md",
     "unity学习/Unity3D NGUI.md",
     "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
     "pyqt5 qtable操作.md",
