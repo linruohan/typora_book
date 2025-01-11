@@ -9270,3 +9270,7 @@ body.is-focused .sidebar-toggle-button, body.is-focused .workspace-tabs.mod-top{
     font-size:18px;
 }
 }
+
+.cm-header{
+  color:black !important;
+}

@@ -1,4 +1,4 @@
-windows 使用zsh
+# windows 使用zsh
 
 [toc]
 
@@ -8,7 +8,7 @@ windows 使用zsh
 https://packages.msys2.org/package/zsh?repo=msys&variant=x86_64
 ```
 
-<img src="imgs/image-20211127201555056.png" alt="image-20211127201555056" style="zoom: 33%;" />
+![](./imgs/image-20211127201555056.png)
 
 ```
 解压下载的文件：
@@ -16,4 +16,4 @@ cp * C:/Program Files/Git/usr
 
 ```
 
-<img src="imgs/image-20211127201820447.png" alt="image-20211127201820447" style="zoom:33%;" />
+![](./imgs/image-20211127201820447.png)

@@ -299,5 +299,37 @@
       ],
       "key": "O"
     }
+  ],
+  "Enhanced-editing:internal-link2": [],
+  "Enhanced-editing:cuti-text": [],
+  "Enhanced-editing:add-daima": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "Enhanced-editing:gaoliang-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "Enhanced-editing:add-lines": [],
+  "Enhanced-editing:modify-link-showname": [],
+  "Enhanced-editing:mouse-end": [],
+  "editor:insert-link": [],
+  "Enhanced-editing:add-Line0": [],
+  "editor:toggle-comments": [],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
   ]
 }
