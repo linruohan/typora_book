@@ -4,8 +4,8 @@
   "enabledCssSnippets": [
     "width",
     "theme_only",
-    "Blue Topaz Legacy",
-    "涂黑圆角"
+    "涂黑圆角",
+    "Blue Topaz Legacy"
   ],
   "textFontFamily": "霞鹜文楷 屏幕阅读版,XiaoHanZhuanshu,LXGW WenKai GB",
   "monospaceFontFamily": "FantasqueSansMono NFM",
@@ -13,5 +13,5 @@
   "baseFontSize": 26,
   "theme": "obsidian",
   "baseFontSizeAction": true,
-  "showViewHeader": true
+  "showViewHeader": false
 }

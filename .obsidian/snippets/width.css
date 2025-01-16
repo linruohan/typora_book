@@ -428,3 +428,8 @@ div[data-path="Daily"] .nav-folder-title-content::before
   content: "\1f5d3";
 }*/
 
+.code-line-number .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end)::after{
+    font-size: 0.5em !important;
+    padding-right: 0.2em;
+    width: 6em !important;
+}

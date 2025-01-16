@@ -7617,10 +7617,3 @@ pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
 }
 ```
 Rock，让我们的函数编程 Style rock 起来，这种一行到底的写法有时真的让人沉迷。
-### 4.10 rust高级进阶
-#### 4.10.1 生命周期
-
-
-
-
-####### 123

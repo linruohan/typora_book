@@ -6,6 +6,6 @@
   "alwaysUpdateLinks": true,
   "showInlineTitle": false,
   "showRibbon": false,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "spellcheck": false
 }
