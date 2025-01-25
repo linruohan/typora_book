@@ -4,7 +4,7 @@
 
 https://blog.csdn.net/wangzhizhuo/article/details/141190550
 
-## 问题描述
+## 1 问题描述
 
 - 2024.12.20 Sublime Text 更新了最新版本(V4189)，本文介绍该版本的激活注册方法。
 - 2024.08.06 Sublime Text 更新版本(V4180)，本文激活注册方法同样适用。
@@ -13,14 +13,14 @@ https://blog.csdn.net/wangzhizhuo/article/details/141190550
 
 ------
 
-## 下载地址
+## 2 下载地址
 
 - 官方网址：https://www.sublimetext.com
 - 更新日志：https://www.sublimetext.com/download
 - V4189 64位：https://www.sublimetext.com/download_thanks?target=win-x64
 - V4180 64位：https://download.sublimetext.com/sublime_text_build_4180_x64_setup.exe
 
-## 激活方法
+## 3 激活方法
 
 1. 未激活表现![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/3299130dca48493b947673092b0f9e1c.png)
 2. 找到Sublime Text安装路径

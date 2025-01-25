@@ -415,3 +415,403 @@ fn use_list(list: &List) {
 `&*self`在例子中是对参数`self: &mut Self`的不可变再借用。
 &self 等价与 self: &Self  
 &mut self 等价与 self：&mut Self
+#### 1.1.2 &'static 和 T: 'static
+1. 字符串字面值就具有 `'static` 生命周期:
+```rust
+fn main() {
+  let mark_twain: &str = "Samuel Clemens";
+  print_author(mark_twain);
+}
+fn print_author(author: &'static str) {
+  println!("{}", author);
+}
+```
+2. 特征对象的生命周期：
+```rust
+use std::fmt::Display;
+fn main() {
+    let mark_twain = "Samuel Clemens";
+    print(&mark_twain);
+// 生命周期约束
+fn print<T: Display + 'static>(message: &T) {
+    println!("{}", message);
+}
+```
+##### 1.1.2.1 &'static
+<font color=#F36208>一个引用必须要活得跟剩下的程序一样久，才能被标注为 &'static</font>
+对于字符串字面量来说，它直接被打包到二进制文件中，永远不会被 `drop`，因此它能跟程序活得一样久，自然它的生命周期是 `'static`。
+但是，**`&'static` 生命周期针对的仅仅是引用，而不是持有该引用的变量，对于变量来说，还是要遵循相应的作用域规则** :
+```rust
+use std::{slice::from_raw_parts, str::from_utf8_unchecked};
+fn get_memory_location() -> (usize, usize) {
+  // “Hello World” 是字符串字面量，因此它的生命周期是 `'static`.
+  // 但持有它的变量 `string` 的生命周期就不一样了，它完全取决于变量作用域，对于该例子来说，也就是当前的函数范围
+  let string = "Hello World!";
+  let pointer = string.as_ptr() as usize;
+  let length = string.len();
+  (pointer, length)
+  // `string` 在这里被 drop 释放
+  // 虽然变量被释放，无法再被访问，但是数据依然还会继续存活
+}
+
+fn get_str_at_location(pointer: usize, length: usize) -> &'static str {
+  // 使用裸指针需要 `unsafe{}` 语句块
+  unsafe { from_utf8_unchecked(from_raw_parts(pointer as *const u8, length)) }
+}
+
+fn main() {
+  let (pointer, length) = get_memory_location();
+  let message = get_str_at_location(pointer, length);
+  println!(
+    "The {} bytes at 0x{:X} stored: {}",
+    length, pointer, message
+  );
+  // 如果大家想知道为何处理裸指针需要 `unsafe`，可以试着反注释以下代码
+  // let message = get_str_at_location(1000, 10);
+}
+```
+- `&'static` 的引用确实可以和程序活得一样久，因为我们通过 `get_str_at_location` 函数直接取到了对应的字符串
+- 持有 `&'static` 引用的变量，它的生命周期受到作用域的限制，大家务必不要搞混了
+##### 1.1.2.2 T: 'static
+首先，在以下两种情况下，`T: 'static` 与 `&'static` 有相同的约束：`T` 必须活得和程序一样久。
+```rust
+use std::fmt::Debug;
+fn print_it<T: Debug + 'static>( input: T) { //`&i` 的生命周期无法满足 `'static` 的约束，如果大家将 `i` 修改为常量，那自然一切 OK
+fn print_it<T: Debug + 'static>( input: &T) { // 这段代码竟然不报错了！原因在于我们约束的是 `T`，但是使用的却是它的引用 `&T`，换而言之，我们根本没有直接使用 `T`，因此编译器就没有去检查 `T` 的生命周期约束！它只要确保 `&T` 的生命周期符合规则即可，在上面代码中，它自然是符合的。
+    println!( "'static value passed in is: {:?}", input );
+}
+fn print_it1( input: impl Debug + 'static ) {
+    println!( "'static value passed in is: {:?}", input );
+}
+fn main() {
+    let i = 5;
+    print_it(&i);
+    print_it1(&i);
+}
+```
+```rust
+use std::fmt::Display;
+fn main() {
+  let r1;
+  let r2;
+  {
+    static STATIC_EXAMPLE: i32 = 42;
+    r1 = &STATIC_EXAMPLE;
+    let x = "&'static str";
+    r2 = x;
+    // r1 和 r2 持有的数据都是 'static 的，因此在花括号结束后，并不会被释放
+  }
+
+  println!("&'static i32: {}", r1); // -> 42
+  println!("&'static str: {}", r2); // -> &'static str
+
+  let r3: &str;
+
+  {
+    let s1 = "String".to_string();
+
+    // s1 虽然没有 'static 生命周期，但是它依然可以满足 T: 'static 的约束
+    // 充分说明这个约束是多么的弱。。
+    static_bound(&s1);
+
+    // s1 是 String 类型，没有 'static 的生命周期，因此下面代码会报错
+    r3 = &s1;
+
+    // s1 在这里被 drop
+  }
+  println!("{}", r3);
+}
+
+fn static_bound<T: Display + 'static>(t: &T) {
+  println!("{}", t);
+}
+```
+##### 1.1.2.3 static 到底针对谁？
+到底是 `&'static` 这个引用还是该引用指向的数据活得跟程序一样久呢？
+**答案是引用指向的数据**，而引用本身是要遵循其作用域范围的
+```rust
+fn main() {
+    {
+        let static_string = "I'm in read-only memory";
+        println!("static_string: {}", static_string);
+        // 当 `static_string` 超出作用域时，该引用不能再被使用，但是数据依然会存在于 binary 所占用的内存中
+    }
+    println!("static_string reference remains alive: {}", static_string); ❌
+}
+```
+以上代码不出所料会报错，原因在于虽然字符串字面量 "I'm in read-only memory" 的生命周期是 `'static`，但是持有它的引用并不是，它的作用域在内部花括号 `}` 处就结束了。
+##### 1.1.2.4 总结
+总之， &'static 和 T: 'static 大体上相似，相比起来，后者的使用形式会更加复杂一些。
+至此，相信大家对于 'static 和 T: 'static 也有了清晰的理解，那么我们应该如何使用它们呢？
+作为经验之谈，可以这么来:
+1. 如果你需要添加 &'static 来让代码工作，那很可能是设计上出问题了
+2. 如果你希望满足和取悦编译器，那就使用 T: 'static，很多时候它都能解决问题
+&'static表示的是任意一种从头活到尾的类型比如string，实际用途更偏向于指针，表示指向一种生命周期为'static的数据类型，T:'static更偏向于泛型，用于定义一种类型
+&'static 声明变量指向的内存，是具有static lifetime的。但是这个变量本身还会在超出block时被释放。  
+T：‘static 声明的是T这个类型的lifetime是被static约束的，当然也就比static长。  
+注意，T可能是&类型。
+###### 1.1.2.4.1 str，&str和String有什么区别
+
+1. str是字面值，在程序运行过程中不会改变的（但是在定义时，是长度可变的）
+2. 由于str在定义时长度可变，编译器无法提前预知str类型的长度，所以有了&str类型。  
+    &str类型本质上就是一个指针，长度固定
+3. String则是为了解决str在程序运行过程中无法改变的痛点，同时满足动态定义和动态改变
+###### 1.1.2.4.2 &'static解析
+首先明确一点，生命周期概念是针对 “引用” 设立的。对于非引用类型（比如普通的i32，u32，String等）都无效了
+再看 “&'static” 长的这个鸟样，是不是和上面提到的&str很像。由此可得，'static要求的是str，要求的是被引的对象。
+表达得不好，看下面这段示例代码，就可以理解了：
+```rust
+use std::fmt::Display;
+fn mian() {
+    static A_STATIC: i32 = 1;
+    let a = 2;
+    {
+     let b = 3;
+        static_bound(b);        // 正确，不为引用类型
+        //static_bound(&b);     // 错误，引用类型，且生命周期不为static
+    }
+    static_bound(a);            // 正确，不为引用类型
+    //static_bound(&a);         // 错误，引用类型，且生命周期不为static
+    static_bound(A_STATIC);     // 正确，不为引用类型
+    static_bound(&A_STATIC);    // 正确，引用类型，且生命周期为static
+}
+fn static_bound<T: Display + 'static>(t: T) {
+    println!("{t}");
+}
+```
+###### 1.1.2.4.3 T: 'static解析
+对于 **"T: 'static"** ，需要分类讨论：
+1. 当T是普通类型（非引用）时，则直接通过要求，不检查static
+2. 当T时引用类型时，检查被引用的对象是否为static。static通过，非static打回去
+当一个类型内部持有引用这种情况下，即便这个类型传进去的时候不是个引用，并且它持有的那个引用在函数执行的过程中是安全的，只要它持有的引用的生命周期不是'static，就无法通过编译检查。
+```rust
+use std::fmt::Debug;
+
+fn print_it<T: 'static + Debug>(x: T) {
+    println!("{:?}", x);
+}
+
+#[derive(Debug)]
+struct MaybeStatic<'a> {
+    msg: &'a str,
+}
+
+fn main() {
+    let has_static = MaybeStatic { msg: "It is static" };
+    
+    let str = String::from("Is not static");
+    let not_static = MaybeStatic { msg: &str };
+
+    print_it(has_static);
+    // print_it(not_static);
+}
+```
+### 1.2 函数式编程
+函数式语言的优秀特性
+- 使用函数作为参数进行传递
+- 使用函数作为函数返回值
+- 将函数赋值给变量
+<span style="background:red">函数式特性</span>：
+- 闭包 Closure
+- 迭代器 Iterator
+- 模式匹配
+- 枚举
+#### 1.2.1 闭包 Closure
+闭包是**一种匿名函数，它可以赋值给变量也可以作为参数传递给其它函数，不同于函数的是，它允许捕获调用者作用域中的值**，例如：
+```rust
+fn main() {
+   let x = 1;
+   let sum = |y| x + y;  //可以赋值给变量，允许捕获调用者作用域中的值
+    assert_eq!(3, sum(2));
+}
+```
+非常简单的闭包 `sum`，它拥有一个入参 `y`，同时捕获了作用域中的 `x` 的值，因此调用 `sum(2)` 意味着将 2（参数 `y`）跟 1（`x`）进行相加，最终返回它们的和：`3`。
+#### 1.2.2 使用闭包来简化代码
+##### 1.2.2.1 传统函数实现
+在健身时我们根据想要的强度来调整具体的动作，然后调用 `muuuuu` 函数来开始健身。这个程序本身很简单，没啥好说的，但是假如未来不用 `muuuuu` 函数了，是不是得把所有 `muuuuu` 都替换成，比如说 `woooo` ？如果 `muuuuu` 出现了几十次，那意味着我们要修改几十处地方。
+```rust
+use std::thread;
+use std::time::Duration;
+
+// 开始健身，好累，我得发出声音：muuuu...
+fn muuuuu(intensity: u32) -> u32 {
+    println!("muuuu.....");
+    thread::sleep(Duration::from_secs(2));
+    intensity
+}
+fn workout(intensity: u32, random_number: u32) {
+    if intensity < 25 {
+        println!(
+            "今天活力满满，先做 {} 个俯卧撑!",
+            muuuuu(intensity)
+        );
+        println!(
+            "旁边有妹子在看，俯卧撑太low，再来 {} 组卧推!",
+            muuuuu(intensity)
+        );
+    } else if random_number == 3 {
+        println!("昨天练过度了，今天还是休息下吧！");
+    } else {
+        println!(
+            "昨天练过度了，今天干干有氧，跑步 {} 分钟!",
+            muuuuu(intensity)
+        );
+    }
+}
+
+fn main() {
+    // 强度
+    let intensity = 10;
+    // 随机值用来决定某个选择
+    let random_number = 7;
+
+    // 开始健身
+    workout(intensity, random_number);
+}
+```
+##### 1.2.2.2 函数变量实现
+把函数赋值给一个变量，然后通过变量调用
+经过修改后，所有的调用都通过 `action` 来完成，若未来声(动)音(作)变了，只要修改为 `let action = woooo` 即可。
+但是问题又来了，若 `intensity` 也变了怎么办？例如变成 `action(intensity + 1)`，那你又得哐哐哐修改几十处调用。
+```rust
+use std::thread;
+use std::time::Duration;
+
+// 开始健身，好累，我得发出声音：muuuu...
+fn muuuuu(intensity: u32) -> u32 {
+    println!("muuuu.....");
+    thread::sleep(Duration::from_secs(2));
+    intensity
+}
+
+fn workout(intensity: u32, random_number: u32) {
+    let action = muuuuu;
+    if intensity < 25 {
+        println!(
+            "今天活力满满, 先做 {} 个俯卧撑!",
+            action(intensity)
+        );
+        println!(
+            "旁边有妹子在看，俯卧撑太low, 再来 {} 组卧推!",
+            action(intensity)
+        );
+    } else if random_number == 3 {
+        println!("昨天练过度了，今天还是休息下吧！");
+    } else {
+        println!(
+            "昨天练过度了，今天干干有氧, 跑步 {} 分钟!",
+            action(intensity)
+        );
+    }
+}
+
+fn main() {
+    // 强度
+    let intensity = 10;
+    // 随机值用来决定某个选择
+    let random_number = 7;
+
+    // 开始健身
+    workout(intensity, random_number);
+}
+```
+##### 1.2.2.3 闭包实现
+无论你要修改什么，只要修改闭包 `action` 的实现即可，其它地方只负责调用，完美解决了我们的问题！
+```rust
+use std::thread;
+use std::time::Duration;
+
+fn workout(intensity: u32, random_number: u32) {
+    let action = || {
+        println!("muuuu.....");
+        thread::sleep(Duration::from_secs(2));
+        intensity
+    };
+
+    if intensity < 25 {
+        println!(
+            "今天活力满满，先做 {} 个俯卧撑!",
+            action()
+        );
+        println!(
+            "旁边有妹子在看，俯卧撑太low，再来 {} 组卧推!",
+            action()
+        );
+    } else if random_number == 3 {
+        println!("昨天练过度了，今天还是休息下吧！");
+    } else {
+        println!(
+            "昨天练过度了，今天干干有氧，跑步 {} 分钟!",
+            action()
+        );
+    }
+}
+
+fn main() {
+    // 动作次数
+    let intensity = 10;
+    // 随机值用来决定某个选择
+    let random_number = 7;
+
+    // 开始健身
+    workout(intensity, random_number);
+}
+```
+###### 1.2.2.3.1 闭包
+Rust 闭包在形式上借鉴了 `Smalltalk` 和 `Ruby` 语言，与函数最大的不同就是它的参数是通过 `|parm1|` 的形式进行声明，如果是多个参数就 `|param1, param2,...|`， 下面给出闭包的形式定义：
+```rust
+|param1, param2,...| {
+    语句1;
+    语句2;
+    返回表达式
+}
+```
+如果只有一个返回表达式的话，定义可以简化为：
+```rust
+|param1| 返回表达式
+```
+- **闭包中最后一行表达式返回的值，就是闭包执行后的返回值**，因此 `action()` 调用返回了 `intensity` 的值 `10`
+- `let action = ||...` 只是把闭包赋值给变量 `action`，并不是把闭包执行后的结果赋值给 `action`，因此这里 `action` 就相当于闭包函数，可以跟函数一样进行调用：`action()`
+#### 1.2.3 闭包的类型推导
+与函数相反，闭包并不会作为 API 对外提供，因此它可以享受编译器的类型推导能力，无需标注参数和返回值的类型。
+为了增加代码可读性，有时候我们会显式地给类型进行标注，出于同样的目的，也可以给闭包标注类型：
+```rust
+let sum = |x: i32, y: i32| -> i32 {
+    x + y
+}
+//不标注类型的闭包声明会更简洁些：
+let sum  = |x, y| x + y;
+// 如果你只进行了声明，但是没有使用，编译器会提示你为 `x, y` 添加类型标注，因为它缺乏必要的上下文：
+let v = sum(1, 2);
+```
+###### 1.2.3.1.1 同一个功能的函数和闭包实现形式
+```rust
+fn  add_one_v1   (x: u32) -> u32 { x + 1 }
+let add_one_v2 = |x: u32| -> u32 { x + 1 };
+let add_one_v3 = |x|             { x + 1 };  // 省略参数
+let add_one_v4 = |x|               x + 1  ; // 返回值类型 花括号对
+```
+虽然类型推导很好用，但是它不是泛型，**当编译器推导出一种类型后，它就会一直使用该类型**：
+```rust
+let example_closure = |x| x;
+
+let s = example_closure(String::from("hello"));  // 编译器为 `x` 推导出类型 `String`
+let n = example_closure(5);  // 跟编译器之前推导的 `String` 类型不符 ❌
+```
+#### 1.2.4 结构体中的闭包
+实现一个简易缓存，功能是获取一个值，然后将其缓存起来，
+- 一个闭包用于获取值
+- 一个变量，用于存储该值
+```rust
+struct Cacher<T>
+where
+    T: Fn(u32) -> u32,
+{
+    query: T,
+    value: Option<u32>,
+}
+```
+`Fn(u32) -> u32` 是 `T` 的特征约束， 是一个特征，用来表示 `T` 是一个闭包类型
+那为什么不用具体的类型来标注 `query` 呢？原因很简单，每一个闭包实例都有独属于自己的类型，即使于两个签名一模一样的闭包，它们的类型也是不同的，因此你无法用一个统一的类型来标注 `query` 闭包。
+而标准库提供的 `Fn` 系列特征，再结合特征约束，就能很好的解决了这个问题. `T: Fn(u32) -> u32` 意味着 `query` 的类型是 `T`，该类型必须实现了相应的闭包特征 `Fn(u32) -> u32`。从特征的角度来看它长得非常反直觉，但是如果从闭包的角度来看又极其符合直觉，不得不佩服 Rust 团队的鬼才设计。。。
+特征 `Fn(u32) -> u32` 从表面来看，就对闭包形式进行了显而易见的限制：**该闭包拥有一个`u32`类型的参数，同时返回一个`u32`类型的值**。

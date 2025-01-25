@@ -85,6 +85,10 @@ mklink Link Target
 mklink /D Link Target
 mklink /D C:\software\SublimeText\Data D:\codehub\my-ST-my-settings
 mklink /D "C:\Program Files\Typora\resources\plugin" D:\codehub\typora_plugin\plugin
+mklink /D  "C:\Users\Administrator\.glzr" "D:\codehub\windots\.glzr"
+mklink /D  C:\Users\Administrator\AppData\Roaming\alacritty 
+mklink /D C:\Users\Administrator\AppData\Roaming\alacritty  D:\codehub\windots\AppData\Roaming\alacritty
+mklink /D  %UserProfile%\omz  D:\codehub\windots\omz
 ```
 
 当您想要创建指向文件的硬链接时，请使用 /H：
