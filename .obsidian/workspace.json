@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0909464654faf59d",
+        "id": "d0d520fb22ab3eb5",
         "type": "tabs",
         "children": [
           {
-            "id": "246d13c22361242e",
+            "id": "e00062e365514b11",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,8 +181,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "246d13c22361242e",
+  "active": "e00062e365514b11",
   "lastOpenFiles": [
+    "Rust win11 环境部署.md",
     "sublimetext4激活.md",
     "cmd中常用的变量.md",
     "Rust语言圣经(Rust Course)-进阶篇.md",
@@ -221,7 +222,6 @@
     "我是佛前的一粒佛珠.md",
     "火狐浏览器添加自定义搜索引擎.md",
     "12-藏____个人收藏/59-最新实用网站.md",
-    "测试.md",
     "assets/PKMer投稿.assets",
     "assets/README.assets",
     "未命名文件夹",

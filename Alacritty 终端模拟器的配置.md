@@ -3,23 +3,24 @@
 April 21, 2023 06:00
 `alacritty.yml` 文件包含了 Alacritty 终端模拟器的配置信息。这些配置包括窗口设置、滚动设置、字体设置、颜色设置等。下面是一些可配置的选项及其描述：
 
-| 配置选项 | 描述 |
-| --- | --- |
-|`window`|窗口设置，包括尺寸、位置、填充、装饰等|
-|`scrolling`|滚动设置，包括历史记录长度和滚动距离乘数|
-|`font`|字体设置，包括字体家族、样式和大小|
-|`colors`|颜色设置，包括默认颜色、光标颜色、选择颜色等|
-|`bell`|铃声设置，包括视觉铃声动画和铃声命令|
-|`background_opacity`|背景不透明度|
-|`selection`|选择设置，包括语义转义字符和保存到剪贴板选项|
-|`cursor`|光标设置，包括样式、闪烁状态和闪烁间隔|
-|`live_config_reload`|实时配置重新加载|
-|`shell`|Shell 设置，包括程序和参数|
-|`working_directory`|启动目录|
-|`alt_send_esc`|发送 ESC 选项|
-|`mouse`|鼠标设置，包括双击和三击阈值以及隐藏光标选项|
+| 配置选项                 | 描述                     |
+|:-------------------- |:---------------------- |
+| `window`             | 窗口设置，包括尺寸、位置、填充、装饰等    |
+| `scrolling`          | 滚动设置，包括历史记录长度和滚动距离乘数   |
+| `font`               | 字体设置，包括字体家族、样式和大小      |
+| `colors`             | 颜色设置，包括默认颜色、光标颜色、选择颜色等 |
+| `bell`               | 铃声设置，包括视觉铃声动画和铃声命令     |
+| `background_opacity` | 背景不透明度                 |
+| `selection`          | 选择设置，包括语义转义字符和保存到剪贴板选项 |
+| `cursor`             | 光标设置，包括样式、闪烁状态和闪烁间隔    |
+| `live_config_reload` | 实时配置重新加载               |
+| `shell`              | Shell 设置，包括程序和参数       |
+| `working_directory`  | 启动目录                   |
+| `alt_send_esc`       | 发送 ESC 选项              |
+| `mouse`              | 鼠标设置，包括双击和三击阈值以及隐藏光标选项 |
 
 这只是其中的一部分配置选项。您可以在 Alacritty 的文档中找到完整的配置选项列表。
+
 ## 1 推荐配置
 
 `alacritty.yml` 配置文件的位置取决于您的操作系统：
@@ -29,7 +30,9 @@ April 21, 2023 06:00
 - Linux: `~/.config/alacritty/alacritty.yml` 或 `$XDG_CONFIG_HOME/alacritty/alacritty.yml`
 
 如果您找不到配置文件，可以在 Alacritty 的 GitHub 仓库中找到一个示例配置文件，然后将其复制到上述位置之一。
+
 ## 2 配置
+
 ```yml
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
@@ -881,4 +884,4 @@ April 21, 2023 06:00
 
   # Print all received window events.
   #print_events: false
-  ```
+```
