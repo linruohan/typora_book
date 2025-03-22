@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "d0d520fb22ab3eb5",
+        "id": "f5c24133e8431d70",
         "type": "tabs",
         "children": [
           {
-            "id": "e00062e365514b11",
+            "id": "fdf7585bf382b7c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "搭建Windows GTK环境+pyGTK使用.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "搭建Windows GTK环境+pyGTK使用"
             }
           }
         ]
@@ -36,10 +50,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -94,52 +109,6 @@
             }
           },
           {
-            "id": "c6dc31bcceb11637",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "flutter环境搭建.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "flutter环境搭建 的反向链接列表"
-            }
-          },
-          {
-            "id": "732b003050674642",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "flutter环境搭建.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "flutter环境搭建 的出链列表"
-            }
-          },
-          {
-            "id": "3c83d6fd884252a4",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
             "id": "43be399219bb7875",
             "type": "leaf",
             "state": {
@@ -150,20 +119,6 @@
               "icon": "lucide-list",
               "title": "flutter环境搭建 的大纲"
             }
-          },
-          {
-            "id": "bf038d3e70e1c345",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
           }
         ]
       }
@@ -173,16 +128,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "e00062e365514b11",
+  "active": "fdf7585bf382b7c0",
   "lastOpenFiles": [
+    "【Shell】sh执行脚本报错Syntax error “(“ unexpected.md",
     "Rust win11 环境部署.md",
     "sublimetext4激活.md",
     "cmd中常用的变量.md",
@@ -221,7 +173,6 @@
     "bzip使用说明.md",
     "我是佛前的一粒佛珠.md",
     "火狐浏览器添加自定义搜索引擎.md",
-    "12-藏____个人收藏/59-最新实用网站.md",
     "assets/PKMer投稿.assets",
     "assets/README.assets",
     "未命名文件夹",

@@ -1,13 +1,12 @@
 [
-  "mysnippets-plugin",
-  "obsidian-style-settings",
   "obsidian-quiet-outline",
   "number-headings-obsidian",
   "obsidian-paste-image-rename",
   "remember-cursor-position",
-  "settings-search",
-  "obsidian-admonition",
   "Enhanced-editing",
   "oz-clear-unused-images",
-  "obsidian-hider"
+  "obsidian-hider",
+  "ProxyGithub",
+  "style-text",
+  "obsidian-tasks-plugin"
 ]

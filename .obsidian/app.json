@@ -5,7 +5,8 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showInlineTitle": false,
-  "showRibbon": false,
-  "showLineNumber": false,
-  "spellcheck": false
+  "showLineNumber": true,
+  "spellcheck": false,
+  "focusNewTab": false,
+  "readableLineLength": false
 }

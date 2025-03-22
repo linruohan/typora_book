@@ -121,7 +121,7 @@
 /**
   2.2.1 Dark Mode defaults
  */
-.theme-dark {
+/*.theme-dark {
   --background-primary: #282C34;
   --background-primary-alt: #21252B;
   --background-secondary: var(--color-black-hsl);
@@ -136,7 +136,7 @@
   --shadow-primary: var(--color-black-hsl);
 
 
-}
+}*/
 
 /**
   2.2.2 Light Mode defaults
