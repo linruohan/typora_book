@@ -37,13 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zed.md",
+                "file": "搭建Windows GTK环境+pyGTK使用.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "zed"
+              "title": "搭建Windows GTK环境+pyGTK使用"
             }
           }
         ],
@@ -79,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "libadwaita",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -100,7 +100,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -150,8 +151,14 @@
   },
   "active": "1d69b4f1d843f717",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Planify TODOist工具.md",
+    "windows GTK环境+pyGTK使用一文.md",
+    "windows下gtk4开发.md",
+    "win10安装gtk4的说明.md",
+    "C++&gtk4的windows环境gtkmm4-clion安装.md",
     "搭建Windows GTK环境+pyGTK使用.md",
+    "zed.md",
+    "Untitled.md",
     "【Shell】sh执行脚本报错Syntax error “(“ unexpected.md",
     "Rust win11 环境部署.md",
     "sublimetext4激活.md",
@@ -183,12 +190,6 @@
     "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
     "pyqt5 qtable操作.md",
     "pyqt5 窗口状态和操作.md",
-    "python异步编程.md",
-    "pyqt5 QtTree遍历.md",
-    "微软账号登录转圈问题.md",
-    "unity学习/unity基础.md",
-    "firefox标签页添加背景图片.md",
-    "bzip使用说明.md",
     "assets/PKMer投稿.assets",
     "assets/README.assets",
     "未命名文件夹",

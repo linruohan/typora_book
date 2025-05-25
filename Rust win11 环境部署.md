@@ -19,7 +19,7 @@ echo 'set -x RUSTUP_DIST_SERVER https://mirrors.tuna.tsinghua.edu.cn/rustup' >> 
 ```
 2. 安装 [Microsoft C++ 生成工具](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/)。
 #### 1.1.1 Microsoft Visual Studio C++ 构建工具
-
+rustup component add rust-src
 你需要安装 Microsoft Visual Studio C++ 构建工具。最简单的方法是安装 [Visual Studio 2022 构建工具](https://visualstudio.microsoft.com/visual-cpp-build-tools/)。在询问要安装哪些工作负载时，请确保选中“C++ 构建工具”和 Windows 10 SDK。
 
 ![Microsoft Visual Studio Installer](https://tauri.org.cn/assets/images/vs-installer-dark-03cefd64bd4335f718aacc8f4842d2bb.png#gh-dark-mode-only)
@@ -70,3 +70,58 @@ registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
 registry = "https://code.aliyun.com/rustcc/crates.io-index.git"
 
 ```
+
+## 添加组件
+### 多线程编译
+alias cargo="RUSTFLAGS='-Z threads=8' cargo +nightly"
+
+### 添加组件
+rust-src 标准库代码的拷贝
+
+rust-src 组件可以为您提供 Rust 的源代码的本地副本。你为什么需要这个？好吧，像 Racer 这样的自动完成工具使用这些信息来了解你要调用的函数的更多信息。
+
+$ rustup component add rust-src
+
+“预览”组件
+
+“预览”阶段有几个组件。 这些组件的名称目前都有 -preview，这表明它们还没有100％准备好进行一般使用。 请尝试一下并给我们反馈，但要知道他们不遵循 Rust 的稳定性保证，并且仍然在积极地改变，可能是以向后不兼容的方式。
+rustfmt-preview 自动代码格式化
+
+Minimum Rust version: 1.24
+
+如果您希望自动格式化代码，可以安装此组件：
+
+$ rustup component add rustfmt-preview
+
+这将安装两个工具，rustfmt 和 cargo-fmt，它们将为您自动格式化代码！ 例如：
+
+$ cargo fmt
+
+将重新格式化您的整个 cargo 项目。
+rls-preview 为了 IDE 集成
+
+Minimum Rust version: 1.21
+
+许多 IDE 功能都是基于 langserver协议 构建的。要使用这些 IDE 获得对 Rust 的支持，您需要安装 Rust 语言服务器，即“RLS”：
+
+$ rustup component add rls-preview
+
+你的 IDE 应该从那拿到它。
+clippy-preview 更多的 lints
+
+要获得更多的 lints 来帮助你编写 Rust 代码，你可以安装 clippy：
+
+$ rustup component add clippy-preview
+
+This will install cargo-clippy for you:
+
+$ cargo clippy
+
+更多信息，查阅 clippy's documentation.
+llvm-tools-preview 使用额外的LLVM工具
+
+如果您想使用 lld 链接器或其他工具，如 llvm-objdump 或 llvm-objcopy，您可以安装此组件：
+
+$ rustup component add llvm-tools-preview
+
+这是最新的组件，因此目前没有良好的文档。

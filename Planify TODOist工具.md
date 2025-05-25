@@ -213,7 +213,7 @@ section中添加todo，然后点击后，key看到子sub，点击子sub可以看
 
 #### 5.2.6 Delete Project
 
-![image-20240127133523084](imgs/image-20240127133523084.png)
+> ![image-20240127133523084](imgs/image-20240127133523084.png)
 
 ## 6 quick find
 
