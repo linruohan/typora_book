@@ -89,6 +89,10 @@ mklink /D  "C:\Users\Administrator\.glzr" "D:\codehub\windots\.glzr"
 mklink /D  C:\Users\Administrator\AppData\Roaming\alacritty 
 mklink /D C:\Users\Administrator\AppData\Roaming\alacritty  D:\codehub\windots\AppData\Roaming\alacritty
 mklink /D  %UserProfile%\omz  D:\codehub\windots\omz
+
+mklink /D "%APPDATA%\Code" C:\software\VSCode\data\user-data
+mklink /D  %UserProfile%\.vscode  C:\software\VSCode\data
+mklink /D "%APPDATA%\yazi" D:\codehub\win10\yazi
 ```
 
 当您想要创建指向文件的硬链接时，请使用 /H：
