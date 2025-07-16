@@ -225,7 +225,7 @@ section中添加todo，然后点击后，key看到子sub，点击子sub可以看
 
 ![image-20240127134150558](imgs/image-20240127134150558.png)
 
-#### 7.1.1 integration 
+#### 7.1.1 integration
 
 ![image-20240127134227916](imgs/image-20240127134227916.png)
 
