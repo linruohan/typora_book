@@ -45,9 +45,21 @@
               "icon": "lucide-file",
               "title": "搭建Windows GTK环境+pyGTK使用"
             }
+          },
+          {
+            "id": "0c49a1c572d05ce0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +99,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -145,11 +157,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "1d69b4f1d843f717",
+  "active": "0c49a1c572d05ce0",
   "lastOpenFiles": [
     "Planify TODOist工具.md",
     "windows GTK环境+pyGTK使用一文.md",
