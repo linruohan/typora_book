@@ -4,11 +4,18 @@
 
 ## 1 首页
 
-![image-20240127121212191](imgs/image-20240127121212191.png)
+![](imgs/Planify%20TODOist工具.png)
 
 ## 2 inbox代办收件箱
-
+old
 ![image-20240127121319034](imgs/image-20240127121319034.png)
+new:
+![](imgs/Planify%20TODOist工具-1.png)
+![](imgs/Planify%20TODOist工具-2.png)
+![](imgs/Planify%20TODOist工具-3.png)
+add task
+![](imgs/Planify%20TODOist工具-4.png)
+
 
 ## 3 today
 

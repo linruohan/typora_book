@@ -37,29 +37,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "搭建Windows GTK环境+pyGTK使用.md",
+                "file": "Planify TODOist工具.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "搭建Windows GTK环境+pyGTK使用"
-            }
-          },
-          {
-            "id": "0c49a1c572d05ce0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "title": "Planify TODOist工具"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "libadwaita",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,8 +100,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,7 +115,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bfd1a3218572b1c1",
+            "id": "43be399219bb7875",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Planify TODOist工具.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Planify TODOist工具"
+            }
+          },
+          {
+            "id": "a084f4bed3a40ecd",
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
@@ -136,20 +138,9 @@
               "icon": "lines-of-text",
               "title": "Quiet Outline"
             }
-          },
-          {
-            "id": "43be399219bb7875",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "flutter环境搭建.md"
-              },
-              "icon": "lucide-list",
-              "title": "flutter环境搭建 的大纲"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -158,17 +149,25 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "0c49a1c572d05ce0",
+  "active": "a084f4bed3a40ecd",
   "lastOpenFiles": [
+    "imgs/Planify TODOist工具-4.png",
+    "imgs/Planify TODOist工具-3.png",
+    "imgs/Planify TODOist工具-2.png",
+    "imgs/Planify TODOist工具-1.png",
+    "imgs/Planify TODOist工具.png",
+    "wsl_arch_2025md.md",
+    "imgs/wsl_arch_2025md.png",
+    "搭建Windows GTK环境+pyGTK使用.md",
     "Planify TODOist工具.md",
     "windows GTK环境+pyGTK使用一文.md",
     "windows下gtk4开发.md",
     "win10安装gtk4的说明.md",
     "C++&gtk4的windows环境gtkmm4-clion安装.md",
-    "搭建Windows GTK环境+pyGTK使用.md",
     "zed.md",
     "Untitled.md",
     "【Shell】sh执行脚本报错Syntax error “(“ unexpected.md",
@@ -183,11 +182,6 @@
     "Alacritty 终端模拟器的配置.md",
     "imgs/Rust语言圣经(Rust Course)-7.png",
     "imgs/Rust语言圣经(Rust Course)-6.png",
-    "imgs/Rust语言圣经(Rust Course)-5.png",
-    "imgs/Rust语言圣经(Rust Course)-4.png",
-    "imgs/Rust语言圣经(Rust Course)-3.png",
-    "imgs/Rust语言圣经(Rust Course)-2.png",
-    "imgs/Rust语言圣经(Rust Course)-1.png",
     "电脑组装.md",
     "# pandas 修改列名.md",
     "flutter环境搭建.md",
@@ -200,8 +194,6 @@
     "rust cargo加速编译.md",
     "unity学习/Unity3D NGUI.md",
     "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
-    "pyqt5 qtable操作.md",
-    "pyqt5 窗口状态和操作.md",
     "assets/PKMer投稿.assets",
     "assets/README.assets",
     "未命名文件夹",
