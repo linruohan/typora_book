@@ -9,7 +9,7 @@
   "textFontFamily": "霞鹜文楷 屏幕阅读版,XiaoHanZhuanshu,LXGW WenKai GB",
   "monospaceFontFamily": "FantasqueSansM Nerd Font,FantasqueSansM Nerd Font Propo",
   "interfaceFontFamily": "霞鹜文楷 屏幕阅读版,XHZS",
-  "baseFontSize": 26,
+  "baseFontSize": 23,
   "theme": "obsidian",
   "baseFontSizeAction": true,
   "showViewHeader": true,

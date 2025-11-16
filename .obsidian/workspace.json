@@ -37,13 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planify TODOist工具.md",
+                "file": "Planify_TODOist工具.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Planify TODOist工具"
+              "title": "Planify_TODOist工具"
             }
           }
         ],
@@ -153,15 +153,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "a084f4bed3a40ecd",
+  "active": "1d69b4f1d843f717",
   "lastOpenFiles": [
-    "imgs/Planify TODOist工具-4.png",
-    "imgs/Planify TODOist工具-3.png",
-    "imgs/Planify TODOist工具-2.png",
-    "imgs/Planify TODOist工具-1.png",
-    "imgs/Planify TODOist工具.png",
+    "imgs/Planify_TODOist工具-69.png",
+    "imgs/Planify_TODOist工具-68.png",
+    "imgs/Planify_TODOist工具-67.png",
+    "imgs/Planify_TODOist工具-66.png",
+    "imgs/Planify_TODOist工具-65.png",
+    "imgs/Planify_TODOist工具-64.png",
+    "imgs/Planify_TODOist工具-63.png",
+    "imgs/Planify_TODOist工具-62.png",
+    "imgs/Planify_TODOist工具-61.png",
+    "imgs/Planify_TODOist工具-60.png",
+    "imgs/Planify_TODOist工具-59.png",
     "wsl_arch_2025md.md",
-    "imgs/wsl_arch_2025md.png",
     "搭建Windows GTK环境+pyGTK使用.md",
     "Planify TODOist工具.md",
     "windows GTK环境+pyGTK使用一文.md",
@@ -176,12 +181,7 @@
     "cmd中常用的变量.md",
     "Rust语言圣经(Rust Course)-进阶篇.md",
     "Rust语言圣经(Rust Course).md",
-    "imgs/Rust语言圣经(Rust Course)-10.png",
-    "imgs/Rust语言圣经(Rust Course)-9.png",
-    "imgs/Rust语言圣经(Rust Course)-8.png",
     "Alacritty 终端模拟器的配置.md",
-    "imgs/Rust语言圣经(Rust Course)-7.png",
-    "imgs/Rust语言圣经(Rust Course)-6.png",
     "电脑组装.md",
     "# pandas 修改列名.md",
     "flutter环境搭建.md",
