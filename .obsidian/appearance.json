@@ -3,14 +3,13 @@
   "cssTheme": "Catppuccin",
   "enabledCssSnippets": [
     "width",
-    "theme_only",
     "涂黑圆角"
   ],
-  "textFontFamily": "霞鹜文楷 屏幕阅读版,XiaoHanZhuanshu,LXGW WenKai GB",
-  "monospaceFontFamily": "FantasqueSansM Nerd Font,FantasqueSansM Nerd Font Propo",
-  "interfaceFontFamily": "霞鹜文楷 屏幕阅读版,XHZS",
+  "textFontFamily": "Maple Mono Normal NF CN,霞鹜文楷 屏幕阅读版",
+  "monospaceFontFamily": "FantasqueSansM Nerd Font",
+  "interfaceFontFamily": "Maple Mono Normal NF CN,霞鹜文楷 屏幕阅读版",
   "baseFontSize": 23,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "baseFontSizeAction": true,
   "showViewHeader": true,
   "showRibbon": false

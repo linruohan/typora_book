@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fdf7585bf382b7c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "搭建Windows GTK环境+pyGTK使用.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "搭建Windows GTK环境+pyGTK使用"
-            }
-          },
-          {
             "id": "1d69b4f1d843f717",
             "type": "leaf",
             "state": {
@@ -46,8 +22,7 @@
               "title": "Planify_TODOist工具"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +45,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -148,13 +123,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:打开快速切换": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
     }
   },
   "active": "1d69b4f1d843f717",
   "lastOpenFiles": [
+    "搭建Windows GTK环境+pyGTK使用.md",
+    "Planify_TODOist工具.md",
     "imgs/Planify_TODOist工具-69.png",
     "imgs/Planify_TODOist工具-68.png",
     "imgs/Planify_TODOist工具-67.png",
@@ -165,9 +142,7 @@
     "imgs/Planify_TODOist工具-62.png",
     "imgs/Planify_TODOist工具-61.png",
     "imgs/Planify_TODOist工具-60.png",
-    "imgs/Planify_TODOist工具-59.png",
     "wsl_arch_2025md.md",
-    "搭建Windows GTK环境+pyGTK使用.md",
     "Planify TODOist工具.md",
     "windows GTK环境+pyGTK使用一文.md",
     "windows下gtk4开发.md",

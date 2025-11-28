@@ -41,7 +41,7 @@ manage section
 ### 3.4 filters
 labels
 ![](imgs/Planify_TODOist工具-3.png)
-### 3.5 add task
+	### 3.5 add task
 
 ![](imgs/Planify_TODOist工具-4.png)
 ![](imgs/Planify_TODOist工具-65.png)
@@ -50,49 +50,49 @@ add success
 ![](imgs/Planify_TODOist工具-67.png)
 
 
-### 3.6 inbox task sidebar view
+### 3.5 inbox task sidebar view
 ![](imgs/Planify_TODOist工具-5.png)
 ![](imgs/Planify_TODOist工具-16.png)
-#### 3.6.1 status
+#### 3.5.1 status
 ![](imgs/Planify_TODOist工具-6.png)
-#### 3.6.2 section
+#### 3.5.2 section
 ![](imgs/Planify_TODOist工具-7.png)
-#### 3.6.3 schedule
+#### 3.5.3 schedule
 ![](imgs/Planify_TODOist工具-8.png)
 repeat: 
 ![](imgs/Planify_TODOist工具-9.png)
 repeat custom
 ![](imgs/Planify_TODOist工具-11.png)
-#### 3.6.4 labels
+#### 3.5.4 labels
 ![](imgs/Planify_TODOist工具-12.png)
-#### 3.6.5 reminders
+#### 3.5.5 reminders
 ![](imgs/Planify_TODOist工具-13.png)
 ![](imgs/Planify_TODOist工具-14.png)
 ![](imgs/Planify_TODOist工具-15.png)
-### 3.7 inbox item edit
+### 3.6 inbox item edit
 ![](imgs/Planify_TODOist工具-19.png)
-#### 3.7.1 set schedule and repeat
+#### 3.6.1 set schedule and repeat
 choose a date
 ![](imgs/Planify_TODOist工具-20.png)
 repeat
 ![](imgs/Pasted%20image%2020251115095547.png)
 add time
 ![](imgs/Planify_TODOist工具-22.png)
-#### 3.7.2 add attachment
+#### 3.6.2 add attachment
 ![](imgs/Planify_TODOist工具-23.png)
-#### 3.7.3 add labels
+#### 3.6.3 add labels
 ![](imgs/Planify_TODOist工具-24.png)
 ![](imgs/Pasted%20image%2020251115095717.png)
-#### 3.7.4 set priority
+#### 3.6.4 set priority
 ![](imgs/Planify_TODOist工具-26.png)
-#### 3.7.5 remindres
+#### 3.6.5 remindres
 ![](imgs/Planify_TODOist工具-28.png)
-#### 3.7.6 extra
+#### 3.6.6 extra
 ![](imgs/Planify_TODOist工具-27.png)
 
-### 3.8 section
+### 3.7 section
 ![](imgs/Planify_TODOist工具-68.png)
-### 3.9 add sub tasks
+### 3.8 add sub tasks
 ![](imgs/Planify_TODOist工具-69.png)
 
 ## 4 today
@@ -111,11 +111,11 @@ add time
 ### 7.1 add label
 
 ![](imgs/Pasted%20image%2020251115100852.png)
-## 8 completed
+> ## 8 completed
 ![](imgs/Planify_TODOist工具-38.png)
 
 
-### 8.1 add todo
+### 7.2 add todo
 
 ![image-20240127121513818](imgs/image-20240127121513818.png)
 
@@ -142,13 +142,13 @@ Tomorrow
 add labels
 ```
 
-### 8.2 add sub task
+### 7.3 add sub task
 
 ![image-20240127131141736](imgs/image-20240127131141736.png)
 
 ![image-20240127123122229](imgs/image-20240127123122229.png)
 
-### 8.3 Add label(s)
+### 7.4 Add label(s)
 
 ```bash
 Search or create
@@ -158,7 +158,7 @@ Search or create
 
 
 
-### 8.4 Set the priority
+### 7.5 Set the priority
 
 设置后计划名字前对应颜色
 
@@ -171,7 +171,7 @@ Search or create
 白旗帜🏳 Priority 4：none
 ```
 
-### 8.5 Add Reminder(s)
+### 7.6 Add Reminder(s)
 
 Reminders                  +
 
@@ -179,7 +179,7 @@ Reminders                  +
 Your list reminders will show up here, Add one by click the '+' button
 ```
 
-#### 8.5.1 add reminder
+#### 7.6.1 add reminder
 
 January 2024     <   >
 
@@ -195,7 +195,7 @@ Time :  20:33
 
 Add Reminder 按钮
 
-#### 8.5.2 reminder显示
+#### 7.6.2 reminder显示
 
 ![image-20240127125459803](imgs/image-20240127125459803.png)
 
@@ -205,13 +205,13 @@ Reminders    +
 
 🔔 Today 20:34      ❎（圆框的）
 
-### 8.6 置顶
+### 7.7 置顶
 
 点击后变为红色📌
 
 ![image-20240127125723191](imgs/image-20240127125723191.png)
 
-#### 8.6.1 更多三个点
+#### 7.7.1 更多三个点
 
 ```bash
 Copy to clipboard
@@ -238,47 +238,47 @@ Done 按钮
 
 
 
-### 8.7 labels
+### 7.8 labels
 
 ![image-20240127131230845](imgs/image-20240127131230845.png)
 
-#### 8.7.1 update label
+#### 7.8.1 update label
 
 ![image-20240127122114017](imgs/image-20240127122114017.png)
 
-#### 8.7.2 delete label
+#### 7.8.2 delete label
 
 ![image-20240127122149363](imgs/image-20240127122149363.png)
 
-#### 8.7.3 add label
+#### 7.8.3 add label
 
 ![image-20240127122236154](imgs/image-20240127122236154.png)
-## 9 anytime
+## 8 anytime
 ![](imgs/Planify_TODOist工具-40.png)
-## 10 unlabeled
+## 9 unlabeled
 ![](imgs/Planify_TODOist工具-41.png)
-## 11 tomorrow
+## 10 tomorrow
 ![](imgs/Planify_TODOist工具-42.png)
-## 12 repeating
+## 11 repeating
 ![](imgs/Planify_TODOist工具-43.png)
-## 13 all tasks
+## 12 all tasks
 ![](imgs/Planify_TODOist工具-44.png)
 
-## 14 project
+## 13 project
 
 index 和project中都key添加section
 
-### 14.1 add project
+### 13.1 add project
 
 ![image-20240127131744479](imgs/image-20240127131744479.png)
 use emoji
 ![](imgs/Planify_TODOist工具-46.png)
 set color
 ![](imgs/Planify_TODOist工具-49.png)
-### 14.2 project action
+### 13.2 project action
 ![](imgs/Planify_TODOist工具-47.png)
 
-### 14.3 project view
+### 13.3 project view
 ![image-20240127131930155](imgs/image-20240127131930155.png)
 
 list | board
@@ -287,35 +287,35 @@ Ordered by   ：custom sort order | alphabetically |Due date |Date Added |Priori
 
 Show Completed Tasks |Hide Completd Tasks
 ![](imgs/Planify_TODOist工具-50.png)
-### 14.4 project section add project
+### 13.4 project section add project
 ![](imgs/Planify_TODOist工具-51.png)
-### 14.5 project ...
+### 13.5 project ...
 ![](imgs/Planify_TODOist工具-52.png)
-### 14.6 section
-#### 14.6.1 edit section
+### 13.6 section
+#### 13.6.1 edit section
 ![](imgs/Planify_TODOist工具-53.png)
-#### 14.6.2 section ...
+#### 13.6.2 section ...
 ![](imgs/Planify_TODOist工具-54.png)
-#### 14.6.3 manage section order
+#### 13.6.3 manage section order
 ![](imgs/Planify_TODOist工具-55.png)
 
-### 14.7 board视图
+### 13.7 board视图
 
 ![image-20240127132409861](imgs/image-20240127132409861.png)
 
-### 14.8 更多
+### 13.8 更多
 
-#### 14.8.1 edit project
+#### 13.8.1 edit project
 
 ![image-20240127132457490](imgs/image-20240127132457490.png)
 
-#### 14.8.2 When?
+#### 13.8.2 When?
 
 设置项目的截止日期
 
 ![image-20240127132645112](imgs/image-20240127132645112.png)
 
-#### 14.8.3 Add Section
+#### 13.8.3 Add Section
 
 添加项目阶段 
 
@@ -327,55 +327,55 @@ section中添加todo，然后点击后，key看到子sub，点击子sub可以看
 
 ![image-20240127133323091](imgs/image-20240127133323091.png)
 
-#### 14.8.4 Select
+#### 13.8.4 Select
 
 选择一个todo 
 
 ![image-20240127133459075](imgs/image-20240127133459075.png)
 
-#### 14.8.5 Paste
+#### 13.8.5 Paste
 
 功能不明
 
-#### 14.8.6 Delete Project
+#### 13.8.6 Delete Project
 
 > ![image-20240127133523084](imgs/image-20240127133523084.png)
 
-## 15 quick find
+## 14 quick find
 
 ![image-20240127134049954](imgs/image-20240127134049954.png)
 
-## 16 更多
+## 15 更多
 
-### 16.1 Preference系统设置
+### 15.1 Preference系统设置
 
 ![image-20240127134150558](imgs/image-20240127134150558.png)
 
-#### 16.1.1 integration
+#### 15.1.1 integration
 
 ![image-20240127134227916](imgs/image-20240127134227916.png)
 
-#### 16.1.2 general
+#### 15.1.2 general
 
 ![image-20240127134301873](imgs/image-20240127134301873.png)
 
-#### 16.1.3 sidbar
+#### 15.1.3 sidbar
 
 ![image-20240127134319019](imgs/image-20240127134319019.png)
 
-#### 16.1.4 appearence
+#### 15.1.4 appearence
 
 ![image-20240127134345801](imgs/image-20240127134345801.png)
 
-#### 16.1.5 Quick Add
+#### 15.1.5 Quick Add
 
 ![image-20240127134401117](imgs/image-20240127134401117.png)
 
-#### 16.1.6 backup
+#### 15.1.6 backup
 
 ![image-20240127134416220](imgs/image-20240127134416220.png)
 
-#### 16.1.7 Delete Planify Data 清除数据
+#### 15.1.7 Delete Planify Data 清除数据
 
 ![image-20240127134512745](imgs/image-20240127134512745.png)
 
