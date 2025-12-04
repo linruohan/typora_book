@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planify_TODOist工具.md",
+                "file": "ArchLinux安装教程.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Planify_TODOist工具"
+              "title": "ArchLinux安装教程"
             }
           }
         ]
@@ -45,7 +45,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -123,15 +123,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
   "active": "1d69b4f1d843f717",
   "lastOpenFiles": [
-    "搭建Windows GTK环境+pyGTK使用.md",
+    "wsl_arch_2025md.md",
     "Planify_TODOist工具.md",
+    "搭建Windows GTK环境+pyGTK使用.md",
     "imgs/Planify_TODOist工具-69.png",
     "imgs/Planify_TODOist工具-68.png",
     "imgs/Planify_TODOist工具-67.png",
@@ -142,7 +143,6 @@
     "imgs/Planify_TODOist工具-62.png",
     "imgs/Planify_TODOist工具-61.png",
     "imgs/Planify_TODOist工具-60.png",
-    "wsl_arch_2025md.md",
     "Planify TODOist工具.md",
     "windows GTK环境+pyGTK使用一文.md",
     "windows下gtk4开发.md",

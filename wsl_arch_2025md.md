@@ -5,7 +5,7 @@
 # 1 离线安装（推荐）
 https://github.com/microsoft/WSL/releases/download/2.6.2/Microsoft.WSL_2.6.2.0_x64_ARM64.msixbundle
 # 2 在线安装  速度较慢，不推荐
-ws --install
+wsl --install
 
 ```
 ```bash
