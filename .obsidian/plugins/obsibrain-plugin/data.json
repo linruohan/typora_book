@@ -1,0 +1,10 @@
+{
+  "paraProjectsFolder": "1-projects",
+  "paraAreasFolder": "2-areas",
+  "paraResourcesFolder": "3-resources",
+  "paraArchiveFolder": "4-archives",
+  "notesFolder": "5-notes",
+  "planFolder": "0-plan",
+  "version": "0.5.0",
+  "isFirstRun": true
+}
