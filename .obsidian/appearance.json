@@ -8,7 +8,7 @@
   "textFontFamily": "Maple Mono Normal NF CN,霞鹜文楷 屏幕阅读版",
   "monospaceFontFamily": "FantasqueSansM Nerd Font",
   "interfaceFontFamily": "Maple Mono Normal NF CN,霞鹜文楷 屏幕阅读版",
-  "baseFontSize": 23,
+  "baseFontSize": 20,
   "theme": "obsidian",
   "baseFontSizeAction": true,
   "showViewHeader": true,

@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f5c24133e8431d70",
+        "id": "8b456b2e0f436fd0",
         "type": "tabs",
         "children": [
           {
-            "id": "1d69b4f1d843f717",
+            "id": "09fc23f7b3b9a4a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ArchLinux安装教程.md",
+                "file": "Planify_TODOist工具.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ArchLinux安装教程"
+              "title": "Planify_TODOist工具"
             }
           }
         ]
@@ -45,7 +45,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -95,13 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planify TODOist工具.md",
+                "file": "Planify_TODOist工具.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Planify TODOist工具"
+              "title": "Outline of Planify_TODOist工具"
             }
           },
           {
@@ -110,12 +110,11 @@
             "state": {
               "type": "quiet-outline",
               "state": {},
-              "icon": "lines-of-text",
-              "title": "Quiet Outline"
+              "icon": "lucide-ghost",
+              "title": "quiet-outline"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,15 +122,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "1d69b4f1d843f717",
+  "active": "09fc23f7b3b9a4a1",
   "lastOpenFiles": [
-    "wsl_arch_2025md.md",
+    "国内ai——ide.md",
+    "imgs/国内ai——ide.png",
     "Planify_TODOist工具.md",
+    "opencode 有哪些自带的 tools 可以用？.md",
+    "cargo更新.md",
+    "ArchLinux安装教程.md",
+    "wsl_arch_2025md.md",
     "搭建Windows GTK环境+pyGTK使用.md",
     "imgs/Planify_TODOist工具-69.png",
     "imgs/Planify_TODOist工具-68.png",
@@ -142,14 +146,12 @@
     "imgs/Planify_TODOist工具-63.png",
     "imgs/Planify_TODOist工具-62.png",
     "imgs/Planify_TODOist工具-61.png",
-    "imgs/Planify_TODOist工具-60.png",
     "Planify TODOist工具.md",
     "windows GTK环境+pyGTK使用一文.md",
     "windows下gtk4开发.md",
     "win10安装gtk4的说明.md",
     "C++&gtk4的windows环境gtkmm4-clion安装.md",
     "zed.md",
-    "Untitled.md",
     "【Shell】sh执行脚本报错Syntax error “(“ unexpected.md",
     "Rust win11 环境部署.md",
     "sublimetext4激活.md",
@@ -164,11 +166,7 @@
     "assets",
     "Msys2使用windows环境变量.md",
     "cargo_离线编译策略.md",
-    "gtk4编译后windows控制台隐藏方法.md",
     "assets/Msys2使用windows环境变量.assets",
-    "rust cargo加速编译.md",
-    "unity学习/Unity3D NGUI.md",
-    "提速百倍的Pandas性能优化方法，让你的Pandas飞起来！.md",
     "assets/PKMer投稿.assets",
     "assets/README.assets",
     "未命名文件夹",
