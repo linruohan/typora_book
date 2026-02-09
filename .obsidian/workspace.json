@@ -4,11 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "8b456b2e0f436fd0",
+        "id": "aab95861c636819c",
         "type": "tabs",
         "children": [
           {
-            "id": "09fc23f7b3b9a4a1",
+            "id": "6c3c149359af2c27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "疑难问题记录/62-npm更换成淘宝镜像源以及cnpm.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "62-npm更换成淘宝镜像源以及cnpm"
+            }
+          },
+          {
+            "id": "e66b574234622f66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "claudcode使用.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "claudcode使用"
+            }
+          },
+          {
+            "id": "ac2ad2b284291c3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,8 +51,24 @@
               "icon": "lucide-file",
               "title": "Planify_TODOist工具"
             }
+          },
+          {
+            "id": "4856e42a58fc8f30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ollama本地模型部署.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "ollama本地模型部署"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -95,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planify_TODOist工具.md",
+                "file": "ollama本地模型部署.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Planify_TODOist工具"
+              "title": "Outline of ollama本地模型部署"
             }
           },
           {
@@ -127,25 +173,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "09fc23f7b3b9a4a1",
+  "active": "4856e42a58fc8f30",
   "lastOpenFiles": [
-    "国内ai——ide.md",
-    "imgs/国内ai——ide.png",
     "Planify_TODOist工具.md",
+    "ollama本地模型部署.md",
+    "imgs/ollama本地模型部署-11.png",
+    "imgs/ollama本地模型部署-10.png",
+    "imgs/ollama本地模型部署-9.png",
+    "imgs/ollama本地模型部署-8.png",
+    "imgs/ollama本地模型部署-7.png",
+    "imgs/ollama本地模型部署-6.png",
+    "imgs/ollama本地模型部署-5.png",
+    "imgs/ollama本地模型部署-4.png",
+    "imgs/ollama本地模型部署-3.png",
+    "imgs/ollama本地模型部署-2.png",
+    "疑难问题记录/62-npm更换成淘宝镜像源以及cnpm.md",
+    "claudcode使用.md",
+    "国内ai——ide.md",
+    "opencode-skills.md",
     "opencode 有哪些自带的 tools 可以用？.md",
+    "win11创建软链接.md",
+    "AwesomeWindows—一份 Windows 优质软件合集.md",
     "cargo更新.md",
     "ArchLinux安装教程.md",
     "wsl_arch_2025md.md",
     "搭建Windows GTK环境+pyGTK使用.md",
-    "imgs/Planify_TODOist工具-69.png",
-    "imgs/Planify_TODOist工具-68.png",
-    "imgs/Planify_TODOist工具-67.png",
-    "imgs/Planify_TODOist工具-66.png",
-    "imgs/Planify_TODOist工具-65.png",
-    "imgs/Planify_TODOist工具-64.png",
-    "imgs/Planify_TODOist工具-63.png",
-    "imgs/Planify_TODOist工具-62.png",
-    "imgs/Planify_TODOist工具-61.png",
     "Planify TODOist工具.md",
     "windows GTK环境+pyGTK使用一文.md",
     "windows下gtk4开发.md",
@@ -158,14 +210,8 @@
     "cmd中常用的变量.md",
     "Rust语言圣经(Rust Course)-进阶篇.md",
     "Rust语言圣经(Rust Course).md",
-    "Alacritty 终端模拟器的配置.md",
-    "电脑组装.md",
-    "# pandas 修改列名.md",
-    "flutter环境搭建.md",
     "assets/flutter环境搭建.assets",
     "assets",
-    "Msys2使用windows环境变量.md",
-    "cargo_离线编译策略.md",
     "assets/Msys2使用windows环境变量.assets",
     "assets/PKMer投稿.assets",
     "assets/README.assets",

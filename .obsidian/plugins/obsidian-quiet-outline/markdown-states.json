@@ -4,11 +4,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 15
       },
       "to": {
         "line": 0,
-        "ch": 0
+        "ch": 15
       }
     },
     "expandedKeys": []
@@ -28,43 +28,127 @@
     "expandedKeys": []
   },
   "Planify_TODOist工具.md": {
-    "scroll": 58.564222522633806,
+    "scroll": 225.25189964657739,
     "cursor": {
       "from": {
-        "line": 59,
+        "line": 238,
         "ch": 0
       },
       "to": {
-        "line": 59,
+        "line": 238,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "opencode 有哪些自带的 tools 可以用？.md": {
-    "scroll": 41.08446987618077,
+    "scroll": 85.65776926815111,
     "cursor": {
       "from": {
-        "line": 95,
+        "line": 77,
         "ch": 0
       },
       "to": {
-        "line": 95,
+        "line": 77,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "国内ai——ide.md": {
-    "scroll": 52.34697186408015,
+    "scroll": 52.347,
     "cursor": {
       "from": {
-        "line": 68,
-        "ch": 23
+        "line": 66,
+        "ch": 0
       },
       "to": {
-        "line": 68,
-        "ch": 23
+        "line": 66,
+        "ch": 26
+      }
+    },
+    "expandedKeys": []
+  },
+  "AwesomeWindows—一份 Windows 优质软件合集.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "win11创建软链接.md": {
+    "scroll": 72.61166648864746,
+    "cursor": {
+      "from": {
+        "line": 96,
+        "ch": 78
+      },
+      "to": {
+        "line": 96,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "opencode-skills.md": {
+    "scroll": 6.111600472488189,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 45
+      },
+      "to": {
+        "line": 7,
+        "ch": 45
+      }
+    },
+    "expandedKeys": []
+  },
+  "claudcode使用.md": {
+    "scroll": 195.8353266939036,
+    "cursor": {
+      "from": {
+        "line": 199,
+        "ch": 0
+      },
+      "to": {
+        "line": 199,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "疑难问题记录/62-npm更换成淘宝镜像源以及cnpm.md": {
+    "scroll": 33.01000162760417,
+    "cursor": {
+      "from": {
+        "line": 60,
+        "ch": 0
+      },
+      "to": {
+        "line": 60,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "ollama本地模型部署.md": {
+    "scroll": 137.49046761648995,
+    "cursor": {
+      "from": {
+        "line": 152,
+        "ch": 15
+      },
+      "to": {
+        "line": 152,
+        "ch": 15
       }
     },
     "expandedKeys": []
