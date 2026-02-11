@@ -28,7 +28,7 @@
     "expandedKeys": []
   },
   "Planify_TODOist工具.md": {
-    "scroll": 225.25189964657739,
+    "scroll": 225.31663062686013,
     "cursor": {
       "from": {
         "line": 238,
@@ -140,7 +140,7 @@
     "expandedKeys": []
   },
   "ollama本地模型部署.md": {
-    "scroll": 137.49046761648995,
+    "scroll": 146.34,
     "cursor": {
       "from": {
         "line": 152,
@@ -149,6 +149,20 @@
       "to": {
         "line": 152,
         "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "claude安装.md": {
+    "scroll": 114.74416821797689,
+    "cursor": {
+      "from": {
+        "line": 141,
+        "ch": 0
+      },
+      "to": {
+        "line": 141,
+        "ch": 0
       }
     },
     "expandedKeys": []
