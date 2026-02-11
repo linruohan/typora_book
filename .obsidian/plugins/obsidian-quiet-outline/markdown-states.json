@@ -112,7 +112,7 @@
     "expandedKeys": []
   },
   "claudcode使用.md": {
-    "scroll": 195.8353266939036,
+    "scroll": 189.81875012715656,
     "cursor": {
       "from": {
         "line": 199,
@@ -140,7 +140,7 @@
     "expandedKeys": []
   },
   "ollama本地模型部署.md": {
-    "scroll": 146.34,
+    "scroll": 144.9704,
     "cursor": {
       "from": {
         "line": 152,
@@ -154,15 +154,15 @@
     "expandedKeys": []
   },
   "claude安装.md": {
-    "scroll": 114.74416821797689,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 141,
-        "ch": 0
+        "line": 13,
+        "ch": 29
       },
       "to": {
-        "line": 141,
-        "ch": 0
+        "line": 13,
+        "ch": 29
       }
     },
     "expandedKeys": []

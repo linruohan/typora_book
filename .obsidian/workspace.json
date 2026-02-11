@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "claudcode使用.md",
+                "file": "claude安装.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "claudcode使用"
+              "title": "claude安装"
             }
           },
           {
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ollama本地模型部署.md",
+                "file": "claude安装.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ollama本地模型部署"
+              "title": "Outline of claude安装"
             }
           },
           {
@@ -173,13 +173,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "4856e42a58fc8f30",
+  "active": "e66b574234622f66",
   "lastOpenFiles": [
+    "claudcode使用.md",
+    "ollama本地模型部署.md",
     "claude安装.md",
     "imgs/claude安装-2.png",
     "imgs/claude安装-1.png",
     "imgs/claude安装.png",
-    "ollama本地模型部署.md",
     "Planify_TODOist工具.md",
     "imgs/ollama本地模型部署-11.png",
     "imgs/ollama本地模型部署-10.png",
@@ -189,7 +190,6 @@
     "imgs/ollama本地模型部署-6.png",
     "imgs/ollama本地模型部署-5.png",
     "疑难问题记录/62-npm更换成淘宝镜像源以及cnpm.md",
-    "claudcode使用.md",
     "国内ai——ide.md",
     "opencode-skills.md",
     "opencode 有哪些自带的 tools 可以用？.md",
