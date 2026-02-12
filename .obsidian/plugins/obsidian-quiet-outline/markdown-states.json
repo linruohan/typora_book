@@ -28,7 +28,7 @@
     "expandedKeys": []
   },
   "Planify_TODOist工具.md": {
-    "scroll": 225.31663062686013,
+    "scroll": 225.37522263299851,
     "cursor": {
       "from": {
         "line": 238,
@@ -157,12 +157,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 29
+        "line": 9,
+        "ch": 1
       },
       "to": {
-        "line": 13,
-        "ch": 29
+        "line": 9,
+        "ch": 1
+      }
+    },
+    "expandedKeys": []
+  },
+  "mcp_server.md": {
+    "scroll": 158.25544981123835,
+    "cursor": {
+      "from": {
+        "line": 162,
+        "ch": 37
+      },
+      "to": {
+        "line": 162,
+        "ch": 0
       }
     },
     "expandedKeys": []
