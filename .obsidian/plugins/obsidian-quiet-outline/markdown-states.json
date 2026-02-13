@@ -140,7 +140,7 @@
     "expandedKeys": []
   },
   "ollama本地模型部署.md": {
-    "scroll": 144.9704,
+    "scroll": 150.86249249776205,
     "cursor": {
       "from": {
         "line": 152,
@@ -168,15 +168,29 @@
     "expandedKeys": []
   },
   "mcp_server.md": {
-    "scroll": 158.25544981123835,
+    "scroll": 84.37833162943522,
     "cursor": {
       "from": {
-        "line": 162,
-        "ch": 37
+        "line": 78,
+        "ch": 0
       },
       "to": {
-        "line": 162,
-        "ch": 0
+        "line": 107,
+        "ch": 1
+      }
+    },
+    "expandedKeys": []
+  },
+  "rust编译加速优化.md": {
+    "scroll": 57.117498143514,
+    "cursor": {
+      "from": {
+        "line": 74,
+        "ch": 13
+      },
+      "to": {
+        "line": 74,
+        "ch": 13
       }
     },
     "expandedKeys": []
