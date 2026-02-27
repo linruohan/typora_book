@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "aab95861c636819c",
+        "id": "4c210515bacd2aa6",
         "type": "tabs",
         "children": [
           {
-            "id": "6c3c149359af2c27",
+            "id": "4aca01e9b4231d01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "疑难问题记录/62-npm更换成淘宝镜像源以及cnpm.md",
+                "file": "本地大模型推荐.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "62-npm更换成淘宝镜像源以及cnpm"
-            }
-          },
-          {
-            "id": "e9876f334a7c84e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rust编译加速优化.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "rust编译加速优化"
+              "title": "本地大模型推荐"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +45,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -70,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "魔塔",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +62,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -111,13 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust编译加速优化.md",
+                "file": "本地大模型推荐.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of rust编译加速优化"
+              "title": "本地大模型推荐 的大纲"
             }
           },
           {
@@ -138,18 +122,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:打开快速切换": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
     }
   },
-  "active": "e9876f334a7c84e9",
+  "active": "4aca01e9b4231d01",
   "lastOpenFiles": [
+    "本地大模型推荐.md",
     "疑难问题记录/62-npm更换成淘宝镜像源以及cnpm.md",
+    "ollama本地模型部署.md",
     "rust编译加速优化.md",
     "claude安装.md",
     "mcp_server.md",
-    "ollama本地模型部署.md",
     "Planify_TODOist工具.md",
     "claudcode使用.md",
     "imgs/claude安装-2.png",
@@ -180,7 +165,6 @@
     "【Shell】sh执行脚本报错Syntax error “(“ unexpected.md",
     "Rust win11 环境部署.md",
     "sublimetext4激活.md",
-    "cmd中常用的变量.md",
     "assets/flutter环境搭建.assets",
     "assets",
     "assets/Msys2使用windows环境变量.assets",

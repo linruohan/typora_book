@@ -26,6 +26,8 @@ https://modelscope.cn/models
 # 格式为：modelscope.cn + gguf模型地址
 ollama pull modelscope.cn/Qwen/Qwen3-8B-GGUF
 ollama pull modelscope.cn/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct
+ollama pull modelscope.cn/prithivMLmods/qwen3-4b-code-reasoning.Q8_0
+git clone https://www.modelscope.cn/prithivMLmods/qwen3-4b-code-reasoning-f32-GGUF.git
 
 ```
 ### 2.3 查看下载模型列表

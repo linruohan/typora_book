@@ -140,15 +140,15 @@
     "expandedKeys": []
   },
   "ollama本地模型部署.md": {
-    "scroll": 150.86249249776205,
+    "scroll": 11.280418904622396,
     "cursor": {
       "from": {
-        "line": 152,
-        "ch": 15
+        "line": 29,
+        "ch": 86
       },
       "to": {
-        "line": 152,
-        "ch": 15
+        "line": 29,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -182,7 +182,7 @@
     "expandedKeys": []
   },
   "rust编译加速优化.md": {
-    "scroll": 57.117498143514,
+    "scroll": 57.36250139872233,
     "cursor": {
       "from": {
         "line": 74,
@@ -191,6 +191,20 @@
       "to": {
         "line": 74,
         "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "本地大模型推荐.md": {
+    "scroll": 192.8384397442007,
+    "cursor": {
+      "from": {
+        "line": 197,
+        "ch": 29
+      },
+      "to": {
+        "line": 197,
+        "ch": 29
       }
     },
     "expandedKeys": []
