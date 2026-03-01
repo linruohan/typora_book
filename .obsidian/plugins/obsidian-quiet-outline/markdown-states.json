@@ -4,11 +4,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 15
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 15
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -196,15 +196,113 @@
     "expandedKeys": []
   },
   "本地大模型推荐.md": {
-    "scroll": 192.8384397442007,
+    "scroll": 144.6472569020271,
     "cursor": {
       "from": {
-        "line": 197,
-        "ch": 29
+        "line": 148,
+        "ch": 38
       },
       "to": {
-        "line": 197,
-        "ch": 29
+        "line": 148,
+        "ch": 38
+      }
+    },
+    "expandedKeys": []
+  },
+  "未命名 2.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 10
+      },
+      "to": {
+        "line": 0,
+        "ch": 10
+      }
+    },
+    "expandedKeys": []
+  },
+  "Claude Code 完美接入 Ollama 指南.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 31
+      },
+      "to": {
+        "line": 6,
+        "ch": 31
+      }
+    },
+    "expandedKeys": []
+  },
+  "git bash中文乱码.md": {
+    "scroll": 49.834283592587425,
+    "cursor": {
+      "from": {
+        "line": 62,
+        "ch": 22
+      },
+      "to": {
+        "line": 62,
+        "ch": 22
+      }
+    },
+    "expandedKeys": []
+  },
+  "gitbash按照zsh.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Msys2.md": {
+    "scroll": 198.5847615559896,
+    "cursor": {
+      "from": {
+        "line": 104,
+        "ch": 18
+      },
+      "to": {
+        "line": 104,
+        "ch": 18
+      }
+    },
+    "expandedKeys": []
+  },
+  "Msys2使用windows环境变量.md": {
+    "scroll": 1.875,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "python打包指南.md": {
+    "scroll": 81.58833732604981,
+    "cursor": {
+      "from": {
+        "line": 101,
+        "ch": 7
+      },
+      "to": {
+        "line": 101,
+        "ch": 7
       }
     },
     "expandedKeys": []

@@ -331,5 +331,13 @@
       ],
       "key": "/"
     }
+  ],
+  "global-search:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
   ]
 }
