@@ -112,14 +112,14 @@
     "expandedKeys": []
   },
   "claudcode使用.md": {
-    "scroll": 189.81875012715656,
+    "scroll": 77.3908,
     "cursor": {
       "from": {
-        "line": 199,
+        "line": 88,
         "ch": 0
       },
       "to": {
-        "line": 199,
+        "line": 88,
         "ch": 0
       }
     },
@@ -140,15 +140,15 @@
     "expandedKeys": []
   },
   "ollama本地模型部署.md": {
-    "scroll": 11.280418904622396,
+    "scroll": 15.75882272159352,
     "cursor": {
       "from": {
-        "line": 29,
-        "ch": 86
+        "line": 42,
+        "ch": 16
       },
       "to": {
-        "line": 29,
-        "ch": 0
+        "line": 42,
+        "ch": 3
       }
     },
     "expandedKeys": []
@@ -168,15 +168,15 @@
     "expandedKeys": []
   },
   "mcp_server.md": {
-    "scroll": 84.37833162943522,
+    "scroll": 72.1867,
     "cursor": {
       "from": {
-        "line": 78,
-        "ch": 0
+        "line": 80,
+        "ch": 17
       },
       "to": {
-        "line": 107,
-        "ch": 1
+        "line": 80,
+        "ch": 17
       }
     },
     "expandedKeys": []
@@ -196,15 +196,15 @@
     "expandedKeys": []
   },
   "本地大模型推荐.md": {
-    "scroll": 144.6472569020271,
+    "scroll": 193.82898697540352,
     "cursor": {
       "from": {
-        "line": 148,
-        "ch": 38
+        "line": 207,
+        "ch": 19
       },
       "to": {
-        "line": 148,
-        "ch": 38
+        "line": 207,
+        "ch": 19
       }
     },
     "expandedKeys": []
@@ -294,15 +294,71 @@
     "expandedKeys": []
   },
   "python打包指南.md": {
-    "scroll": 81.58833732604981,
+    "scroll": 0.3599999904632568,
     "cursor": {
       "from": {
-        "line": 101,
-        "ch": 7
+        "line": 0,
+        "ch": 10
       },
       "to": {
-        "line": 101,
-        "ch": 7
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "zero.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "zeroclaw.md": {
+    "scroll": 8.858333333333333,
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 34
+      },
+      "to": {
+        "line": 23,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "CoPaw.md": {
+    "scroll": 11.669394372816031,
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 17
+      },
+      "to": {
+        "line": 30,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "qwen3.5.md": {
+    "scroll": 4.965986394557823,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 16
+      },
+      "to": {
+        "line": 6,
+        "ch": 16
       }
     },
     "expandedKeys": []

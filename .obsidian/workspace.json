@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "826f8f552e706ebe",
+        "id": "e8da432637e5a56b",
         "type": "tabs",
         "children": [
           {
-            "id": "1eb5f89cc6756e07",
+            "id": "844cf63a038d36d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python打包指南.md",
+                "file": "本地大模型推荐.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "python打包指南"
+              "title": "本地大模型推荐"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "阿里",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python打包指南.md",
+                "file": "本地大模型推荐.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "python打包指南 的大纲"
+              "title": "本地大模型推荐 的大纲"
             }
           },
           {
@@ -128,25 +128,28 @@
       "bases:新建数据库": false
     }
   },
-  "active": "1eb5f89cc6756e07",
+  "active": "844cf63a038d36d4",
   "lastOpenFiles": [
+    "qwen3.5.md",
+    "本地大模型推荐.md",
+    "ollama本地模型部署.md",
+    "zeroclaw.md",
+    "CoPaw.md",
+    "claudcode使用.md",
+    "mcp_server.md",
+    "python打包指南.md",
     "imgs/python打包指南-1.png",
     "imgs/python打包指南.png",
-    "python打包指南.md",
     "Msys2使用windows环境变量.md",
     "gitbash按照zsh.md",
     "Msys2.md",
-    "本地大模型推荐.md",
     "git bash中文乱码.md",
     "imgs/gitbash按照zsh.png",
     "Claude Code 完美接入 Ollama 指南.md",
     "疑难问题记录/62-npm更换成淘宝镜像源以及cnpm.md",
-    "ollama本地模型部署.md",
     "rust编译加速优化.md",
     "claude安装.md",
-    "mcp_server.md",
     "Planify_TODOist工具.md",
-    "claudcode使用.md",
     "imgs/claude安装-2.png",
     "imgs/claude安装-1.png",
     "imgs/claude安装.png",
@@ -154,7 +157,6 @@
     "imgs/ollama本地模型部署-10.png",
     "imgs/ollama本地模型部署-9.png",
     "imgs/ollama本地模型部署-8.png",
-    "imgs/ollama本地模型部署-7.png",
     "国内ai——ide.md",
     "opencode-skills.md",
     "opencode 有哪些自带的 tools 可以用？.md",
@@ -164,8 +166,6 @@
     "ArchLinux安装教程.md",
     "wsl_arch_2025md.md",
     "搭建Windows GTK环境+pyGTK使用.md",
-    "Planify TODOist工具.md",
-    "windows GTK环境+pyGTK使用一文.md",
     "assets/flutter环境搭建.assets",
     "assets",
     "assets/Msys2使用windows环境变量.assets",
