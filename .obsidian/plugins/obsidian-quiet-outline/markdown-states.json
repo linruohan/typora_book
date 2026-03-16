@@ -362,5 +362,33 @@
       }
     },
     "expandedKeys": []
+  },
+  "libvirtd_domain.md": {
+    "scroll": 0.3599999904632568,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 108
+      },
+      "to": {
+        "line": 2,
+        "ch": 108
+      }
+    },
+    "expandedKeys": []
+  },
+  "libvirtd_Domain XML format.md": {
+    "scroll": 59.17647182240206,
+    "cursor": {
+      "from": {
+        "line": 148,
+        "ch": 15
+      },
+      "to": {
+        "line": 148,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
   }
 }
