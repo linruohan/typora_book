@@ -196,7 +196,7 @@
     "expandedKeys": []
   },
   "本地大模型推荐.md": {
-    "scroll": 193.82898697540352,
+    "scroll": 199.72614998879487,
     "cursor": {
       "from": {
         "line": 207,
@@ -378,15 +378,29 @@
     "expandedKeys": []
   },
   "libvirtd_Domain XML format.md": {
-    "scroll": 59.17647182240206,
+    "scroll": 879.609463936942,
     "cursor": {
       "from": {
-        "line": 148,
-        "ch": 15
+        "line": 903,
+        "ch": 0
       },
       "to": {
-        "line": 148,
-        "ch": 15
+        "line": 903,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "libvirtd_xml.md": {
+    "scroll": 3277.0364583333335,
+    "cursor": {
+      "from": {
+        "line": 3291,
+        "ch": 0
+      },
+      "to": {
+        "line": 3291,
+        "ch": 0
       }
     },
     "expandedKeys": []
