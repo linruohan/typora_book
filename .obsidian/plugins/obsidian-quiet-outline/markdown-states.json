@@ -404,5 +404,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "poetry.md": {
+    "scroll": 321.9188453272769,
+    "cursor": {
+      "from": {
+        "line": 344,
+        "ch": 0
+      },
+      "to": {
+        "line": 344,
+        "ch": 67
+      }
+    },
+    "expandedKeys": []
   }
 }

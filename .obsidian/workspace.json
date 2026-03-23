@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "libvirtd_xml.md",
+                "file": "poetry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "libvirtd_xml"
+              "title": "poetry"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "阿里",
+                "query": "poetry",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "libvirtd_xml.md",
+                "file": "poetry.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "libvirtd_xml 的大纲"
+              "title": "poetry 的大纲"
             }
           },
           {
@@ -130,8 +130,10 @@
   },
   "active": "daa4316e5f38ce6a",
   "lastOpenFiles": [
-    "libvirtd_Domain XML format.md",
+    "imgs/poetry.png",
     "libvirtd_xml.md",
+    "poetry.md",
+    "libvirtd_Domain XML format.md",
     "Untitled.md",
     "本地大模型推荐.md",
     "qwen3.5.md",
@@ -164,8 +166,6 @@
     "opencode-skills.md",
     "opencode 有哪些自带的 tools 可以用？.md",
     "win11创建软链接.md",
-    "AwesomeWindows—一份 Windows 优质软件合集.md",
-    "cargo更新.md",
     "assets/flutter环境搭建.assets",
     "assets",
     "assets/Msys2使用windows环境变量.assets",
