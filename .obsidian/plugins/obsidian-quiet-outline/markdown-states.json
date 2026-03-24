@@ -214,11 +214,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 10
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 10
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -415,6 +415,20 @@
       "to": {
         "line": 344,
         "ch": 67
+      }
+    },
+    "expandedKeys": []
+  },
+  "pyinstall manager.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 13
+      },
+      "to": {
+        "line": 11,
+        "ch": 13
       }
     },
     "expandedKeys": []
