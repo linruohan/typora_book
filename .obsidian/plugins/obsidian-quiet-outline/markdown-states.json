@@ -406,7 +406,7 @@
     "expandedKeys": []
   },
   "poetry.md": {
-    "scroll": 321.9188453272769,
+    "scroll": 316.9287,
     "cursor": {
       "from": {
         "line": 344,
@@ -429,6 +429,20 @@
       "to": {
         "line": 11,
         "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "鬼刀.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
       }
     },
     "expandedKeys": []

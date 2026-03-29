@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "poetry.md",
+                "file": "鬼刀.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "poetry"
+              "title": "鬼刀"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "poetry.md",
+                "file": "鬼刀.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "poetry 的大纲"
+              "title": "鬼刀 的大纲"
             }
           },
           {
@@ -130,8 +130,8 @@
   },
   "active": "daa4316e5f38ce6a",
   "lastOpenFiles": [
-    "pyinstall manager.md",
     "poetry.md",
+    "pyinstall manager.md",
     "imgs/poetry.png",
     "libvirtd_xml.md",
     "libvirtd_Domain XML format.md",
