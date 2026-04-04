@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e8da432637e5a56b",
+        "id": "34b61b68e2f1ec86",
         "type": "tabs",
         "children": [
           {
-            "id": "daa4316e5f38ce6a",
+            "id": "06f4612e304105d1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "鬼刀.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "鬼刀"
+              "title": "新标签页"
             }
           }
         ]
@@ -96,13 +91,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "鬼刀.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "鬼刀 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -128,17 +122,18 @@
       "bases:新建数据库": false
     }
   },
-  "active": "daa4316e5f38ce6a",
+  "active": "06f4612e304105d1",
   "lastOpenFiles": [
+    "本地大模型推荐.md",
+    "ollama本地模型部署.md",
+    "鬼刀.md",
     "poetry.md",
     "pyinstall manager.md",
     "imgs/poetry.png",
     "libvirtd_xml.md",
     "libvirtd_Domain XML format.md",
     "Untitled.md",
-    "本地大模型推荐.md",
     "qwen3.5.md",
-    "ollama本地模型部署.md",
     "zeroclaw.md",
     "CoPaw.md",
     "claudcode使用.md",
@@ -165,7 +160,6 @@
     "国内ai——ide.md",
     "opencode-skills.md",
     "opencode 有哪些自带的 tools 可以用？.md",
-    "win11创建软链接.md",
     "assets/flutter环境搭建.assets",
     "assets",
     "assets/Msys2使用windows环境变量.assets",
