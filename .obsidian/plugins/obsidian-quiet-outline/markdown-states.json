@@ -214,7 +214,7 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 0
+        "ch": 7
       },
       "to": {
         "line": 0,
@@ -442,6 +442,20 @@
       },
       "to": {
         "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "scoop使用说明.md": {
+    "scroll": 82.0825205313791,
+    "cursor": {
+      "from": {
+        "line": 95,
+        "ch": 65
+      },
+      "to": {
+        "line": 93,
         "ch": 0
       }
     },
