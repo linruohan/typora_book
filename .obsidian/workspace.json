@@ -130,8 +130,9 @@
   },
   "active": "06f4612e304105d1",
   "lastOpenFiles": [
-    "imgs/scoop使用说明.png",
+    "上古卷轴5秘籍.md",
     "scoop使用说明.md",
+    "imgs/scoop使用说明.png",
     "本地大模型推荐.md",
     "ollama本地模型部署.md",
     "鬼刀.md",
@@ -164,7 +165,6 @@
     "imgs/claude安装.png",
     "imgs/ollama本地模型部署-11.png",
     "imgs/ollama本地模型部署-10.png",
-    "imgs/ollama本地模型部署-9.png",
     "国内ai——ide.md",
     "assets/flutter环境搭建.assets",
     "assets",
