@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scoop使用说明.md",
+                "file": "上古卷轴5秘籍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "scoop使用说明"
+              "title": "上古卷轴5秘籍"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "scoop使用说明.md",
+                "file": "上古卷轴5秘籍.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "scoop使用说明 的大纲"
+              "title": "上古卷轴5秘籍 的大纲"
             }
           },
           {
@@ -130,8 +130,8 @@
   },
   "active": "06f4612e304105d1",
   "lastOpenFiles": [
-    "上古卷轴5秘籍.md",
     "scoop使用说明.md",
+    "上古卷轴5秘籍.md",
     "imgs/scoop使用说明.png",
     "本地大模型推荐.md",
     "ollama本地模型部署.md",

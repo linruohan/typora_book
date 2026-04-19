@@ -98,6 +98,16 @@ scoop bucket add dorado https://gitee.com/scoop-bucket/dorado.git
 scoop update
 # 安装包
 scoop install <仓库名>/<软件名> -s # -s是取消hash校验
+
+# 其他bucket频道：
+main    https://gitee.com/scoop-installer/Main      2025/2/24 8:37:11      1382
+extras  https://gitee.com/scoop-installer/Extras    2025/2/24 8:41:05      2130
+dorado  https://gitee.com/scoop-installer/dorado    2025/2/24 8:16:22        257
+echo    https://gitee.com/scoop-installer/echo-scoop 2025/2/23 22:14:08      102
+scoopcn  https://gitee.com/scoop-installer/scoopcn    2025/2/19 16:37:21        30
+scoopet  https://gitee.com/scoop-installer/scoopet    2025/2/24 2:01:44        81
+siku    https://gitee.com/scoop-installer/siku      2025/2/24 0:33:43        89
+Versions https://gitee.com/scoop-installer/Versions  2025/2/24 4:34:25        477
 ```
 4. 指定仓库安装 `scoop install <bucket_Name>/<packName>`
 5. 切换jdk(或者其他什么的都可以)版本
@@ -116,7 +126,7 @@ scoop reset temurin8-jdk
 12. 全局安装git: # 需要在开发者那里开启sudo  `sudo scoop install git -g `
 13. 查看有哪些保留的安装包: scoop cache show
 14. scoop update #更新仓库
-15. scoop update * #更新所有软件
+15. scoop update --all #更新所有软件
 16. scoop list #列出已安装的软件
 17. scoop bucket list #列出已订阅的仓库
 #### 3.1.1 推荐软件仓库
@@ -305,4 +315,9 @@ if (Get-Command scoop-search -ErrorAction SilentlyContinue) {
 
 ```
 scoop intall
+```
+## 7 清理残留和旧版本
+```bash
+scoop cache rm -a
+scoop cleanup -a
 ```
