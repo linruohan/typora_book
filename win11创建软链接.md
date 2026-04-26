@@ -94,7 +94,7 @@ mklink /D "%APPDATA%\Code" C:\software\VSCode\data\user-data
 mklink /D  %UserProfile%\.vscode  C:\software\VSCode\data
 mklink /D "%APPDATA%\yazi" D:\codehub\win10\yazi
 mklink /D "C:\Users\Administrator\AppData\Local\nvim" D:\codehub\nvim-config
-mklink /D "C:\Users\Administrator\.config\opencode" D:\codehub\skills\opencode
+mklink /D "C:\Users\Administrator\.config\opencode" D:\codehub\my_skills\opencode
 ```
 
 当您想要创建指向文件的硬链接时，请使用 /H：
