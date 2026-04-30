@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "34b61b68e2f1ec86",
+        "id": "edfb5f9b5cce2ecb",
         "type": "tabs",
         "children": [
           {
-            "id": "06f4612e304105d1",
+            "id": "ad515ec5316d42c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "win11创建软链接.md",
+                "file": "Arch安装niri.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "win11创建软链接"
+              "title": "Arch安装niri"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "poetry",
+                "query": "tag:#写入下列两行配置",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "win11创建软链接.md",
+                "file": "Arch安装niri.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "win11创建软链接 的大纲"
+              "title": "Arch安装niri 的大纲"
             }
           },
           {
@@ -128,8 +128,9 @@
       "bases:新建数据库": false
     }
   },
-  "active": "06f4612e304105d1",
+  "active": "1252138aae578a23",
   "lastOpenFiles": [
+    "win11创建软链接.md",
     "scoop使用说明.md",
     "上古卷轴5秘籍.md",
     "imgs/scoop使用说明.png",
@@ -165,7 +166,6 @@
     "imgs/claude安装.png",
     "imgs/ollama本地模型部署-11.png",
     "imgs/ollama本地模型部署-10.png",
-    "国内ai——ide.md",
     "assets/flutter环境搭建.assets",
     "assets",
     "assets/Msys2使用windows环境变量.assets",

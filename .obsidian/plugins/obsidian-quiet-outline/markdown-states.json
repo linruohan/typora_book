@@ -84,7 +84,7 @@
     "expandedKeys": []
   },
   "win11创建软链接.md": {
-    "scroll": 72.98377067164371,
+    "scroll": 72.9838,
     "cursor": {
       "from": {
         "line": 96,
@@ -471,6 +471,20 @@
       "to": {
         "line": 3,
         "ch": 29
+      }
+    },
+    "expandedKeys": []
+  },
+  "Arch安装niri.md": {
+    "scroll": 765.0908575693767,
+    "cursor": {
+      "from": {
+        "line": 789,
+        "ch": 49
+      },
+      "to": {
+        "line": 789,
+        "ch": 0
       }
     },
     "expandedKeys": []

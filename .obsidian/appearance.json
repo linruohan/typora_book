@@ -3,7 +3,8 @@
   "cssTheme": "Catppuccin",
   "enabledCssSnippets": [
     "width",
-    "涂黑圆角"
+    "涂黑圆角",
+    "theme_only"
   ],
   "textFontFamily": "Maple Mono Normal NF CN,霞鹜文楷 屏幕阅读版",
   "monospaceFontFamily": "FantasqueSansM Nerd Font",
