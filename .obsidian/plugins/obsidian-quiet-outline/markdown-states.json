@@ -84,15 +84,15 @@
     "expandedKeys": []
   },
   "win11创建软链接.md": {
-    "scroll": 72.9838,
+    "scroll": 73.0153,
     "cursor": {
       "from": {
-        "line": 96,
-        "ch": 81
+        "line": 94,
+        "ch": 48
       },
       "to": {
-        "line": 96,
-        "ch": 0
+        "line": 94,
+        "ch": 48
       }
     },
     "expandedKeys": []
@@ -448,15 +448,15 @@
     "expandedKeys": []
   },
   "scoop使用说明.md": {
-    "scroll": 292.3556,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 321,
+        "line": 4,
         "ch": 0
       },
       "to": {
-        "line": 321,
-        "ch": 16
+        "line": 4,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -485,6 +485,34 @@
       "to": {
         "line": 789,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Nvdia免费ai使用.md": {
+    "scroll": 109.49666760762533,
+    "cursor": {
+      "from": {
+        "line": 116,
+        "ch": 32
+      },
+      "to": {
+        "line": 116,
+        "ch": 32
+      }
+    },
+    "expandedKeys": []
+  },
+  "30分钟手术：让Windows 终端秒变 macOS 现代终端.md": {
+    "scroll": 1011.2105816230572,
+    "cursor": {
+      "from": {
+        "line": 1000,
+        "ch": 7
+      },
+      "to": {
+        "line": 1000,
+        "ch": 7
       }
     },
     "expandedKeys": []

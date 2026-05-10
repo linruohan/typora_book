@@ -10,7 +10,7 @@
 
 ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ibsibtc0Gxl3dvribdKqwX0xme1vzicsib01yT3q3cu5pnnP77AkrXLaQLxoTQhk3UjrdFTk6iaHQ9f5Iqfvc5BC42RCfC6n83KnYmY64LzaD0hxU/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=0)
 
-## 0x00 效果如何
+## 1 0x00 效果如何
 
 如果你用过 macOS 的 iTerm2，或者看过优化过的windows终端
 
@@ -35,7 +35,7 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
 安装完成后重启终端，`scoop` 命令即可使用。
 
-## 0x01 第一步：Nerd Font——让终端认得图标
+## 2 0x01 第一步：Nerd Font——让终端认得图标
 
 终端里那些文件夹图标 📁、Git 分支符号 🌿、对勾 ✅、箭头 ➜……
 在你这里是方块或乱码？
@@ -44,7 +44,7 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
 **Nerd Font** 是为终端专门设计的字体族，内置数万个图标字形。几乎所有现代 CLI 工具（starship、lsd、lazygit……）的图标渲染都依赖它。不装，一切美化都是空中楼阁。
 
-### 安装
+### 2.1 安装
 
 **Scoop（推荐）：**
 
@@ -56,7 +56,7 @@ scoop install nerd-fonts/0xProto-NF
 
 访问 Nerd Fonts 官网，搜索 `0xProto`，下载安装。
 
-### 配置 Windows Terminal
+### 2.2 配置 Windows Terminal
 
 打开 Windows Terminal → 设置 → 配置文件 → 默认值 → 外观 → 字体 → 选择 `0xProto Nerd Font` → 保存。
 
@@ -64,13 +64,13 @@ scoop install nerd-fonts/0xProto-NF
 
 💡 **0xProto** 是一款专为编程终端设计的等宽字体，字形清晰，图标兼容性好。如果你喜欢其他风格，也可以选 `CaskaydiaCove Nerd Font`（微软 Cascadia Code 的 Nerd Font 版）、`FiraCode Nerd Font` 或 `JetBrainsMono Nerd Font`。
 
-## 0x02 第二步：Starship Prompt——换一套酷炫的命令行提示符
+## 3 0x02 第二步：Starship Prompt——换一套酷炫的命令行提示符
 
 你每天盯着终端，看最多的就是那一行提示符。
 默认的 `PS C:\Users\you>` 能告诉你什么？只有当前路径。
 而 Starship 能让你一眼看到：当前目录、Git 分支和状态、语言运行时版本、命令耗时、错误码……
 
-### 安装
+### 3.1 安装
 
 
 
@@ -80,7 +80,7 @@ scoop install starship
 \# winget
 winget install Starship.Starship
 
-### 配置 PowerShell
+### 3.2 配置 PowerShell
 
 打开 PowerShell 配置文件：
 
@@ -103,7 +103,7 @@ Invoke-Expression (&starship init powershell)
 
 保存，重启终端。提示符已经变漂亮了。
 
-### 三款推荐主题
+### 3.3 三款推荐主题
 
 Starship 内置几十款预设主题，一行命令切换。以下三款是我实测最适合暗色终端的：
 
@@ -153,9 +153,9 @@ starship preset tokyo-night -o ~/.config/starship.toml
 
 📷 starship-gruvbox.png —— Gruvbox Rainbow 主题效果
 
-## 0x03 第三步：CLI 工具全家桶——先认识再装备
+## 4 0x03 第三步：CLI 工具全家桶——先认识再装备
 
-### 全家桶总览
+### 4.1 全家桶总览
 
 这一步我们要装 17 个工具，按功能分成 5 大类。先看全局地图，再逐个深入。
 
@@ -195,7 +195,7 @@ starship preset tokyo-night -o ~/.config/starship.toml
 
 💡 这 17 个工具中，`yazi` 的 PDF 预览依赖 `poppler`，SVG 预览依赖 `resvg`，图片/视频预览依赖 `ffmpeg` + `ImageMagick`。所以它们不是独立的——装 yazi 的时候顺带把预览依赖一起装上，体验才完整。
 
-### 一键安装
+### 4.2 一键安装
 
 **Scoop（推荐，版本更新快）：**
 
@@ -228,9 +228,9 @@ winget install Starship.Starship sxyazi.yazi Gyan.FFmpeg 7zip.7zip jqlang.jq osc
 
 下面按 5 大分类逐个详细拆解。每个工具讲清楚：**它是什么、替代了什么、为什么用它、怎么装、基本用法、实战场景。**
 
-## 0x03_01 🎨 第一层：外观与交互
+## 5 0x03_01 🎨 第一层：外观与交互
 
-### 📁 lsd —— 彩色文件列表
+### 5.1 📁 lsd —— 彩色文件列表
 
 **替代**：`ls` / `dir`
 
@@ -285,9 +285,9 @@ Set-Alias -Name ls -Value lsd -Option AllScope -Force
 
 📷 lsd-tree.png —— lsd 树形输出效果
 
-## 0x03_02 🚀 第二层：导航与搜索
+## 6 0x03_02 🚀 第二层：导航与搜索
 
-### ⚡ zoxide —— 智能目录跳转
+### 6.1 ⚡ zoxide —— 智能目录跳转
 
 **替代**：`cd`
 
@@ -325,7 +325,7 @@ z -l proj   # 列出所有匹配 "proj" 的目录（不跳转）
 
 ------
 
-### 🔍 fzf —— 模糊搜索神器
+### 6.2 🔍 fzf —— 模糊搜索神器
 
 **它是什么**：Go 写的通用模糊搜索器。可以从文件列表、命令历史、进程列表等任何文本流中进行交互式模糊搜索。
 
@@ -363,7 +363,7 @@ ps | fzf | ForEach-Object { Stop-Process -Id $_.Id }
 
 ------
 
-### 📂 fd —— 简洁的文件搜索
+### 6.3 📂 fd —— 简洁的文件搜索
 
 **替代**：`find` / `Get-ChildItem -Recurse`
 
@@ -406,9 +406,9 @@ fd -e json -e yaml -e toml --changed-within 7d
 \# 找并删除所有 .log 文件
 fd -e log -X rm
 
-## 0x03_03 📖 第三层：查看与阅读
+## 7 0x03_03 📖 第三层：查看与阅读
 
-### 🦇 bat —— 语法高亮的 cat
+### 7.1 🦇 bat —— 语法高亮的 cat
 
 **替代**：`cat` / `Get-Content`
 
@@ -458,7 +458,7 @@ Set-Alias -Name cat -Value bat
 
 ------
 
-### 🔎 ripgrep（rg）—— 搜索界的闪电
+### 7.2 🔎 ripgrep（rg）—— 搜索界的闪电
 
 **替代**：`grep` / `Select-String` / Windows 搜索
 
@@ -503,7 +503,7 @@ rg "import.*React" --count
 
 ------
 
-### 🔧 jq —— JSON 处理瑞士军刀
+### 7.3 🔧 jq —— JSON 处理瑞士军刀
 
 **它是什么**：命令行 JSON 处理器。格式化、过滤、提取字段、聚合计算，一句话搞定。
 
@@ -553,7 +553,7 @@ jd diff a.json b.json   # 需要 jd 工具（见下文）
 
 ------
 
-### 📊 jd —— JSON Diff
+### 7.4 📊 jd —— JSON Diff
 
 **它是什么**：Rust 写的 JSON 对比工具。两个 JSON 文件之间的差异高亮显示，比 `diff` 对 JSON 更友好。
 
@@ -585,7 +585,7 @@ jd config_dev.json config_prod.json
 
 ------
 
-### 📖 tldr —— 简化版命令帮助
+### 7.5 📖 tldr —— 简化版命令帮助
 
 **替代**：`man` / `--help`
 
@@ -632,7 +632,7 @@ tldr tar
 
 ------
 
-### 🐿️ yazi —— 终端文件管理器
+### 7.6 🐿️ yazi —— 终端文件管理器
 
 **替代**：Windows 资源管理器（在终端内使用）
 
@@ -691,9 +691,9 @@ yazi C:\projects  # 打开指定目录
 
 📷 yazi-preview.png —— yazi 文件预览效果
 
-## 0x03_04 🛠️ 第四层：处理与转换
+## 8 0x03_04 🛠️ 第四层：处理与转换
 
-### 🗜️ ffmpeg —— 多媒体处理瑞士军刀
+### 8.1 🗜️ ffmpeg —— 多媒体处理瑞士军刀
 
 **它是什么**：命令行音视频处理工具。格式转换、裁剪、合并、提取音频、生成 GIF……几乎你能想到的音视频操作它都能做。
 
@@ -728,7 +728,7 @@ ffmpeg -f concat -i list.txt -c copy output.mp4
 
 ------
 
-### 🎨 ImageMagick —— 图片处理
+### 8.2 🎨 ImageMagick —— 图片处理
 
 **它是什么**：最强大的命令行图片处理工具。格式转换、缩放、裁剪、加水印、批量处理。
 
@@ -753,7 +753,7 @@ magick *.png -resize 50% thumbnail_%d.png   # 批量缩放
 
 ------
 
-### 📄 poppler —— PDF 处理
+### 8.3 📄 poppler —— PDF 处理
 
 **它是什么**：PDF 渲染库的命令行工具集。提供 `pdftotext`（PDF 转文本）、`pdfinfo`（PDF 信息查看）等工具。yazi 的 PDF 预览依赖它。
 
@@ -777,7 +777,7 @@ pdftoppm input.pdf output -png   # PDF 转图片
 
 ------
 
-### 🖼️ resvg —— SVG 渲染
+### 8.4 🖼️ resvg —— SVG 渲染
 
 **它是什么**：Rust 写的高性能 SVG 渲染器。yazi 的 SVG 预览依赖它。
 
@@ -790,7 +790,7 @@ scoop install resvg
 
 ------
 
-### 📦 7zip —— 压缩解压
+### 8.5 📦 7zip —— 压缩解压
 
 **它是什么**：支持几乎所有压缩格式的命令行压缩工具。zip、7z、rar、tar.gz……
 
@@ -815,9 +815,9 @@ winget install 7zip.7zip
 
 ------
 
-## 0x03_05🔧 第五层：基础设施
+## 9 0x03_05🔧 第五层：基础设施
 
-### 📦 coreutils —— GNU 核心工具集
+### 9.1 📦 coreutils —— GNU 核心工具集
 
 **它是什么**：将 Linux 的核心命令（`cp`、`mv`、`ls`、`head`、`tail`、`wc`、`sort`、`uniq`、`du` 等）移植到 Windows。PowerShell 有自己的命令，但参数语法不同；装了 coreutils 就能用标准的 GNU 语法。
 
@@ -843,7 +843,7 @@ du -sh *         # 查看目录大小
 
 ------
 
-### 🎋 lazygit —— Git 可视化界面
+### 9.2 🎋 lazygit —— Git 可视化界面
 
 **它是什么**：Go 写的终端 Git UI。暂存、提交、推送、变基、解决冲突，全部用键盘操作，界面实时显示仓库状态。
 
@@ -882,7 +882,7 @@ lazygit   # 在 Git 仓库目录下启动
 
 📷 lazygit-ui.png —— lazygit 界面
 
-## 0x04 第四步：PowerShell 配置——让所有工具联动
+## 10 0x04 第四步：PowerShell 配置——让所有工具联动
 
 以上工具装完后，需要统一配置 PowerShell 才能发挥作用。
 以下配置写入 `$PROFILE` 文件（`notepad $PROFILE`）：
@@ -911,7 +911,7 @@ Set-Alias -Name ls -Value lsd -Option AllScope -Force
 \# bat 替代 cat —— 语法高亮
 Set-Alias -Name cat -Value bat -Option AllScope -Force
 
-### 配置说明
+### 10.1 配置说明
 
 **`zoxide` 的 `z` 命令**：
 
@@ -931,7 +931,7 @@ Set-Alias -Name cat -Value bat -Option AllScope -Force
 
 ------
 
-## 0x05 实战场景：当现代终端遇到命令行 AI
+## 11 0x05 实战场景：当现代终端遇到命令行 AI
 
 环境搭好后，日常和 Claude Code、GitHub Copilot CLI 等 AI 工具协作时，体验会有质的飞跃：
 
@@ -979,7 +979,7 @@ fd | fzf
 
 每个场景都比以前少敲几秒、少出错几次。积少成多，一天下来能省出不少时间。
 
-## 0x06 参考资源
+## 12 0x06 参考资源
 
 \- 少数派《现代Unix命令行工具革命：30个必备替代品完整指南》
 \- Nerd Fonts 官网
@@ -987,7 +987,7 @@ fd | fzf
 \- yazi 官方文档
 \- lazygit 官方文档
 
-## 0x07 写在最后
+## 13 0x07 写在最后
 
 终端的复兴不是偶然。Claude Code、GitHub Copilot CLI、Cursor 的 Agent 模式……命令行正重新成为开发者与 AI 协作的最高效界面。
 
@@ -1001,8 +1001,29 @@ fd | fzf
 阅读 1.5万
 
 修改于2026年4月13日
+## 14 bash 命令自动补全
+https://github.com/akinomyoga/ble.sh
+```bash
+需要 Bash 3.0+ 和基础的 POSIX 工具。
+**下载ble-0.4.0-devel3.tar.xz**
+wget https://github.com/akinomyoga/ble.sh/releases/download/v0.4.0-devel3/ble-0.4.0-devel3.tar.xz
+# DOWNLOAD with curl
+curl -LO https://github.com/akinomyoga/ble.sh/releases/download/v0.4.0-devel3/ble-0.4.0-devel3.tar.xz
+```
 
-Windows终端美化教程
+**试用与安装**
+
+```shell
+tar xJf ble-0.4.0-devel3.tar.xz -C ~/.local/share/blesh
+echo 'source ~/.local/share/blesh' >> ~/.bashrc
+
+# INSTALL (more robust)
+tar xJf ble-0.4.0-devel3.tar.xz -C ~/.local/share/blesh
+# Add the following line near the top of ~/.bashrc
+[[ $- == *i* ]] && source ~/.local/share/blesh/ble.sh --attach=none
+# Add the following line at the end of ~/.bashrc
+[[ ${BLE_VERSION-} ]] && ble-attach
+```
 
 
 
