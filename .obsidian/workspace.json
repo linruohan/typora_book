@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30分钟手术：让Windows 终端秒变 macOS 现代终端.md",
+                "file": "win11创建软链接.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "30分钟手术：让Windows 终端秒变 macOS 现代终端"
+              "title": "win11创建软链接"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30分钟手术：让Windows 终端秒变 macOS 现代终端.md",
+                "file": "win11创建软链接.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "30分钟手术：让Windows 终端秒变 macOS 现代终端 的大纲"
+              "title": "win11创建软链接 的大纲"
             }
           },
           {
@@ -130,9 +130,10 @@
   },
   "active": "f5ad8df7324103df",
   "lastOpenFiles": [
+    "Nvdia免费ai使用.md",
+    "30分钟手术：让Windows 终端秒变 macOS 现代终端.md",
     "scoop使用说明.md",
     "win11创建软链接.md",
-    "Nvdia免费ai使用.md",
     "Arch安装niri.md",
     "上古卷轴5秘籍.md",
     "imgs/scoop使用说明.png",
@@ -160,7 +161,6 @@
     "imgs/gitbash按照zsh.png",
     "Claude Code 完美接入 Ollama 指南.md",
     "疑难问题记录/62-npm更换成淘宝镜像源以及cnpm.md",
-    "rust编译加速优化.md",
     "imgs/claude安装-2.png",
     "imgs/claude安装-1.png",
     "imgs/claude安装.png",

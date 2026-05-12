@@ -5,7 +5,7 @@
 npm install -g @anthropic-ai/claude-code@latest
 ```
 ## 2 初始化
-添加配置文件："~\.claude\settings.json"
+添加配置文件："~\.claude\settings.json" 
 ```json
 {
   "env": {

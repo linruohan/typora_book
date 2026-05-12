@@ -64,9 +64,9 @@
 
 API 基础地址：
 
-|   |
-|---|
-|https://integrate.api.nvidia.com/v1|
+|                                     |
+| ----------------------------------- |
+| https://integrate.api.nvidia.com/v1 |
 调用方式与 OpenAI API 基本一致，因此很多第三方客户端都可以直接接入。
 下面做一个简单对比，方便快速选择：
 

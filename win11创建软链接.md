@@ -83,7 +83,7 @@ mklink Link Target
 
 ```
 mklink /D Link Target
-mklink /D C:\software\SublimeText\Data D:\codehub\my-ST-my-settings
+mklink /D C:\software\SublimeText\Data D:\codehub\ST-my-settings
 mklink /D "C:\Program Files\Typora\resources\plugin" D:\codehub\typora_plugin\plugin
 mklink /D  "C:\Users\Administrator\.glzr" "D:\codehub\windots\.glzr"
 mklink /D  C:\Users\Administrator\AppData\Roaming\alacritty 
@@ -96,7 +96,7 @@ mklink /D "%APPDATA%\yazi" D:\codehub\win10\yazi
 mklink /D "C:\Users\Administrator\AppData\Local\nvim" D:\codehub\nvim-config
 mklink /D "C:\Users\Administrator\.config\opencode" D:\codehub\my_skills\opencode
 ```
-
+删除连接： rmdir "C:\software\SublimeText\Data"
 当您想要创建指向文件的硬链接时，请使用 /H：
 
 ```
