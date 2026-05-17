@@ -84,14 +84,14 @@
     "expandedKeys": []
   },
   "win11创建软链接.md": {
-    "scroll": 51.036820967689394,
+    "scroll": 59.8023,
     "cursor": {
       "from": {
-        "line": 58,
+        "line": 92,
         "ch": 60
       },
       "to": {
-        "line": 58,
+        "line": 92,
         "ch": 60
       }
     },
@@ -210,15 +210,15 @@
     "expandedKeys": []
   },
   "未命名 2.md": {
-    "scroll": 0,
+    "scroll": 669.6851704915365,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 678,
+        "ch": 5
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 678,
+        "ch": 5
       }
     },
     "expandedKeys": []
@@ -448,15 +448,15 @@
     "expandedKeys": []
   },
   "scoop使用说明.md": {
-    "scroll": 0,
+    "scroll": 91.60000152587891,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 0
+        "line": 97,
+        "ch": 12
       },
       "to": {
-        "line": 4,
-        "ch": 0
+        "line": 97,
+        "ch": 12
       }
     },
     "expandedKeys": []
@@ -513,6 +513,34 @@
       "to": {
         "line": 1000,
         "ch": 7
+      }
+    },
+    "expandedKeys": []
+  },
+  "windows命令行补全.md": {
+    "scroll": 64.2091,
+    "cursor": {
+      "from": {
+        "line": 79,
+        "ch": 27
+      },
+      "to": {
+        "line": 79,
+        "ch": 27
+      }
+    },
+    "expandedKeys": []
+  },
+  "clink使用教程.md": {
+    "scroll": 616.2592575638382,
+    "cursor": {
+      "from": {
+        "line": 626,
+        "ch": 5
+      },
+      "to": {
+        "line": 626,
+        "ch": 5
       }
     },
     "expandedKeys": []
