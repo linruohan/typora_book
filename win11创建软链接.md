@@ -95,6 +95,15 @@ mklink /D  %UserProfile%\.vscode  C:\software\VSCode\data
 mklink /D "%APPDATA%\yazi" D:\codehub\win10\yazi
 mklink /D "C:\Users\Administrator\AppData\Local\nvim" D:\codehub\nvim-config
 mklink /D "C:\Users\Administrator\.config\opencode" D:\codehub\my_skills\opencode
+
+
+# skills
+mklink /D "C:\Users\Administrator\.claude\skills" D:\codehub\skills
+mklink /D "C:\Users\Administrator\.config\opencode\skills" D:\codehub\skills
+mklink /D "C:\Users\Administrator\.codex\skills" D:\codehub\skills
+mklink /D "C:\Users\Administrator\.cursor\skills" D:\codehub\skills
+mklink /D "C:\Users\Administrator\.openclaw\skills" D:\codehub\skills
+mklink /D "C:\Users\Administrator\.trae-cn\skills" D:\codehub\skills
 ```
 删除连接： rmdir "C:\software\SublimeText\Data"
 当您想要创建指向文件的硬链接时，请使用 /H：

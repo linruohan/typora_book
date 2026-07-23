@@ -2,7 +2,7 @@
 
 
 
-## **1. 启用WSL**
+## 1 **1. 启用WSL**
 
 用管理员打开powershell输入
 
@@ -10,12 +10,12 @@
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 
-## **2. 升级为WSL2的必要条件**
+## 2 **2. 升级为WSL2的必要条件**
 
 - 对于x64的系统要求win10版本为**1903** 或者更高
 - win + R 输入 `winver`查看版本
 
-## **3. 启用虚拟平台**
+## 3 **3. 启用虚拟平台**
 
 用管理员打开powershell输入
 
@@ -23,13 +23,13 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
-## **4. 下载Linux内核升级包**
+## 4 **4. 下载Linux内核升级包**
 
 下载地址：[https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi](https://link.zhihu.com/?target=https%3A//wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 
 下载完成后双击安装
 
-## **5. 将WSL2设置为默认版本**
+## 5 **5. 将WSL2设置为默认版本**
 
 用管理员打开powershell输入
 
@@ -39,19 +39,19 @@ wsl --set-default-version 2
 
 到这里WSL就安装好了，下面安装ArchLinux
 
-## **6. 安装LxRunOffline**
+## 6 **6. 安装LxRunOffline**
 
 下载地址：[https://github.com/DDoSolitary/LxRunOffline/releases](https://link.zhihu.com/?target=https%3A//github.com/DDoSolitary/LxRunOffline/releases)
 
 选择最新版下载，解压后将LxRunOffline.exe放入任意一个path文件夹下（比如C:/Windows/System32）
 
-## **7. 下载Archlinux**
+## 7 **7. 下载Archlinux**
 
 下载地址：[https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/latest/](https://link.zhihu.com/?target=https%3A//mirrors.tuna.tsinghua.edu.cn/archlinux/iso/latest/)
 
 找到 `archlinux-bootstrap-2020.10.01-x86_64.tar.gz`， 注意是 `tar.gz`文件
 
-## **8. 安装archlinux到WSL**
+## 8 **8. 安装archlinux到WSL**
 
 命令1：
 
@@ -66,7 +66,7 @@ LxRunOffline i -n ArchLinux -f D:\archlinux-bootstrap-2022.05.01-x86_64.tar.gz -
 wsl --set-version ArchLinux 2
 ```
 
-## **9. 进入系统**
+## 9 **9. 进入系统**
 
 命令：
 
@@ -165,7 +165,7 @@ vim /etc/sudoers
 id -u <用户名>
 ```
 
-## **10. 设置使用普通用户登录Archlinux**
+## 10 **10. 设置使用普通用户登录Archlinux**
 
 紧接上一步，退出Arch
 

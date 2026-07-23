@@ -28,14 +28,14 @@
     "expandedKeys": []
   },
   "Planify_TODOist工具.md": {
-    "scroll": 225.37522263299851,
+    "scroll": 62.7295,
     "cursor": {
       "from": {
-        "line": 238,
+        "line": 67,
         "ch": 0
       },
       "to": {
-        "line": 238,
+        "line": 67,
         "ch": 0
       }
     },
@@ -84,15 +84,15 @@
     "expandedKeys": []
   },
   "win11创建软链接.md": {
-    "scroll": 59.8023,
+    "scroll": 73.75601365831163,
     "cursor": {
       "from": {
-        "line": 92,
-        "ch": 60
+        "line": 99,
+        "ch": 8
       },
       "to": {
-        "line": 92,
-        "ch": 60
+        "line": 99,
+        "ch": 8
       }
     },
     "expandedKeys": []
@@ -210,15 +210,15 @@
     "expandedKeys": []
   },
   "未命名 2.md": {
-    "scroll": 669.6851704915365,
+    "scroll": 296.2811205856495,
     "cursor": {
       "from": {
-        "line": 678,
-        "ch": 5
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 678,
-        "ch": 5
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -504,29 +504,29 @@
     "expandedKeys": []
   },
   "30分钟手术：让Windows 终端秒变 macOS 现代终端.md": {
-    "scroll": 1011.2106,
+    "scroll": 72.2692,
     "cursor": {
       "from": {
-        "line": 1000,
-        "ch": 7
+        "line": 88,
+        "ch": 16
       },
       "to": {
-        "line": 1000,
-        "ch": 7
+        "line": 88,
+        "ch": 8
       }
     },
     "expandedKeys": []
   },
   "windows命令行补全.md": {
-    "scroll": 64.2091,
+    "scroll": 71.47314354225442,
     "cursor": {
       "from": {
-        "line": 79,
-        "ch": 27
+        "line": 96,
+        "ch": 24
       },
       "to": {
-        "line": 79,
-        "ch": 27
+        "line": 96,
+        "ch": 24
       }
     },
     "expandedKeys": []
@@ -541,6 +541,146 @@
       "to": {
         "line": 626,
         "ch": 5
+      }
+    },
+    "expandedKeys": []
+  },
+  "在WSL2中安装ArchLinux.md": {
+    "scroll": 155.26481444747358,
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 12
+      },
+      "to": {
+        "line": 39,
+        "ch": 25
+      }
+    },
+    "expandedKeys": []
+  },
+  "wsl_arch_2025md.md": {
+    "scroll": 135.12870986373335,
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 14
+      },
+      "to": {
+        "line": 20,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "ArchLinux安装教程.md": {
+    "scroll": 431.41683135261803,
+    "cursor": {
+      "from": {
+        "line": 433,
+        "ch": 4
+      },
+      "to": {
+        "line": 433,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "任务管理系统.md": {
+    "scroll": 8.844444274902344,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 4
+      },
+      "to": {
+        "line": 9,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "design.md": {
+    "scroll": 0.35928142071197783,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "个人助理Agent设计文档.md": {
+    "scroll": 26.5041662145544,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 13
+      },
+      "to": {
+        "line": 37,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "天气.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "0-知识库/11-JavaScript/69-标准对象.md": {
+    "scroll": 534.3926,
+    "cursor": {
+      "from": {
+        "line": 552,
+        "ch": 22
+      },
+      "to": {
+        "line": 552,
+        "ch": 22
+      }
+    },
+    "expandedKeys": []
+  },
+  "AI agent.md": {
+    "scroll": 296.2811205856495,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 24
+      },
+      "to": {
+        "line": 0,
+        "ch": 24
+      }
+    },
+    "expandedKeys": []
+  },
+  "windows_reminder.md": {
+    "scroll": 13.413811178408016,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 1
+      },
+      "to": {
+        "line": 11,
+        "ch": 1
       }
     },
     "expandedKeys": []

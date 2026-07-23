@@ -142,7 +142,7 @@ zh_CN.UTF-8.UTF-8
 
 ```bash
 locale-gen
-echo 'LANG=en_US.UTF-8' > /etc/locale.conf
+*echo 'LANG=en_US.UTF-8' > /etc/locale.conf*
 ```
 
 ## 14 编辑archlinuxcn中国源
