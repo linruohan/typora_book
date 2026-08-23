@@ -4,101 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "885243fc345e59af",
+        "id": "233a23a730f74011",
         "type": "tabs",
         "children": [
           {
-            "id": "f5ad8df7324103df",
+            "id": "f01d124a2d6dad18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "win11创建软链接.md",
+                "file": "scoop使用说明.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "win11创建软链接"
-            }
-          },
-          {
-            "id": "8607586ba4c4dbe5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ArchLinux安装教程.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "ArchLinux安装教程"
-            }
-          },
-          {
-            "id": "a5c40a658e4c62dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30分钟手术：让Windows 终端秒变 macOS 现代终端.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "30分钟手术：让Windows 终端秒变 macOS 现代终端"
-            }
-          },
-          {
-            "id": "a28d00cdd62cdd66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI agent.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "AI agent"
-            }
-          },
-          {
-            "id": "953c9be15c4cd1be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "windows_reminder.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "windows_reminder"
-            }
-          },
-          {
-            "id": "1beab9f55925a067",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "个人助理Agent设计文档.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "个人助理Agent设计文档"
+              "title": "scoop使用说明"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,10 +42,12 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -130,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "powershell 配置文件",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,8 +77,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -172,13 +97,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "windows_reminder.md",
+                "file": "scoop使用说明.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "windows_reminder 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -204,29 +129,32 @@
       "bases:新建数据库": false
     }
   },
-  "active": "953c9be15c4cd1be",
+  "active": "f01d124a2d6dad18",
   "lastOpenFiles": [
+    "我的工作流.md",
+    "win11创建软链接.md",
+    "ArchLinux安装教程.md",
+    "30分钟手术：让Windows 终端秒变 macOS 现代终端.md",
+    "个人助理Agent设计文档.md",
+    "Windows 上实现 CLI 定时任务提醒，.md",
+    "AI agent.md",
+    "imgs/AI agent-4.png",
+    "imgs/AI agent-3.png",
+    "imgs/AI agent-2.png",
+    "imgs/AI agent-1.png",
+    "windows连接.md",
+    "sublimetext4激活.md",
+    "windows_reminder.md",
     "imgs/windows_reminder-10.png",
     "imgs/windows_reminder-9.png",
     "imgs/windows_reminder-8.png",
     "imgs/windows_reminder-7.png",
     "imgs/windows_reminder-6.png",
     "imgs/windows_reminder-5.png",
-    "imgs/windows_reminder-4.png",
-    "imgs/windows_reminder-3.png",
-    "imgs/windows_reminder-2.png",
-    "imgs/windows_reminder-1.png",
-    "imgs/windows_reminder.png",
-    "AI agent.md",
-    "windows_reminder.md",
-    "30分钟手术：让Windows 终端秒变 macOS 现代终端.md",
     "windows命令行补全.md",
     "Planify_TODOist工具.md",
     "0-知识库/11-JavaScript/69-标准对象.md",
     "天气.md",
-    "ArchLinux安装教程.md",
-    "win11创建软链接.md",
-    "个人助理Agent设计文档.md",
     "任务管理系统.md",
     "wsl_arch_2025md.md",
     "在WSL2中安装ArchLinux.md",
@@ -239,9 +167,6 @@
     "ollama本地模型部署.md",
     "鬼刀.md",
     "poetry.md",
-    "pyinstall manager.md",
-    "libvirtd_xml.md",
-    "libvirtd_Domain XML format.md",
     "assets/flutter环境搭建.assets",
     "assets",
     "assets/Msys2使用windows环境变量.assets",

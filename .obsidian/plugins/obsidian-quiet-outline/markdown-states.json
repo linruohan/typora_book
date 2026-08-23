@@ -84,15 +84,15 @@
     "expandedKeys": []
   },
   "win11创建软链接.md": {
-    "scroll": 73.75601365831163,
+    "scroll": 68.85984894723603,
     "cursor": {
       "from": {
-        "line": 99,
-        "ch": 8
+        "line": 78,
+        "ch": 18
       },
       "to": {
-        "line": 99,
-        "ch": 8
+        "line": 78,
+        "ch": 18
       }
     },
     "expandedKeys": []
@@ -448,15 +448,15 @@
     "expandedKeys": []
   },
   "scoop使用说明.md": {
-    "scroll": 91.60000152587891,
+    "scroll": 95.1375,
     "cursor": {
       "from": {
-        "line": 97,
-        "ch": 12
+        "line": 124,
+        "ch": 4
       },
       "to": {
-        "line": 97,
-        "ch": 12
+        "line": 124,
+        "ch": 4
       }
     },
     "expandedKeys": []
@@ -658,21 +658,21 @@
     "expandedKeys": []
   },
   "AI agent.md": {
-    "scroll": 296.2811205856495,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 24
+        "line": 14,
+        "ch": 45
       },
       "to": {
-        "line": 0,
-        "ch": 24
+        "line": 14,
+        "ch": 45
       }
     },
     "expandedKeys": []
   },
   "windows_reminder.md": {
-    "scroll": 13.413811178408016,
+    "scroll": 10.423199897524222,
     "cursor": {
       "from": {
         "line": 11,
@@ -684,5 +684,45 @@
       }
     },
     "expandedKeys": []
+  },
+  "sublimetext4激活.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 2
+      },
+      "to": {
+        "line": 0,
+        "ch": 14
+      }
+    },
+    "expandedKeys": []
+  },
+  "Windows 上实现 CLI 定时任务提醒，.md": {
+    "cursor": {
+      "from": {
+        "line": 286,
+        "ch": 9
+      },
+      "to": {
+        "line": 286,
+        "ch": 9
+      }
+    },
+    "scroll": 274.07718899375516
+  },
+  "我的工作流.md": {
+    "scroll": 161.8803,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    }
   }
 }

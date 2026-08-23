@@ -84,6 +84,7 @@ mklink Link Target
 ```
 mklink /D Link Target
 mklink /D C:\software\SublimeText\Data D:\codehub\ST-my-settings
+mklink /D C:\software\Sublime Text\Data D:\codehub\ST-my-settings
 mklink /D "C:\Program Files\Typora\resources\plugin" D:\codehub\typora_plugin\plugin
 mklink /D  "C:\Users\Administrator\.glzr" "D:\codehub\windots\.glzr"
 mklink /D  C:\Users\Administrator\AppData\Roaming\alacritty 
