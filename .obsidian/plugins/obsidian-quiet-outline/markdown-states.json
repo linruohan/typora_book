@@ -448,7 +448,7 @@
     "expandedKeys": []
   },
   "scoop使用说明.md": {
-    "scroll": 95.1375,
+    "scroll": 93.7708,
     "cursor": {
       "from": {
         "line": 124,
@@ -724,5 +724,18 @@
         "ch": 0
       }
     }
+  },
+  "rust安装.md": {
+    "cursor": {
+      "from": {
+        "line": 166,
+        "ch": 0
+      },
+      "to": {
+        "line": 166,
+        "ch": 0
+      }
+    },
+    "scroll": 0
   }
 }
