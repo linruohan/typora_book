@@ -2,14 +2,13 @@
 
 [toc]
 
-
-
 上接搭建windows GTK环境+pyGTK使用一文
 
 正式开始开发，安装clion
 
 ## 1 toolchains选择mingw64
 
+![](./imgs/windows下gtk4开发0.png)
 ![image-20240818095529470](imgs/image-20240818095529470.png)
 
 ## 2 cmake配置 CMakeLists.txt
@@ -31,14 +30,15 @@ link_directories(${GTK4_LIBRARY_DIRS})
 add_executable(cgtk_tsk main.c)
 target_link_libraries(cgtk_tsk ${GTK4_LIBRARIES})
 ```
-## 3 cmake的libadwaita支持  扁平话主题
+
+## 3 cmake的libadwaita支持 扁平话主题
 
 案例 https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/initialization.html
 
 添加libadwaita
 
 ```bash
-pkg_check_modules(ADWAITA libadwaita-1 REQUIRED)  ## 
+pkg_check_modules(ADWAITA libadwaita-1 REQUIRED)  ##
 target_link_libraries(cgtk_tsk ${GTK4_LIBRARIES} ${ADWAITA_LIBRARIES})  ##
 ```
 
@@ -68,8 +68,6 @@ main(int argc, char *argv[]) {
 ```
 
 ![image-20240818100623748](imgs/image-20240818100623748.png)
-
-
 
 ## 4 demo
 
@@ -106,10 +104,9 @@ main (int    argc,
 
 然后运行![image-20240818095612134](imgs/image-20240818095612134.png)
 
-
 ### 4.2 demo2 显示时间
 
-https://docs.gtk.org/glib/?q=time  glib接口
+https://docs.gtk.org/glib/?q=time glib接口
 
 https://docs.gtk.org/glib/func.get_real_time.html
 
@@ -158,7 +155,7 @@ main(const int argc, char *argv[]) {
     return g_application_run(G_APPLICATION(app), argc, argv);
 }
 
- 
+
 ```
 
 <img src="imgs/image-20240818121334863.png" alt="image-20240818121334863" style="zoom:50%;" />
@@ -167,7 +164,7 @@ main(const int argc, char *argv[]) {
 
 https://packages.msys2.org/package/mingw-w64-x86_64-glade
 
-glade是一个RAD（rapid application  develop，快速应用开发）工具，能够为gtk+工具包和gnome桌面环境快速而简单地开发用户界面。Glade中设计的用户界面保存为XML，通过使用GtkBuilder GTK +对象，应用程序可以根据需要动态加载这些界面。通过使用GtkBuilder，Glade XML文件可以用于多种编程语言，包括C，C  ++，C＃，Vala，Java，Perl，Python等。Glade是根据GNU GPL许可证发布的自由软件。
+glade是一个RAD（rapid application develop，快速应用开发）工具，能够为gtk+工具包和gnome桌面环境快速而简单地开发用户界面。Glade中设计的用户界面保存为XML，通过使用GtkBuilder GTK +对象，应用程序可以根据需要动态加载这些界面。通过使用GtkBuilder，Glade XML文件可以用于多种编程语言，包括C，C ++，C＃，Vala，Java，Perl，Python等。Glade是根据GNU GPL许可证发布的自由软件。
 
 ```bash
 # 是支持gtk3的，gtk4需要进行手动升级
@@ -236,8 +233,6 @@ main(const int argc, char *argv[]) {
 
 ### 5.3 glade自动信号处理
 
-
-
 clang-format –style=“WebKit” –dump-config > .clang-format
 
 设置gbox容器里面子部件自动扩展大小
@@ -253,16 +248,20 @@ grid 网格布局
 C:\software\msys2\ucrt64\share\icons\Adwaita\symbolic\ui
 
 ## 6 Vscode 上允许 C + gtk 4
+
 ![](imgs/windows下gtk4开发.png)
 ![](imgs/windows下gtk4开发-1.png)
 选择 kit ming64/bin/gcc
 将 mingw 64/bin 的环境变量放在最上面，否则构建会报错
 ![](imgs/windows下gtk4开发-2.png)
-![](imgs/windows下gtk4开发-3.png) 
+![](imgs/windows下gtk4开发-3.png)
+
 ```bash
-set_target_properties(cgtk_tsk PROPERTIES WIN32_EXECUTABLE true)  # 没有控制台 
+set_target_properties(cgtk_tsk PROPERTIES WIN32_EXECUTABLE true)  # 没有控制台
 ```
+
 ## 7 Vscode + C++ + gtk 4
+
 ![](imgs/windows下gtk4开发-4.png)
 https://www.youtube.com/watch?v=TyFXwHklg6A 下面的 config 内容
 run：****

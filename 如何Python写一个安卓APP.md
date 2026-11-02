@@ -1,8 +1,8 @@
-# 如何 Python 写一个安卓 APP
+# 1 如何 Python 写一个安卓 APP
 
 [toc]
 
-##  前言：用 Python 写安卓 APP 肯定不是最好的选择，但是肯定是一个很偷懒的选择
+## 1.1 前言：用 Python 写安卓 APP 肯定不是最好的选择，但是肯定是一个很偷懒的选择
 
  可能长这样
 
@@ -14,7 +14,7 @@
 
 如果觉得可行的话，评论留言一下你觉得应该写进这个 APP 的运维常用命令吧^_^，笔者暂时想到的是 `top,free -m,df –h,uptime,iftop,iotop,`
 
-## kivi 开源框架
+## 1.2 kivi 开源框架
 
 **Kivy**是一套专门用于跨平台快速应用开发的开源框架，使用 `Python和Cython` 编写，对于 `多点触控` 有着非常良好的支持，不仅能让开发者快速完成简洁的交互原型设计，还支持 `代码重用和部署`，绝对是一款颇让人惊艳的 NUI 框架。
 
@@ -22,9 +22,9 @@
 
 本文会带大家写一个 Hello world 并瞧一瞧 Python 版的 2048 的代码
 
- 
 
-### kivy 安装 (win10)
+
+### 1.2.1 kivy 安装 (win10)
 
 环境说明：笔者在用的是 Python2.7.10  这里仅介绍==windows 平台==安装
 
@@ -41,7 +41,7 @@ pip install kivy
 
 > 值得注意的是，上面的安卓需要访问 Google，所以请自备×××，而且 kivy. Deps. gstreamer 这个包比较大 (95MB)，可以单独本地安装，[ http://pan.baidu.com/s/1o7mlxNk](http://pan.baidu.com/s/1o7mlxNk)
 
-#### 64 位系统: 修改 BIOS 设置，`开启虚拟化支持`
+#### 1.2.1.1 位系统: 修改 BIOS 设置，`开启虚拟化支持`
 
 注：这里只是 kivy 的运行环境，这样我就能直接在 windows 机器上直接调试了，怎么将代码编译成 APK 文件我们会在后面讲到。
 
@@ -49,7 +49,7 @@ pip install kivy
 
 [![如何Python写一个安卓APP_python_03](https://s4.51cto.com//wyfs02/M02/79/77/wKioL1aSPUOCRCPMAAAhlWpoOH8332.png)]( https://s4.51cto.com//wyfs02/M02/79/77/wKioL1aSPUOCRCPMAAAhlWpoOH8332.png )
 
-## hello world
+## 1.3 hello world
 
 ```python
 from kivy.app import App
@@ -93,7 +93,7 @@ class TestApp(App):
 TestApp().run()1.2.3.4.5.6.7.8.9.10.11.12.13.14.
 ```
 
-## 安装编译环境
+## 1.4 安装编译环境
 
  官方说明的环境，如下：You’ll need:
 
@@ -106,22 +106,22 @@ TestApp().run()1.2.3.4.5.6.7.8.9.10.11.12.13.14.
 - Android   SDK
 ```
 
-### virtualbox，vmware 需自行下载安装
+### 1.4.1 virtualbox，vmware 需自行下载安装
 
-### 官方虚拟机镜像，还有很多内容需要翻出去，所以笔者在这里提供相对而言更加完善的镜像
+### 1.4.2 官方虚拟机镜像，还有很多内容需要翻出去，所以笔者在这里提供相对而言更加完善的镜像
 
 下载地址：[ http://pan.baidu.com/s/1geyAY7x](http://pan.baidu.com/s/1geyAY7x)
 
 root 密码：kivy/kivy123
 
-## Virtual Machine
+## 1.5 Virtual Machine
 
 A Virtual Machine with Android SDK and NDK and all otherpre-requisites pre installed to ease apk generation:
 
 - [ Kivy Buildozer VM](https://drive.google.com/open?id=0B112pXITp0hJU3dJb25hbWJ3RHM&authuser=0)
 - Or select the [ Torrent](https://drive.google.com/open?id=0B112pXITp0hJaDlVTmw3Y1luTms&authuser=0)
 
- 
+
 
 在笔者提供的镜像里，桌面上有一个 dev_and，只要将上面写的代码，放入这个文件夹即可 (当然也可以在其他目录，后面会讲到)。
 
@@ -170,13 +170,13 @@ version = 1.2.01.2.
 buildozer -v android debug1.
 ```
 
- 
+
 
 Buildozer. Spec 更详细的相关参数配置参考：
 
 [ http://buildozer.readthedocs.org/en/latest/specifications.html](http://buildozer.readthedocs.org/en/latest/specifications.html)
 
- 
+
 
 Buildozer 命令会在当前文件夹创建一个 bin，该文件夹里面有我们想要的 apk 文件
 
@@ -206,7 +206,7 @@ helloapp-1.2.0-debug.apk1.
 
 
 
- 
+
 
  试玩了一下，还是蛮流畅的，有兴趣的可以下载玩一下
 

@@ -1,20 +1,20 @@
-# ArchLinux安装教程
+# 1 ArchLinux安装教程
 
 [toc]
 
 插入U盘，设置U盘引导，进入安装界面后：
 
-## 1 停止reflector服务 禁止自动更新服务器列表
+## 1.1 停止reflector服务 禁止自动更新服务器列表
 
 `systemctl stop reflector.service`
 
 小提示:系统启动后小键盘数字键未开启 记得手动开启
 
-## 2 网络连接
+## 1.2 网络连接
 
-### 2.1 有线连接 若是连接到已经有网的路由器可以自动联网
+### 1.2.1 有线连接 若是连接到已经有网的路由器可以自动联网
 
-### 2.2 无线网络连接
+### 1.2.2 无线网络连接
 
 ```bash
 iwctl                       #执行iwctl命令，==进入交互式命令行==
@@ -25,11 +25,11 @@ station wlan0 connect 无线网名字    #连接网络名字 输入密码
 exit或者quit                #成功后退出
 ```
 
-## 3 同步网络时间
+## 1.3 同步网络时间
 
 `timedatectl set-ntp true`
 
-## 4 修改软件源 把中国的服务器排在前列, 搜索ustc的两行剪切到行首
+## 1.4 修改软件源 把中国的服务器排在前列, 搜索ustc的两行剪切到行首
 
 ```bash
 vim /etc/pacman.d/mirrorlist
@@ -37,13 +37,13 @@ vim /etc/pacman.d/mirrorlist
 pacman -Syyu  #刷新但是不要更新软件包
 ```
 
-## 5 开始分区
+## 1.5 开始分区
 
 lsblk  # 查看磁盘列表
 fdisk -l #查看磁盘列表
 fdisk /dev/sda #分区sda磁盘
 
-### 5.1 fdisk磁盘操作手册
+### 1.5.1 fdisk磁盘操作手册
 
 ```bash
 m 帮助
@@ -53,7 +53,7 @@ p 查看分区
 w 保存并退出 所有的操作没有执行w前都不会生效
 ```
 
-### 5.2 我分了四个区 ,根据自己硬件修改 不可照抄
+### 1.5.2 我分了四个区 ,根据自己硬件修改 不可照抄
 
 ```bash
 第1个分区 序号1 512M EFI启动分区     # 若安装双系统，可跳过，不用引导分区，后面挂载已有引导分区即可
@@ -64,15 +64,12 @@ w 保存并退出 所有的操作没有执行w前都不会生效
 
 1. 格式化EFI分区
    mkfs.vfat /dev/sda1 || mkfs.fat -F32 /dev/sda1
-
 2. 格式化swap分区并激活
    mkswap /dev/sda2
    swapon /dev/sda2
-
 3. 格式化home和根分区
    mkfs.ext4 /dev/sda3
    mkfs.ext4 /dev/sda4
-
 4. 挂载，先挂根目录，才能挂载其他目录
    mount /dev/sda3 /mnt            # 挂载根目录
    mkdir /mnt/home                 # 新建home目录
@@ -81,37 +78,35 @@ w 保存并退出 所有的操作没有执行w前都不会生效
    mount /dev/sda1 /mnt/boot       # 挂载boot引导
 
    ![image-20240818134008497](imgs/image-20240818134008497.png)
-   
+
    ![image-20240818134256943](imgs/image-20240818134256943.png)
 
-### 5.3 自动配置源
+### 1.5.3 自动配置源
 
    ![image-20240818134210665](imgs/image-20240818134210665.png)
 
-## 6 往/mnt目录里安装系统
-
+## 1.6 往/mnt目录里安装系统
 其中最基础的四个包是base base-devel linux linux-firmware
-
 ```bash
 pacstrap /mnt base base-devel linux linux-firmware dhcpcd iwd vim sudo bash-completion net-tools openssh man git wget zsh
 ```
 
-## 7 生成fstab,并查看是否正确，则继续，否则检查
+## 1.7 生成fstab,并查看是否正确，则继续，否则检查
 
 ```bash
 genfstab -U /mnt >> /mnt/etc/fstab
 cat /mnt/etc/fstab
 ```
 
-## 8 从当前的live环境切换到刚安装的系统内
+## 1.8 从当前的live环境切换到刚安装的系统内
 
 `arch-chroot /mnt`
 
-## 9 编辑hostname 名字自行取名 如arch 填入里面
+## 1.9 编辑hostname 名字自行取名 如arch 填入里面
 
 `vim /etc/hostname`
 
-## 10 编辑hosts， 我这里的名字是arch可自行更改
+## 1.10 编辑hosts， 我这里的名字是arch可自行更改
 
 ```bash
 # vim /etc/hosts
@@ -121,15 +116,15 @@ cat /mnt/etc/fstab
 127.0.1.1   arch
 ```
 
-## 11 设置时区
+## 1.11 设置时区
 
 `ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime`
 
-## 12 硬件时间设置
+## 1.12 硬件时间设置
 
 `hwclock --systohc`
 
-## 13 编辑语言环境
+## 1.13 编辑语言环境
 
 ```bash
 vim /etc/locale.gen
@@ -138,14 +133,14 @@ en_US.UTF-8.UTF-8
 zh_CN.UTF-8.UTF-8
 ```
 
-### 13.1 使刚才编辑的语言环境生效
+### 1.13.1 使刚才编辑的语言环境生效
 
 ```bash
 locale-gen
 *echo 'LANG=en_US.UTF-8' > /etc/locale.conf*
 ```
 
-## 14 编辑archlinuxcn中国源
+## 1.14 编辑archlinuxcn中国源
 
 ![image-20240818134945066](imgs/image-20240818134945066.png)
 
@@ -163,7 +158,7 @@ Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 Server = http://mirrors.163.com/archlinux-cn/$arch
 ```
 
-## 15 用户设置
+## 1.15 用户设置
 
 ```bash
 passwd root   # 当前账户就是root 可以不用打root*
@@ -174,7 +169,7 @@ EDITOR=vim visudo # 编辑arch用户的权限,搜索%wheel,取消注释
 # %wheel ALL=(ALL:ALL)ALL
 ```
 
-## 16 安装 intel的cpu微码和引导软件
+## 1.16 安装 intel的cpu微码和引导软件
 
 ![image-20240818134437104](imgs/image-20240818134437104.png)
 
@@ -184,7 +179,7 @@ pacman -S intel-ucode grub efibootmgr os-prober
 # os-prober查找已安装的操作系统 推荐实体机上安装
 ```
 
-## 17 安装grub引导
+## 1.17 安装grub引导
 
 ![image-20240818134508088](imgs/image-20240818134508088.png)
 
@@ -197,7 +192,7 @@ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=ArchLinux
 > --efi-directory=/boot      *就是我sda1挂载的/boot位置*
 > --bootloader-id=GRUB     *这里的GRUB名字可以自行更改 甚至这一段都可以不用写*
 
-## 18 生成grub
+## 1.18 生成grub
 
 
 
@@ -213,7 +208,7 @@ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=ArchLinux
 
 ![image-20240818134819864](imgs/image-20240818134819864.png)
 
-## 19 安装KDE桌面 字体 浏览器等基础软件包
+## 1.19 安装KDE桌面 字体 浏览器等基础软件包
 
 ![image-20240818135104084](imgs/image-20240818135104084.png)
 
@@ -229,30 +224,30 @@ systemctl enable --now dhcpcd  # 网络自动获取IP
 systemctl enable --now NetworkManager sshd # 开机启动 显示管理器 网络管理 
 systemctl enable --now sshd  # 远程链接sshd服务
 ```
-### 19.1 桌面环境：任选一个
-#### 19.1.1 kde
+### 1.19.1 桌面环境：任选一个
+#### 1.19.1.1 kde
 ```bash
 pacman -S plasma
 systemctl enable sddm
 ```
-#### 19.1.2 xfce
+#### 1.19.1.2 xfce
 ```
 pacman -S lightdm lightdm-gtk-greeter xfce4 xfce4-goodies            
 systemctl enable lightdm
 ```
-##### 19.1.2.1 Lightdm 主题
+##### 1.19.1.2.1 Lightdm 主题
 ```bash
 sudo pacman -S lightdm-webkit2-greeter
 Theme : https://github.com/manilarome/lightdm-webkit2-theme-glorious.git
 ```
 ![](imgs/Pasted%20image%2020221120104649.png)
-#### 19.1.3 测试桌面环境
+#### 1.19.1.3 测试桌面环境
 ```bash
 systemctl status lightdm
 # 查看具体日志
 lightdm --test-mode --debug
 ```
-### 19.2 虚拟机专用
+### 1.19.2 虚拟机专用
 ```
 # 虚拟机专用
 pacman -S gtkmm gtk2 gtkmm3 open-vm-tools xf86-input-vmmouse xf86-video-vmware # vmware虚拟机的自适应分辨率
@@ -262,15 +257,15 @@ MODULES=(vsock vmw_vsock_vmci_transport vmw_balloon vmw_vmci vmwgfx)
   mkinitcpio -p linux # 运行以下命令 使刚才编辑的配置文件生效
 ```
 
-## 20 卸载本机的/mnt目录,并重启
+## 1.20 卸载本机的/mnt目录,并重启
 ```
 umount -R /mnt
 reboot
 ```
 
-## 21 安装后配置
+## 1.21 安装后配置
 
-### 21.1 安装aur助手 前提是开启aur中国源nano /etc/pacman.conf
+### 1.21.1 安装aur助手 前提是开启aur中国源nano /etc/pacman.conf
 
 ```bash
 pacman -S archlinuxcn-keyring
@@ -292,7 +287,7 @@ pacman -S yay paru # yay paru都是aur助手 任选一种 还有其他的aur助�
 yay -S netease-cloud-music || paru -S netease-cloud-music
 ```
 
-### 21.2 安装 fcitx5-rime 输入法
+### 1.21.2 安装 fcitx5-rime 输入法
 
 ```bash
 pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-pinyin-moegirl fcitx5-pinyin-zhwiki fcitx5-material-color
@@ -306,7 +301,7 @@ SDL_IM_MODULE=fcitx
 GLFW_IM_MODULE=ibus
 ```
 
-### 21.3 声音和网络: HDMI 使用pulseaudio和pavucontrol
+### 1.21.3 声音和网络: HDMI 使用pulseaudio和pavucontrol
 
 ```bash
 pacman -S alsa alsa-utils kmix # 开启系统声音
@@ -326,7 +321,7 @@ pacman -S pulseaudio pavucontrol  #HDMI
    安装后：
    $：pulseaudio --start        //--kill关闭 作者：shiyue-001 https://www.bilibili.com/read/cv12709685 出处：bilibili
 
-## 22 安装其他软件
+## 1.22 安装其他软件
 
 ```bash
 pacman -S picom rofi   # picom 毛玻璃模糊，rofi启动器
@@ -369,13 +364,13 @@ yay -S shellcheck shfmt
 ```
 
 
-## 23 设置快捷键
+## 1.23 设置快捷键
 
 ctrl+alt+d 显示桌面
 shift+PrintScreen Screenshot截图
 
 ![ArchLinux安装教程_1661695702076](img/ArchLinux安装教程_1661695702076.png)
-## 24 截图软件
+## 1.24 截图软件
 打开设置中的 System Setting--keyboards--Shotcuts--Custom Shotcuts, 然后点击加号，在 name 里面随便填写，然后 command 里面要写上 flameshot gui，
 然后设置快捷键为自己喜欢的按键，我设置的是 Alt+A
 
@@ -383,15 +378,15 @@ shift+PrintScreen Screenshot截图
 flameshot gui
 ```
 ![](https://img-blog.csdnimg.cn/20200731170820510.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTMxNzEyMjY=,size_16,color_FFFFFF,t_70)
-## 25 Xfce4 美化
+## 1.25 Xfce4 美化
 ```
 sudo pacman -S pulseaudio pavucontrol gtk-engine-murrine sassc
 ```
-### 25.1 设置阴影
+### 1.25.1 设置阴影
 取消 Draw frame around
 ![](imgs/Pasted%20image%2020221113163752.png)![](imgs/Pasted%20image%2020221113163833.png)![](imgs/Pasted%20image%2020221113163851.png)
 
-### 25.2 主题、鼠标、图标
+### 1.25.2 主题、鼠标、图标
 ```
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme
@@ -401,7 +396,7 @@ cd WhiteSur-gtk-theme && sh install.sh -c Dark -c Light
 cd WhiteSur-icon-theme && sh install.sh
 ```
 ![](imgs/Pasted%20image%2020221113164004.png) ![](imgs/Pasted%20image%2020221113164018.png) ![](imgs/Pasted%20image%2020221113164121.png) ![](imgs/Pasted%20image%2020221113164436.png)
-### 25.3 全局菜单
+### 1.25.3 全局菜单
 ```
 pamac build vala-panel-appmenu-common-git vala-panel-appmenu-registrar-git 
 pamac build vala-panel-appmenu-xfce-git 
@@ -410,7 +405,7 @@ pamac build appmenu-gtk-module-git
 xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/ShellShowsappmenu -n -t bool -s true
 ```
-### 25.4 Configuring Xfce Panel 
+### 1.25.4 Configuring Xfce Panel
 ```bash
  # Download Xpple Menu : https://www.pling.com/p/1529470/ 
  sudo pacman -S zip unzip
@@ -435,7 +430,7 @@ xfconf-query -c xsettings -p /Gtk/ShellShowsappmenu -n -t bool -s true
  2. action buttons :![](imgs/Pasted%20image%2020221113172247.png)
  3. 修改任务栏上第一个和最后一个 seporator 类型为 transparent, 第二个关掉 expand
  4. ![](imgs/Pasted%20image%2020221113172753.png)
-### 25.5 plank dock
+### 1.25.5 plank dock
 Installing and Configuring Plank Dock
 `sudo pacman -S plank `
 删掉原来的 panel2，启动 plank
@@ -449,7 +444,7 @@ Installing and Configuring Plank Dock
 安装计算器 galculator
 安装 picom ：添加开机启动，在 window manager tweaks 关闭 compositor
 
-### 25.6 安装控制面板
+### 1.25.6 安装控制面板
 
 ```bash
 git clone https://github.com/libredeb/comice-control-center

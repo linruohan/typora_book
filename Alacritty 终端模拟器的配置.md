@@ -1,4 +1,4 @@
-# Alacritty 终端模拟器的配置信息文档
+# 1 Alacritty 终端模拟器的配置信息文档
 
 April 21, 2023 06:00
 `alacritty.yml` 文件包含了 Alacritty 终端模拟器的配置信息。这些配置包括窗口设置、滚动设置、字体设置、颜色设置等。下面是一些可配置的选项及其描述：
@@ -21,7 +21,7 @@ April 21, 2023 06:00
 
 这只是其中的一部分配置选项。您可以在 Alacritty 的文档中找到完整的配置选项列表。
 
-## 1 推荐配置
+## 1.1 推荐配置
 
 `alacritty.yml` 配置文件的位置取决于您的操作系统：
 
@@ -31,7 +31,7 @@ April 21, 2023 06:00
 
 如果您找不到配置文件，可以在 Alacritty 的 GitHub 仓库中找到一个示例配置文件，然后将其复制到上述位置之一。
 
-## 2 配置
+## 1.2 配置
 
 ```yml
 # Configuration for Alacritty, the GPU enhanced terminal emulator.

@@ -1,4 +1,4 @@
-# 工具类Atom中的markdown插件
+# 1 工具类Atom中的markdown插件
 
 一直以来都奢想拥有一款全能好用的Markdown编辑器，直到遇到了Atom。废话不多说，直接开搞！
 

@@ -1,8 +1,8 @@
-## 常用的oh-my-zsh插件
+## 0.1 常用的oh-my-zsh插件
 
 [toc]
 
-### 手动安装oh-my-zsh
+### 0.1.1 手动安装oh-my-zsh
 
 ```
 git clone ssh://git@ssh.github.com:443/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
@@ -18,7 +18,7 @@ chsh -s $(which zsh)
 
 > plugins = (插件A 插件B 插件C)
 
-### ==git==
+### 0.1.2 ==git==
 
 这个是装好[oh-my-zsh](https://link.zhihu.com/?target=http%3A//ohmyz.sh/)就默认已经开启的
 
@@ -26,7 +26,7 @@ chsh -s $(which zsh)
 
 > ~/.oh-my-zsh/plugins/git/git.plugin.zsh
 
-### ==z==
+### 0.1.3 ==z==
 
 这个是oh-my-zsh默认就装好的，需要自己开启。还有一个`autojump`的插件和`z`功能差不多，`autojump`需要单独装，
 
@@ -34,7 +34,7 @@ chsh -s $(which zsh)
 
 > z -x 不要的路径
 
-### ==sublime==
+### 0.1.4 ==sublime==
 
 又是一个自带的插件，同样需要自己开启，针对喜欢用[sublime](https://link.zhihu.com/?target=https%3A//www.sublimetext.com/)的小伙伴
 
@@ -42,7 +42,7 @@ chsh -s $(which zsh)
 
 > st 文件路径
 
-### vscode
+### 0.1.5 vscode
 
 [官网](https://link.zhihu.com/?target=https%3A//github.com/Microsoft/vscode)，随着Visual Studio Code越来越火，用的人也越来越多，可以装一下这个插件
 
@@ -54,7 +54,7 @@ chsh -s $(which zsh)
 git clone ssh://git@ssh.github.com:443/valentinocossar/vscode.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/vscode
 ```
 
-### zsh-autosuggestions
+### 0.1.6 zsh-autosuggestions
 
 [官网](https://link.zhihu.com/?target=https%3A//github.com/zsh-users/zsh-autosuggestions)，非常好用的一个插件，会记录你之前输入过的所有命令，并且自动匹配你可能想要输入命令，然后按→补全
 
@@ -63,7 +63,7 @@ git clone ssh://git@ssh.github.com:443/zsh-users/zsh-autosuggestions  ${ZSH_CUST
 git clone https://gitee.com/yuhldr/zsh-autosuggestions.git  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-### zsh-syntax-highlighting
+### 0.1.7 zsh-syntax-highlighting
 
 [官网](https://link.zhihu.com/?target=https%3A//github.com/zsh-users/zsh-syntax-highlighting)，命令太多，有时候记不住，等输入完了才知道命令输错了，这个插件直接在输入过程中就会提示你，当前命令是否正确，错误红色，正确绿色
 
@@ -72,18 +72,18 @@ git clone ssh.github.com:443/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://gitee.com/jklash1996/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-### ==sudo==
+### 0.1.8 ==sudo==
 
 偶尔输入某个命令，提示没有权限，需要加sudo，这个时候按两下ESC，就会在命令行头部加上sudo
 
-### powerlevel10k主题
+### 0.1.9 powerlevel10k主题
 
 ```
 git clone --depth=1 https://gitee.com/jonykchen/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 ```
 
-### zinit加速  zinit配置
+### 0.1.10 zinit加速  zinit配置
 
 [zinit配置 ](https://www.cnblogs.com/hongdada/p/14048612.html#新版的zinit配置)
 
@@ -146,7 +146,7 @@ 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
 plugins=( git sudo zsh-syntax-highlighting zsh-autosuggestions )
 ```
 
-### zsh命令行界面/zsh终端界面粘贴卡顿的问题
+### 0.1.11 zsh命令行界面/zsh终端界面粘贴卡顿的问题
 
 ```bash
 pasteinit() {
@@ -161,4 +161,3 @@ zstyle :bracketed-paste-magic paste-init pasteinit
 zstyle :bracketed-paste-magic paste-finish pastefinish
 
 ```
-

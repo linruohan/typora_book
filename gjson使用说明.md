@@ -6,7 +6,7 @@ GJSON 是一个 Go 包，它提供了一种[快速](https://github.com/tidwall/g
 
 GJSON也可用于[蟒蛇](https://github.com/volans-/gjson-py)和[鲁斯特](https://github.com/tidwall/gjson.rs)
 
-## 1 安装
+## 0.1 安装
 
 要开始使用 GJSON，请安装 Go 并运行 ：`go get`
 
@@ -16,7 +16,7 @@ $ go get -u github.com/tidwall/gjson
 
 这将检索库。
 
-## 2 获取值
+## 0.2 获取值
 
 获取指定路径的搜索 json。路径采用点语法，例如“name.last”或“年龄”。找到该值后，将立即返回该值。
 
@@ -41,7 +41,7 @@ Prichard
 
 *还有用于一次获取多个值[的 GetMany](https://github.com/tidwall/gjson/blob/master/README.md#get-multiple-values-at-once) 函数，以及用于处理 JSON 字节切片的 [GetBytes](https://github.com/tidwall/gjson/blob/master/README.md#working-with-bytes)。*
 
-## 3 路径语法
+## 0.3 路径语法
 
 以下是路径语法的快速概述，有关更完整的信息，请查看[GJSON语法](https://github.com/tidwall/gjson/blob/master/SYNTAX.md)。
 
@@ -84,7 +84,7 @@ friends.#(nets.#(=="fb"))#.first   >> ["Dale","Roger"]
 
 *请注意，在 v1.3.0 之前，查询使用 `#[...]` 括号。这在 v1.3.0 中进行了更改，以避免与新的[多路径](https://github.com/tidwall/gjson/blob/master/SYNTAX.md#multipaths)语法混淆。为了向后兼容，`#[...]` 将继续工作，直到下一个主要版本。*
 
-## 4 结果类型
+## 0.4 结果类型
 GJSON 支持 json 类型、、 和 。数组和对象作为其原始 json 类型返回。`string``number``bool``null`
 该类型包含以下类型之一：`Result`
 
@@ -135,7 +135,7 @@ object  >> map[string]interface{}
 
 该函数返回一个值数组。如果结果表示不存在的值，则将返回一个空数组。如果结果不是 JSON 数组，则返回值将是包含一个结果的数组。`result.Array()`
 
-### 4.1 位整数
+### 0.4.1 位整数
 
 和 调用能够读取所有 64 位，从而允许使用较大的 JSON 整数。`result.Int()``result.Uint()`
 ```
@@ -143,7 +143,7 @@ result.Int() int64    // -9223372036854775808 to 9223372036854775807
 result.Uint() int64   // 0 to 18446744073709551615
 ```
 
-## 5 修饰符和路径链接
+## 0.5 修饰符和路径链接
 
 版本 1.2 中的新功能是支持修饰符函数和路径链接。
 修饰符是对 json 执行自定义处理的路径组件。
@@ -168,7 +168,7 @@ result.Uint() int64   // 0 to 18446744073709551615
 - `@fromstr`：转换来自 json 的字符串。解开 json 字符串的包装。
 - `@group`：对对象数组进行分组。见 [e4fc67c](https://github.com/tidwall/gjson/commit/e4fc67c92aeebf2089fabc7872f010e340d105db)。
 
-### 5.1 修饰符参数
+### 0.5.1 修饰符参数
 修饰符可以接受可选参数。该参数可以是有效的 JSON 文档，也可以只是字符。
 例如，修饰符将 json 对象作为其参数。`@pretty`
 ```
@@ -193,7 +193,7 @@ result.Uint() int64   // 0 to 18446744073709551615
 
 *`@pretty`选项的完整列表包括`排序键`、`缩进`、`前缀`和`宽度`。请参阅[漂亮的选项](https://github.com/tidwall/pretty#customized-output)以获取更多信息。*
 
-### 5.2 自定义修饰符
+### 0.5.2 自定义修饰符
 
 您还可以添加自定义修饰符。
 
@@ -213,7 +213,7 @@ gjson.AddModifier("case", func(json, arg string) string {
 "children|@case:lower|@reverse"  >> ["jack","alex","sara"]
 ```
 
-## 6 JSON 行
+## 0.6 JSON 行
 
 支持使用前缀的 [JSON 行](http://jsonlines.org/)，它将多行文档视为数组。`..`
 
@@ -240,7 +240,7 @@ gjson.ForEachLine(json, func(line gjson.Result) bool{
 })
 ```
 
-## 7 获取嵌套数组值
+## 0.7 获取嵌套数组值
 
 假设您想要以下 json 中的所有姓氏：
 
@@ -277,7 +277,7 @@ name := gjson.Get(json, `programmers.#(lastName="Hunter").firstName`)
 println(name.String())  // prints "Elliotte"
 ```
 
-## 8 循环访问对象或数组
+## 0.8 循环访问对象或数组
 
 该函数允许快速迭代对象或数组。键和值将传递给对象的迭代器函数。仅为数组传递该值。从迭代器返回将停止迭代。`ForEach``false`
 
@@ -289,7 +289,7 @@ result.ForEach(func(key, value gjson.Result) bool {
 })
 ```
 
-## 9 简单的解析和获取
+## 0.9 简单的解析和获取
 
 有一个函数可以执行简单的解析，并会搜索结果。`Parse(json)``result.Get(path)`
 
@@ -301,7 +301,7 @@ gjson.Get(json, "name").Get("last")
 gjson.Get(json, "name.last")
 ```
 
-## 10 检查值是否存在
+## 0.10 检查值是否存在
 有时您只想知道某个值是否存在。
 ```go
 value := gjson.Get(json, "name.last")
@@ -317,7 +317,7 @@ if gjson.Get(json, "name.last").Exists() {
 }
 ```
 
-## 11 验证 JSON
+## 0.11 验证 JSON
 
 和 函数期望 json 格式正确。错误的 json 不会崩溃，但它可能会返回意外的结果。`Get*``Parse*`
 
@@ -330,7 +330,7 @@ if !gjson.Valid(json) {
 value := gjson.Get(json, "name.last")
 ```
 
-## 12 转为 map 类型
+## 0.12 转为 map 类型
 要取消封印到一个：`map[string]interface{}`
 ```go
 m, ok := gjson.Parse(json).Value().(map[string]interface{})
@@ -339,7 +339,7 @@ if !ok {
 }
 ```
 
-## 13 使用字节
+## 0.13 使用字节
 
 如果你的 JSON 包含在切片中，则存在[“获取字节”](https://godoc.org/github.com/tidwall/gjson#GetBytes)函数。这比 更可取。`[]byte``Get(string(data), path)`
 
@@ -363,7 +363,7 @@ if result.Index > 0 {
 
 This is a best-effort no allocation sub slice of the original json. This method utilizes the field, which is the position of the raw data in the original json. It's possible that the value of equals zero, in which case the is converted to a .`result.Index``result.Index``result.Raw``[]byte`
 
-## 14 Get multiple values at once
+## 0.14 Get multiple values at once
 
 The function can be used to get multiple values at the same time.`GetMany`
 
@@ -373,7 +373,7 @@ results := gjson.GetMany(json, "name.first", "name.last", "age")
 
 The return value is a , which will always contain exactly the same number of items as the input paths.`[]Result`
 
-## 15 性能
+## 0.15 性能
 
 GJSON 的基准以及[编码/json](https://golang.org/pkg/encoding/json/)、[ffjson](https://github.com/pquerna/ffjson)、[易捷生](https://github.com/mailru/easyjson)、[jsonparser](https://github.com/buger/jsonparser) 和 [json-iterator](https://github.com/json-iterator/go)
 
@@ -431,19 +431,19 @@ widget.text.onMouseUp
 
 *这些基准测试是在使用 Go 1.17 的 MacBook Pro 16“2.4 GHz 英特尔酷睿 i9 上运行的，可以[在这里](https://github.com/tidwall/gjson-benchmarks)找到。*
 
-# 路径语法
+# 1 路径语法
 
 GJSON 路径是一种文本字符串语法，用于描述从 JSON 有效负载快速检索值的搜索模式。
 最终的实现是 [github.com/tidwall/gjson](https://github.com/tidwall/gjson)。
 使用 [GJSON 游乐场](https://gjson.dev/)在线试验语法。
 
-## 1 路径结构
+## 1.1 路径结构
 
 GJSON 路径旨在轻松表示为由字符分隔的一系列组件。`.`
 
 除了字符之外，还有一些具有特殊含义，包括 、 、 、 、 、 和 。`.``|``#``@``\``*``!``?`
 
-## 2 例
+## 1.2 例
 
 给定此 JSON
 
@@ -463,7 +463,7 @@ GJSON 路径旨在轻松表示为由字符分隔的一系列组件。`.`
 
 以下 GJSON 路径的计算结果为随附的值。
 
-### 2.1 基本
+### 1.2.1 基本
 
 在许多情况下，您只需要按对象名称或数组索引重取值。
 
@@ -478,7 +478,7 @@ friends.1              {"first": "Roger", "last": "Craig", "age": 68}
 friends.1.first        "Roger"
 ```
 
-### 2.2 通配符
+### 1.2.2 通配符
 
 键可以包含特殊的通配符和 。将匹配任何零 +字符，并匹配任何一个字符。`*``?``*``?`
 
@@ -487,7 +487,7 @@ child*.2               "Jack"
 c?ildren.0             "Sara"
 ```
 
-### 2.3 转义字符
+### 1.2.3 转义字符
 
 特殊用途的字符，如 、 和 ，可以使用 进行转义。`.``*``?``\`
 
@@ -506,7 +506,7 @@ let val = gjson::get(json, "fav\\.movie")     // must escape the slash
 let val = gjson::get(json, r#"fav\.movie"#)   // no need to escape the slash 
 ```
 
-### 2.4 阵 列
+### 1.2.4 阵 列
 
 该字符允许深入研究 JSON 数组。`#`
 
@@ -517,7 +517,7 @@ friends.#              3
 friends.#.age         [44,68,47]
 ```
 
-### 2.5 查询
+### 1.2.5 查询
 
 还可以使用 查询数组中的第一个匹配项，或使用 查找的所有匹配项。查询支持 、 、 、 、 比较运算符以及简单模式匹配（如）和（不喜欢）运算符。`#(...)``#(...)#``==``!=``<``<=``>``>=``%``!%`
 
@@ -575,7 +575,7 @@ vals.#(b==~false)#.a   >> [3,4,5,9,10,11]
 
 最后一个不存在的值被视为`false`
 
-### 2.6 点与管
+### 1.2.6 点与管
 
 是标准分隔符，但也可以使用 .在大多数情况下，它们最终都会返回相同的结果。与不同的情况是，在[数组](https://github.com/tidwall/gjson/blob/master/SYNTAX.md#arrays)和[查询](https://github.com/tidwall/gjson/blob/master/SYNTAX.md#queries)之后使用它。`.``|``|``.``#`
 
@@ -621,7 +621,7 @@ friends.#(last="Murphy")#|#         2
 
 因为是上一个结果的第一个索引。`0`
 
-### 2.7 修饰 符
+### 1.2.7 修饰 符
 
 修饰符是对 JSON 执行自定义处理的路径组件。
 
@@ -647,7 +647,7 @@ children.@reverse.0                 "Jack"
 - `@fromstr`：转换来自 json 的字符串。解开 json 字符串的包装。
 - `@group`：对对象数组进行分组。见 [e4fc67c](https://github.com/tidwall/gjson/commit/e4fc67c92aeebf2089fabc7872f010e340d105db)。
 
-#### 2.7.1 修饰符参数
+#### 1.2.7.1 修饰符参数
 
 修饰符可以接受可选参数。该参数可以是有效的 JSON 有效负载，也可以只是字符。
 
@@ -675,7 +675,7 @@ children.@reverse.0                 "Jack"
 
 *`@pretty`选项的完整列表包括`排序键`、`缩进`、`前缀`和`宽度`。请参阅[漂亮的选项](https://github.com/tidwall/pretty#customized-output)以获取更多信息。*
 
-#### 2.7.2 自定义修饰符
+#### 1.2.7.2 自定义修饰符
 
 您还可以添加自定义修饰符。
 
@@ -697,7 +697,7 @@ gjson.AddModifier("case", func(json, arg string) string {
 
 *注意：自定义修饰符在 Rust 版本中尚不可用*
 
-### 2.8 多路径
+### 1.2.8 多路径
 
 从 v1.3.0 开始，GJSON 添加了将多个路径连接在一起以形成新文档的功能。在 或 之间包装逗号分隔的路径将分别生成新的数组或对象。`[...]``{...}`
 
@@ -717,7 +717,7 @@ gjson.AddModifier("case", func(json, arg string) string {
 {"first":"Tom","age":37,"the_murphys":["Dale","Jane"]}
 ```
 
-### 2.9 文字
+### 1.2.9 文字
 
 从 v1.12.0 开始，GJSON 添加了对 json 文本的支持，这为构造 json 的静态块提供了一种方法。这在使用[多路径](https://github.com/tidwall/gjson/blob/master/SYNTAX.md#multipaths)构造新的 json 文档时特别有用。
 

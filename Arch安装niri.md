@@ -4,7 +4,7 @@ archinstall 会出现一个终端选择界面选择不同的配置进行安装
 ## 2 手动命令安装 用exf4 文件格式
 ### 2.1 #禁用 reflector 服务
  避免时不时自动换一些用不了的源
-```
+```bash
 systemctl stop reflector.service
 ```
 ### 2.2 连接网络

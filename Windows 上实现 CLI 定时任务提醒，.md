@@ -5,17 +5,18 @@ https://github.com/ankitkpandey1/ccplan
 
 ---
 
-# schtasks
-### 0.1 方案一：使用原生 `schtasks` 命令（最轻量、零依赖）
+
+# 1 schtasks
+### 1.0.1 方案一：使用原生 `schtasks` 命令（最轻量、零依赖）
 这是 Windows 自带的计划任务命令行工具，无需安装任何软件，非常适合集成到脚本中[](https://zetcode.cn/command-prompt/scheduling-tasks/)[](https://blog.csdn.net/weixin_29232507/article/details/158438213)。
 其核心思路是：先创建一个用于**显示提醒**的脚本（比如弹窗），然后用 `schtasks` 命令让它在指定时间自动运行。
-#### 0.1.1 第一步：创建提醒脚本
+#### 1.0.1.1 第一步：创建提醒脚本
 在记事本中粘贴以下代码，保存为 `reminder.vbs`。VBS 脚本的好处是可以弹出一个简单的 Windows 消息框。
 ```vbscript
 MsgBox "该休息一下啦！", vbInformation, "定时提醒"
 ```
 - **自定义提醒内容**：直接替换引号内的中文即可。如果提醒内容是中文，保存文件时，记得在记事本的“另存为”对话框中，将编码选为 **UTF-16LE**，否则弹窗可能显示乱码。
-#### 0.1.2 第二步：使用 `schtasks` 创建定时任务
+#### 1.0.1.2 第二步：使用 `schtasks` 创建定时任务
 打开命令提示符（CMD），使用以下命令创建一个任务。例如，下面的命令会创建一个名为 "MyReminder" 的任务，在每天下午 14:00 运行我们刚才的 VBS 脚本[](https://zetcode.cn/command-prompt/scheduling-tasks/)。
 ```shell
 schtasks /create /tn "MyReminder" /tr "C:\path\to\your\reminder.vbs" /sc daily /st 14:00 /f
@@ -27,14 +28,14 @@ schtasks /create /tn "MyReminder" /tr "C:\path\to\your\reminder.vbs" /sc daily /
 - `/sc`：设置计划频率，如 `daily`（每天）、`weekly`（每周）、`minute`（每分钟）等。
 - `/st`：指定开始时间。
 - `/f`：如果任务已存在，则强制创建并覆盖，可以避免交互确认[](https://cloud.tencent.com.cn/developer/ask/sof/112176101?from=16139)。
-#### 0.1.3 第三步：管理你的任务
+#### 1.0.1.3 第三步：管理你的任务
 
 任务创建后，你也可以通过命令来管理它[](https://zetcode.cn/command-prompt/scheduling-tasks/)[](https://learn.microsoft.com/en-us/answers/questions/2437649/scheduled-tasks-message-pop-up-when-windows-starts)。
 - **立即运行测试**：`schtasks /run /tn "MyReminder"`
 - **查看所有任务**：`schtasks /query /fo list`
 - **删除任务**：`schtasks /delete /tn "MyReminder" /f`
-# ccplan
-## 1 与你的AI代理建立
+# 2 ccplan
+## 2.1 与你的AI代理建立
 CCPLAN设计时由代理驾驶。 **复制下面的模块，粘贴到Claude代码（或任何代码） 编码代理）。** 它安装了ccplan，加载了技能，开始规划你的一天——你什么都不运行 你自己。
 
 ```
@@ -55,7 +56,7 @@ Install and use ccplan (an agent-driven CLI day planner) for me, then plan my da
 
 就是这样——代理安装二进制， [放入技能](https://github.com/ankitkpandey1/ccplan/blob/main/skills/ccplan/SKILL.md) ，然后 遵循其流程（创作、退出代码、JSON 合同）。更喜欢自己开？继续阅读。
 
-## 2 是什么
+## 2.2 是什么
 
 CCPLAN将你的一天规划成一个时间 **块** 列表。每个区块都可以 **通过桌面提醒你** 通知，标记 **为完成或跳过** ，并且可选 **地在** 命令开始时执行——踢出 关闭同步，打开文档，开始构建。计划是一个纯文本 [的TOML](https://github.com/ankitkpandey1/ccplan#the-plan-file) 文件，你可以 可以手工编辑，或者让代理人作者从头到尾完成。
 
@@ -71,7 +72,7 @@ CCPLAN 是唯一一个可以由代理操作、时间触发、既能 **通知又�
 
 ---
 
-## 3 安装
+## 2.3 安装
 
 ```shell
 # macOS / Linux
@@ -83,7 +84,7 @@ powershell -c "irm https://github.com/ankitkpandey1/ccplan/releases/latest/downl
 
 每个版本都附带 Linux（x64/ARM64）和 macOS（Intel/Apple Silicon）的签名校验和归档， 还有一台Windows `.zip` 以及 `.msi` —— 直接从中下载任何 [最新发布](https://github.com/ankitkpandey1/ccplan/releases/latest) ，或 [从源头构建](https://github.com/ankitkpandey1/ccplan#build-from-source) 。
 
-## 4 快速入门
+## 2.4 快速入门
 
 
 ```shell
@@ -105,7 +106,7 @@ ccplan remind "Stretch" --in 25m   # one-shot: alert 25 minutes from now, applie
 
 ---
 
-## 5 计划文件
+## 2.5 计划文件
 
 每天在操作系统数据目录下写一个 [TOML](https://toml.io) 文件 （ `~/.local/share/ccplan/plans/YYYY-MM-DD.toml` 在 Linux 上）。可以手动编辑，或者让代理人写; `ccplan apply` 在排期前重新验证。
 
@@ -138,7 +139,7 @@ status   = "pending"
 
 ---
 
-## 6 CLI参考
+## 2.6 CLI参考
 
 | 指挥                                                                                   | 目的                                                          |
 | ------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
@@ -179,7 +180,7 @@ status   = "pending"
 
 ---
 
-## 7 MCP服务器
+## 2.7 MCP服务器
 
 `ccplan mcp` 启动同步 [模型上下文协议](https://modelcontextprotocol.io) server over stdio （JSON-RPC 2.0， newline-delimited）.将它连接到任何MCP主机：
 ```json
@@ -220,7 +221,7 @@ status   = "pending"
 
 ---
 
-## 8 配置
+## 2.8 配置
 `~/.config/ccplan/config.toml` （显示Linux路径）：
 
 ```toml
@@ -239,7 +240,7 @@ default_lead = "5m"                # lead applied to a block that omits its own 
 
 ---
 
-## 9 工作原理
+## 2.9 工作原理
 
 ```
  you / an agent          ccplan apply              native OS scheduler         ccplan fire
@@ -255,7 +256,7 @@ default_lead = "5m"                # lead applied to a block that omits its own 
 
 ---
 
-## 10 安全模型
+## 2.10 安全模型
 
 `run:` 让一个块执行命令，因此plan文件是 **信任边界** 。CCPLAN对此进行了辩护：
 
@@ -269,7 +270,7 @@ default_lead = "5m"                # lead applied to a block that omits its own 
 
 ---
 
-## 11 平台支持
+## 2.11 平台支持
 
 ||Linux|macOS|窗户|
 |---|:-:|:-:|:-:|
@@ -278,7 +279,7 @@ default_lead = "5m"                # lead applied to a block that omits its own 
 
 通知需要图形登录会话（常见的桌面情况）。无头使用依然存在 排程和运行自动化; `ccplan doctor` 告诉你有哪些可用的。
 
-## 12 源代码构建
+## 2.12 源代码构建
 
 需要一个近期稳定的 Rust 工具链（2024 版;参见 `rust-toolchain.toml`）。
 

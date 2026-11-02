@@ -1,26 +1,26 @@
-# kubernetes框架
+# 1 kubernetes框架
 
 [toc]
 
-## 什么是kubernetes
+## 1.1 什么是kubernetes
 
 ![image-20230709142630459](imgs/image-20230709142630459.png)
 
-## 为什么要使用kubernetes
+## 1.2 为什么要使用kubernetes
 
 ![image-20230709142838744](imgs/image-20230709142838744.png)
 
 ![image-20230709143405171](imgs/image-20230709143405171.png)
 
-## kubernetes架构图
+## 1.3 kubernetes架构图
 
 ![image-20230709143616101](imgs/image-20230709143616101.png)
 
-## K8S搭建安装示意图
+## 1.4 K8S搭建安装示意图
 
 ![image-20230709143759170](imgs/image-20230709143759170.png)
 
-## kubernetes基本术语和概念
+## 1.5 kubernetes基本术语和概念
 
 ![image-20230709143929098](imgs/image-20230709143929098.png)
 
@@ -44,13 +44,13 @@ service
 
 
 
-## kubernetes集群安装
+## 1.6 kubernetes集群安装
 
-### 安装docker
+### 1.6.1 安装docker
 
 ![image-20230709145439384](imgs/image-20230709145439384.png)
 
-### docker cgroup driver修改
+### 1.6.2 docker cgroup driver修改
 
 ![image-20230709145621110](imgs/image-20230709145621110.png)
 
@@ -58,7 +58,7 @@ service
 
 ![image-20230709150140379](imgs/image-20230709150140379.png)
 
-### cri-dockerd安装
+### 1.6.3 cri-dockerd安装
 
 https://github.com/Mirantis/cri-dockerd.git
 
@@ -66,17 +66,17 @@ https://github.com/Mirantis/cri-dockerd.git
 
 ![image-20230709150435404](imgs/image-20230709150435404.png)
 
-#### 方法一  二进制直接下载
+#### 1.6.3.1 方法一  二进制直接下载
 
 ![image-20230709150504377](imgs/image-20230709150504377.png)
 
-#### 方法二 下载源码docker构建
+#### 1.6.3.2 方法二 下载源码docker构建
 
 ![image-20230709150558719](imgs/image-20230709150558719.png)
 
 ![image-20230709150626249](imgs/image-20230709150626249.png)
 
-###  cri-dockerd服务配置和启动
+### 1.6.4 cri-dockerd服务配置和启动
 
 ![image-20230709150726400](imgs/image-20230709150726400.png)
 
@@ -92,7 +92,7 @@ https://github.com/Mirantis/cri-dockerd.git
 
 ![image-20230709151222894](imgs/image-20230709151222894.png)
 
-### cri-docer安装可能遇到的坑
+### 1.6.5 cri-docer安装可能遇到的坑
 
 1. 直接采用源码提供的service配置文件： cri-docker.service
 
@@ -105,7 +105,7 @@ https://github.com/Mirantis/cri-dockerd.git
 3. 应用程序安装位置不明，配置文件是否有正确的引用应用程序，请检查路径和名称是否正确
 4. 套接字路径是否正确，套接字名字是否一致，尤弥尔有再不经意间将cri-docker和cri-dockerd搞混了
 
-### kubeadm工具
+### 1.6.6 kubeadm工具
 
 ![image-20230709151828027](imgs/image-20230709151828027.png)
 
@@ -121,7 +121,7 @@ https://github.com/Mirantis/cri-dockerd.git
 
 ![image-20230709152248761](imgs/image-20230709152248761.png)
 
-### 使用kubeadm初始化master节点
+### 1.6.7 使用kubeadm初始化master节点
 
 ![image-20230709152506069](imgs/image-20230709152506069.png)
 
@@ -143,7 +143,7 @@ sudo hostnamectl set-hostname k8s-node1
 
 ![image-20230709153217312](imgs/image-20230709153217312.png)
 
-#### 生成默认配置文件
+#### 1.6.7.1 生成默认配置文件
 
 ```bash
 kubeadm config print init-defaults > init.default.yaml
@@ -159,13 +159,13 @@ kubeadm config print init-defaults > init.default.yaml
 
 ![image-20230709154513639](imgs/image-20230709154513639.png)
 
-#### 拉取相关镜像
+#### 1.6.7.2 拉取相关镜像
 
 ```bash
 sudo kubeadm config images pull --config=init.default.yaml
 ```
 
-#### 初始化集群
+#### 1.6.7.3 初始化集群
 
 ```bash
 # 二选一
@@ -198,7 +198,7 @@ kubectl get pod --all-namespaces
 
 
 
-#### 添加pod网络组件
+#### 1.6.7.4 添加pod网络组件
 
 ![image-20230709155854391](imgs/image-20230709155854391.png)
 
@@ -212,7 +212,7 @@ github访问不了，修改host，然后重试
 
 ![image-20230709160050683](imgs/image-20230709160050683.png)
 
-##### 开启kube-proxy的ipvs模式
+##### 1.6.7.4.1 开启kube-proxy的ipvs模式
 
 ![image-20230709160207852](imgs/image-20230709160207852.png)
 
@@ -222,7 +222,7 @@ github访问不了，修改host，然后重试
 
 ![image-20230709160359114](imgs/image-20230709160359114.png)
 
-### 重置节点
+### 1.6.8 重置节点
 
 
 
@@ -234,7 +234,7 @@ github访问不了，修改host，然后重试
 
 ![image-20230709154133085](imgs/image-20230709154133085.png)
 
-### node节点配置
+### 1.6.9 node节点配置
 
 ![image-20230709160421428](imgs/image-20230709160421428.png)
 
@@ -252,21 +252,21 @@ github访问不了，修改host，然后重试
 
 ![image-20230709160845107](imgs/image-20230709160845107.png)
 
-#### 删除节点
+#### 1.6.9.1 删除节点
 
 ![image-20230709161237682](imgs/image-20230709161237682.png)
 
-## 部署一个应用
+## 1.7 部署一个应用
 
-### 创建一个myhello-rc.yaml:副本控制器
+### 1.7.1 创建一个myhello-rc.yaml:副本控制器
 
 ![image-20230709161412725](imgs/image-20230709161412725.png)
 
-### 创建myhello-svc.yaml： 服务
+### 1.7.2 创建myhello-svc.yaml： 服务
 
 ![image-20230709161605687](imgs/image-20230709161605687.png)
 
-### 创建资源+访问
+### 1.7.3 创建资源+访问
 
 ![image-20230709161643879](imgs/image-20230709161643879.png)
 

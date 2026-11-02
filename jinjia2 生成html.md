@@ -35,7 +35,7 @@ html = template.render({"config": config})
 {{config}}  //直接渲染列表整体将造成里面的中文无法正常显示
 ```
 
-------
+---
 
 ## JiaJa2常用语法:
 
@@ -64,3 +64,5 @@ html = template.render({"config": config})
 | loop.first  | 是否是第一次迭代，返回True/False   |
 | loop.last   | 是否是最后一次迭代，返回True/False |
 | loop.length | 序列的长度                         |
+
+![](./imgs/jinjia2 生成html0.png)

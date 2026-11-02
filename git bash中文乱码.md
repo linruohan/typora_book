@@ -8,8 +8,6 @@
 
 ![img](https://pic3.zhimg.com/80/v2-bc86ea90ae02e6b27713420b3d52bc3e_720w.webp)
 
-
-
 ## 2 原因：
 
 在默认设置下，中文文件名在工作区状态输出，中文名不能正确显示，而是显示为八进制的字符编码。
@@ -34,33 +32,31 @@ git config --global core.quotepath false
 
 ![img](https://pic2.zhimg.com/80/v2-735f07fdbb0da3b73ac3678815026761_720w.webp)
 
-
-
-### 3.3 修改.gitconfig配置文件,添加  git status不乱吗
+### 3.3 修改.gitconfig配置文件,添加 git status不乱吗
 
 ```text
-[gui]  
-    encoding = utf-8  
-[i18n]  
-    commitencoding = utf-8  
-[svn]  
-    pathnameencoding = utf-8  
+[gui]
+    encoding = utf-8
+[i18n]
+    commitencoding = utf-8
+[svn]
+    pathnameencoding = utf-8
 [core]
-    quotepath = false 
+    quotepath = false
 ```
 
 编辑`etc\git-completion.bash`文件,在文件末尾增加以下内容：
 
 ```text
 # 让ls命令能够正常显示中文
-alias ls='ls --show-control-chars --color=auto' 
+alias ls='ls --show-control-chars --color=auto'
 ```
 
 编辑`etc\inputrc`文件，修改`output-meta`和`convert-meta`属性值：
 
 ```text
-set output-meta on  # bash可以正常输入中文  
-set convert-meta off  
+set output-meta on  # bash可以正常输入中文
+set convert-meta off
 ```
 
 编辑`profile`文件，在文件末尾添加如下内容：

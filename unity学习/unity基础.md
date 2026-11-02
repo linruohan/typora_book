@@ -1,4 +1,4 @@
-# GameObject方法
+# 1 GameObject方法
 
 [toc]
 
@@ -8,41 +8,41 @@
 
 ![image-20210509002330985](imgs/image-20210509002330985.png)
 
-## 1 unity3D
+## 1.1 unity3D
 
 ![image-20210509102108628](imgs/image-20210509102108628.png)
 
-## 2 unity的对象和脚本
+## 1.2 unity的对象和脚本
 
 ![image-20210509102331028](imgs/image-20210509102331028.png)
 
-## 3 unity中的对象
+## 1.3 unity中的对象
 
 ![image-20210509102435132](imgs/image-20210509102435132.png)
 
-### 3.1 组件对象
+### 1.3.1 组件对象
 
 ![image-20210509102457096](imgs/image-20210509102457096.png)
 
-## 4 练习一
+## 1.4 练习一
 
 ![image-20210509102618306](imgs/image-20210509102618306.png)
 
 
 
-## 5 unity引擎视图和游戏结构
+## 1.5 unity引擎视图和游戏结构
 
 ![image-20210509102137168](imgs/image-20210509102137168.png)
 
-## 6 unity中的脚本
+## 1.6 unity中的脚本
 
 ![image-20210509102724801](imgs/image-20210509102724801.png)
 
-### 6.1 unity自带的事件函数执行顺序
+### 1.6.1 unity自带的事件函数执行顺序
 
 ![image-20210509102816012](imgs/image-20210509102816012.png)
 
-## 7 unity常用函数
+## 1.7 unity常用函数
 
 ![image-20210509102918880](imgs/image-20210509102918880.png)
 
@@ -50,7 +50,7 @@
 
 ![](imgs/image-20210508235948235.png)
 
-## 8 练习二
+## 1.8 练习二
 
 ![image-20210509000650250](imgs/image-20210509000650250.png)
 
@@ -64,7 +64,7 @@
 
 ![image-20210509000358791](imgs/image-20210509000358791.png)
 
-## 9 sendmessage方法
+## 1.9 sendmessage方法
 
 ![image-20210509000858717](imgs/image-20210509000858717.png)
 
@@ -88,7 +88,7 @@ BroadcastMessage() 调用GameObject以及所有子物体的methodName方法
 
 ![image-20210509002304682](imgs/image-20210509002304682.png)
 
-## 10 事件函数–碰撞触发事件
+## 1.10 事件函数–碰撞触发事件
 
 ==碰撞触发需要满足三个条件==
 
@@ -119,13 +119,13 @@ BroadcastMessage() 调用GameObject以及所有子物体的methodName方法
 
 ![image-20210509004037494](imgs/image-20210509004037494.png)
 
-## 11 事件函数–鼠标事件
+## 1.11 事件函数–鼠标事件
 
 ![image-20210509001537176](imgs/image-20210509001537176.png)
 
 ![image-20210509004514360](imgs/image-20210509004514360.png)
 
-## 12 事件帧率函数
+## 1.12 事件帧率函数
 
 ![image-20210509004555033](imgs/image-20210509004555033.png)
 
@@ -139,7 +139,7 @@ FixedUpdate()固定更新,根据固定时间来更新,常用来模型移动等�
 
 ![image-20210509005205610](imgs/image-20210509005205610.png)
 
-## 13 其他函数
+## 1.13 其他函数
 
 1. Application.Quit()退出应用程序
 
@@ -154,4 +154,3 @@ Editor模式下,使用UnityEditor.EditorApplication.isPlaying=false退出
 加载场景前需要先将其加载到build settings
 
 ![image-20210509005930392](imgs/image-20210509005930392.png)
-

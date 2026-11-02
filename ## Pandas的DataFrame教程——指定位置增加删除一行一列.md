@@ -2,9 +2,9 @@ Pandas的DataFrame教程——指定位置增加删除一行一列
 
 [toc]
 
-## 删除行和列
+## 0.1 删除行和列
 
-### 删除列
+### 0.1.1 删除列
 
 删除A列，不改变原来的data数据，返回删除后的新表data_2。axis为1表示删除列，0表示删除行。inplace为True表示直接对原表修改。
 
@@ -18,7 +18,7 @@ Pandas的DataFrame教程——指定位置增加删除一行一列
 3  3  2  3
 ```
 
-## 删除行 df.drop(0,axis=0,inplace=False)
+## 0.2 删除行 df.drop(0,axis=0,inplace=False)
 
 ```sh
    A  B  C  D
@@ -27,11 +27,11 @@ Pandas的DataFrame教程——指定位置增加删除一行一列
 3  2  3  2  3
 ```
 
-## 添加行和列
+## 0.3 添加行和列
 
-### 添加列
+### 0.3.1 添加列
 
-#### 指定位置增加列 df.insert(0,'E',[11,12,13,14,15])
+#### 0.3.1.1 指定位置增加列 df.insert(0,'E',[11,12,13,14,15])
 
 ```sh
 >>> df
@@ -43,7 +43,7 @@ Pandas的DataFrame教程——指定位置增加删除一行一列
 4  15  7  8  9  10
 ```
 
-#### 改变某一列的位置
+#### 0.3.1.2 改变某一列的位置
 
 df.insert(1,'调换',df.pop('A'))  
 #改变某一列的位置。如：先删除A列，然后在原表data中第1列插入被删掉的列。
@@ -58,9 +58,9 @@ df.insert(1,'调换',df.pop('A'))
 4  15   7  8  9  10
 ```
 
-### 添加行
+### 0.3.2 添加行
 
-#### 以字典方式添加一行，append，忽略索引
+#### 0.3.2.1 以字典方式添加一行，append，忽略索引
 
 ```sh
    a  b  c  d
@@ -74,7 +74,7 @@ df.insert(1,'调换',df.pop('A'))
 2  9  10  11  12
 ```
 
-#### 用loc指定位置添加一行
+#### 0.3.2.2 用loc指定位置添加一行
 
 ```sh
 >>> df.loc[2]=[9,10,11,12]
@@ -85,7 +85,7 @@ df.insert(1,'调换',df.pop('A'))
 2  9  10  11  12
 ```
 
-#### 指定位置插入一行(==索引非数字==)
+#### 0.3.2.3 指定位置插入一行(==索引非数字==)
 
 ```sh
 >>> df = pd.DataFrame({'A': [0, 1, 2], 'B': [3, 4, 5]},index=['c','d','f'])
@@ -108,7 +108,7 @@ f     2     5
 pd.DataFrame(np.insert(df.values, 0, values=[10, 10], axis=0))
 还有其他方式，比如把df拆分成两个df，用append，然后在合并
 
-#### 插入一行并索引按序排列
+#### 0.3.2.4 插入一行并索引按序排列
 
 ```sh
 >>> df.loc[5]=[9,9,9,9,9] #插入一行，按E列的顺序，升序
@@ -149,6 +149,6 @@ pd.DataFrame(np.insert(df.values, 0, values=[10, 10], axis=0))
 5  15   7  8  9  10
 ```
 
-## pandas学习：对series和dataframe进行排序： https://blog.csdn.net/u014662865/article/details/59058039
+## 0.4 pandas学习：对series和dataframe进行排序： https://blog.csdn.net/u014662865/article/details/59058039
 
-## Pandas set_index&reset_index ： https://blog.csdn.net/claroja/article/details/70911963
+## 0.5 Pandas set_index&reset_index ： https://blog.csdn.net/claroja/article/details/70911963

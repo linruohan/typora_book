@@ -11,10 +11,15 @@
             "id": "bfbba225b0781012",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "个人工作台方案.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "个人工作台方案"
             }
           }
         ]
@@ -92,6 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "个人工作台方案.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -125,6 +131,7 @@
   },
   "active": "bfbba225b0781012",
   "lastOpenFiles": [
+    "个人工作台方案.md",
     "scoop使用说明.md",
     "Planify_TODOist工具.md",
     "rust安装.md",
@@ -160,7 +167,6 @@
     "上古卷轴5秘籍.md",
     "本地大模型推荐.md",
     "ollama本地模型部署.md",
-    "鬼刀.md",
     "assets/flutter环境搭建.assets",
     "assets",
     "assets/Msys2使用windows环境变量.assets",

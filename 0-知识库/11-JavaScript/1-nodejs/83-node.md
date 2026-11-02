@@ -1,12 +1,12 @@
-#### Node.js
+#### 0.0.0.1 Node.js
 
 阅读: 38620302
 
 ------
 
-从本章开始，我们就正式开启JavaScript的后端开发之旅。
+从本章开始，我们就正式开启JavaScript<span style="color: #ea580c">的后端开发之旅。</span>
 
-Node.js是目前非常火热的技术，但是它的诞生经历却很奇特。
+Node.js是目前非常火热的技术，但是它的诞<span style="background-color: #bbf7d0">生经历却很奇特。</span>
 
 众所周知，在Netscape设计出JavaScript后的短短几个月，JavaScript事实上已经是前端开发的唯一标准。
 
@@ -48,7 +48,7 @@ Chrome浏览器是跨Windows和Mac平台的，并且，Google认为要运行现�
 
 本章教程的所有代码都在Node.js上调试通过。如果你要尝试io.js也是可以的，不过两者如果遇到一些区别请自行查看io.js的文档。
 
-#### 第一个Node程序
+#### 0.0.0.2 第一个Node程序
 
 阅读: 9125805
 
@@ -102,7 +102,7 @@ Error: Cannot find module 'C:\Workspace\hello.js'
 
 报错的意思就是，没有找到`hello.js`这个文件，因为文件不存在。这个时候，就要检查一下当前目录下是否有这个文件了。
 
-### 命令行模式和Node交互模式
+### 0.0.1 命令行模式和Node交互模式
 
 请注意区分命令行模式和Node交互模式。
 
@@ -156,7 +156,7 @@ C:\Workspace>node calc.js
 600
 ```
 
-### 使用严格模式
+### 0.0.2 使用严格模式
 
 如果在JavaScript文件开头写上`'use strict';`，那么Node在执行该JavaScript时将使用严格模式。但是，在服务器环境下，如果有很多JavaScript文件，每个文件都写上`'use strict';`很麻烦。我们可以给Nodejs传递一个参数，让Node直接为所有js文件开启严格模式：
 
@@ -166,7 +166,7 @@ node --use_strict calc.js
 
 后续代码，如无特殊说明，我们都会直接给Node传递`--use_strict`参数来开启严格模式。
 
-### 小结
+### 0.0.3 小结
 
 用文本编辑器写JavaScript程序，然后保存为后缀为`.js`的文件，就可以用node直接运行这个程序了。
 
@@ -178,11 +178,11 @@ Node的交互模式和直接运行`.js`文件有什么区别呢？
 
 在编写JavaScript代码的时候，完全可以一边在文本编辑器里写代码，一边开一个Node交互式命令窗口，在写代码的过程中，把部分代码粘到命令行去验证，事半功倍！前提是得有个27'的超大显示器！
 
-### 参考源码
+### 0.0.4 参考源码
 
 [hello.js和calc.js](https://github.com/michaelliao/learn-javascript/tree/master/samples/node/first)
 
-#### 搭建Node开发环境
+#### 0.0.4.1 搭建Node开发环境
 
 阅读: 7450636
 
@@ -198,11 +198,11 @@ Java的集成开发环境有Eclipse，Intellij idea等，C#的集成开发环境
 
 综合考察后，我们隆重向大家推荐Node.js集成开发环境：
 
-# Visual Studio Code
+# 1 Visual Studio Code
 
 Visual Studio Code由微软出品，但它不是那个大块头的Visual Studio，它是一个精简版的迷你Visual Studio，并且，Visual Studio Code可以跨！平！台！Windows、Mac和Linux通用。
 
-### 安装Visual Studio Code
+### 1.0.1 安装Visual Studio Code
 
 可以从Visual Studio Code的[官方网站](http://code.visualstudio.com/)下载并安装最新的版本。
 
@@ -239,7 +239,7 @@ done
 
 ![open-with-vscode](D:\Typora_pic\l-1586076913929.png)
 
-### 运行和调试JavaScript
+### 1.0.2 运行和调试JavaScript
 
 在VS Code中，我们可以非常方便地运行JavaScript文件。
 
@@ -291,8 +291,6 @@ hello/ <-- workspace dir
 
 视频演示：
 
-
-
-### 参考源码
+### 1.0.3 参考源码
 
 [hello.js](https://github.com/michaelliao/learn-javascript/tree/master/samples/node/hello)
