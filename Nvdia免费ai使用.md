@@ -78,7 +78,7 @@ API 基础地址：
 |DeepSeek|⭐⭐⭐⭐|⭐⭐⭐⭐⭐|⭐⭐⭐⭐|⭐⭐⭐|⭐⭐⭐⭐|复杂推理、数学|
 |Llama|⭐⭐⭐|⭐⭐⭐⭐|⭐⭐⭐⭐|⭐⭐⭐|⭐⭐⭐⭐|英文任务、通用问答|
 |Mistral|⭐⭐⭐|⭐⭐⭐|⭐⭐⭐|⭐⭐|⭐⭐⭐⭐|轻量场景、快速响应|
-
+https://integrate.api.nvidia.com/v1/models
 ```bash
 abacusai/dracarys-llama-3.1-70b-instruct
 google/gemma-3n-e2b-it
